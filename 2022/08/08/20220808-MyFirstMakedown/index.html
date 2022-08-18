@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 6.2.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha256-xejo6yLi6vGtAjcMIsY8BHdKsLg7QynVlFMzdQgUuy8=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.12.3","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜尋...","empty":"我們無法找到任何有關 ${query} 的搜索結果","hits_time":"${hits} 找到 ${time} 個結果","hits":"找到 ${hits} 個結果"}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="偶遇HEXO 第一次聽到Hexo可以建立部落格是因為學習ESP32常常聽老師提到GitHub常常有人提出很有趣的專案，它是每個學習技術的人要去瞭解的，在接觸Gethub平台無意中發現到有人可以把網頁掛在Github免費平台上，因此好奇心之下才發現只能放純靜態網頁但據我所知要架起一個Blog的平台都要能跑SQL server，只能放靜態網頁為什麼有些人偏偏從wordpress這個有強大三方支援的平">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hexo之Makedown初體驗">
+<meta property="og:url" content="http://example.com/2022/08/08/20220808-MyFirstMakedown/index.html">
+<meta property="og:site_name" content="Yufong&#39;s Blog">
+<meta property="og:description" content="偶遇HEXO 第一次聽到Hexo可以建立部落格是因為學習ESP32常常聽老師提到GitHub常常有人提出很有趣的專案，它是每個學習技術的人要去瞭解的，在接觸Gethub平台無意中發現到有人可以把網頁掛在Github免費平台上，因此好奇心之下才發現只能放純靜態網頁但據我所知要架起一個Blog的平台都要能跑SQL server，只能放靜態網頁為什麼有些人偏偏從wordpress這個有強大三方支援的平">
+<meta property="og:locale" content="zh_TW">
+<meta property="article:published_time" content="2022-08-07T17:36:00.000Z">
+<meta property="article:modified_time" content="2022-08-16T14:30:59.433Z">
+<meta property="article:author" content="Yufong Chen">
+<meta property="article:tag" content="Hexo">
+<meta property="article:tag" content="Makedown">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="http://example.com/2022/08/08/20220808-MyFirstMakedown/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-TW","comments":true,"permalink":"http://example.com/2022/08/08/20220808-MyFirstMakedown/","path":"2022/08/08/20220808-MyFirstMakedown/","title":"Hexo之Makedown初體驗"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>Hexo之Makedown初體驗 | Yufong's Blog</title>
+  
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切換導航欄" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">Yufong's Blog</p>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">凡走過必留下記憶</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首頁</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>關於</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>標籤</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分類</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>歸檔</a></li><li class="menu-item menu-item-schedule"><a href="/schedule/" rel="section"><i class="fa fa-calendar fa-fw"></i>時間表</a></li><li class="menu-item menu-item-sitemap"><a href="/sitemap.xml" rel="section"><i class="fa fa-sitemap fa-fw"></i>網站地圖</a></li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目錄
+        </li>
+        <li class="sidebar-nav-overview">
+          本站概要
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%81%B6%E9%81%87HEXO"><span class="nav-number">1.</span> <span class="nav-text">偶遇HEXO</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#HEXO%E8%AE%93%E6%88%91%E6%84%9B%E4%B8%8A%E5%AE%83%E4%BA%86"><span class="nav-number">2.</span> <span class="nav-text">HEXO讓我愛上它了</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%89%E5%BF%83%E5%AF%AB%E6%96%87%E7%AB%A0%E6%89%8D%E6%98%AF%E9%87%8D%E9%BB%9E"><span class="nav-number">3.</span> <span class="nav-text">安心寫文章才是重點</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8D%B3%E6%99%82%E6%80%A7%E4%BD%88%E7%BD%B2%E5%BF%AB%E6%98%AF%E5%8F%A6%E4%B8%80%E5%80%8B%E5%84%AA%E9%BB%9E"><span class="nav-number">4.</span> <span class="nav-text">即時性佈署快是另一個優點</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%89%E5%85%A8%E6%80%A7"><span class="nav-number">5.</span> <span class="nav-text">安全性</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%84%8F%E5%A4%96%E6%94%B9%E8%AE%8A%E5%AF%AB%E4%BD%9C%E5%A4%96%E7%84%A1%E6%95%88%E7%8E%87%E7%9A%84%E7%99%BC%E4%BD%88"><span class="nav-number">6.</span> <span class="nav-text">意外改變寫作外無效率的發佈</span></a></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">Yufong Chen</p>
+  <div class="site-description" itemprop="description">記錄著所思所想及所有美好的回憶</div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">5</span>
+          <span class="site-state-item-name">文章</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-name">分類</span>
+      </div>
+      <div class="site-state-item site-state-tags">
+        <span class="site-state-item-count">4</span>
+        <span class="site-state-item-name">標籤</span>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author site-overview-item animated">
+      <span class="links-of-author-item">
+        <a href="https://yufong6688.github.io/" title="GitHub → https:&#x2F;&#x2F;yufong6688.github.io" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="/cyc0815@gmail.com" title="E-Mail → cyc0815@gmail.com"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://www.facebook.com/yufong168/" title="FB Page → https:&#x2F;&#x2F;www.facebook.com&#x2F;yufong168&#x2F;" rel="noopener" target="_blank"><i class="fab fa-facebook fa-fw"></i>FB Page</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://www.youtube.com/channel/UCmOVf2aU80x4GuziXT6Ap7Q" title="YouTube → https:&#x2F;&#x2F;www.youtube.com&#x2F;channel&#x2F;UCmOVf2aU80x4GuziXT6Ap7Q" rel="noopener" target="_blank"><i class="fab fa-youtube fa-fw"></i>YouTube</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://www.instagram.com/yufongchen/" title="Instagram → https:&#x2F;&#x2F;www.instagram.com&#x2F;yufongchen&#x2F;" rel="noopener" target="_blank"><i class="fab fa-instagram fa-fw"></i>Instagram</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://www.linkedin.com/in/yufong-chen-088b82116/recent-activity/" title="Linkedln → https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;yufong-chen-088b82116&#x2F;recent-activity&#x2F;" rel="noopener" target="_blank"><i class="fab fa-linkedin-in fa-fw"></i>Linkedln</a>
+      </span>
+  </div>
+
+
+
+        </div>
+      </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+  <div class="back-to-top" role="button" aria-label="回到頂端">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-TW">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2022/08/08/20220808-MyFirstMakedown/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Yufong Chen">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Yufong's Blog">
+      <meta itemprop="description" content="記錄著所思所想及所有美好的回憶">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="Hexo之Makedown初體驗 | Yufong's Blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          Hexo之Makedown初體驗
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">發表於</span>
+
+      <time title="創建時間：2022-08-08 01:36:00" itemprop="dateCreated datePublished" datetime="2022-08-08T01:36:00+08:00">2022-08-08</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新於</span>
+      <time title="修改時間：2022-08-16 22:30:59" itemprop="dateModified" datetime="2022-08-16T22:30:59+08:00">2022-08-16</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分類於</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E7%94%9F%E6%B4%BB/" itemprop="url" rel="index"><span itemprop="name">生活</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <blockquote>
+<h2 id="偶遇HEXO"><a href="#偶遇HEXO" class="headerlink" title="偶遇HEXO"></a>偶遇HEXO</h2></blockquote>
+<p>第一次聽到Hexo可以建立部落格是因為學習ESP32常常聽老師提到GitHub常常有人提出很有趣的專案，它是每個學習技術的人要去瞭解的，在接觸Gethub平台無意中發現到有人可以把網頁掛在Github免費平台上，因此好奇心之下才發現只能放純靜態網頁但據我所知要架起一個Blog的平台都要能跑SQL server，只能放靜態網頁為什麼有些人偏偏從wordpress這個有強大三方支援的平台移到這？另外當時也是想找一個類似HackMD的階層式部落格平台，其實它在撰寫文章時會自動生成一個階層式的目錄，這目錄可以很快的讓你移動到你要看的文章的某一段。瞭解下發現它還可以解決我很多問題，只是全都是要輸入命令，比起之前使用Wordpress還難啃，或許回想到二十幾年前常常都要Keyin程式碼，報告…應該可以先了解是否合適。</p>
+<span id="more"></span>
+
+<blockquote>
+<h2 id="HEXO讓我愛上它了"><a href="#HEXO讓我愛上它了" class="headerlink" title="HEXO讓我愛上它了"></a>HEXO讓我愛上它了</h2></blockquote>
+<p>之前用過F2Blog、wordpress這兩者都需要先建構好SQL Server，常常發生的問題是Blog無法連線到SQL Server尤其我Blog是架在家裡的NAS，那個時候常常因為要update會出現連不上SQL Server經常要去排除，另一個問題就是要備份還原wordpress也很傷腦筋，雖然他有提供plugin但心理因素就是我只是要在平台上做一個移動式的類圖書館的東西卻常要排除這問題，然後又得要搬出我塵封已久的SQL語法來下命令，還有要看資料還要裝phpAdmin來管理database想寫個blog要這麼麻煩嗎？HEXO他是用Makedown語法來寫文章，寫要自動生成格式化的網頁文章，而且最讓我喜歡的還是它會自己産生目錄結構，未來文章太長可以直接看目錄找到要找的資料。另一點則是它解決了不用SQL的問題，因為它本身就是文字檔可以用VScode直接編輯，VScode又支援Madedown plugin，可以一邊寫一邊看到結果。VScode也是免費的，真是太棒的組合，我常年尋找的東西終於一步步拼湊完成。</p>
+<blockquote>
+<h2 id="安心寫文章才是重點"><a href="#安心寫文章才是重點" class="headerlink" title="安心寫文章才是重點"></a>安心寫文章才是重點</h2></blockquote>
+<p>文章移到一個新平台都會問自己一些問題，文章好備份嗎？最好是無腦備份，平台好轉移嗎？比較可能就是換了NAS就要把平台移到新主機又是一個大工程，那用word，Evernote，Onenote…都沒有一次能解決我想把資料移動必要時可以做分享的平台，有的話也是該平台現在很棒，但把文章放在別人主機還是比放在自己電腦上及用一台淘汰的電腦就可以跑起來，被入侵綁架了反正它只是個分身，我可以很快的就用電腦就佈署一個及它還支援github平台，那就有二個分身，真的很棒，安心，簡單能掌握才是重點。</p>
+<blockquote>
+<h2 id="即時性佈署快是另一個優點"><a href="#即時性佈署快是另一個優點" class="headerlink" title="即時性佈署快是另一個優點"></a>即時性佈署快是另一個優點</h2></blockquote>
+<p>總不能寫個makedown要花很多時間才能轉成網頁，不過以現在電腦速度就算上千篇文章可能也是一瞬間完成吧，因為它只是文章形式，但也希望hexo不要越昇級越肥大。，還有就是佈署快，沒想到都用指令也可以用的很無腦，因為常用的指令就是建一個指令庫，複製貼上。或話比移動滑鼠開選單找按鈕還有效率一些。</p>
+<blockquote>
+<h2 id="安全性"><a href="#安全性" class="headerlink" title="安全性"></a>安全性</h2></blockquote>
+<p>還有最近想買一台NAS來放部落格，又怕外連網路會發生風險，主要還是wordpress要建一個database，那就只能建在一台不差的NAS上，但現在用了Hexo是自動産生靜態網頁那就簡單多了，重要的是放github不用錢，是免費的。那買來的新NAS就專心的在內網做它要負責的儲存工作。或許那一台QNAP三不五時就會被入侵的NAS現在不用了，可以直接放顆不要的硬碟，就在外網架起來，反正被入侵了還有一個github當WebServer用沒再怕。</p>
+<blockquote>
+<h2 id="意外改變寫作外無效率的發佈"><a href="#意外改變寫作外無效率的發佈" class="headerlink" title="意外改變寫作外無效率的發佈"></a>意外改變寫作外無效率的發佈</h2></blockquote>
+<p>意料外的事，使用makedown文章使用VScode就可以看到文章的展現而且是即時，以往在wordpress不好的習慣就是文章沒全部寫好就按個發佈看一下結果，但都很花時間，不像makedown我把文章寫好了，再來處理格式，但都是即時呈現，少了文章寫一半就分心去發佈看結果呈現，然後邊調整格式邊寫文章超花時間在格式調整上。</p>
+<p>綜合上述思考與拼湊，終於一個早晨寫完一篇文章，在邊寫邊思考下更確定駐足在HEXO，未來可能以玩票性質去認識其它平台，不過可能的話不想要再去用database系統的blog，沒錯就是HEXO了，心中的一個奇異果廣告旋律，寫起來~寫起來…</p>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/Hexo/" rel="tag"># Hexo</a>
+              <a href="/tags/Makedown/" rel="tag"># Makedown</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+            </div>
+            <div class="post-nav-item">
+                <a href="/2022/08/14/20220814HexoLearningJourney/" rel="next" title="Hexo學習記錄">
+                  Hexo學習記錄 <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+
+<div class="copyright">
+  &copy; 
+  <span itemprop="copyrightYear">2022</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Yufong Chen</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" rel="noopener" target="_blank">NexT.Gemini</a> 強力驅動
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+</body>
+</html>
