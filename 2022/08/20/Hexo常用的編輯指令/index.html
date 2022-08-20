@@ -20,29 +20,30 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.12.3","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜尋...","empty":"我們無法找到任何有關 ${query} 的搜索結果","hits_time":"${hits} 找到 ${time} 個結果","hits":"找到 ${hits} 個結果"}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="偶遇HEXO 第一次聽到Hexo可以建立部落格是因為學習ESP32常常聽老師提到GitHub常常有人提出很有趣的專案，它是每個學習技術的人要去瞭解的，在接觸Gethub平台無意中發現到有人可以把網頁掛在Github免費平台上，因此好奇心之下才發現只能放純靜態網頁但據我所知要架起一個Blog的平台都要能跑SQL server，只能放靜態網頁為什麼有些人偏偏從wordpress這個有強大三方支援的平">
+    <meta name="description" content="連結篇連結到Hexo其它文章必須考慮移植性，不管未來網頁網址如何變它都不會因為此而失連,使用Hexo內置的標籤語法 1234&amp;#123;% post_link 文件名 &amp;#x27;文章別名&amp;#x27;%&amp;#125;範例：&amp;#123;% post_link &amp;#x27;hello-world Hexo安裝好內建的第一篇文章&amp;#x27; %&amp;#125;&amp;#123;% post_link &amp;#x27;h">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hexo之Makedown初體驗">
-<meta property="og:url" content="http://example.com/2022/08/08/20220808-MyFirstMakedown/index.html">
+<meta property="og:title" content="Hexo常用的編輯指令">
+<meta property="og:url" content="http://example.com/2022/08/20/Hexo%E5%B8%B8%E7%94%A8%E7%9A%84%E7%B7%A8%E8%BC%AF%E6%8C%87%E4%BB%A4/index.html">
 <meta property="og:site_name" content="Yufong&#39;s Blog">
-<meta property="og:description" content="偶遇HEXO 第一次聽到Hexo可以建立部落格是因為學習ESP32常常聽老師提到GitHub常常有人提出很有趣的專案，它是每個學習技術的人要去瞭解的，在接觸Gethub平台無意中發現到有人可以把網頁掛在Github免費平台上，因此好奇心之下才發現只能放純靜態網頁但據我所知要架起一個Blog的平台都要能跑SQL server，只能放靜態網頁為什麼有些人偏偏從wordpress這個有強大三方支援的平">
+<meta property="og:description" content="連結篇連結到Hexo其它文章必須考慮移植性，不管未來網頁網址如何變它都不會因為此而失連,使用Hexo內置的標籤語法 1234&amp;#123;% post_link 文件名 &amp;#x27;文章別名&amp;#x27;%&amp;#125;範例：&amp;#123;% post_link &amp;#x27;hello-world Hexo安裝好內建的第一篇文章&amp;#x27; %&amp;#125;&amp;#123;% post_link &amp;#x27;h">
 <meta property="og:locale" content="zh_TW">
-<meta property="article:published_time" content="2022-08-07T17:36:00.000Z">
-<meta property="article:modified_time" content="2022-08-16T14:30:59.433Z">
+<meta property="og:image" content="http://example.com/images/Hexo%E5%B8%B8%E7%94%A8%E7%9A%84%E7%B7%A8%E8%BC%AF%E6%8C%87%E4%BB%A401.webp">
+<meta property="article:published_time" content="2022-08-20T04:02:00.000Z">
+<meta property="article:modified_time" content="2022-08-20T05:05:11.546Z">
 <meta property="article:author" content="Yufong Chen">
 <meta property="article:tag" content="Hexo">
-<meta property="article:tag" content="Makedown">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/images/Hexo%E5%B8%B8%E7%94%A8%E7%9A%84%E7%B7%A8%E8%BC%AF%E6%8C%87%E4%BB%A401.webp">
 
 
-<link rel="canonical" href="http://example.com/2022/08/08/20220808-MyFirstMakedown/">
+<link rel="canonical" href="http://example.com/2022/08/20/Hexo%E5%B8%B8%E7%94%A8%E7%9A%84%E7%B7%A8%E8%BC%AF%E6%8C%87%E4%BB%A4/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-TW","comments":true,"permalink":"http://example.com/2022/08/08/20220808-MyFirstMakedown/","path":"2022/08/08/20220808-MyFirstMakedown/","title":"Hexo之Makedown初體驗"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-TW","comments":true,"permalink":"http://example.com/2022/08/20/Hexo%E5%B8%B8%E7%94%A8%E7%9A%84%E7%B7%A8%E8%BC%AF%E6%8C%87%E4%BB%A4/","path":"2022/08/20/Hexo常用的編輯指令/","title":"Hexo常用的編輯指令"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>Hexo之Makedown初體驗 | Yufong's Blog</title>
+<title>Hexo常用的編輯指令 | Yufong's Blog</title>
   
 
 
@@ -118,7 +119,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%81%B6%E9%81%87HEXO"><span class="nav-number">1.</span> <span class="nav-text">偶遇HEXO</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#HEXO%E8%AE%93%E6%88%91%E6%84%9B%E4%B8%8A%E5%AE%83%E4%BA%86"><span class="nav-number">2.</span> <span class="nav-text">HEXO讓我愛上它了</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%89%E5%BF%83%E5%AF%AB%E6%96%87%E7%AB%A0%E6%89%8D%E6%98%AF%E9%87%8D%E9%BB%9E"><span class="nav-number">3.</span> <span class="nav-text">安心寫文章才是重點</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8D%B3%E6%99%82%E6%80%A7%E4%BD%88%E7%BD%B2%E5%BF%AB%E6%98%AF%E5%8F%A6%E4%B8%80%E5%80%8B%E5%84%AA%E9%BB%9E"><span class="nav-number">4.</span> <span class="nav-text">即時性佈署快是另一個優點</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%89%E5%85%A8%E6%80%A7"><span class="nav-number">5.</span> <span class="nav-text">安全性</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%84%8F%E5%A4%96%E6%94%B9%E8%AE%8A%E5%AF%AB%E4%BD%9C%E5%A4%96%E7%84%A1%E6%95%88%E7%8E%87%E7%9A%84%E7%99%BC%E4%BD%88"><span class="nav-number">6.</span> <span class="nav-text">意外改變寫作外無效率的發佈</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%80%A3%E7%B5%90%E7%AF%87"><span class="nav-number">1.</span> <span class="nav-text">連結篇</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%80%A3%E7%B5%90%E5%88%B0Hexo%E5%85%B6%E5%AE%83%E6%96%87%E7%AB%A0"><span class="nav-number">1.1.</span> <span class="nav-text">連結到Hexo其它文章</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%A8%99%E7%B1%A4%E5%A4%96%E6%8E%9B"><span class="nav-number">2.</span> <span class="nav-text">標籤外掛</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%AE%98%E7%B6%B2%E6%A8%99%E7%B1%A4%E5%A4%96%E6%8E%9B"><span class="nav-number">2.1.</span> <span class="nav-text">官網標籤外掛</span></a></li></ol></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -199,7 +200,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-TW">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2022/08/08/20220808-MyFirstMakedown/">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2022/08/20/Hexo%E5%B8%B8%E7%94%A8%E7%9A%84%E7%B7%A8%E8%BC%AF%E6%8C%87%E4%BB%A4/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -212,12 +213,12 @@
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="Hexo之Makedown初體驗 | Yufong's Blog">
+      <meta itemprop="name" content="Hexo常用的編輯指令 | Yufong's Blog">
       <meta itemprop="description" content="">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          Hexo之Makedown初體驗
+          Hexo常用的編輯指令
         </h1>
 
         <div class="post-meta-container">
@@ -227,15 +228,9 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">發表於</span>
+      
 
-      <time title="創建時間：2022-08-08 01:36:00" itemprop="dateCreated datePublished" datetime="2022-08-08T01:36:00+08:00">2022-08-08</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">更新於</span>
-      <time title="修改時間：2022-08-16 22:30:59" itemprop="dateModified" datetime="2022-08-16T22:30:59+08:00">2022-08-16</time>
+      <time title="創建時間：2022-08-20 12:02:00 / 修改時間：13:05:11" itemprop="dateCreated datePublished" datetime="2022-08-20T12:02:00+08:00">2022-08-20</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -243,7 +238,7 @@
       </span>
       <span class="post-meta-item-text">分類於</span>
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E7%94%9F%E6%B4%BB/" itemprop="url" rel="index"><span itemprop="name">生活</span></a>
+          <a href="/categories/Hexo/" itemprop="url" rel="index"><span itemprop="name">Hexo</span></a>
         </span>
     </span>
 
@@ -257,27 +252,23 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <blockquote>
-<h2 id="偶遇HEXO"><a href="#偶遇HEXO" class="headerlink" title="偶遇HEXO"></a>偶遇HEXO</h2></blockquote>
-<p>第一次聽到Hexo可以建立部落格是因為學習ESP32常常聽老師提到GitHub常常有人提出很有趣的專案，它是每個學習技術的人要去瞭解的，在接觸Gethub平台無意中發現到有人可以把網頁掛在Github免費平台上，因此好奇心之下才發現只能放純靜態網頁但據我所知要架起一個Blog的平台都要能跑SQL server，只能放靜態網頁為什麼有些人偏偏從wordpress這個有強大三方支援的平台移到這？另外當時也是想找一個類似HackMD的階層式部落格平台，其實它在撰寫文章時會自動生成一個階層式的目錄，這目錄可以很快的讓你移動到你要看的文章的某一段。瞭解下發現它還可以解決我很多問題，只是全都是要輸入命令，比起之前使用Wordpress還難啃，或許回想到二十幾年前常常都要Keyin程式碼，報告…應該可以先了解是否合適。</p>
-<span id="more"></span>
+        <h3 id="連結篇"><a href="#連結篇" class="headerlink" title="連結篇"></a>連結篇</h3><h4 id="連結到Hexo其它文章"><a href="#連結到Hexo其它文章" class="headerlink" title="連結到Hexo其它文章"></a>連結到Hexo其它文章</h4><p>必須考慮移植性，不管未來網頁網址如何變它都不會因為此而失連,使用Hexo內置的標籤語法</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&#123;% post_link 文件名 &#x27;文章別名&#x27;%&#125;</span><br><span class="line">範例：</span><br><span class="line">&#123;% post_link &#x27;hello-world Hexo安裝好內建的第一篇文章&#x27; %&#125;</span><br><span class="line">&#123;% post_link &#x27;hello-world Hexo&lt;b&gt;加入粗體&lt;/b&gt;&#x27; %&#125;</span><br></pre></td></tr></table></figure>
+<ul>
+<li>文件名：Hexo內建文章,hello-world.md<br><img src="/images/Hexo%E5%B8%B8%E7%94%A8%E7%9A%84%E7%B7%A8%E8%BC%AF%E6%8C%87%E4%BB%A401.webp">  </li>
+<li>文章別名：簡短介紹這個連結</li>
+<li>範例執行1：<a href="/2022/08/15/hello-world/" title="Hexo安裝好內建的第一篇文章">Hexo安裝好內建的第一篇文章</a></li>
+<li>範例執行2：<a href="#">Post not found: hello-world Hexo<b>加入粗體</b></a></li>
+</ul>
+<h3 id="標籤外掛"><a href="#標籤外掛" class="headerlink" title="標籤外掛"></a>標籤外掛</h3><h4 id="官網標籤外掛"><a href="#官網標籤外掛" class="headerlink" title="官網標籤外掛"></a><a target="_blank" rel="noopener" href="https://hexo.io/zh-tw/docs/tag-plugins">官網標籤外掛</a></h4><p>有空要來研究一下</p>
+<blockquote><p>Do not just seek happiness for yourself. Seek happiness for all. Through kindness. Through mercy.</p>
+<footer><strong>David Levithan</strong><cite>Wide Awake</cite></footer></blockquote>
 
-<blockquote>
-<h2 id="HEXO讓我愛上它了"><a href="#HEXO讓我愛上它了" class="headerlink" title="HEXO讓我愛上它了"></a>HEXO讓我愛上它了</h2></blockquote>
-<p>之前用過F2Blog、wordpress這兩者都需要先建構好SQL Server，常常發生的問題是Blog無法連線到SQL Server尤其我Blog是架在家裡的NAS，那個時候常常因為要update會出現連不上SQL Server經常要去排除，另一個問題就是要備份還原wordpress也很傷腦筋，雖然他有提供plugin但心理因素就是我只是要在平台上做一個移動式的類圖書館的東西卻常要排除這問題，然後又得要搬出我塵封已久的SQL語法來下命令，還有要看資料還要裝phpAdmin來管理database想寫個blog要這麼麻煩嗎？HEXO他是用Makedown語法來寫文章，寫要自動生成格式化的網頁文章，而且最讓我喜歡的還是它會自己産生目錄結構，未來文章太長可以直接看目錄找到要找的資料。另一點則是它解決了不用SQL的問題，因為它本身就是文字檔可以用VScode直接編輯，VScode又支援Madedown plugin，可以一邊寫一邊看到結果。VScode也是免費的，真是太棒的組合，我常年尋找的東西終於一步步拼湊完成。</p>
-<blockquote>
-<h2 id="安心寫文章才是重點"><a href="#安心寫文章才是重點" class="headerlink" title="安心寫文章才是重點"></a>安心寫文章才是重點</h2></blockquote>
-<p>文章移到一個新平台都會問自己一些問題，文章好備份嗎？最好是無腦備份，平台好轉移嗎？比較可能就是換了NAS就要把平台移到新主機又是一個大工程，那用word，Evernote，Onenote…都沒有一次能解決我想把資料移動必要時可以做分享的平台，有的話也是該平台現在很棒，但把文章放在別人主機還是比放在自己電腦上及用一台淘汰的電腦就可以跑起來，被入侵綁架了反正它只是個分身，我可以很快的就用電腦就佈署一個及它還支援github平台，那就有二個分身，真的很棒，安心，簡單能掌握才是重點。</p>
-<blockquote>
-<h2 id="即時性佈署快是另一個優點"><a href="#即時性佈署快是另一個優點" class="headerlink" title="即時性佈署快是另一個優點"></a>即時性佈署快是另一個優點</h2></blockquote>
-<p>總不能寫個makedown要花很多時間才能轉成網頁，不過以現在電腦速度就算上千篇文章可能也是一瞬間完成吧，因為它只是文章形式，但也希望hexo不要越昇級越肥大。，還有就是佈署快，沒想到都用指令也可以用的很無腦，因為常用的指令就是建一個指令庫，複製貼上。或話比移動滑鼠開選單找按鈕還有效率一些。</p>
-<blockquote>
-<h2 id="安全性"><a href="#安全性" class="headerlink" title="安全性"></a>安全性</h2></blockquote>
-<p>還有最近想買一台NAS來放部落格，又怕外連網路會發生風險，主要還是wordpress要建一個database，那就只能建在一台不差的NAS上，但現在用了Hexo是自動産生靜態網頁那就簡單多了，重要的是放github不用錢，是免費的。那買來的新NAS就專心的在內網做它要負責的儲存工作。或許那一台QNAP三不五時就會被入侵的NAS現在不用了，可以直接放顆不要的硬碟，就在外網架起來，反正被入侵了還有一個github當WebServer用沒再怕。</p>
-<blockquote>
-<h2 id="意外改變寫作外無效率的發佈"><a href="#意外改變寫作外無效率的發佈" class="headerlink" title="意外改變寫作外無效率的發佈"></a>意外改變寫作外無效率的發佈</h2></blockquote>
-<p>意料外的事，使用makedown文章使用VScode就可以看到文章的展現而且是即時，以往在wordpress不好的習慣就是文章沒全部寫好就按個發佈看一下結果，但都很花時間，不像makedown我把文章寫好了，再來處理格式，但都是即時呈現，少了文章寫一半就分心去發佈看結果呈現，然後邊調整格式邊寫文章超花時間在格式調整上。</p>
-<p>綜合上述思考與拼湊，終於一個早晨寫完一篇文章，在邊寫邊思考下更確定駐足在HEXO，未來可能以玩票性質去認識其它平台，不過可能的話不想要再去用database系統的blog，沒錯就是HEXO了，心中的一個奇異果廣告旋律，寫起來~寫起來…</p>
+<hr>
+<blockquote><p>NEW: DevDocs now comes with syntax highlighting. <a target="_blank" rel="noopener" href="http://devdocs.io/">http://devdocs.io</a></p>
+<footer><strong>@DevDocs</strong><cite><a target="_blank" rel="noopener" href="https://twitter.com/devdocs/status/356095192085962752">twitter.com/devdocs/status/356095192085962752</a></cite></footer></blockquote>
+
+
 
     </div>
 
@@ -288,18 +279,17 @@
     <footer class="post-footer">
           <div class="post-tags">
               <a href="/tags/Hexo/" rel="tag"># Hexo</a>
-              <a href="/tags/Makedown/" rel="tag"># Makedown</a>
           </div>
 
         
 
           <div class="post-nav">
             <div class="post-nav-item">
+                <a href="/2022/08/16/NEXT%E4%B8%BB%E9%A1%8C%E8%A8%AD%E5%AE%9A/" rel="prev" title="NEXT主題設定">
+                  <i class="fa fa-chevron-left"></i> NEXT主題設定
+                </a>
             </div>
             <div class="post-nav-item">
-                <a href="/2022/08/14/20220814HexoLearningJourney/" rel="next" title="Hexo學習記錄">
-                  Hexo學習記錄 <i class="fa fa-chevron-right"></i>
-                </a>
             </div>
           </div>
     </footer>
