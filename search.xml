@@ -169,6 +169,10 @@
 <li><p>加完之後本來左邊欄的分類按了會出錯,現在可以動作了<br><img src="/images/20220814HexoHexoLearningJourney_pic14.webp"></p>
 </li>
 </ol>
+<h4 id="建立sitemap"><a href="#建立sitemap" class="headerlink" title="建立sitemap"></a>建立sitemap</h4><ol>
+<li>安裝插件<br><code> nmp install hexo-generator-sitemap --save  nmp install hexo-generator-baidu-sitemap --save</code></li>
+<li></li>
+</ol>
 <hr>
 <p></br><font size="6" color=red><center> 【 常使用的Hexo命令 】 </center></font></p>
 <blockquote>
