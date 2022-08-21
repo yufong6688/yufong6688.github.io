@@ -182,7 +182,15 @@
 <li>做完三種驗證方式,輸入指令 <code>hexo g -d</code></li>
 <li>回到 <a href="https://search.google.com/search-console/welcome">Google Search Console</a> 輸入網址再驗證一次<br>三種驗證方式,終於驗證過了,但不曉得是哪一個方式過的</li>
 </ol>
-<h4 id="建立Schedule"><a href="#建立Schedule" class="headerlink" title="建立Schedule"></a>建立Schedule</h4><p><a href="https://theme-next.js.org/docs/theme-settings/custom-pages">建立Schedule教學</a><br>目前還在努力中~~~</p>
+<h4 id="建立Schedule"><a href="#建立Schedule" class="headerlink" title="建立Schedule"></a>建立Schedule</h4><p><a href="https://theme-next.js.org/docs/theme-settings/custom-pages">建立Schedule教學</a></p>
+<ol>
+<li>開啟<a href="https://calendar.google.com/calendar/u/0/r">Google Calendar</a>,在【我的日曆】中,選一個日曆點擊右邊直的三點點，【公開權限】並找尋【Calendar ID】,一般都是gmail信箱<br> <img src="/images/20220814HexoHexoLearningJourney_pic19.webp"><br> <img src="/images/20220814HexoHexoLearningJourney_pic20.webp"><br> <img src="/images/20220814HexoHexoLearningJourney_pic21.webp"><br> <img src="/images/20220814HexoHexoLearningJourney_pic22.webp"> </li>
+<li>取得 <a href="https://console.cloud.google.com/apis/enableflow?apiid=calendar&project=evident-theory-274521">Google Calendar API</a><br> <img src="/images/20220814HexoHexoLearningJourney_pic23.webp"><br> <img src="/images/20220814HexoHexoLearningJourney_pic24.webp"><br> <img src="/images/20220814HexoHexoLearningJourney_pic25.webp"><br> <img src="/images/20220814HexoHexoLearningJourney_pic26.webp"><br> 點選【API金鑰】<br> <img src="/images/20220814HexoHexoLearningJourney_pic27.webp"><br> 取得【API金鑰】</li>
+<li>開啟NexT <code>_config.yml</code></li>
+<li>找到calendar: 把<code>calenndar_id</code> + <code>api_key</code> 兩個填入<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">calendar:</span><br><span class="line">  calendar_id: &lt;required&gt;</span><br><span class="line">  api_key: &lt;required&gt;</span><br><span class="line">  orderBy: startTime</span><br><span class="line">  showLocation: false</span><br><span class="line">  offsetMax: 72</span><br><span class="line">  offsetMin: 4</span><br><span class="line">  showDeleted: false</span><br><span class="line">  singleEvents: true</span><br><span class="line">  maxResults: 250</span><br></pre></td></tr></table></figure></li>
+</ol>
+<p>5.完成,當點了左側 </p>
+<p>6.<br>7. </p>
 <hr>
 <p></br><font size="6" color=red><center> 【 常使用的Hexo命令 】 </center></font></p>
 <blockquote>
