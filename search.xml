@@ -170,7 +170,7 @@
 </li>
 </ol>
 <h4 id="建立sitemap"><a href="#建立sitemap" class="headerlink" title="建立sitemap"></a>建立sitemap</h4><ol>
-<li>安裝插件<br><code> nmp install hexo-generator-sitemap --save  nmp install hexo-generator-baidu-sitemap --save</code></li>
+<li>安裝插件<br><code> npm install hexo-generator-sitemap --save  npm install hexo-generator-baidu-sitemap --save</code></li>
 <li></li>
 </ol>
 <hr>
