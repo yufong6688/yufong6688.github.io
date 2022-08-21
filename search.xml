@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Hexo之Makedown初體驗</title>
+    <url>/2022/08/08/20220808-MyFirstMakedown/</url>
+    <content><![CDATA[<blockquote>
+<h2 id="偶遇HEXO"><a href="#偶遇HEXO" class="headerlink" title="偶遇HEXO"></a>偶遇HEXO</h2></blockquote>
+<p>第一次聽到Hexo可以建立部落格是因為學習ESP32常常聽老師提到GitHub常常有人提出很有趣的專案，它是每個學習技術的人要去瞭解的，在接觸Gethub平台無意中發現到有人可以把網頁掛在Github免費平台上，因此好奇心之下才發現只能放純靜態網頁但據我所知要架起一個Blog的平台都要能跑SQL server，只能放靜態網頁為什麼有些人偏偏從wordpress這個有強大三方支援的平台移到這？另外當時也是想找一個類似HackMD的階層式部落格平台，其實它在撰寫文章時會自動生成一個階層式的目錄，這目錄可以很快的讓你移動到你要看的文章的某一段。瞭解下發現它還可以解決我很多問題，只是全都是要輸入命令，比起之前使用Wordpress還難啃，或許回想到二十幾年前常常都要Keyin程式碼，報告…應該可以先了解是否合適。</p>
+<span id="more"></span>
+
+<blockquote>
+<h2 id="HEXO讓我愛上它了"><a href="#HEXO讓我愛上它了" class="headerlink" title="HEXO讓我愛上它了"></a>HEXO讓我愛上它了</h2></blockquote>
+<p>之前用過F2Blog、wordpress這兩者都需要先建構好SQL Server，常常發生的問題是Blog無法連線到SQL Server尤其我Blog是架在家裡的NAS，那個時候常常因為要update會出現連不上SQL Server經常要去排除，另一個問題就是要備份還原wordpress也很傷腦筋，雖然他有提供plugin但心理因素就是我只是要在平台上做一個移動式的類圖書館的東西卻常要排除這問題，然後又得要搬出我塵封已久的SQL語法來下命令，還有要看資料還要裝phpAdmin來管理database想寫個blog要這麼麻煩嗎？HEXO他是用Makedown語法來寫文章，寫要自動生成格式化的網頁文章，而且最讓我喜歡的還是它會自己産生目錄結構，未來文章太長可以直接看目錄找到要找的資料。另一點則是它解決了不用SQL的問題，因為它本身就是文字檔可以用VScode直接編輯，VScode又支援Madedown plugin，可以一邊寫一邊看到結果。VScode也是免費的，真是太棒的組合，我常年尋找的東西終於一步步拼湊完成。</p>
+<blockquote>
+<h2 id="安心寫文章才是重點"><a href="#安心寫文章才是重點" class="headerlink" title="安心寫文章才是重點"></a>安心寫文章才是重點</h2></blockquote>
+<p>文章移到一個新平台都會問自己一些問題，文章好備份嗎？最好是無腦備份，平台好轉移嗎？比較可能就是換了NAS就要把平台移到新主機又是一個大工程，那用word，Evernote，Onenote…都沒有一次能解決我想把資料移動必要時可以做分享的平台，有的話也是該平台現在很棒，但把文章放在別人主機還是比放在自己電腦上及用一台淘汰的電腦就可以跑起來，被入侵綁架了反正它只是個分身，我可以很快的就用電腦就佈署一個及它還支援github平台，那就有二個分身，真的很棒，安心，簡單能掌握才是重點。</p>
+<blockquote>
+<h2 id="即時性佈署快是另一個優點"><a href="#即時性佈署快是另一個優點" class="headerlink" title="即時性佈署快是另一個優點"></a>即時性佈署快是另一個優點</h2></blockquote>
+<p>總不能寫個makedown要花很多時間才能轉成網頁，不過以現在電腦速度就算上千篇文章可能也是一瞬間完成吧，因為它只是文章形式，但也希望hexo不要越昇級越肥大。，還有就是佈署快，沒想到都用指令也可以用的很無腦，因為常用的指令就是建一個指令庫，複製貼上。或話比移動滑鼠開選單找按鈕還有效率一些。</p>
+<blockquote>
+<h2 id="安全性"><a href="#安全性" class="headerlink" title="安全性"></a>安全性</h2></blockquote>
+<p>還有最近想買一台NAS來放部落格，又怕外連網路會發生風險，主要還是wordpress要建一個database，那就只能建在一台不差的NAS上，但現在用了Hexo是自動産生靜態網頁那就簡單多了，重要的是放github不用錢，是免費的。那買來的新NAS就專心的在內網做它要負責的儲存工作。或許那一台QNAP三不五時就會被入侵的NAS現在不用了，可以直接放顆不要的硬碟，就在外網架起來，反正被入侵了還有一個github當WebServer用沒再怕。</p>
+<blockquote>
+<h2 id="意外改變寫作外無效率的發佈"><a href="#意外改變寫作外無效率的發佈" class="headerlink" title="意外改變寫作外無效率的發佈"></a>意外改變寫作外無效率的發佈</h2></blockquote>
+<p>意料外的事，使用makedown文章使用VScode就可以看到文章的展現而且是即時，以往在wordpress不好的習慣就是文章沒全部寫好就按個發佈看一下結果，但都很花時間，不像makedown我把文章寫好了，再來處理格式，但都是即時呈現，少了文章寫一半就分心去發佈看結果呈現，然後邊調整格式邊寫文章超花時間在格式調整上。</p>
+<p>綜合上述思考與拼湊，終於一個早晨寫完一篇文章，在邊寫邊思考下更確定駐足在HEXO，未來可能以玩票性質去認識其它平台，不過可能的話不想要再去用database系統的blog，沒錯就是HEXO了，心中的一個奇異果廣告旋律，寫起來~寫起來…</p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>Makedown</tag>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo學習記錄</title>
+    <url>/2022/08/14/20220814HexoLearningJourney/</url>
+    <content><![CDATA[<blockquote>
+<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>Hexo是一款不用安裝任何Database就可以運作的Blog架站程式，文章編輯回歸簡單的文字輸入沒有像Word一樣的編輯畫面，有的像更古老的二十多年前用的PE2或PE3的前置指令來格式化文字，它使用的標準為<a href="https://markdown.tw/">Markdown語法</a>，指令産生靜態網頁，所以它只要一個網頁空間不需要運作其它複雜的後台程式就可以運作了，一切回歸到簡單</p>
+</blockquote>
+<span id="more"></span>
+
+<hr>
+<p></br><font size="6" color=red><center> 【 申請Github帳號 】</center></font></p>
+<blockquote>
+<h3 id="申請Github帳號"><a href="#申請Github帳號" class="headerlink" title="申請Github帳號"></a>申請Github帳號</h3><p>主要是Hexo為靜態網頁,Github有提供免費可以放置專案及免費靜態網頁空間,最棒的是能設定有自己名稱開頭的網址,先連至<a href="https://github.com/">GitHub官網</a>申請一個吧</p>
+</blockquote>
+<h4 id="Github免費資訊"><a href="#Github免費資訊" class="headerlink" title="Github免費資訊"></a>Github免費資訊</h4><pre><code>1. Unlimited public/private repositories
+2. 2,000 CI/CD minutes/month
+3. Free for public repositories
+4. 500MB of Packages storage
+5. Free for public repositories
+6. Community support
+</code></pre>
+<h4 id="Create-a-new-repository"><a href="#Create-a-new-repository" class="headerlink" title="Create a new repository"></a>Create a new repository</h4><p><img src="/images/20220814HexoHexoLearningJourney_pic01.jpg"><br><img src="/images/20220814HexoHexoLearningJourney_pic02.jpg"><br><img src="/images/20220814HexoHexoLearningJourney_pic03.jpg"><br>完成上述動作就申請了網頁空間的存放也有自己的網址‵https:&#x2F;yufong0815.github.io&#96;,接下來後面在本機裝好的 Hexo運作正常就可以把它佈署到github主機</p>
+<hr>
+<p></br><font size="6" color=red><center> 【 安裝Hexo 】</center></font></p>
+<blockquote>
+<h3 id="安裝Hexo"><a href="#安裝Hexo" class="headerlink" title="安裝Hexo"></a>安裝Hexo</h3><p>安裝Hexo ＞ 環境安裝 ＞ 初始化 ＞ 產生靜態網頁 ＞ 啟動Server ＞ 部署</p>
+</blockquote>
+<ol>
+<li><p>安裝 Node.js <a href="https://nodejs.org/zh-tw/">官網</a> ,建議使用V10以上版本</p>
+</li>
+<li><p>安裝 <a href="https://git-scm.com/">Git</a> </p>
+</li>
+<li><p>運作環境安裝好就可以安裝Hexo<br>可以使用<code>cmd</code>指令開啟命令提示視窗，也可以使用<code>Git bash</code>,來輸入指令建立Hexo,如果是使用<code>power shell</code>,會出錯  </p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>初始化 Hexo</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ hexo init &lt;folder&gt;	# &lt;folder&gt;為blog的目錄</span><br><span class="line">$ cd &lt;folder&gt;			# 進入blog目錄</span><br><span class="line">$ npm install			# 開始安裝</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>產生靜態網頁</p>
+ <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ hexo  generate</span><br><span class="line">$ hexo  g</span><br></pre></td></tr></table></figure>
+<p>上面二個指令是相同的,擇一使用</p>
+</li>
+<li><p>啟動本地Server  </p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ hexo server  </span><br><span class="line">$ hexo s  </span><br></pre></td></tr></table></figure>
+<p>上面二個指令是相同的,擇一使用</p>
+</li>
+<li><p>將伺服器運作在不同的port<br>一般預設為4000,本例用改成5000,方法如下 </p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ hexo -p 5000 server  </span><br></pre></td></tr></table></figure>
+<p><img src="/images/20220814HexoHexoLearningJourney_pic04.jpg"></p>
+</li>
+</ol>
+<hr>
+<ol start="8">
+<li>將網頁部署到Github Page</li>
+</ol>
+<ul>
+<li><p>修改_config.yml,設定要部署在GitHub的主分支<br>開啟_config.yml,找到Deployment修改內容如下</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># Deployment 佈署到github</span><br><span class="line">## Docs: https://hexo.io/docs/one-command-deployment</span><br><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: https://github.com/yufong6688/yufong6688.github.io.git  ## 在GitHub申請的網頁空間</span><br><span class="line">  branch: master  ## 佈置到分支為master,主分支</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>呈上所述，一個網址建多網站,那就要把網頁放在網站目錄,用目錄來區分網站<br>開啟_config.yml,找到Deployment修改內容如下</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git init</span><br><span class="line">git checkout -b source</span><br><span class="line">git add -A</span><br><span class="line">git commit -m &quot;init blog&quot;</span><br><span class="line">git remote add origin git@github.com:&#123;username&#125;/&#123;username&#125;.github.io.git</span><br><span class="line">git push origin source</span><br></pre></td></tr></table></figure>
+<p>上述方法還未使用過不確定可行</p>
+</li>
+<li><p>安裝Git部署插件<br>如果沒有安裝此插件就執行<code>$ hexo d</code>,會出現錯誤<br><img src="/images/20220814HexoHexoLearningJourney_pic06.webp">  </p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>執行部署命令</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br><span class="line">$ hexo d</span><br></pre></td></tr></table></figure>
+<p>上面二個指令可以,擇一使用</p>
+</li>
+</ul>
+<hr>
+<p></br><font size="6" color=red><center> 【 變換主題 】</center></font></p>
+<blockquote>
+<h3 id="變換主題-使用Next主題"><a href="#變換主題-使用Next主題" class="headerlink" title="變換主題 (使用Next主題)"></a>變換主題 (使用Next主題)</h3></blockquote>
+<p>Hexo有提多樣<a href="https://hexo.io/themes/">主題下載</a>， 在這裡 用Next，主要原因是目前還有在積極更新<br>說明文件齊全，佈景簡單明瞭，很適合初學者第一次安裝使用，<br>另外安裝後他有提供不同版面的四種主題切換，使用人數最多…等優點<br><img src="/images/20220814HexoHexoLearningJourney_pic07.webp">  </p>
+<h4 id="安裝Next主題：官網安裝方法"><a href="#安裝Next主題：官網安裝方法" class="headerlink" title="安裝Next主題：官網安裝方法"></a>安裝Next主題：<a href="https://theme-next.js.org/">官網安裝方法</a></h4><ul>
+<li>方法一：使用npm安娤指令，應該可以直接安裝到最新版<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ cd hexo-site</span><br><span class="line">$ npm install hexo-theme-next</span><br></pre></td></tr></table></figure></li>
+<li>方法二：直接複製Github端的主題<br>  網路教學很多,但Next版本也很多,找最新的安裝<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ cd hexo-site  # 先切換到你要安裝的hexo目錄裡</span><br><span class="line">$ git clone https://github.com/theme-next/hexo-theme-next themes/next   ＃v7.8.0版</span><br><span class="line">$ git clone https://github.com/next-theme/hexo-theme-next themes/next   ＃v8.12.3版</span><br></pre></td></tr></table></figure></li>
+</ul>
+<h4 id="套用主題"><a href="#套用主題" class="headerlink" title="套用主題"></a>套用主題</h4><p>打開_config,yml,，修改主題,原來預設主題為landscape,<br>直接新增一個<code>theme: next</code>,原來的註解起來就好了,免得找不到後悔藥</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># Extensions</span><br><span class="line">## Plugins: https://hexo.io/plugins/</span><br><span class="line">## Themes: https://hexo.io/themes/</span><br><span class="line">## theme:landscape</span><br><span class="line">theme: next</span><br></pre></td></tr></table></figure>
+<h4 id="其它關於NexT主題設置"><a href="#其它關於NexT主題設置" class="headerlink" title="其它關於NexT主題設置"></a>其它關於NexT主題設置</h4><p>下面只介紹NexT基礎設置，<a href="/2022/08/16/NEXT%E4%B8%BB%E9%A1%8C%E8%A8%AD%E5%AE%9A/" title="（詳細設置NexT主題）">（詳細設置NexT主題）</a></p>
+<hr>
+<p></br><font size="6" color=red><center> 【 安裝Hexo編輯後台 】</center></font></p>
+<blockquote>
+<h3 id="安裝Hexo編輯後台"><a href="#安裝Hexo編輯後台" class="headerlink" title="安裝Hexo編輯後台"></a>安裝Hexo編輯後台</h3><p>透過安裝後台程式編寫文章方便了許多,也不用一直下指令的麻煩,他集合了三個指令而成,也就是不用寫文章一直反覆的執行這三個指令來觀看結果,更重要的是它可以直接預覽Makedown語法最後的呈現,不過也並不是百分之百會一樣。<a href="https://github.com/jaredly/hexo-admin">參考文件</a></p>
+</blockquote>
+<h4 id="安裝套件"><a href="#安裝套件" class="headerlink" title="安裝套件"></a>安裝套件</h4><p>在專案資料夾內,執行下面指令</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ npm install hexo-admin --save</span><br></pre></td></tr></table></figure>
+<p>安裝完成需重新產生靜態網頁  <code>$ hexo g</code>  及 <code>$ hexo s</code></p>
+<h4 id="進入文章編寫後台"><a href="#進入文章編寫後台" class="headerlink" title="進入文章編寫後台"></a>進入文章編寫後台</h4><p>開啟瀏覽器輸入網址,進入文章編寫後台,有了後后方便了不少，有很多事可以在這完成，包含改變檔案名稱…</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">http://localhost:4000/admin </span><br></pre></td></tr></table></figure>
+<p><img src="/images/20220814HexoHexoLearningJourney_pic05.webp">  </p>
+<hr>
+<p></br><font size="6" color=red><center> 【 增加搜尋功能 】</center></font></p>
+<blockquote>
+<h3 id="增加搜尋功能"><a href="#增加搜尋功能" class="headerlink" title="增加搜尋功能"></a>增加搜尋功能</h3></blockquote>
+<ol>
+<li>安裝Plugin <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-searchdb --save</span><br></pre></td></tr></table></figure></li>
+<li>開啟Hexo的 _config.yml 增加搜尋設定<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">search:</span><br><span class="line">  path: search.xml</span><br><span class="line">  field: post</span><br><span class="line">  format: html</span><br><span class="line">  # 設定搜尋的文件量，當文章量多時可以設定高些</span><br><span class="line">  limit: 100</span><br></pre></td></tr></table></figure></li>
+<li>開啟<code> themes/next /_config.yml</code> 修改如下<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">local_search:</span><br><span class="line">enable: true</span><br></pre></td></tr></table></figure></li>
+<li>完成後 Menu最下方多了一個搜尋<br><img src="/images/20220814HexoHexoLearningJourney_pic12.webp"></li>
+</ol>
+<hr>
+<p></br><font size="6" color=red><center> 【 解決Menu 不可用問題 】</center></font></p>
+<h3 id="解決Menu-不可用問題"><a href="#解決Menu-不可用問題" class="headerlink" title="解決Menu 不可用問題"></a>解決Menu 不可用問題</h3><p>初次建好的Hexo有很多Menu點了會出現錯誤，這章節要處理Menu部份的問題</p>
+<h4 id="建立About-關於"><a href="#建立About-關於" class="headerlink" title="建立About 關於"></a>建立About 關於</h4><ol>
+<li>建立一個 About 關於頁面<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo new page &quot;about&quot;</span><br></pre></td></tr></table></figure>
+<img src="/images/20220814HexoHexoLearningJourney_pic10.webp">  </li>
+<li>讓Menu能顯示about<br>開啟 ‘themes&#x2F;next&#x2F;_configy.yml’ 設置中將menu中的about前面的註釋去掉<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">menu:</span><br><span class="line">home: / || fa fa-home    # 首頁</span><br><span class="line">about: /about/ || fa fa-user    # 關於我</span><br><span class="line">tags: /tags/ || fa fa-tags    # 標籤</span><br><span class="line">categories: /categories/ || fa fa-th     # 目錄</span><br><span class="line">archives: /archives/ || fa fa-archive    # 歷史記錄</span><br><span class="line">schedule: /schedule/ || fa fa-calendar    # 行程</span><br><span class="line">sitemap: /sitemap.xml || fa fa-sitemap   # 網站地圖</span><br><span class="line"># commonweal: /404/ || fa fa-heartbeat</span><br></pre></td></tr></table></figure></li>
+<li>執行結果<br><img src="/images/20220814HexoHexoLearningJourney_pic11.webp"></li>
+</ol>
+<h4 id="建立Categories分類"><a href="#建立Categories分類" class="headerlink" title="建立Categories分類"></a>建立Categories分類</h4><ol>
+<li><p>建立Categories分類<br>輸入下面指令</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo new page categories</span><br></pre></td></tr></table></figure>
+<p><img src="/images/20220814HexoHexoLearningJourney_pic08.webp"></p>
+</li>
+<li><p>執行後產生<code>index.md</code>放在<code>...\source\categories\index.md</code>打開</p>
+</li>
+<li><p>加入 <code>type: &quot;categories&quot;</code></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">title: categories</span><br><span class="line">date: 2022-08-20 18:44:59</span><br><span class="line">type: &quot;categories&quot;</span><br></pre></td></tr></table></figure></li>
+<li><p>加完之後本來左邊欄的分類按了會出錯,現在可以動作了<br><img src="/images/20220814HexoHexoLearningJourney_pic09.webp"></p>
+</li>
+</ol>
+<h4 id="建立Tags頁面"><a href="#建立Tags頁面" class="headerlink" title="建立Tags頁面"></a>建立Tags頁面</h4><ol>
+<li><p>建立Tags標籤<br>輸入下面指令</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo new page tags</span><br></pre></td></tr></table></figure>
+<p><img src="/images/20220814HexoHexoLearningJourney_pic13.webp"></p>
+</li>
+<li><p>執行後產生<code>index.md</code>放在<code>...\source\tags\index.md</code>打開</p>
+</li>
+<li><p>加入 <code>type: &quot;tags&quot;</code></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">title: categories</span><br><span class="line">date: 2022-08-21 09:02:55</span><br><span class="line">type: &quot;tags&quot;</span><br></pre></td></tr></table></figure></li>
+<li><p>加完之後本來左邊欄的分類按了會出錯,現在可以動作了<br><img src="/images/20220814HexoHexoLearningJourney_pic14.webp"></p>
+</li>
+</ol>
+<hr>
+<p></br><font size="6" color=red><center> 【 常使用的Hexo命令 】 </center></font></p>
+<blockquote>
+<h3 id="常使用的Hexo命令"><a href="#常使用的Hexo命令" class="headerlink" title="常使用的Hexo命令"></a>常使用的Hexo命令</h3><p>啟動本地Server ＞ 自訂埠號 ＞ 自訂位址 ＞ 部署 ＞ 產生靜態檔案 ＞清除快取 ＞ 新增文章</p>
+</blockquote>
+<h4 id="啟動伺服器"><a href="#啟動伺服器" class="headerlink" title="啟動伺服器"></a>啟動伺服器</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ hexo server  </span><br></pre></td></tr></table></figure>
+<h4 id="讓伺服器在其它port運作-以-port-5000為例"><a href="#讓伺服器在其它port運作-以-port-5000為例" class="headerlink" title="讓伺服器在其它port運作,以 port 5000為例"></a>讓伺服器在其它<code>port</code>運作,以 port 5000為例</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ hexo -p 5000 server  </span><br></pre></td></tr></table></figure>
+<h4 id="其它參數"><a href="#其它參數" class="headerlink" title="其它參數"></a>其它參數</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo server -s  //靜態模式</span><br><span class="line">hexo server -p 5000 //更改port</span><br><span class="line">hexo server -i 192.168.20.20 //自訂位址</span><br></pre></td></tr></table></figure>
+<h4 id="佈署，可以將hexo佈署到GitHub"><a href="#佈署，可以將hexo佈署到GitHub" class="headerlink" title="佈署，可以將hexo佈署到GitHub"></a>佈署，可以將hexo佈署到GitHub</h4><p>   ** 佈署的細節分為三步驟請往回看前面的安裝步驟 **</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br><span class="line">$ hexo d</span><br></pre></td></tr></table></figure>
+<h4 id="產生靜態檔案"><a href="#產生靜態檔案" class="headerlink" title="產生靜態檔案"></a>產生靜態檔案</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br><span class="line">$ hexo g</span><br></pre></td></tr></table></figure>
+
+<h4 id="清除靜態檔案及快取"><a href="#清除靜態檔案及快取" class="headerlink" title="清除靜態檔案及快取"></a>清除靜態檔案及快取</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ hexo clean</span><br></pre></td></tr></table></figure>
+
+<h4 id="新增文章"><a href="#新增文章" class="headerlink" title="新增文章"></a>新增文章</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ hexo new [layout] &lt;title&gt;       </span><br></pre></td></tr></table></figure>
+
+<hr>
+<p></br><font size="6" color=red><center> 【 修改 _congif.yaml 】</center></font></p>
+<blockquote>
+<h3 id="修改-congif-yaml"><a href="#修改-congif-yaml" class="headerlink" title="修改 _congif.yaml"></a>修改 _congif.yaml</h3><p>網站訊息 ＞ 佈署訊息 ＞ 修改主題 </p>
+</blockquote>
+<h4 id="Site-關於網站訊息的配置-包含語系"><a href="#Site-關於網站訊息的配置-包含語系" class="headerlink" title="Site (關於網站訊息的配置,包含語系)"></a>Site (關於網站訊息的配置,包含語系)</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># Site</span><br><span class="line">title: Yufong&#x27;s Blog  #Web Title</span><br><span class="line">subtitle: &#x27;凡走過必留下記憶&#x27;</span><br><span class="line">description: &#x27;記錄著所思所想及所有美好的回憶&#x27;</span><br><span class="line">keywords:</span><br><span class="line">author: Yufong Chen  #作者名稱</span><br><span class="line">language: zh-TW  #使用語系，TW要大寫不然會變亂碼</span><br><span class="line">timezone: &#x27;&#x27; #時差</span><br></pre></td></tr></table></figure>
+<h4 id="Deployment-佈署設定-佈署到Github"><a href="#Deployment-佈署設定-佈署到Github" class="headerlink" title="Deployment 佈署設定,佈署到Github"></a>Deployment 佈署設定,佈署到Github</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># Deployment 佈署到github</span><br><span class="line">## Docs: https://hexo.io/docs/one-command-deployment</span><br><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: https://github.com/yufong6688/yufong6688.github.io.git  ## 在GitHub申請的網頁空間</span><br><span class="line">  branch: master  ## 佈置到分支為master,主分支</span><br></pre></td></tr></table></figure>
+<h4 id="Extensions-修改佈景主題"><a href="#Extensions-修改佈景主題" class="headerlink" title="Extensions 修改佈景主題"></a>Extensions 修改佈景主題</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># Extensions</span><br><span class="line">## Plugins: https://hexo.io/plugins/</span><br><span class="line">## Themes: https://hexo.io/themes/</span><br><span class="line">## theme:landscape</span><br><span class="line">theme: next</span><br></pre></td></tr></table></figure>
+
+<hr>
+<p></br><font size="6" color=red><center> 【 如何插入圖片 】 </center></font></p>
+<blockquote>
+<h3 id="如何插入圖片"><a href="#如何插入圖片" class="headerlink" title="如何插入圖片"></a>如何插入圖片</h3><p>圖片插入方式：插入圖片使用外部連結 ＞ 絕對路徑 ＞ 相對路徑 ＞ </p>
+</blockquote>
+<h4 id="插入外部連結圖片"><a href="#插入外部連結圖片" class="headerlink" title="插入外部連結圖片"></a>插入外部連結圖片</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![這是外部連結圖片](https://upload.wikimedia.org/wikipedia/commons/e/e9/Hexo-logo.png)</span><br></pre></td></tr></table></figure>
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Hexo-logo.png" alt="這是外部連結圖片"></p>
+<h4 id="絕對路徑"><a href="#絕對路徑" class="headerlink" title="絕對路徑"></a>絕對路徑</h4><p>不管在哪個位置,圖片都放在固定的一個位置</p>
+<ol>
+<li>將圖片存放 <code>/source/images/</code></li>
+<li>語法如下<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![](/images/pic01.png)</span><br></pre></td></tr></table></figure></li>
+<li>因為相對路徑存放圖片都無法顯示，所以目前做法是使用絕對路徑，全部存放在同一資料夾，然後用文件來做前置命名+流水號這樣做法優點防止將來文件一多資料夾就會産生一堆，如果要找某張圖但忘了文件名稱要找就很不容易了，放一起可以一次瀏覽全部圖片，但未來還是會找個圖床來放圖片</li>
+</ol>
+<h4 id="相對路徑"><a href="#相對路徑" class="headerlink" title="相對路徑"></a>相對路徑</h4><p>圖片會跟著文章一起被建立,會建一個和文章同名的資料夾來放圖片</p>
+<ol>
+<li>修改<code>_config.yml</code><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">post_asset_folder: true</span><br></pre></td></tr></table></figure></li>
+</ol>
+<p>修改後以後使用 <code>$ hexo new post_name</code> 建立的文章會在 <code>source/_posts</code>目錄出現,檔案名稱為 <code>post_name.md</code>,另外也會建立一個同名的資料夾 <code>post_name</code>,圖片就放在該資料夾裡。</p>
+
+<ol start="2">
+<li><p>使用Makedown語法插入圖片</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![](image.jpg)</span><br></pre></td></tr></table></figure>
+<p>如果試不出來要改成</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% asset_img image.jpg 這是一張圖片 %&#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>使用Makedown語法插入圖片</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">使用![](Hexo-logo.png)語法(會有問題)</span><br></pre></td></tr></table></figure>
+<p><img src="/Hexo-logo.png"></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">使用 &#123;% asset_img Hexo-logo.png 這是一張圖片 %&#125; 語法</span><br></pre></td></tr></table></figure>
+<img src="/2022/08/14/20220814HexoLearningJourney/Hexo-logo.png" class="" title="這是一張圖片"></li>
+</ol>
+<h4 id="使用外掛-hexo-renderer-marked"><a href="#使用外掛-hexo-renderer-marked" class="headerlink" title="使用外掛 hexo-renderer-marked"></a>使用外掛 <code>hexo-renderer-marked</code></h4><ol>
+<li>安裝<code>hexo-renderer-marked</code> 插件<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ npm install hexo-renderer-marked --save</span><br></pre></td></tr></table></figure></li>
+<li>開啟 <code>_config.yml</code> 加入下面參數設定<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">post_asset_folder: true</span><br><span class="line">marked:</span><br><span class="line">  prependRoot: true  #將根值附加到（內部）圖像路徑。 root : /blog/</span><br><span class="line">  postAsset: true  # 將 post 資產的圖像路徑解析為相對路徑</span><br></pre></td></tr></table></figure>
+ 啟用後，資產圖像將自動解析為其相應帖子的路徑。<br> 例如，<code>“image.jpg”</code>位於<code>“/2020/01/02/foo/image.jpg”</code>，表示它是<code>“/2020/01/02/foo/”</code>帖子的資產圖片，將被渲染為<code> .![](image.jpg)&lt;img src=&quot;/2020/01/02/foo/image.jpg&quot;&gt;</code></li>
+<li>參數解析<br>因為<code>marked:</code>有眾多參數，詳細參數仍要看原始說明<br> <a href="https://github.com/hexojs/hexo-renderer-marked">hexo-renderer-marked </a></li>
+</ol>
+<h4 id="Typora插入方式"><a href="#Typora插入方式" class="headerlink" title="Typora插入方式"></a>Typora插入方式</h4><p><a href="https://www.gushiciku.cn/pl/ptBs/zh-tw">其它使用外掛及Typora插入方式</a></p>
+<hr>
+<p></br><font size="6" color=red><center> 【 切換黑色模式 】 </center></font></p>
+<blockquote>
+<h3 id="切換黑色模式"><a href="#切換黑色模式" class="headerlink" title="切換黑色模式"></a>切換黑色模式</h3><p><font face="微软雅黑" color=Red size=8>(未完成,有些困難,先暫停)</font></p>
+</blockquote>
+<blockquote>
+<p>方法一：打開 _config.yml,將darkmode修改成true</p>
+</blockquote>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">darkmode: false  #原darkmode: false改darkmode: true</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>方法二：使用三方插件(已安裝,但有些複雜先不使用)</p>
+</blockquote>
+<ol>
+<li>安裝 <code>hexo-next-darkmode</code> 插件<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-next-darkmode --save </span><br></pre></td></tr></table></figure></li>
+<li>打Next主題裡的_config.yml,加入下面內容<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># Darkmode JS</span><br><span class="line"># For more information: https://github.com/rqh656418510/hexo-next-darkmode, https://github.com/sandoche/Darkmode.js</span><br><span class="line">darkmode_js:</span><br><span class="line">  enable: true</span><br><span class="line">  bottom: &#x27;64px&#x27; # default: &#x27;32px&#x27;</span><br><span class="line">  right: &#x27;unset&#x27; # default: &#x27;32px&#x27;</span><br><span class="line">  left: &#x27;32px&#x27; # default: &#x27;unset&#x27;</span><br><span class="line">  time: &#x27;0.5s&#x27; # default: &#x27;0.3s&#x27;</span><br><span class="line">  mixColor: &#x27;transparent&#x27; # default: &#x27;#fff&#x27;</span><br><span class="line">  backgroundColor: &#x27;transparent&#x27; # default: &#x27;#fff&#x27;</span><br><span class="line">  buttonColorDark: &#x27;#100f2c&#x27; # default: &#x27;#100f2c&#x27;</span><br><span class="line">  buttonColorLight: &#x27;#fff&#x27; # default: &#x27;#fff&#x27;</span><br><span class="line">  isActivated: false # default false</span><br><span class="line">  saveInCookies: true # default: true</span><br><span class="line">  label: &#x27;🌓&#x27; # default: &#x27;&#x27;</span><br><span class="line">  autoMatchOsTheme: true # default: true</span><br><span class="line">  libUrl: # Set custom library cdn url for Darkmode.js</span><br></pre></td></tr></table></figure></li>
+</ol>
+<blockquote>
+<p>方法三：使用Next主題內建的Dark模式,使用按鈕切換</p>
+</blockquote>
+<p>下載 <a href="https://cdn.jsdelivr.net/npm/darkmode-js/lib/darkmode-js.min.js">darkmodw-js.min.js</a>到NEXT主題裡的lib目錄</p>
+]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>20220815小孩的自學計劃</title>
+    <url>/2022/08/15/20220815%E5%B0%8F%E5%AD%A9%E7%9A%84%E8%87%AA%E5%AD%B8%E8%A8%88%E5%8A%83/</url>
+    <content><![CDATA[<h3 id="簡介"><a href="#簡介" class="headerlink" title="簡介"></a>簡介</h3><p>本區是大概記錄一下小孩的學習歷程，以及自己為了讓小孩自學買了什麼教案，看了哪些影片又買了哪些書，年齡到了就把該書拿出來給小孩讀，才不會忘了自己買過這些書要給小孩看，萬一忘了時間過了之前書的這些書、影片、APP…就白費了，另YOUTUBE有家長或老師讀繪本給小孩看，內容真的很不錯，這就省去了很多自己英文能力不好沒辦法去教小孩的煩惱…,大概我會把這些做個分齡可以時間到了就拿出來給小孩學習</p>
+<ul>
+<li>記錄小孩的學習歷程</li>
+<li>購買的教案、線上課程、APP</li>
+<li>網路學習資源 ( Youtube、練習本…  )</li>
+<li>自製學習教案及軟體學習工具</li>
+<li>學習書單</li>
+</ul>
+<span id="more"></span>
+
+<h3 id="英文自學"><a href="#英文自學" class="headerlink" title="英文自學"></a>英文自學</h3><blockquote>
+<h4 id="自學書單"><a href="#自學書單" class="headerlink" title="自學書單"></a>自學書單</h4></blockquote>
+<blockquote>
+<h4 id="自學網路資源"><a href="#自學網路資源" class="headerlink" title="自學網路資源"></a>自學網路資源</h4></blockquote>
+<blockquote>
+<h4 id="自學工具"><a href="#自學工具" class="headerlink" title="自學工具"></a>自學工具</h4></blockquote>
+<h5 id="Wordup"><a href="#Wordup" class="headerlink" title="Wordup"></a>Wordup</h5><h5 id="ANKI"><a href="#ANKI" class="headerlink" title="ANKI"></a>ANKI</h5>]]></content>
+      <categories>
+        <category>MyChild</category>
+      </categories>
+      <tags>
+        <tag>MyChild</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo常用的編輯指令</title>
+    <url>/2022/08/20/Hexo%E5%B8%B8%E7%94%A8%E7%9A%84%E7%B7%A8%E8%BC%AF%E6%8C%87%E4%BB%A4/</url>
+    <content><![CDATA[<h3 id="連結篇"><a href="#連結篇" class="headerlink" title="連結篇"></a>連結篇</h3><h4 id="連結到Hexo其它文章"><a href="#連結到Hexo其它文章" class="headerlink" title="連結到Hexo其它文章"></a>連結到Hexo其它文章</h4><p>必須考慮移植性，不管未來網頁網址如何變它都不會因為此而失連,使用Hexo內置的標籤語法</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% post_link 文件名 &#x27;文章別名&#x27;%&#125;</span><br><span class="line">範例：</span><br><span class="line">&#123;% post_link &#x27;hello-world Hexo安裝好內建的第一篇文章&#x27; %&#125;</span><br><span class="line">&#123;% post_link &#x27;hello-world Hexo&lt;b&gt;加入粗體&lt;/b&gt;&#x27; %&#125;</span><br></pre></td></tr></table></figure>
+<ul>
+<li>文件名：Hexo內建文章,hello-world.md<br><img src="/images/Hexo%E5%B8%B8%E7%94%A8%E7%9A%84%E7%B7%A8%E8%BC%AF%E6%8C%87%E4%BB%A401.webp">  </li>
+<li>文章別名：簡短介紹這個連結</li>
+<li>範例執行1：<a href="/2022/08/15/hello-world/" title="Hexo安裝好內建的第一篇文章">Hexo安裝好內建的第一篇文章</a></li>
+<li>範例執行2：<a href="/2022/08/15/hello-world/" title="Hexo&lt;b&gt;加入粗體&lt;&#x2F;b&gt;">Hexo&lt;b&gt;加入粗體&lt;&#x2F;b&gt;</a></li>
+</ul>
+<span id="more"></span>
+
+
+<blockquote>
+<h3 id="如何插入圖片"><a href="#如何插入圖片" class="headerlink" title="如何插入圖片"></a>如何插入圖片</h3><p>圖片插入方式：插入圖片使用外部連結 ＞ 絕對路徑 ＞ 相對路徑 ＞ </p>
+</blockquote>
+<h4 id="插入外部連結圖片"><a href="#插入外部連結圖片" class="headerlink" title="插入外部連結圖片"></a>插入外部連結圖片</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![這是外部連結圖片](https://upload.wikimedia.org/wikipedia/commons/e/e9/Hexo-logo.png)</span><br></pre></td></tr></table></figure>
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Hexo-logo.png" alt="這是外部連結圖片"></p>
+<h4 id="絕對路徑"><a href="#絕對路徑" class="headerlink" title="絕對路徑"></a>絕對路徑</h4><p>不管在哪個位置,圖片都放在固定的一個位置</p>
+<ol>
+<li>將圖片存放 <code>/source/images/</code></li>
+<li>語法如下<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![](/images/pic01.png)</span><br></pre></td></tr></table></figure></li>
+<li>因為相對路徑存放圖片都無法顯示，所以目前做法是使用絕對路徑，全部存放在同一資料夾，然後用文件來做前置命名+流水號這樣做法優點防止將來文件一多資料夾就會産生一堆，如果要找某張圖但忘了文件名稱要找就很不容易了，放一起可以一次瀏覽全部圖片，但未來還是會找個圖床來放圖片</li>
+</ol>
+<h4 id="相對路徑"><a href="#相對路徑" class="headerlink" title="相對路徑"></a>相對路徑</h4><p>圖片會跟著文章一起被建立,會建一個和文章同名的資料夾來放圖片</p>
+<ol>
+<li>修改<code>_config.yml</code><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">post_asset_folder: true</span><br></pre></td></tr></table></figure></li>
+</ol>
+<p>修改後以後使用 <code>$ hexo new post_name</code> 建立的文章會在 <code>source/_posts</code>目錄出現,檔案名稱為 <code>post_name.md</code>,另外也會建立一個同名的資料夾 <code>post_name</code>,圖片就放在該資料夾裡。</p>
+
+<ol start="2">
+<li><p>使用Makedown語法插入圖片</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![](image.jpg)</span><br></pre></td></tr></table></figure>
+<p>如果試不出來要改成</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% asset_img image.jpg 這是一張圖片 %&#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>使用Makedown語法插入圖片</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">使用![](Hexo-logo.png)語法(會有問題)</span><br></pre></td></tr></table></figure>
+<p><img src="/Hexo-logo.png"></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">使用 &#123;% asset_img Hexo-logo.png 這是一張圖片 %&#125; 語法</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<h4 id="使用外掛-hexo-renderer-marked"><a href="#使用外掛-hexo-renderer-marked" class="headerlink" title="使用外掛 hexo-renderer-marked"></a>使用外掛 <code>hexo-renderer-marked</code></h4><ol>
+<li>安裝<code>hexo-renderer-marked</code> 插件<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ npm install hexo-renderer-marked --save</span><br></pre></td></tr></table></figure></li>
+<li>開啟 <code>_config.yml</code> 加入下面參數設定<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">post_asset_folder: true</span><br><span class="line">marked:</span><br><span class="line">  prependRoot: true  #將根值附加到（內部）圖像路徑。 root : /blog/</span><br><span class="line">  postAsset: true  # 將 post 資產的圖像路徑解析為相對路徑</span><br></pre></td></tr></table></figure>
+ 啟用後，資產圖像將自動解析為其相應帖子的路徑。<br> 例如，<code>“image.jpg”</code>位於<code>“/2020/01/02/foo/image.jpg”</code>，表示它是<code>“/2020/01/02/foo/”</code>帖子的資產圖片，將被渲染為<code> .![](image.jpg)&lt;img src=&quot;/2020/01/02/foo/image.jpg&quot;&gt;</code></li>
+<li>參數解析<br>因為<code>marked:</code>有眾多參數，詳細參數仍要看原始說明<br> <a href="https://github.com/hexojs/hexo-renderer-marked">hexo-renderer-marked </a></li>
+</ol>
+<h4 id="Typora插入方式"><a href="#Typora插入方式" class="headerlink" title="Typora插入方式"></a>Typora插入方式</h4><p><a href="https://www.gushiciku.cn/pl/ptBs/zh-tw">其它使用外掛及Typora插入方式</a></p>
+<hr>
+<h3 id="標籤外掛"><a href="#標籤外掛" class="headerlink" title="標籤外掛"></a>標籤外掛</h3><h4 id="官網標籤外掛"><a href="#官網標籤外掛" class="headerlink" title="官網標籤外掛"></a><a href="https://hexo.io/zh-tw/docs/tag-plugins">官網標籤外掛</a></h4><p>有空要來研究一下</p>
+<blockquote><p>Do not just seek happiness for yourself. Seek happiness for all. Through kindness. Through mercy.</p>
+<footer><strong>David Levithan</strong><cite>Wide Awake</cite></footer></blockquote>
+
+<hr>
+<blockquote><p>NEW: DevDocs now comes with syntax highlighting. <a href="http://devdocs.io/">http://devdocs.io</a></p>
+<footer><strong>@DevDocs</strong><cite><a href="https://twitter.com/devdocs/status/356095192085962752">twitter.com/devdocs/status/356095192085962752</a></cite></footer></blockquote>
+
+
+]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>NEXT主題設定</title>
+    <url>/2022/08/16/NEXT%E4%B8%BB%E9%A1%8C%E8%A8%AD%E5%AE%9A/</url>
+    <content><![CDATA[<h3 id="記錄Hexo的NEXT主題的設定"><a href="#記錄Hexo的NEXT主題的設定" class="headerlink" title="記錄Hexo的NEXT主題的設定"></a>記錄Hexo的NEXT主題的設定</h3><h3 id="四種主題"><a href="#四種主題" class="headerlink" title="四種主題"></a>四種主題</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># Schemes</span><br><span class="line">scheme: Muse</span><br><span class="line">#scheme: Mist</span><br><span class="line">#scheme: Pisces</span><br><span class="line">#scheme: Gemini</span><br></pre></td></tr></table></figure>
+
+<h3 id="黑-x2F-白主題"><a href="#黑-x2F-白主題" class="headerlink" title="黑&#x2F;白主題"></a>黑&#x2F;白主題</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># Dark Mode</span><br><span class="line">darkmode: false</span><br></pre></td></tr></table></figure>
+
+<span id="more"></span>
+
+<h3 id="表單的啟用"><a href="#表單的啟用" class="headerlink" title="表單的啟用"></a>表單的啟用</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">menu:</span><br><span class="line">  #home: / || fa fa-home                      # 首頁</span><br><span class="line">  #about: /about/ || fa fa-user               # 關於我</span><br><span class="line">  #tags: /tags/ || fa fa-tags                 # 標籤</span><br><span class="line">  #categories: /categories/ || fa fa-th       # 目錄</span><br><span class="line">  #archives: /archives/ || fa fa-archive      # 歷史記錄</span><br><span class="line">  #schedule: /schedule/ || fa fa-calendar</span><br><span class="line">  #sitemap: /sitemap.xml || fa fa-sitemap     # 網站地圖</span><br><span class="line">  #commonweal: /404/ || fa fa-heartbeat</span><br></pre></td></tr></table></figure>
+
+<h3 id="社群主題連結的啟用"><a href="#社群主題連結的啟用" class="headerlink" title="社群主題連結的啟用"></a>社群主題連結的啟用</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">social:</span><br><span class="line">  GitHub: https://yufong6688.github.io || fab fa-github</span><br><span class="line">  E-Mail: cyc0815@gmail.com || fa fa-envelope</span><br><span class="line">  #Weibo: https://weibo.com/yourname || fab fa-weibo</span><br><span class="line">  #Google: https://plus.google.com/yourname || fab fa-google</span><br><span class="line">  #Twitter: https://twitter.com/yourname || fab fa-twitter</span><br><span class="line">  FB Page: https://www.facebook.com/yufong168/ || fab fa-facebook</span><br><span class="line">  #StackOverflow: https://stackoverflow.com/yourname || fab fa-stack-overflow</span><br><span class="line">  YouTube: https://www.youtube.com/channel/UCmOVf2aU80x4GuziXT6Ap7Q || fab fa-youtube</span><br><span class="line">  Instagram: https://www.instagram.com/yufongchen/ || fab fa-instagram</span><br><span class="line">  Linkedln: https://www.linkedin.com/in/yufong-chen-088b82116/recent-activity/ || fab fa-linkedin-in</span><br><span class="line">  #Skype: skype:yourname?call|chat || fab fa-skype</span><br></pre></td></tr></table></figure>
+<h3 id="右上角Github黑貓連結"><a href="#右上角Github黑貓連結" class="headerlink" title="右上角Github黑貓連結"></a>右上角Github黑貓連結</h3><p> <img src="/images/NEXT%E4%B8%BB%E9%A1%8C%E8%A8%AD%E5%AE%9A01.webp"></p>
+<ul>
+<li>至<a href="https://tholman.com/github-corners/">GitHub Corners</a>或<a href="https://github.blog/2008-12-19-github-ribbons/">GitHub Ribbons</a> 選一種樣式，複製程式碼</li>
+<li>開啟 <code>\themes\next\layout\_layout.njk</code> 加入剛才複製的程式碼<br> <img src="/images/NEXT%E4%B8%BB%E9%A1%8C%E8%A8%AD%E5%AE%9A02.webp"></li>
+<li>修改<code>&lt;a herf=&quot;URL&quot;&gt;</code>把URL改成自已Github的網址</li>
+</ul>
+<h3 id="隱藏網頁底部powered-By-Hexo-x2F-強力驅動"><a href="#隱藏網頁底部powered-By-Hexo-x2F-強力驅動" class="headerlink" title="隱藏網頁底部powered By Hexo &#x2F; 強力驅動"></a>隱藏網頁底部powered By Hexo &#x2F; 強力驅動</h3><p>  打開themes&#x2F;next&#x2F;layout&#x2F;_partials&#x2F;footer.njk，找到下面這段程式，<br>  使用註釋<code>&lt;!-- 程式碼 --&gt;</code>將程式碼註釋成不執行<br>  <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;!--</span><br><span class="line">&#123;%- if theme.footer.powered %&#125;</span><br><span class="line">  &lt;div class=&quot;powered-by&quot;&gt;</span><br><span class="line">    &#123;%- set next_site = &#x27;https://theme-next.js.org&#x27; if theme.scheme === &#x27;Gemini&#x27; else &#x27;https://theme-next.js.org/&#x27; + theme.scheme | lower + &#x27;/&#x27; %&#125;</span><br><span class="line">    &#123;&#123;- __(&#x27;footer.powered&#x27;, next_url(&#x27;https://hexo.io&#x27;, &#x27;Hexo&#x27;) + &#x27; &amp; &#x27; + next_url(next_site, &#x27;NexT.&#x27; + theme.scheme)) &#125;&#125;</span><br><span class="line">  &lt;/div&gt;</span><br><span class="line">&#123;%- endif %&#125;</span><br><span class="line">--&gt;</span><br></pre></td></tr></table></figure></p>
+]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>NEXT</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2022/08/15/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<span id="more"></span>
+
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+</search>
