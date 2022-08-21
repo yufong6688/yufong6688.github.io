@@ -182,7 +182,8 @@
 <li>做完三種驗證方式,輸入指令 <code>hexo g -d</code></li>
 <li>回到 <a href="https://search.google.com/search-console/welcome">Google Search Console</a> 輸入網址再驗證一次<br>三種驗證方式,終於驗證過了,但不曉得是哪一個方式過的</li>
 </ol>
-<h4 id="建立Schedule"><a href="#建立Schedule" class="headerlink" title="建立Schedule"></a>建立Schedule</h4><hr>
+<h4 id="建立Schedule"><a href="#建立Schedule" class="headerlink" title="建立Schedule"></a>建立Schedule</h4><p><a href="https://theme-next.js.org/docs/theme-settings/custom-pages">建立Schedule教學</a><br>目前還在努力中~~~</p>
+<hr>
 <p></br><font size="6" color=red><center> 【 常使用的Hexo命令 】 </center></font></p>
 <blockquote>
 <h3 id="常使用的Hexo命令"><a href="#常使用的Hexo命令" class="headerlink" title="常使用的Hexo命令"></a>常使用的Hexo命令</h3><p>啟動本地Server ＞ 自訂埠號 ＞ 自訂位址 ＞ 部署 ＞ 產生靜態檔案 ＞清除快取 ＞ 新增文章</p>
