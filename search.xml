@@ -188,9 +188,8 @@
 <li>取得 <a href="https://console.cloud.google.com/apis/enableflow?apiid=calendar&project=evident-theory-274521">Google Calendar API</a><br> <img src="/images/20220814HexoHexoLearningJourney_pic23.webp"><br> <img src="/images/20220814HexoHexoLearningJourney_pic24.webp"><br> <img src="/images/20220814HexoHexoLearningJourney_pic25.webp"><br> <img src="/images/20220814HexoHexoLearningJourney_pic26.webp"><br> 點選【API金鑰】<br> <img src="/images/20220814HexoHexoLearningJourney_pic27.webp"><br> 取得【API金鑰】</li>
 <li>開啟NexT <code>_config.yml</code></li>
 <li>找到calendar: 把<code>calenndar_id</code> + <code>api_key</code> 兩個填入<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">calendar:</span><br><span class="line">  calendar_id: &lt;required&gt;</span><br><span class="line">  api_key: &lt;required&gt;</span><br><span class="line">  orderBy: startTime</span><br><span class="line">  showLocation: false</span><br><span class="line">  offsetMax: 72</span><br><span class="line">  offsetMin: 4</span><br><span class="line">  showDeleted: false</span><br><span class="line">  singleEvents: true</span><br><span class="line">  maxResults: 250</span><br></pre></td></tr></table></figure></li>
+<li>完成,當點了左側 【時間表】會顯示近日的行程安排</li>
 </ol>
-<p>5.完成,當點了左側 </p>
-<p>6.<br>7. </p>
 <hr>
 <p></br><font size="6" color=red><center> 【 常使用的Hexo命令 】 </center></font></p>
 <blockquote>
