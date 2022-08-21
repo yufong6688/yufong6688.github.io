@@ -137,8 +137,8 @@
 <li>完成後 Menu最下方多了一個搜尋<br><img src="/images/20220814HexoHexoLearningJourney_pic12.webp"></li>
 </ol>
 <hr>
-<p></br><font size="6" color=red><center> 【 解決Menu 不可用問題 】</center></font></p>
-<h3 id="解決Menu-不可用問題"><a href="#解決Menu-不可用問題" class="headerlink" title="解決Menu 不可用問題"></a>解決Menu 不可用問題</h3><p>初次建好的Hexo有很多Menu點了會出現錯誤，這章節要處理Menu部份的問題</p>
+<p></br><font size="6" color=red><center> 【 解決Menu 點擊無作用 】</center></font></p>
+<h3 id="解決Menu-點擊無作用"><a href="#解決Menu-點擊無作用" class="headerlink" title="解決Menu 點擊無作用"></a>解決Menu 點擊無作用</h3><p>初次建好的Hexo有很多Menu點了會出現錯誤，這章節要處理Menu部份的問題</p>
 <h4 id="建立About-關於"><a href="#建立About-關於" class="headerlink" title="建立About 關於"></a>建立About 關於</h4><ol>
 <li>建立一個 About 關於頁面<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo new page &quot;about&quot;</span><br></pre></td></tr></table></figure>
 <img src="/images/20220814HexoHexoLearningJourney_pic10.webp">  </li>
