@@ -171,9 +171,10 @@
 </ol>
 <h4 id="建立sitemap"><a href="#建立sitemap" class="headerlink" title="建立sitemap"></a>建立sitemap</h4><ol>
 <li>安裝插件<br><code> npm install hexo-generator-sitemap --save  npm install hexo-generator-baidu-sitemap --save</code></li>
-<li></li>
+<li><a href="https://search.google.com/search-console/welcome?utm_source=about-page">Google Search Console</a> 輸入網址，取得<code>google-site-verification</code></li>
+<li>開啟<code>/themes/next/_config.yml</code>,填入<code>google-site-verification</code><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># Google Webmaster tools verification.</span><br><span class="line"># See: https://developers.google.com/search</span><br><span class="line">google_site_verification:  # 填入剛剛取得的`google-site-verification`</span><br></pre></td></tr></table></figure></li>
 </ol>
-<hr>
+<h4 id="建立Schedule"><a href="#建立Schedule" class="headerlink" title="建立Schedule"></a>建立Schedule</h4><hr>
 <p></br><font size="6" color=red><center> 【 常使用的Hexo命令 】 </center></font></p>
 <blockquote>
 <h3 id="常使用的Hexo命令"><a href="#常使用的Hexo命令" class="headerlink" title="常使用的Hexo命令"></a>常使用的Hexo命令</h3><p>啟動本地Server ＞ 自訂埠號 ＞ 自訂位址 ＞ 部署 ＞ 產生靜態檔案 ＞清除快取 ＞ 新增文章</p>
