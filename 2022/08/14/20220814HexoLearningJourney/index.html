@@ -42,11 +42,15 @@
 <meta property="og:image" content="http://example.com/images/20220814HexoHexoLearningJourney_pic09.webp">
 <meta property="og:image" content="http://example.com/images/20220814HexoHexoLearningJourney_pic13.webp">
 <meta property="og:image" content="http://example.com/images/20220814HexoHexoLearningJourney_pic14.webp">
+<meta property="og:image" content="http://example.com/images/20220814HexoHexoLearningJourney_pic15.webp">
+<meta property="og:image" content="http://example.com/images/20220814HexoHexoLearningJourney_pic16.webp">
+<meta property="og:image" content="http://example.com/images/20220814HexoHexoLearningJourney_pic17.webp">
+<meta property="og:image" content="http://example.com/images/20220814HexoHexoLearningJourney_pic18.webp">
 <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/e/e9/Hexo-logo.png">
 <meta property="og:image" content="http://example.com/Hexo-logo.png">
 <meta property="og:image" content="http://example.com/2022/08/14/20220814HexoLearningJourney/Hexo-logo.png">
 <meta property="article:published_time" content="2022-08-14T03:22:00.000Z">
-<meta property="article:modified_time" content="2022-08-21T14:24:57.012Z">
+<meta property="article:modified_time" content="2022-08-21T15:28:56.307Z">
 <meta property="article:author" content="Yufong Chen">
 <meta property="article:tag" content="Hexo">
 <meta name="twitter:card" content="summary">
@@ -286,7 +290,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新於</span>
-      <time title="修改時間：2022-08-21 22:24:57" itemprop="dateModified" datetime="2022-08-21T22:24:57+08:00">2022-08-21</time>
+      <time title="修改時間：2022-08-21 23:28:56" itemprop="dateModified" datetime="2022-08-21T23:28:56+08:00">2022-08-21</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -441,13 +445,18 @@
 <li><p>加完之後本來左邊欄的分類按了會出錯,現在可以動作了<br><img src="/images/20220814HexoHexoLearningJourney_pic14.webp"></p>
 </li>
 </ol>
-<h4 id="建立sitemap"><a href="#建立sitemap" class="headerlink" title="建立sitemap"></a>建立sitemap</h4><p>[教學1]（<a target="_blank" rel="noopener" href="https://askie.today/upload-sitemap-google-search-console-seo-hexo-blog/%EF%BC%89">https://askie.today/upload-sitemap-google-search-console-seo-hexo-blog/）</a></p>
+<h4 id="建立sitemap"><a href="#建立sitemap" class="headerlink" title="建立sitemap"></a>建立sitemap</h4><p><a target="_blank" rel="noopener" href="https://askie.today/upload-sitemap-google-search-console-seo-hexo-blog/">教學1</a><br><a target="_blank" rel="noopener" href="https://wst24365888.github.io/hexo-sitemap/">教學2</a></p>
 <ol>
-<li>安裝插件<br><code> npm install hexo-generator-sitemap --save  npm install hexo-generator-baidu-sitemap --save</code></li>
+<li>安裝插件 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-generator-sitemap --save</span><br><span class="line">npm install hexo-generator-baidu-sitemap --save</span><br></pre></td></tr></table></figure></li>
 <li>開啟根目錄下的<code>_config.yml</code> 加入下列幾行<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">#Sitemap</span><br><span class="line">sitemap:</span><br><span class="line">  path: sitemap.xml</span><br></pre></td></tr></table></figure></li>
 <li><code>hexo g -d</code></li>
-<li>到[Google Search Console](<a target="_blank" rel="noopener" href="https://search.google.com/search-console/welcome">https://search.google.com/search-console/welcome</a>? 中 Sitemap 的選項去提交網址就行了</li>
-<li>開啟<code>/themes/next/_config.yml</code>,填入<code>google-site-verification</code><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"># Google Webmaster tools verification.</span><br><span class="line"># See: https://developers.google.com/search</span><br><span class="line">google_site_verification:  # 填入剛剛取得的`google-site-verification`</span><br></pre></td></tr></table></figure></li>
+<li>因為 <a target="_blank" rel="noopener" href="https://search.google.com/search-console/welcome">Google Search Console</a> 提供的驗證方式多種,不曉得何者有用,因此三種都用了,總有一個會過關</li>
+<li><a target="_blank" rel="noopener" href="https://search.google.com/search-console/welcome">Google Search Console</a> 提交網址</li>
+<li>第一種驗證方法：使用【HTML檔案上傳】方式,輸入Github網址,按繼續<br><img src="/images/20220814HexoHexoLearningJourney_pic15.webp"><br><img src="/images/20220814HexoHexoLearningJourney_pic16.webp"><br> 將上圖下載的檔案放到 \public\的目錄裡</li>
+<li>第二種驗證方法：使用其它驗證方法,選擇第一種【HTML標記】,複製<code>&lt;meta name=&quot;google-site....&gt;</code><br><img src="/images/20220814HexoHexoLearningJourney_pic17.webp"><br>開啟<code>\public\index.html</code>, 把剛複製的貼在 <code>&lt;head&gt;.....&lt;/head&gt;</code>之間</li>
+<li>第三種驗證方法：【使用網域名稱供應商】<br>   <img src="/images/20220814HexoHexoLearningJourney_pic18.webp"><br> 按下複製,並開啟<code>/themes/next/_config.yml</code>,填入剛才複製的<code>google-site-verification</code>值  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"># Google Webmaster tools verification.</span><br><span class="line"># See: https://developers.google.com/search</span><br><span class="line">google_site_verification:  # 填入剛剛取得的`google-site-verification`</span><br></pre></td></tr></table></figure></li>
+<li>做完三種驗證方式,輸入指令 <code>hexo g -d</code></li>
+<li>回到 <a target="_blank" rel="noopener" href="https://search.google.com/search-console/welcome">Google Search Console</a> 輸入網址再驗證一次<br>三種驗證方式,終於驗證過了,但不曉得是哪一個方式過的</li>
 </ol>
 <h4 id="建立Schedule"><a href="#建立Schedule" class="headerlink" title="建立Schedule"></a>建立Schedule</h4><hr>
 <p></br><font size="6" color=red><center> 【 常使用的Hexo命令 】 </center></font></p>
