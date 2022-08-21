@@ -292,74 +292,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Hexo常用的編輯指令</title>
-    <url>/2022/08/20/Hexo%E5%B8%B8%E7%94%A8%E7%9A%84%E7%B7%A8%E8%BC%AF%E6%8C%87%E4%BB%A4/</url>
-    <content><![CDATA[<h3 id="連結篇"><a href="#連結篇" class="headerlink" title="連結篇"></a>連結篇</h3><h4 id="連結到Hexo其它文章"><a href="#連結到Hexo其它文章" class="headerlink" title="連結到Hexo其它文章"></a>連結到Hexo其它文章</h4><p>必須考慮移植性，不管未來網頁網址如何變它都不會因為此而失連,使用Hexo內置的標籤語法</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% post_link 文件名 &#x27;文章別名&#x27;%&#125;</span><br><span class="line">範例：</span><br><span class="line">&#123;% post_link &#x27;hello-world Hexo安裝好內建的第一篇文章&#x27; %&#125;</span><br><span class="line">&#123;% post_link &#x27;hello-world Hexo&lt;b&gt;加入粗體&lt;/b&gt;&#x27; %&#125;</span><br></pre></td></tr></table></figure>
-<ul>
-<li>文件名：Hexo內建文章,hello-world.md<br><img src="/images/Hexo%E5%B8%B8%E7%94%A8%E7%9A%84%E7%B7%A8%E8%BC%AF%E6%8C%87%E4%BB%A401.webp">  </li>
-<li>文章別名：簡短介紹這個連結</li>
-<li>範例執行1：<a href="/2022/08/15/hello-world/" title="Hexo安裝好內建的第一篇文章">Hexo安裝好內建的第一篇文章</a></li>
-<li>範例執行2：<a href="/2022/08/15/hello-world/" title="Hexo&lt;b&gt;加入粗體&lt;&#x2F;b&gt;">Hexo&lt;b&gt;加入粗體&lt;&#x2F;b&gt;</a></li>
-</ul>
-<span id="more"></span>
-
-
-<blockquote>
-<h3 id="如何插入圖片"><a href="#如何插入圖片" class="headerlink" title="如何插入圖片"></a>如何插入圖片</h3><p>圖片插入方式：插入圖片使用外部連結 ＞ 絕對路徑 ＞ 相對路徑 ＞ </p>
-</blockquote>
-<h4 id="插入外部連結圖片"><a href="#插入外部連結圖片" class="headerlink" title="插入外部連結圖片"></a>插入外部連結圖片</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![這是外部連結圖片](https://upload.wikimedia.org/wikipedia/commons/e/e9/Hexo-logo.png)</span><br></pre></td></tr></table></figure>
-<p><img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Hexo-logo.png" alt="這是外部連結圖片"></p>
-<h4 id="絕對路徑"><a href="#絕對路徑" class="headerlink" title="絕對路徑"></a>絕對路徑</h4><p>不管在哪個位置,圖片都放在固定的一個位置</p>
-<ol>
-<li>將圖片存放 <code>/source/images/</code></li>
-<li>語法如下<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![](/images/pic01.png)</span><br></pre></td></tr></table></figure></li>
-<li>因為相對路徑存放圖片都無法顯示，所以目前做法是使用絕對路徑，全部存放在同一資料夾，然後用文件來做前置命名+流水號這樣做法優點防止將來文件一多資料夾就會産生一堆，如果要找某張圖但忘了文件名稱要找就很不容易了，放一起可以一次瀏覽全部圖片，但未來還是會找個圖床來放圖片</li>
-</ol>
-<h4 id="相對路徑"><a href="#相對路徑" class="headerlink" title="相對路徑"></a>相對路徑</h4><p>圖片會跟著文章一起被建立,會建一個和文章同名的資料夾來放圖片</p>
-<ol>
-<li>修改<code>_config.yml</code><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">post_asset_folder: true</span><br></pre></td></tr></table></figure></li>
-</ol>
-<p>修改後以後使用 <code>$ hexo new post_name</code> 建立的文章會在 <code>source/_posts</code>目錄出現,檔案名稱為 <code>post_name.md</code>,另外也會建立一個同名的資料夾 <code>post_name</code>,圖片就放在該資料夾裡。</p>
-
-<ol start="2">
-<li><p>使用Makedown語法插入圖片</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![](image.jpg)</span><br></pre></td></tr></table></figure>
-<p>如果試不出來要改成</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% asset_img image.jpg 這是一張圖片 %&#125;</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>使用Makedown語法插入圖片</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">使用![](Hexo-logo.png)語法(會有問題)</span><br></pre></td></tr></table></figure>
-<p><img src="/Hexo-logo.png"></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">使用 &#123;% asset_img Hexo-logo.png 這是一張圖片 %&#125; 語法</span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-<h4 id="使用外掛-hexo-renderer-marked"><a href="#使用外掛-hexo-renderer-marked" class="headerlink" title="使用外掛 hexo-renderer-marked"></a>使用外掛 <code>hexo-renderer-marked</code></h4><ol>
-<li>安裝<code>hexo-renderer-marked</code> 插件<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ npm install hexo-renderer-marked --save</span><br></pre></td></tr></table></figure></li>
-<li>開啟 <code>_config.yml</code> 加入下面參數設定<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">post_asset_folder: true</span><br><span class="line">marked:</span><br><span class="line">  prependRoot: true  #將根值附加到（內部）圖像路徑。 root : /blog/</span><br><span class="line">  postAsset: true  # 將 post 資產的圖像路徑解析為相對路徑</span><br></pre></td></tr></table></figure>
- 啟用後，資產圖像將自動解析為其相應帖子的路徑。<br> 例如，<code>“image.jpg”</code>位於<code>“/2020/01/02/foo/image.jpg”</code>，表示它是<code>“/2020/01/02/foo/”</code>帖子的資產圖片，將被渲染為<code> .![](image.jpg)&lt;img src=&quot;/2020/01/02/foo/image.jpg&quot;&gt;</code></li>
-<li>參數解析<br>因為<code>marked:</code>有眾多參數，詳細參數仍要看原始說明<br> <a href="https://github.com/hexojs/hexo-renderer-marked">hexo-renderer-marked </a></li>
-</ol>
-<h4 id="Typora插入方式"><a href="#Typora插入方式" class="headerlink" title="Typora插入方式"></a>Typora插入方式</h4><p><a href="https://www.gushiciku.cn/pl/ptBs/zh-tw">其它使用外掛及Typora插入方式</a></p>
-<hr>
-<h3 id="標籤外掛"><a href="#標籤外掛" class="headerlink" title="標籤外掛"></a>標籤外掛</h3><h4 id="官網標籤外掛"><a href="#官網標籤外掛" class="headerlink" title="官網標籤外掛"></a><a href="https://hexo.io/zh-tw/docs/tag-plugins">官網標籤外掛</a></h4><p>有空要來研究一下</p>
-<blockquote><p>Do not just seek happiness for yourself. Seek happiness for all. Through kindness. Through mercy.</p>
-<footer><strong>David Levithan</strong><cite>Wide Awake</cite></footer></blockquote>
-
-<hr>
-<blockquote><p>NEW: DevDocs now comes with syntax highlighting. <a href="http://devdocs.io/">http://devdocs.io</a></p>
-<footer><strong>@DevDocs</strong><cite><a href="https://twitter.com/devdocs/status/356095192085962752">twitter.com/devdocs/status/356095192085962752</a></cite></footer></blockquote>
-
-
-]]></content>
-      <categories>
-        <category>Hexo</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>NEXT主題設定</title>
     <url>/2022/08/16/NEXT%E4%B8%BB%E9%A1%8C%E8%A8%AD%E5%AE%9A/</url>
     <content><![CDATA[<h1 id="記錄Hexo的NEXT主題的設定"><a href="#記錄Hexo的NEXT主題的設定" class="headerlink" title="記錄Hexo的NEXT主題的設定"></a>記錄Hexo的NEXT主題的設定</h1><h2 id="Schemes四種主題"><a href="#Schemes四種主題" class="headerlink" title="Schemes四種主題"></a><code>Schemes</code>四種主題</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># Schemes</span><br><span class="line">scheme: Muse</span><br><span class="line">#scheme: Mist</span><br><span class="line">#scheme: Pisces</span><br><span class="line">#scheme: Gemini</span><br></pre></td></tr></table></figure>
@@ -436,6 +368,74 @@
       <tags>
         <tag>Hexo</tag>
         <tag>NEXT</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo常用的編輯指令</title>
+    <url>/2022/08/20/Hexo%E5%B8%B8%E7%94%A8%E7%9A%84%E7%B7%A8%E8%BC%AF%E6%8C%87%E4%BB%A4/</url>
+    <content><![CDATA[<h3 id="連結篇"><a href="#連結篇" class="headerlink" title="連結篇"></a>連結篇</h3><h4 id="連結到Hexo其它文章"><a href="#連結到Hexo其它文章" class="headerlink" title="連結到Hexo其它文章"></a>連結到Hexo其它文章</h4><p>必須考慮移植性，不管未來網頁網址如何變它都不會因為此而失連,使用Hexo內置的標籤語法</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% post_link 文件名 &#x27;文章別名&#x27;%&#125;</span><br><span class="line">範例：</span><br><span class="line">&#123;% post_link &#x27;hello-world Hexo安裝好內建的第一篇文章&#x27; %&#125;</span><br><span class="line">&#123;% post_link &#x27;hello-world Hexo&lt;b&gt;加入粗體&lt;/b&gt;&#x27; %&#125;</span><br></pre></td></tr></table></figure>
+<ul>
+<li>文件名：Hexo內建文章,hello-world.md<br><img src="/images/Hexo%E5%B8%B8%E7%94%A8%E7%9A%84%E7%B7%A8%E8%BC%AF%E6%8C%87%E4%BB%A401.webp">  </li>
+<li>文章別名：簡短介紹這個連結</li>
+<li>範例執行1：<a href="/2022/08/15/hello-world/" title="Hexo安裝好內建的第一篇文章">Hexo安裝好內建的第一篇文章</a></li>
+<li>範例執行2：<a href="/2022/08/15/hello-world/" title="Hexo&lt;b&gt;加入粗體&lt;&#x2F;b&gt;">Hexo&lt;b&gt;加入粗體&lt;&#x2F;b&gt;</a></li>
+</ul>
+<span id="more"></span>
+
+
+<blockquote>
+<h3 id="如何插入圖片"><a href="#如何插入圖片" class="headerlink" title="如何插入圖片"></a>如何插入圖片</h3><p>圖片插入方式：插入圖片使用外部連結 ＞ 絕對路徑 ＞ 相對路徑 ＞ </p>
+</blockquote>
+<h4 id="插入外部連結圖片"><a href="#插入外部連結圖片" class="headerlink" title="插入外部連結圖片"></a>插入外部連結圖片</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![這是外部連結圖片](https://upload.wikimedia.org/wikipedia/commons/e/e9/Hexo-logo.png)</span><br></pre></td></tr></table></figure>
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Hexo-logo.png" alt="這是外部連結圖片"></p>
+<h4 id="絕對路徑"><a href="#絕對路徑" class="headerlink" title="絕對路徑"></a>絕對路徑</h4><p>不管在哪個位置,圖片都放在固定的一個位置</p>
+<ol>
+<li>將圖片存放 <code>/source/images/</code></li>
+<li>語法如下<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![](/images/pic01.png)</span><br></pre></td></tr></table></figure></li>
+<li>因為相對路徑存放圖片都無法顯示，所以目前做法是使用絕對路徑，全部存放在同一資料夾，然後用文件來做前置命名+流水號這樣做法優點防止將來文件一多資料夾就會産生一堆，如果要找某張圖但忘了文件名稱要找就很不容易了，放一起可以一次瀏覽全部圖片，但未來還是會找個圖床來放圖片</li>
+</ol>
+<h4 id="相對路徑"><a href="#相對路徑" class="headerlink" title="相對路徑"></a>相對路徑</h4><p>圖片會跟著文章一起被建立,會建一個和文章同名的資料夾來放圖片</p>
+<ol>
+<li>修改<code>_config.yml</code><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">post_asset_folder: true</span><br></pre></td></tr></table></figure></li>
+</ol>
+<p>修改後以後使用 <code>$ hexo new post_name</code> 建立的文章會在 <code>source/_posts</code>目錄出現,檔案名稱為 <code>post_name.md</code>,另外也會建立一個同名的資料夾 <code>post_name</code>,圖片就放在該資料夾裡。</p>
+
+<ol start="2">
+<li><p>使用Makedown語法插入圖片</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![](image.jpg)</span><br></pre></td></tr></table></figure>
+<p>如果試不出來要改成</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% asset_img image.jpg 這是一張圖片 %&#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>使用Makedown語法插入圖片</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">使用![](Hexo-logo.png)語法(會有問題)</span><br></pre></td></tr></table></figure>
+<p><img src="/Hexo-logo.png"></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">使用 &#123;% asset_img Hexo-logo.png 這是一張圖片 %&#125; 語法</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<h4 id="使用外掛-hexo-renderer-marked"><a href="#使用外掛-hexo-renderer-marked" class="headerlink" title="使用外掛 hexo-renderer-marked"></a>使用外掛 <code>hexo-renderer-marked</code></h4><ol>
+<li>安裝<code>hexo-renderer-marked</code> 插件<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ npm install hexo-renderer-marked --save</span><br></pre></td></tr></table></figure></li>
+<li>開啟 <code>_config.yml</code> 加入下面參數設定<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">post_asset_folder: true</span><br><span class="line">marked:</span><br><span class="line">  prependRoot: true  #將根值附加到（內部）圖像路徑。 root : /blog/</span><br><span class="line">  postAsset: true  # 將 post 資產的圖像路徑解析為相對路徑</span><br></pre></td></tr></table></figure>
+ 啟用後，資產圖像將自動解析為其相應帖子的路徑。<br> 例如，<code>“image.jpg”</code>位於<code>“/2020/01/02/foo/image.jpg”</code>，表示它是<code>“/2020/01/02/foo/”</code>帖子的資產圖片，將被渲染為<code> .![](image.jpg)&lt;img src=&quot;/2020/01/02/foo/image.jpg&quot;&gt;</code></li>
+<li>參數解析<br>因為<code>marked:</code>有眾多參數，詳細參數仍要看原始說明<br> <a href="https://github.com/hexojs/hexo-renderer-marked">hexo-renderer-marked </a></li>
+</ol>
+<h4 id="Typora插入方式"><a href="#Typora插入方式" class="headerlink" title="Typora插入方式"></a>Typora插入方式</h4><p><a href="https://www.gushiciku.cn/pl/ptBs/zh-tw">其它使用外掛及Typora插入方式</a></p>
+<hr>
+<h3 id="標籤外掛"><a href="#標籤外掛" class="headerlink" title="標籤外掛"></a>標籤外掛</h3><h4 id="官網標籤外掛"><a href="#官網標籤外掛" class="headerlink" title="官網標籤外掛"></a><a href="https://hexo.io/zh-tw/docs/tag-plugins">官網標籤外掛</a></h4><p>有空要來研究一下</p>
+<blockquote><p>Do not just seek happiness for yourself. Seek happiness for all. Through kindness. Through mercy.</p>
+<footer><strong>David Levithan</strong><cite>Wide Awake</cite></footer></blockquote>
+
+<hr>
+<blockquote><p>NEW: DevDocs now comes with syntax highlighting. <a href="http://devdocs.io/">http://devdocs.io</a></p>
+<footer><strong>@DevDocs</strong><cite><a href="https://twitter.com/devdocs/status/356095192085962752">twitter.com/devdocs/status/356095192085962752</a></cite></footer></blockquote>
+
+
+]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
       </tags>
   </entry>
   <entry>
