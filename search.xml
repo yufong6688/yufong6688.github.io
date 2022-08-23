@@ -160,7 +160,7 @@
 <hr>
 <p></br><font size="6" color=red><center> 【 文章置頂 】 </center></font></p>
 <blockquote>
-<h3 id="文章置頂"><a href="#文章置頂" class="headerlink" title="文章置頂"></a>文章置頂</h3><p>本來想使用<code>hexo-generator-topindex</code>後來安裝後有錯誤產生,<br>猜想可能和<code>hexo-generator-index</code>有沖突,查詢其它解決方法,<br>發現不用安裝任何套件而是修改<code>hexo-generator-index</code>裡的程式碼<br>因為查到的有二個版本,第一個版本實作是可行,第二版本還沒試,<br>二個版本的做法都做個記錄</p>
+<h3 id="文章置頂"><a href="#文章置頂" class="headerlink" title="文章置頂"></a>文章置頂</h3><p>參考了二篇文章：「<a href="http://hongyitong.github.io/2017/01/06/Hexo%E6%96%87%E7%AB%A0%E7%BD%AE%E9%A1%B6/">文章1</a>、<a href="https://blog.51cto.com/u_15477117/4919708">文章2</a><br>本來想使用<code>hexo-generator-topindex</code>後來安裝後有錯誤產生,<br>猜想可能和<code>hexo-generator-index</code>有沖突,查詢其它解決方法,<br>發現不用安裝任何套件而是修改<code>hexo-generator-index</code>裡的程式碼<br>因為查到的有二個版本,第一個版本實作是可行,第二版本還沒試,<br>二個版本的做法都做個記錄</p>
 </blockquote>
 <h4 id="方法一：程式修改版本一-可行"><a href="#方法一：程式修改版本一-可行" class="headerlink" title="方法一：程式修改版本一(可行 )"></a>方法一：程式修改版本一(可行 )</h4><ol>
 <li>開啟Blog目錄中的<code>\node_modules\hexo-generator-index\lib\generator.js</code></li>
@@ -499,7 +499,9 @@
 <h2 id="緣起"><a href="#緣起" class="headerlink" title="緣起"></a>緣起</h2><p>我們都知道希望小孩學習的東西並不見得是他想學的,他想學的可能是和學業扯不上一點關係,像我家的小孩就很喜歡玩史萊姆,一叫她看英文就興趣缺缺。學習是有門檻,也就是剛開始會比較難,像英文從來不背單字的,即使靠著自然發音他都感覺十分有難度，但是半強迫加上使用Wordup及ANKI加一些學習法，滴水穿石的學習，慢慢的記得越來越多字，英文讀久了就會發現某些音就能連出某串字例如：tion、and、all、ter、ch、eat、side、ing、der、ly、air…隨著背的單字到達一個門檻配合發音記憶就很快也能越背越長。所以任何學習一旦跨過了門檻學習速度就會提升，但如果沒跨過則一切都歸零。這也是我堅持教小孩自學我就是不想讓小孩去補英文，補了沒複習久了也忘光了。</p>
 </blockquote>
 <span id="more"></span>
-<p>＞## 任務卡設計的作用<br>由於學習最初門檻都很高，於是我想到來設計任務卡，做了之後發現我好像在設計一款卡片遊戲，它的作用</p>
+<blockquote>
+<h2 id="任務卡設計的作用"><a href="#任務卡設計的作用" class="headerlink" title="任務卡設計的作用"></a>任務卡設計的作用</h2><p>由於學習最初門檻都很高，於是我想到來設計任務卡，做了之後發現我好像在設計一款卡片遊戲，它的作用</p>
+</blockquote>
 <ol>
 <li>學習能專注在一個任務或二個任務<br>不能一次發太多，會失焦然後達不到反而沒信心</li>
 <li>任務要有奬勵，直接就發金錢<br>因為我發現小孩有錢她還不知道要花在哪？順便學會理財金錢觀</li>
