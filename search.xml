@@ -263,35 +263,31 @@
 <li>使用方法  <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% spoiler option:value text... %&#125;</span><br></pre></td></tr></table></figure>
   <a href="https://github.com/unnamed42/hexo-spoiler">相關參數設定</a></li>
 <li>使用限制<ul>
-<li>不支援像這樣的塊元素。<blockquote><figure></li>
+<li>不支援像這樣的塊元素。<code>&lt;blockquote&gt;&lt;figure&gt;</code></li>
 <li>由於 hexo 標籤的限制，與上下文相關的功能（如 markdown 腳注）將無法正確呈現。呈現器實例與後期呈現中使用的實例不同，因此它對上下文一無所知。</li>
 <li>可惜會和hexo-sliding-spoilery産生干擾</li>
 </ul>
 </li>
-<li>使用範例<br>– <font size=5 color=red>範例1</font><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% spoiler style:box color:rgb(173, 20, 83, 0.5) `inline code` [link](https://example.com) *italic* ~~delete~~ **bold** %&#125;   &#123;% endspoiler %&#125;</span><br></pre></td></tr></table></figure>
-
+<li>使用範例<br>– <font size=5 color=red>範例1</font><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% spoiler style:box color:rgb(173, 20, 83, 0.5) `inline code` [link](https://yufong6688.github.io) *italic* ~~delete~~ **bold** %&#125;   &#123;% endspoiler %&#125;</span><br></pre></td></tr></table></figure>
+運作：
   <span class="spoiler" onclick="this.classList.toggle('spoiler')">
-    <span class="spoiler-box ">color:rgb(173, 20, 83, 0.5) <code>inline code</code> <a href="https://example.com/">link</a> <em>italic</em> <del>delete</del> <strong>bold</strong></span>
-  </span><br>
-– <font size=5 color=red>範例2</font><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% spoiler style:box color:rgb(173,20,83,0.5) `inline code` [link](https://example.com) *italic* ~~delete~~ **bold** %&#125;   &#123;% endspoiler %&#125;</span><br></pre></td></tr></table></figure>
-運作<!-- spoiler-12297:rgb(173,20,83,0.5) -->
+    <span class="spoiler-box ">color:rgb(173, 20, 83, 0.5) <code>inline code</code> <a href="https://yufong6688.github.io/">link</a> <em>italic</em> <del>delete</del> <strong>bold</strong></span>
+  </span><br>– <font size=5 color=red>範例2</font><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% spoiler style:box color:rgb(173,20,83,0.5) `inline code` [link](https://yufong6688.github.io) *italic* ~~delete~~ **bold** %&#125;   &#123;% endspoiler %&#125;</span><br></pre></td></tr></table></figure>
+運作：<!-- spoiler-12297:rgb(173,20,83,0.5) -->
   <span class="spoiler" onclick="this.classList.toggle('spoiler')">
-    <span class="spoiler-box spoiler-12297"><code>inline code</code> <a href="https://example.com/">link</a> <em>italic</em> <del>delete</del> <strong>bold</strong></span>
-  </span><br>
-– <font size=5 color=red>範例3</font><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% spoiler p: unknown:invalid style:box [^footnote] %&#125;   &#123;% endspoiler %&#125;</span><br></pre></td></tr></table></figure>
-運作
+    <span class="spoiler-box spoiler-12297"><code>inline code</code> <a href="https://yufong6688.github.io/">link</a> <em>italic</em> <del>delete</del> <strong>bold</strong></span>
+  </span><br>– <font size=5 color=red>範例3</font><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% spoiler p: unknown:invalid style:box [^footnote] %&#125; &#123;% endspoiler %&#125;</span><br></pre></td></tr></table></figure>
+運作：
   <p class="spoiler" onclick="this.classList.toggle('spoiler')">
     <span class="spoiler-blur ">unknown:invalid style:box [^footnote]</span>
-  </p><br>
-– <font size=5 color=red>範例4</font><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% spoiler style:box color:red p: `inline code` [link](https://example.com) *italic* ~~delete~~ **bold** %&#125;   &#123;% endspoiler %&#125;</span><br></pre></td></tr></table></figure>
-運作<!-- spoiler-bda96:red -->
+  </p><br>– <font size=5 color=red>範例4</font><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% spoiler style:box color:red p: `inline code` [link](https://yufong6688.github.io) *italic* ~~delete~~ **bold** %&#125;&#123;% endspoiler %&#125;</span><br></pre></td></tr></table></figure>
+運作：<!-- spoiler-bda96:red -->
   <p class="spoiler" onclick="this.classList.toggle('spoiler')">
-    <span class="spoiler-box spoiler-bda96"><code>inline code</code> <a href="https://example.com/">link</a> <em>italic</em> <del>delete</del> <strong>bold</strong></span>
-  </p><br>
-– <font size=5 color=red>範例5</font><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% spoiler p: color:red `inline code` [link](https://example.com) *italic* ~~delete~~ **bold** %&#125;   &#123;% endspoiler %&#125;</span><br></pre></td></tr></table></figure>
-運作<!-- spoiler-bda96:red -->
+    <span class="spoiler-box spoiler-bda96"><code>inline code</code> <a href="https://yufong6688.github.io/">link</a> <em>italic</em> <del>delete</del> <strong>bold</strong></span>
+  </p><br>– <font size=5 color=red>範例5</font><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% spoiler p: color:red `inline code` [link](https://yufong6688.github.io) *italic* ~~delete~~ **bold** %&#125;&#123;% endspoiler %&#125;</span><br></pre></td></tr></table></figure>
+運作：<!-- spoiler-bda96:red -->
   <p class="spoiler" onclick="this.classList.toggle('spoiler')">
-    <span class="spoiler-blur spoiler-bda96"><code>inline code</code> <a href="https://example.com/">link</a> <em>italic</em> <del>delete</del> <strong>bold</strong></span>
+    <span class="spoiler-blur spoiler-bda96"><code>inline code</code> <a href="https://yufong6688.github.io/">link</a> <em>italic</em> <del>delete</del> <strong>bold</strong></span>
   </p></li>
 </ol>
 <hr>
@@ -388,33 +384,6 @@
       </tags>
   </entry>
   <entry>
-    <title>任務卡製作</title>
-    <url>/2022/08/23/20220823%E4%BB%BB%E5%8B%99%E5%8D%A1%E8%A3%BD%E4%BD%9C/</url>
-    <content><![CDATA[<blockquote>
-<h2 id="緣起"><a href="#緣起" class="headerlink" title="緣起"></a>緣起</h2><p>我們都知道希望小孩學習的東西並不見得是他想學的,他想學的可能是和學業扯不上一點關係,像我家的小孩就很喜歡玩史萊姆,一叫她看英文就興趣缺缺。學習是有門檻,也就是剛開始會比較難,像英文從來不背單字的,即使靠著自然發音他都感覺十分有難度，但是半強迫加上使用Wordup及ANKI加一些學習法，滴水穿石的學習，慢慢的記得越來越多字，英文讀久了就會發現某些音就能連出某串字例如：tion、and、all、ter、ch、eat、side、ing、der、ly、air…隨著背的單字到達一個門檻配合發音記憶就很快也能越背越長。所以任何學習一旦跨過了門檻學習速度就會提升，但如果沒跨過則一切都歸零。這也是我堅持教小孩自學我就是不想讓小孩去補英文，補了沒複習久了也忘光了。</p>
-</blockquote>
-<span id="more"></span>
-<blockquote>
-<h2 id="任務卡設計的作用"><a href="#任務卡設計的作用" class="headerlink" title="任務卡設計的作用"></a>任務卡設計的作用</h2><p>由於學習最初門檻都很高，於是我想到來設計任務卡，做了之後發現我好像在設計一款卡片遊戲，它的作用</p>
-</blockquote>
-<ol>
-<li>學習能專注在一個任務或二個任務<br>不能一次發太多，會失焦然後達不到反而沒信心</li>
-<li>任務要有奬勵，直接就發金錢<br>因為我發現小孩有錢她還不知道要花在哪？順便學會理財金錢觀</li>
-<li>有些任務是教更小的妹妹<br>這還蠻伐算的投資，因為教學相長</li>
-<li>任務卡保留起來成為一個學習歷程<br>學習歷程是很重要的，因為更小的妹妹可跟著任務再跑一次</li>
-<li>學習自制教材也是任務中另一種加值<br>這裡的想法是讓小孩設計問題，例如讀一篇文章設計五個問題，一方便他會讀的更仔細，但作用在當妹妹再讀時我可以用這些問題問她，其它如anki、wordup卡面自製，自己複習…</li>
-<li>自拍小影片上傳，可能是學習或讀經什麼都可以，現在拍片還能賺錢</li>
-<li>還有其它沒想到的後面補充</li>
-</ol>
-<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
-      <categories>
-        <category>child</category>
-      </categories>
-      <tags>
-        <tag>child</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>20220815小孩的自學計劃</title>
     <url>/2022/08/15/20220815%E5%B0%8F%E5%AD%A9%E7%9A%84%E8%87%AA%E5%AD%B8%E8%A8%88%E5%8A%83/</url>
     <content><![CDATA[<h3 id="簡介"><a href="#簡介" class="headerlink" title="簡介"></a>簡介</h3><p>本區是大概記錄一下小孩的學習歷程，以及自己為了讓小孩自學買了什麼教案，看了哪些影片又買了哪些書，年齡到了就把該書拿出來給小孩讀，才不會忘了自己買過這些書要給小孩看，萬一忘了時間過了之前書的這些書、影片、APP…就白費了，另YOUTUBE有家長或老師讀繪本給小孩看，內容真的很不錯，這就省去了很多自己英文能力不好沒辦法去教小孩的煩惱…,大概我會把這些做個分齡可以時間到了就拿出來給小孩學習</p>
@@ -434,6 +403,33 @@
 <blockquote>
 <h4 id="自學工具"><a href="#自學工具" class="headerlink" title="自學工具"></a>自學工具</h4></blockquote>
 <h5 id="Wordup"><a href="#Wordup" class="headerlink" title="Wordup"></a>Wordup</h5><h5 id="ANKI"><a href="#ANKI" class="headerlink" title="ANKI"></a>ANKI</h5><link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+      <categories>
+        <category>child</category>
+      </categories>
+      <tags>
+        <tag>child</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>任務卡製作</title>
+    <url>/2022/08/23/20220823%E4%BB%BB%E5%8B%99%E5%8D%A1%E8%A3%BD%E4%BD%9C/</url>
+    <content><![CDATA[<blockquote>
+<h2 id="緣起"><a href="#緣起" class="headerlink" title="緣起"></a>緣起</h2><p>我們都知道希望小孩學習的東西並不見得是他想學的,他想學的可能是和學業扯不上一點關係,像我家的小孩就很喜歡玩史萊姆,一叫她看英文就興趣缺缺。學習是有門檻,也就是剛開始會比較難,像英文從來不背單字的,即使靠著自然發音他都感覺十分有難度，但是半強迫加上使用Wordup及ANKI加一些學習法，滴水穿石的學習，慢慢的記得越來越多字，英文讀久了就會發現某些音就能連出某串字例如：tion、and、all、ter、ch、eat、side、ing、der、ly、air…隨著背的單字到達一個門檻配合發音記憶就很快也能越背越長。所以任何學習一旦跨過了門檻學習速度就會提升，但如果沒跨過則一切都歸零。這也是我堅持教小孩自學我就是不想讓小孩去補英文，補了沒複習久了也忘光了。</p>
+</blockquote>
+<span id="more"></span>
+<blockquote>
+<h2 id="任務卡設計的作用"><a href="#任務卡設計的作用" class="headerlink" title="任務卡設計的作用"></a>任務卡設計的作用</h2><p>由於學習最初門檻都很高，於是我想到來設計任務卡，做了之後發現我好像在設計一款卡片遊戲，它的作用</p>
+</blockquote>
+<ol>
+<li>學習能專注在一個任務或二個任務<br>不能一次發太多，會失焦然後達不到反而沒信心</li>
+<li>任務要有奬勵，直接就發金錢<br>因為我發現小孩有錢她還不知道要花在哪？順便學會理財金錢觀</li>
+<li>有些任務是教更小的妹妹<br>這還蠻伐算的投資，因為教學相長</li>
+<li>任務卡保留起來成為一個學習歷程<br>學習歷程是很重要的，因為更小的妹妹可跟著任務再跑一次</li>
+<li>學習自制教材也是任務中另一種加值<br>這裡的想法是讓小孩設計問題，例如讀一篇文章設計五個問題，一方便他會讀的更仔細，但作用在當妹妹再讀時我可以用這些問題問她，其它如anki、wordup卡面自製，自己複習…</li>
+<li>自拍小影片上傳，可能是學習或讀經什麼都可以，現在拍片還能賺錢</li>
+<li>還有其它沒想到的後面補充</li>
+</ol>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
       <categories>
         <category>child</category>
       </categories>
@@ -626,5 +622,21 @@
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+  </entry>
+  <entry>
+    <title>General MacArthur&#39;s Prayer For His Son</title>
+    <url>/2022/08/24/GeneralMacArthursPrayerForHisSon/</url>
+    <content><![CDATA[<p>General MacArthur’s Prayer For His Son<br>By Douglas MacArthur<br>Build me a son, O Lord, who will be strong enough to know when he is weak, and brave enough to face himself when he is afraid; one who will be proud and unbending in honest defeat, and humble and gentle in victory.</p>
+<p>Build me a son whose wishes will not take the place of deeds;<br>a son who will know Thee -<br>and that to know himself is the foundation stone of knowledge.<br>Lead him, I pray, not in the path of ease and comfort, but under the stress and spur of difficulties and challenge.<br>Here let him learn to stand up in the storm; here let him learn compassion for those who fail.</p>
+<p>Build me a son<br>whose heart will be clear, whose goal will be high; a son who will master himself before he seeks to master other men;<br>one who will reach into the future, yet never forget the past.<br>And after all these things are his, add, I pray enough of a sense of humor, so that he may always be serious, yet never take himself too seriously.</p>
+<p>Give him humility, so that he may always remember the simplicity of true greatness, the open mind of true wisdom, and the meekness of true strength.<br>Then, I, his father,<br>will dare to whisper, “I have not lived in vain.”</p>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+      <categories>
+        <category>西方文化導讀</category>
+      </categories>
+      <tags>
+        <tag>西方文化導讀</tag>
+        <tag>英文讀經</tag>
+      </tags>
   </entry>
 </search>

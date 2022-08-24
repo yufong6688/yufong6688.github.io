@@ -60,7 +60,7 @@
 <meta property="og:image" content="http://example.com/Hexo-logo.png">
 <meta property="og:image" content="http://example.com/2022/08/14/20220814HexoLearningJourney/Hexo-logo.png">
 <meta property="article:published_time" content="2022-08-14T03:22:00.000Z">
-<meta property="article:modified_time" content="2022-08-24T00:21:39.845Z">
+<meta property="article:modified_time" content="2022-08-24T06:08:42.890Z">
 <meta property="article:author" content="Yufong Chen">
 <meta property="article:tag" content="Hexo">
 <meta name="twitter:card" content="summary">
@@ -231,18 +231,18 @@ p.spoiler {
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">7</span>
+          <span class="site-state-item-count">8</span>
           <span class="site-state-item-name">文章</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
           <a href="/categories/">
-        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-count">4</span>
         <span class="site-state-item-name">分類</span></a>
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">4</span>
+        <span class="site-state-item-count">6</span>
         <span class="site-state-item-name">標籤</span></a>
       </div>
   </nav>
@@ -339,7 +339,7 @@ p.spoiler {
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新於</span>
-      <time title="修改時間：2022-08-24 08:21:39" itemprop="dateModified" datetime="2022-08-24T08:21:39+08:00">2022-08-24</time>
+      <time title="修改時間：2022-08-24 14:08:42" itemprop="dateModified" datetime="2022-08-24T14:08:42+08:00">2022-08-24</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -588,35 +588,31 @@ p.spoiler {
 <li>使用方法  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% spoiler option:value text... %&#125;</span><br></pre></td></tr></table></figure>
   <a target="_blank" rel="noopener" href="https://github.com/unnamed42/hexo-spoiler">相關參數設定</a></li>
 <li>使用限制<ul>
-<li>不支援像這樣的塊元素。<blockquote><figure></li>
+<li>不支援像這樣的塊元素。<code>&lt;blockquote&gt;&lt;figure&gt;</code></li>
 <li>由於 hexo 標籤的限制，與上下文相關的功能（如 markdown 腳注）將無法正確呈現。呈現器實例與後期呈現中使用的實例不同，因此它對上下文一無所知。</li>
 <li>可惜會和hexo-sliding-spoilery産生干擾</li>
 </ul>
 </li>
-<li>使用範例<br>– <font size=5 color=red>範例1</font><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% spoiler style:box color:rgb(173, 20, 83, 0.5) `inline code` [link](https://example.com) *italic* ~~delete~~ **bold** %&#125;   &#123;% endspoiler %&#125;</span><br></pre></td></tr></table></figure>
-
+<li>使用範例<br>– <font size=5 color=red>範例1</font><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% spoiler style:box color:rgb(173, 20, 83, 0.5) `inline code` [link](https://yufong6688.github.io) *italic* ~~delete~~ **bold** %&#125;   &#123;% endspoiler %&#125;</span><br></pre></td></tr></table></figure>
+運作：
   <span class="spoiler" onclick="this.classList.toggle('spoiler')">
-    <span class="spoiler-box ">color:rgb(173, 20, 83, 0.5) <code>inline code</code> <a href="https://example.com/">link</a> <em>italic</em> <del>delete</del> <strong>bold</strong></span>
-  </span><br>
-– <font size=5 color=red>範例2</font><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% spoiler style:box color:rgb(173,20,83,0.5) `inline code` [link](https://example.com) *italic* ~~delete~~ **bold** %&#125;   &#123;% endspoiler %&#125;</span><br></pre></td></tr></table></figure>
-運作
+    <span class="spoiler-box ">color:rgb(173, 20, 83, 0.5) <code>inline code</code> <a target="_blank" rel="noopener" href="https://yufong6688.github.io/">link</a> <em>italic</em> <del>delete</del> <strong>bold</strong></span>
+  </span><br>– <font size=5 color=red>範例2</font><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% spoiler style:box color:rgb(173,20,83,0.5) `inline code` [link](https://yufong6688.github.io) *italic* ~~delete~~ **bold** %&#125;   &#123;% endspoiler %&#125;</span><br></pre></td></tr></table></figure>
+運作：
   <span class="spoiler" onclick="this.classList.toggle('spoiler')">
-    <span class="spoiler-box spoiler-12297"><code>inline code</code> <a href="https://example.com/">link</a> <em>italic</em> <del>delete</del> <strong>bold</strong></span>
-  </span><br>
-– <font size=5 color=red>範例3</font><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% spoiler p: unknown:invalid style:box [^footnote] %&#125;   &#123;% endspoiler %&#125;</span><br></pre></td></tr></table></figure>
-運作
+    <span class="spoiler-box spoiler-12297"><code>inline code</code> <a target="_blank" rel="noopener" href="https://yufong6688.github.io/">link</a> <em>italic</em> <del>delete</del> <strong>bold</strong></span>
+  </span><br>– <font size=5 color=red>範例3</font><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% spoiler p: unknown:invalid style:box [^footnote] %&#125; &#123;% endspoiler %&#125;</span><br></pre></td></tr></table></figure>
+運作：
   <p class="spoiler" onclick="this.classList.toggle('spoiler')">
     <span class="spoiler-blur ">unknown:invalid style:box [^footnote]</span>
-  </p><br>
-– <font size=5 color=red>範例4</font><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% spoiler style:box color:red p: `inline code` [link](https://example.com) *italic* ~~delete~~ **bold** %&#125;   &#123;% endspoiler %&#125;</span><br></pre></td></tr></table></figure>
-運作
+  </p><br>– <font size=5 color=red>範例4</font><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% spoiler style:box color:red p: `inline code` [link](https://yufong6688.github.io) *italic* ~~delete~~ **bold** %&#125;&#123;% endspoiler %&#125;</span><br></pre></td></tr></table></figure>
+運作：
   <p class="spoiler" onclick="this.classList.toggle('spoiler')">
-    <span class="spoiler-box spoiler-bda96"><code>inline code</code> <a href="https://example.com/">link</a> <em>italic</em> <del>delete</del> <strong>bold</strong></span>
-  </p><br>
-– <font size=5 color=red>範例5</font><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% spoiler p: color:red `inline code` [link](https://example.com) *italic* ~~delete~~ **bold** %&#125;   &#123;% endspoiler %&#125;</span><br></pre></td></tr></table></figure>
-運作
+    <span class="spoiler-box spoiler-bda96"><code>inline code</code> <a target="_blank" rel="noopener" href="https://yufong6688.github.io/">link</a> <em>italic</em> <del>delete</del> <strong>bold</strong></span>
+  </p><br>– <font size=5 color=red>範例5</font><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% spoiler p: color:red `inline code` [link](https://yufong6688.github.io) *italic* ~~delete~~ **bold** %&#125;&#123;% endspoiler %&#125;</span><br></pre></td></tr></table></figure>
+運作：
   <p class="spoiler" onclick="this.classList.toggle('spoiler')">
-    <span class="spoiler-blur spoiler-bda96"><code>inline code</code> <a href="https://example.com/">link</a> <em>italic</em> <del>delete</del> <strong>bold</strong></span>
+    <span class="spoiler-blur spoiler-bda96"><code>inline code</code> <a target="_blank" rel="noopener" href="https://yufong6688.github.io/">link</a> <em>italic</em> <del>delete</del> <strong>bold</strong></span>
   </p></li>
 </ol>
 <hr>
