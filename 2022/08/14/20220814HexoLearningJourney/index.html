@@ -55,11 +55,12 @@
 <meta property="og:image" content="http://example.com/images/20220814HexoHexoLearningJourney_pic25.webp">
 <meta property="og:image" content="http://example.com/images/20220814HexoHexoLearningJourney_pic26.webp">
 <meta property="og:image" content="http://example.com/images/20220814HexoHexoLearningJourney_pic27.webp">
+<meta property="og:image" content="http://example.com/images/20220814HexoHexoLearningJourney_pic28.webp">
 <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/e/e9/Hexo-logo.png">
 <meta property="og:image" content="http://example.com/Hexo-logo.png">
 <meta property="og:image" content="http://example.com/2022/08/14/20220814HexoLearningJourney/Hexo-logo.png">
 <meta property="article:published_time" content="2022-08-14T03:22:00.000Z">
-<meta property="article:modified_time" content="2022-08-23T07:40:22.040Z">
+<meta property="article:modified_time" content="2022-08-24T00:21:39.845Z">
 <meta property="article:author" content="Yufong Chen">
 <meta property="article:tag" content="Hexo">
 <meta name="twitter:card" content="summary">
@@ -83,7 +84,46 @@
   <noscript>
     <link rel="stylesheet" href="/css/noscript.css">
   </noscript>
-</head>
+<style type="text/css">
+.spoiler {
+  display: inline-flex;
+}
+p.spoiler {
+  display: flex;
+}
+.spoiler a {
+  pointer-events: none;
+}
+.spoiler-blur, .spoiler-blur > * {
+  transition: text-shadow .5s ease;
+}
+.spoiler .spoiler-blur, .spoiler .spoiler-blur > * {
+  color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
+  text-shadow: 0 0 10px grey;
+  cursor: pointer;
+}
+.spoiler .spoiler-blur:hover, .spoiler .spoiler-blur:hover > * {
+  text-shadow: 0 0 5px grey;
+}
+.spoiler-box, .spoiler-box > * {
+  transition: color .5s ease,
+  background-color .5s ease;
+}
+.spoiler .spoiler-box, .spoiler .spoiler-box > * {
+  color: black;
+  background-color: black;
+  text-shadow: none;
+}
+    .spoiler .spoiler-box.spoiler-12297, .spoiler .spoiler-box.spoiler-12297 > * {
+      color: rgb(173,20,83,0.5);
+      background-color: rgb(173,20,83,0.5);
+    }
+
+    .spoiler .spoiler-box.spoiler-bda96, .spoiler .spoiler-box.spoiler-bda96 > * {
+      color: red;
+      background-color: red;
+    }</style></head>
 
 <body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
   <div class="headband"></div>
@@ -176,7 +216,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%94%B3%E8%AB%8BGithub%E5%B8%B3%E8%99%9F"><span class="nav-number">2.</span> <span class="nav-text">申請Github帳號</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Github%E5%85%8D%E8%B2%BB%E8%B3%87%E8%A8%8A"><span class="nav-number">2.1.</span> <span class="nav-text">Github免費資訊</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Create-a-new-repository"><span class="nav-number">2.2.</span> <span class="nav-text">Create a new repository</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%89%E8%A3%9DHexo"><span class="nav-number">3.</span> <span class="nav-text">安裝Hexo</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%AE%8A%E6%8F%9B%E4%B8%BB%E9%A1%8C-%E4%BD%BF%E7%94%A8Next%E4%B8%BB%E9%A1%8C"><span class="nav-number">4.</span> <span class="nav-text">變換主題 (使用Next主題)</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%AE%89%E8%A3%9DNext%E4%B8%BB%E9%A1%8C%EF%BC%9A%E5%AE%98%E7%B6%B2%E5%AE%89%E8%A3%9D%E6%96%B9%E6%B3%95"><span class="nav-number">4.1.</span> <span class="nav-text">安裝Next主題：官網安裝方法</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%A5%97%E7%94%A8%E4%B8%BB%E9%A1%8C"><span class="nav-number">4.2.</span> <span class="nav-text">套用主題</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%85%B6%E5%AE%83%E9%97%9C%E6%96%BCNexT%E4%B8%BB%E9%A1%8C%E8%A8%AD%E7%BD%AE"><span class="nav-number">4.3.</span> <span class="nav-text">其它關於NexT主題設置</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%89%E8%A3%9DHexo%E7%B7%A8%E8%BC%AF%E5%BE%8C%E5%8F%B0"><span class="nav-number">5.</span> <span class="nav-text">安裝Hexo編輯後台</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%AE%89%E8%A3%9D%E5%A5%97%E4%BB%B6"><span class="nav-number">5.1.</span> <span class="nav-text">安裝套件</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%80%B2%E5%85%A5%E6%96%87%E7%AB%A0%E7%B7%A8%E5%AF%AB%E5%BE%8C%E5%8F%B0"><span class="nav-number">5.2.</span> <span class="nav-text">進入文章編寫後台</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%A2%9E%E5%8A%A0%E6%90%9C%E5%B0%8B%E5%8A%9F%E8%83%BD"><span class="nav-number">6.</span> <span class="nav-text">增加搜尋功能</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%A7%A3%E6%B1%BAMenu-%E9%BB%9E%E6%93%8A%E7%84%A1%E4%BD%9C%E7%94%A8"><span class="nav-number">7.</span> <span class="nav-text">解決Menu 點擊無作用</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%BB%BA%E7%AB%8BAbout-%E9%97%9C%E6%96%BC"><span class="nav-number">7.1.</span> <span class="nav-text">建立About 關於</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%BB%BA%E7%AB%8BCategories%E5%88%86%E9%A1%9E"><span class="nav-number">7.2.</span> <span class="nav-text">建立Categories分類</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%BB%BA%E7%AB%8BTags%E9%A0%81%E9%9D%A2"><span class="nav-number">7.3.</span> <span class="nav-text">建立Tags頁面</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%BB%BA%E7%AB%8Bsitemap"><span class="nav-number">7.4.</span> <span class="nav-text">建立sitemap</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%BB%BA%E7%AB%8BSchedule"><span class="nav-number">7.5.</span> <span class="nav-text">建立Schedule</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%96%87%E7%AB%A0%E7%BD%AE%E9%A0%82"><span class="nav-number">8.</span> <span class="nav-text">文章置頂</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%96%B9%E6%B3%95%E4%B8%80%EF%BC%9A%E7%A8%8B%E5%BC%8F%E4%BF%AE%E6%94%B9%E7%89%88%E6%9C%AC%E4%B8%80-%E5%8F%AF%E8%A1%8C"><span class="nav-number">8.1.</span> <span class="nav-text">方法一：程式修改版本一(可行 )</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%96%B9%E6%B3%95%E4%BA%8C%EF%BC%9A%E7%A8%8B%E5%BC%8F%E4%BF%AE%E6%94%B9%E7%89%88%E6%9C%AC%E4%BA%8C-%E6%9C%AA%E6%B8%AC%E8%A9%A6"><span class="nav-number">8.2.</span> <span class="nav-text">方法二：程式修改版本二(未測試)</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B8%B8%E4%BD%BF%E7%94%A8%E7%9A%84Hexo%E5%91%BD%E4%BB%A4"><span class="nav-number">9.</span> <span class="nav-text">常使用的Hexo命令</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%95%9F%E5%8B%95%E4%BC%BA%E6%9C%8D%E5%99%A8"><span class="nav-number">9.1.</span> <span class="nav-text">啟動伺服器</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AE%93%E4%BC%BA%E6%9C%8D%E5%99%A8%E5%9C%A8%E5%85%B6%E5%AE%83port%E9%81%8B%E4%BD%9C-%E4%BB%A5-port-5000%E7%82%BA%E4%BE%8B"><span class="nav-number">9.2.</span> <span class="nav-text">讓伺服器在其它port運作,以 port 5000為例</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%85%B6%E5%AE%83%E5%8F%83%E6%95%B8"><span class="nav-number">9.3.</span> <span class="nav-text">其它參數</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%BD%88%E7%BD%B2%EF%BC%8C%E5%8F%AF%E4%BB%A5%E5%B0%87hexo%E4%BD%88%E7%BD%B2%E5%88%B0GitHub"><span class="nav-number">9.4.</span> <span class="nav-text">佈署，可以將hexo佈署到GitHub</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%94%A2%E7%94%9F%E9%9D%9C%E6%85%8B%E6%AA%94%E6%A1%88"><span class="nav-number">9.5.</span> <span class="nav-text">產生靜態檔案</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%B8%85%E9%99%A4%E9%9D%9C%E6%85%8B%E6%AA%94%E6%A1%88%E5%8F%8A%E5%BF%AB%E5%8F%96"><span class="nav-number">9.6.</span> <span class="nav-text">清除靜態檔案及快取</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%96%B0%E5%A2%9E%E6%96%87%E7%AB%A0"><span class="nav-number">9.7.</span> <span class="nav-text">新增文章</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BF%AE%E6%94%B9-congif-yaml"><span class="nav-number">10.</span> <span class="nav-text">修改 _congif.yaml</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Site-%E9%97%9C%E6%96%BC%E7%B6%B2%E7%AB%99%E8%A8%8A%E6%81%AF%E7%9A%84%E9%85%8D%E7%BD%AE-%E5%8C%85%E5%90%AB%E8%AA%9E%E7%B3%BB"><span class="nav-number">10.1.</span> <span class="nav-text">Site (關於網站訊息的配置,包含語系)</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Deployment-%E4%BD%88%E7%BD%B2%E8%A8%AD%E5%AE%9A-%E4%BD%88%E7%BD%B2%E5%88%B0Github"><span class="nav-number">10.2.</span> <span class="nav-text">Deployment 佈署設定,佈署到Github</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Extensions-%E4%BF%AE%E6%94%B9%E4%BD%88%E6%99%AF%E4%B8%BB%E9%A1%8C"><span class="nav-number">10.3.</span> <span class="nav-text">Extensions 修改佈景主題</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%A6%82%E4%BD%95%E6%8F%92%E5%85%A5%E5%9C%96%E7%89%87"><span class="nav-number">11.</span> <span class="nav-text">如何插入圖片</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%8F%92%E5%85%A5%E5%A4%96%E9%83%A8%E9%80%A3%E7%B5%90%E5%9C%96%E7%89%87"><span class="nav-number">11.1.</span> <span class="nav-text">插入外部連結圖片</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%B5%95%E5%B0%8D%E8%B7%AF%E5%BE%91"><span class="nav-number">11.2.</span> <span class="nav-text">絕對路徑</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%9B%B8%E5%B0%8D%E8%B7%AF%E5%BE%91"><span class="nav-number">11.3.</span> <span class="nav-text">相對路徑</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%BD%BF%E7%94%A8%E5%A4%96%E6%8E%9B-hexo-renderer-marked"><span class="nav-number">11.4.</span> <span class="nav-text">使用外掛 hexo-renderer-marked</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Typora%E6%8F%92%E5%85%A5%E6%96%B9%E5%BC%8F"><span class="nav-number">11.5.</span> <span class="nav-text">Typora插入方式</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%87%E6%8F%9B%E9%BB%91%E8%89%B2%E6%A8%A1%E5%BC%8F"><span class="nav-number">12.</span> <span class="nav-text">切換黑色模式</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%94%B3%E8%AB%8BGithub%E5%B8%B3%E8%99%9F"><span class="nav-number">2.</span> <span class="nav-text">申請Github帳號</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Github%E5%85%8D%E8%B2%BB%E8%B3%87%E8%A8%8A"><span class="nav-number">2.1.</span> <span class="nav-text">Github免費資訊</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Create-a-new-repository"><span class="nav-number">2.2.</span> <span class="nav-text">Create a new repository</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%89%E8%A3%9DHexo"><span class="nav-number">3.</span> <span class="nav-text">安裝Hexo</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%AE%8A%E6%8F%9B%E4%B8%BB%E9%A1%8C-%E4%BD%BF%E7%94%A8Next%E4%B8%BB%E9%A1%8C"><span class="nav-number">4.</span> <span class="nav-text">變換主題 (使用Next主題)</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%AE%89%E8%A3%9DNext%E4%B8%BB%E9%A1%8C%EF%BC%9A%E5%AE%98%E7%B6%B2%E5%AE%89%E8%A3%9D%E6%96%B9%E6%B3%95"><span class="nav-number">4.1.</span> <span class="nav-text">安裝Next主題：官網安裝方法</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%A5%97%E7%94%A8%E4%B8%BB%E9%A1%8C"><span class="nav-number">4.2.</span> <span class="nav-text">套用主題</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%85%B6%E5%AE%83%E9%97%9C%E6%96%BCNexT%E4%B8%BB%E9%A1%8C%E8%A8%AD%E7%BD%AE"><span class="nav-number">4.3.</span> <span class="nav-text">其它關於NexT主題設置</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%89%E8%A3%9DHexo%E7%B7%A8%E8%BC%AF%E5%BE%8C%E5%8F%B0"><span class="nav-number">5.</span> <span class="nav-text">安裝Hexo編輯後台</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%AE%89%E8%A3%9D%E5%A5%97%E4%BB%B6"><span class="nav-number">5.1.</span> <span class="nav-text">安裝套件</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%80%B2%E5%85%A5%E6%96%87%E7%AB%A0%E7%B7%A8%E5%AF%AB%E5%BE%8C%E5%8F%B0"><span class="nav-number">5.2.</span> <span class="nav-text">進入文章編寫後台</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%A2%9E%E5%8A%A0%E6%90%9C%E5%B0%8B%E5%8A%9F%E8%83%BD"><span class="nav-number">6.</span> <span class="nav-text">增加搜尋功能</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%A7%A3%E6%B1%BAMenu-%E9%BB%9E%E6%93%8A%E7%84%A1%E4%BD%9C%E7%94%A8"><span class="nav-number">7.</span> <span class="nav-text">解決Menu 點擊無作用</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%BB%BA%E7%AB%8BAbout-%E9%97%9C%E6%96%BC"><span class="nav-number">7.1.</span> <span class="nav-text">建立About 關於</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%BB%BA%E7%AB%8BCategories%E5%88%86%E9%A1%9E"><span class="nav-number">7.2.</span> <span class="nav-text">建立Categories分類</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%BB%BA%E7%AB%8BTags%E9%A0%81%E9%9D%A2"><span class="nav-number">7.3.</span> <span class="nav-text">建立Tags頁面</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%BB%BA%E7%AB%8Bsitemap"><span class="nav-number">7.4.</span> <span class="nav-text">建立sitemap</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%BB%BA%E7%AB%8BSchedule"><span class="nav-number">7.5.</span> <span class="nav-text">建立Schedule</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%96%87%E7%AB%A0%E7%BD%AE%E9%A0%82"><span class="nav-number">8.</span> <span class="nav-text">文章置頂</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%96%B9%E6%B3%95%E4%B8%80%EF%BC%9A%E7%A8%8B%E5%BC%8F%E4%BF%AE%E6%94%B9%E7%89%88%E6%9C%AC%E4%B8%80-%E5%8F%AF%E8%A1%8C"><span class="nav-number">8.1.</span> <span class="nav-text">方法一：程式修改版本一(可行 )</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%96%B9%E6%B3%95%E4%BA%8C%EF%BC%9A%E7%A8%8B%E5%BC%8F%E4%BF%AE%E6%94%B9%E7%89%88%E6%9C%AC%E4%BA%8C-%E6%9C%AA%E6%B8%AC%E8%A9%A6"><span class="nav-number">8.2.</span> <span class="nav-text">方法二：程式修改版本二(未測試)</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%96%87%E7%AB%A0%E6%91%BA%E7%96%8A"><span class="nav-number">9.</span> <span class="nav-text">文章摺疊</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%BD%BF%E7%94%A8hexo-sliding-spoiler%E6%8F%92%E4%BB%B6"><span class="nav-number">9.1.</span> <span class="nav-text">使用hexo-sliding-spoiler插件</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%BD%BF%E7%94%A8hexo-tag-details%E6%8F%92%E4%BB%B6"><span class="nav-number">9.2.</span> <span class="nav-text">使用hexo-tag-details插件</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%96%87%E7%AB%A0%E9%9A%B1%E8%97%8F%E6%9F%90%E5%8F%A5%E6%88%96%E6%9F%90%E5%AD%97"><span class="nav-number">10.</span> <span class="nav-text">文章隱藏某句或某字</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B8%B8%E4%BD%BF%E7%94%A8%E7%9A%84Hexo%E5%91%BD%E4%BB%A4"><span class="nav-number">11.</span> <span class="nav-text">常使用的Hexo命令</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%95%9F%E5%8B%95%E4%BC%BA%E6%9C%8D%E5%99%A8"><span class="nav-number">11.1.</span> <span class="nav-text">啟動伺服器</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AE%93%E4%BC%BA%E6%9C%8D%E5%99%A8%E5%9C%A8%E5%85%B6%E5%AE%83port%E9%81%8B%E4%BD%9C-%E4%BB%A5-port-5000%E7%82%BA%E4%BE%8B"><span class="nav-number">11.2.</span> <span class="nav-text">讓伺服器在其它port運作,以 port 5000為例</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%85%B6%E5%AE%83%E5%8F%83%E6%95%B8"><span class="nav-number">11.3.</span> <span class="nav-text">其它參數</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%BD%88%E7%BD%B2%EF%BC%8C%E5%8F%AF%E4%BB%A5%E5%B0%87hexo%E4%BD%88%E7%BD%B2%E5%88%B0GitHub"><span class="nav-number">11.4.</span> <span class="nav-text">佈署，可以將hexo佈署到GitHub</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%94%A2%E7%94%9F%E9%9D%9C%E6%85%8B%E6%AA%94%E6%A1%88"><span class="nav-number">11.5.</span> <span class="nav-text">產生靜態檔案</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%B8%85%E9%99%A4%E9%9D%9C%E6%85%8B%E6%AA%94%E6%A1%88%E5%8F%8A%E5%BF%AB%E5%8F%96"><span class="nav-number">11.6.</span> <span class="nav-text">清除靜態檔案及快取</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%96%B0%E5%A2%9E%E6%96%87%E7%AB%A0"><span class="nav-number">11.7.</span> <span class="nav-text">新增文章</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BF%AE%E6%94%B9-congif-yaml"><span class="nav-number">12.</span> <span class="nav-text">修改 _congif.yaml</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Site-%E9%97%9C%E6%96%BC%E7%B6%B2%E7%AB%99%E8%A8%8A%E6%81%AF%E7%9A%84%E9%85%8D%E7%BD%AE-%E5%8C%85%E5%90%AB%E8%AA%9E%E7%B3%BB"><span class="nav-number">12.1.</span> <span class="nav-text">Site (關於網站訊息的配置,包含語系)</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Deployment-%E4%BD%88%E7%BD%B2%E8%A8%AD%E5%AE%9A-%E4%BD%88%E7%BD%B2%E5%88%B0Github"><span class="nav-number">12.2.</span> <span class="nav-text">Deployment 佈署設定,佈署到Github</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Extensions-%E4%BF%AE%E6%94%B9%E4%BD%88%E6%99%AF%E4%B8%BB%E9%A1%8C"><span class="nav-number">12.3.</span> <span class="nav-text">Extensions 修改佈景主題</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%A6%82%E4%BD%95%E6%8F%92%E5%85%A5%E5%9C%96%E7%89%87"><span class="nav-number">13.</span> <span class="nav-text">如何插入圖片</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%8F%92%E5%85%A5%E5%A4%96%E9%83%A8%E9%80%A3%E7%B5%90%E5%9C%96%E7%89%87"><span class="nav-number">13.1.</span> <span class="nav-text">插入外部連結圖片</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%B5%95%E5%B0%8D%E8%B7%AF%E5%BE%91"><span class="nav-number">13.2.</span> <span class="nav-text">絕對路徑</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%9B%B8%E5%B0%8D%E8%B7%AF%E5%BE%91"><span class="nav-number">13.3.</span> <span class="nav-text">相對路徑</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%BD%BF%E7%94%A8%E5%A4%96%E6%8E%9B-hexo-renderer-marked"><span class="nav-number">13.4.</span> <span class="nav-text">使用外掛 hexo-renderer-marked</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Typora%E6%8F%92%E5%85%A5%E6%96%B9%E5%BC%8F"><span class="nav-number">13.5.</span> <span class="nav-text">Typora插入方式</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%87%E6%8F%9B%E9%BB%91%E8%89%B2%E6%A8%A1%E5%BC%8F"><span class="nav-number">14.</span> <span class="nav-text">切換黑色模式</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -299,7 +339,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新於</span>
-      <time title="修改時間：2022-08-23 15:40:22" itemprop="dateModified" datetime="2022-08-23T15:40:22+08:00">2022-08-23</time>
+      <time title="修改時間：2022-08-24 08:21:39" itemprop="dateModified" datetime="2022-08-24T08:21:39+08:00">2022-08-24</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -423,7 +463,9 @@
 </ol>
 <hr>
 <p></br><font size="6" color=red><center> 【 解決Menu 點擊無作用 】</center></font></p>
+<blockquote>
 <h3 id="解決Menu-點擊無作用"><a href="#解決Menu-點擊無作用" class="headerlink" title="解決Menu 點擊無作用"></a>解決Menu 點擊無作用</h3><p>初次建好的Hexo有很多Menu點了會出現錯誤，這章節要處理Menu部份的問題</p>
+</blockquote>
 <h4 id="建立About-關於"><a href="#建立About-關於" class="headerlink" title="建立About 關於"></a>建立About 關於</h4><ol>
 <li>建立一個 About 關於頁面<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new page &quot;about&quot;</span><br></pre></td></tr></table></figure>
 <img src="/images/20220814HexoHexoLearningJourney_pic10.webp">  </li>
@@ -493,30 +535,117 @@
 <li>文章如何置頂<br>在文章加入top: 10,top數值越大文章越前面<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">title: 任務卡製作</span><br><span class="line">author: Yufong Chen</span><br><span class="line">tags:</span><br><span class="line">  - child</span><br><span class="line">categories:</span><br><span class="line">  - child</span><br><span class="line">top: 10</span><br><span class="line">date: 2022-08-23 12:50:00</span><br></pre></td></tr></table></figure></li>
 </ol>
 <hr>
+<p></br><font size="6" color=red><center> 【 文章摺疊 】 </center></font></p>
+<blockquote>
+<h3 id="文章摺疊"><a href="#文章摺疊" class="headerlink" title="文章摺疊"></a>文章摺疊</h3><p>常用於把長程式摺疊起來,另一種應用是考試用途把答案摺疊起來<br>後面安裝的 <code> hexo-spoiler</code> 插件會和<code>hexo-sliding-spoiler</code>覆蓋所以<code>hexo-sliding-spoiler</code><br>動作將會被 <code> hexo-spoiler</code> 插件取代<br>為了要和<code>hexo-sliding-spoiler</code>産生一樣效果，另外使用了 <code>hexo-tag-details</code>插件<br>所以這三種插件都有安裝，因為卸載了<code>hexo-sliding-spoiler</code>會產生錯誤只好保留<br>這三種插件的使用說明：<a target="_blank" rel="noopener" href="https://github.com/fletchto99/hexo-sliding-spoiler">【hexo-sliding-spoiler】</a> &#x2F; <a target="_blank" rel="noopener" href="https://github.com/unnamed42/hexo-spoiler">【hexo-spoiler】</a>  &#x2F; <a target="_blank" rel="noopener" href="https://github.com/hinastory/hexo-tag-details">【hexo-tag-details】</a></p>
+</blockquote>
+<ul>
+<li><h4 id="使用hexo-sliding-spoiler插件"><a href="#使用hexo-sliding-spoiler插件" class="headerlink" title="使用hexo-sliding-spoiler插件"></a>使用<code>hexo-sliding-spoiler</code>插件</h4></li>
+</ul>
+<ol>
+<li>安裝插件  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-sliding-spoiler --save</span><br></pre></td></tr></table></figure></li>
+<li>如果hexo無法檢測到此外掛，則需要手動修改 <code>plugins [path_to_your_site]/_config.yml</code><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">plugins:</span><br><span class="line">  - hexo-sliding-spoiler</span><br></pre></td></tr></table></figure></li>
+<li>使用方法  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% spoiler 標題 %&#125;</span><br><span class="line">content</span><br><span class="line">&#123;% endspoiler %&#125;</span><br></pre></td></tr></table></figure></li>
+<li>範例<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&#123;% spoiler &quot;這裡面有一張圖，提示：有大鼻孔的動物，但他不是人喔&quot; %&#125;</span><br><span class="line">![](images/20220814HexoHexoLearningJourney_pic28.webp) </span><br><span class="line">你猜對了嗎？</span><br><span class="line">&#123;% endspoiler %&#125;</span><br></pre></td></tr></table></figure>
+
+  <span class="spoiler" onclick="this.classList.toggle('spoiler')">
+    <span class="spoiler-blur ">這裡面有一張圖，提示：有大鼻孔的動物，但他不是人喔</span>
+  </span>
+</br>
+ <font size=5 color=red>顯示不出來,效果被 ` hexo-spoiler` 取代了 </font></li>
+</ol>
+<hr>
+<ul>
+<li><h4 id="使用hexo-tag-details插件"><a href="#使用hexo-tag-details插件" class="headerlink" title="使用hexo-tag-details插件"></a>使用<code>hexo-tag-details</code>插件</h4></li>
+</ul>
+<ol>
+<li>安裝插件  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-tag-details --save</span><br></pre></td></tr></table></figure></li>
+<li>如果hexo無法檢測到此外掛，則需要手動修改 <code>plugins [path_to_your_site]/_config.yml</code><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">plugins:</span><br><span class="line">  - hexo-tag-details</span><br></pre></td></tr></table></figure></li>
+<li>使用方法  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% details [mode:open/close] summary text %&#125;</span><br><span class="line">detail text</span><br><span class="line">&#123;% enddetails %&#125;</span><br></pre></td></tr></table></figure>
+  mode表示一開始要展開還是要摺疊</li>
+<li>範例<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&#123;% details mode:close  &quot;這裡面有一張圖，提示：有大鼻孔的動物，但他不是人喔&quot; %&#125;</span><br><span class="line">![](images/20220814HexoHexoLearningJourney_pic28.webp) </span><br><span class="line">你猜對了嗎？</span><br><span class="line">&#123;% enddetails %&#125;</span><br></pre></td></tr></table></figure>
+範例運作:<details><summary>這裡面有一張圖，提示：有大鼻孔的動物，但他不是人喔</summary><p><img src="/images/20220814HexoHexoLearningJourney_pic28.webp"><br>你猜對了嗎？</p>
+</details>
+5.原始範例<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&lt;details open=&quot;open&quot;&gt;</span><br><span class="line">  &lt;summary&gt;What food do you like?&lt;/summary&gt;</span><br><span class="line">  &lt;ol&gt;</span><br><span class="line">    &lt;li&gt;Sushi&lt;/li&gt;</span><br><span class="line">    &lt;li&gt;Tempura&lt;/li&gt;</span><br><span class="line">    &lt;li&gt;Sukiyaki&lt;/li&gt;</span><br><span class="line">  &lt;/ol&gt;</span><br><span class="line">&lt;/details&gt;</span><br></pre></td></tr></table></figure>
+範例運作:<details open="open">
+  <summary>What food do you like?</summary>
+  <ol>
+ <li>Sushi</li>
+ <li>Tempura</li>
+ <li>Sukiyaki</li>
+  </ol>
+</details></li>
+</ol>
+<hr>
+<hr>
+<p></br><font size="6" color=red><center> 【 文章隱藏某句或某字 】 </center></font></p>
+<blockquote>
+<h3 id="文章隱藏某句或某字"><a href="#文章隱藏某句或某字" class="headerlink" title="文章隱藏某句或某字"></a>文章隱藏某句或某字</h3><p>常用在克漏字學習，或是英文聽力測驗某個單字或片語，還是考時態…<a target="_blank" rel="noopener" href="https://github.com/unnamed42/hexo-spoiler">參考文件</a> <a target="_blank" rel="noopener" href="http://htmlpreview.github.io/?https://github.com/unnamed42/hexo-spoiler/blob/master/example/index.html">DEMO</a></p>
+</blockquote>
+<ol>
+<li>安裝插件  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-spoiler --save</span><br></pre></td></tr></table></figure></li>
+<li>如果hexo無法檢測到此外掛，則需要手動修改 <code>plugins [path_to_your_site]/_config.yml</code><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">plugins:</span><br><span class="line">  - hexo-spoiler</span><br></pre></td></tr></table></figure></li>
+<li>使用方法  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% spoiler option:value text... %&#125;</span><br></pre></td></tr></table></figure>
+  <a target="_blank" rel="noopener" href="https://github.com/unnamed42/hexo-spoiler">相關參數設定</a></li>
+<li>使用限制<ul>
+<li>不支援像這樣的塊元素。<blockquote><figure></li>
+<li>由於 hexo 標籤的限制，與上下文相關的功能（如 markdown 腳注）將無法正確呈現。呈現器實例與後期呈現中使用的實例不同，因此它對上下文一無所知。</li>
+<li>可惜會和hexo-sliding-spoilery産生干擾</li>
+</ul>
+</li>
+<li>使用範例<br>– <font size=5 color=red>範例1</font><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% spoiler style:box color:rgb(173, 20, 83, 0.5) `inline code` [link](https://example.com) *italic* ~~delete~~ **bold** %&#125;   &#123;% endspoiler %&#125;</span><br></pre></td></tr></table></figure>
+
+  <span class="spoiler" onclick="this.classList.toggle('spoiler')">
+    <span class="spoiler-box ">color:rgb(173, 20, 83, 0.5) <code>inline code</code> <a href="https://example.com/">link</a> <em>italic</em> <del>delete</del> <strong>bold</strong></span>
+  </span><br>
+– <font size=5 color=red>範例2</font><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% spoiler style:box color:rgb(173,20,83,0.5) `inline code` [link](https://example.com) *italic* ~~delete~~ **bold** %&#125;   &#123;% endspoiler %&#125;</span><br></pre></td></tr></table></figure>
+運作
+  <span class="spoiler" onclick="this.classList.toggle('spoiler')">
+    <span class="spoiler-box spoiler-12297"><code>inline code</code> <a href="https://example.com/">link</a> <em>italic</em> <del>delete</del> <strong>bold</strong></span>
+  </span><br>
+– <font size=5 color=red>範例3</font><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% spoiler p: unknown:invalid style:box [^footnote] %&#125;   &#123;% endspoiler %&#125;</span><br></pre></td></tr></table></figure>
+運作
+  <p class="spoiler" onclick="this.classList.toggle('spoiler')">
+    <span class="spoiler-blur ">unknown:invalid style:box [^footnote]</span>
+  </p><br>
+– <font size=5 color=red>範例4</font><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% spoiler style:box color:red p: `inline code` [link](https://example.com) *italic* ~~delete~~ **bold** %&#125;   &#123;% endspoiler %&#125;</span><br></pre></td></tr></table></figure>
+運作
+  <p class="spoiler" onclick="this.classList.toggle('spoiler')">
+    <span class="spoiler-box spoiler-bda96"><code>inline code</code> <a href="https://example.com/">link</a> <em>italic</em> <del>delete</del> <strong>bold</strong></span>
+  </p><br>
+– <font size=5 color=red>範例5</font><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% spoiler p: color:red `inline code` [link](https://example.com) *italic* ~~delete~~ **bold** %&#125;   &#123;% endspoiler %&#125;</span><br></pre></td></tr></table></figure>
+運作
+  <p class="spoiler" onclick="this.classList.toggle('spoiler')">
+    <span class="spoiler-blur spoiler-bda96"><code>inline code</code> <a href="https://example.com/">link</a> <em>italic</em> <del>delete</del> <strong>bold</strong></span>
+  </p></li>
+</ol>
+<hr>
 <p></br><font size="6" color=red><center> 【 常使用的Hexo命令 】 </center></font></p>
 <blockquote>
 <h3 id="常使用的Hexo命令"><a href="#常使用的Hexo命令" class="headerlink" title="常使用的Hexo命令"></a>常使用的Hexo命令</h3><p>啟動本地Server ＞ 自訂埠號 ＞ 自訂位址 ＞ 部署 ＞ 產生靜態檔案 ＞清除快取 ＞ 新增文章</p>
 </blockquote>
-<h4 id="啟動伺服器"><a href="#啟動伺服器" class="headerlink" title="啟動伺服器"></a>啟動伺服器</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server  </span><br></pre></td></tr></table></figure>
-<h4 id="讓伺服器在其它port運作-以-port-5000為例"><a href="#讓伺服器在其它port運作-以-port-5000為例" class="headerlink" title="讓伺服器在其它port運作,以 port 5000為例"></a>讓伺服器在其它<code>port</code>運作,以 port 5000為例</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo -p 5000 server  </span><br></pre></td></tr></table></figure>
-<h4 id="其它參數"><a href="#其它參數" class="headerlink" title="其它參數"></a>其它參數</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo server -s  //靜態模式</span><br><span class="line">hexo server -p 5000 //更改port</span><br><span class="line">hexo server -i 192.168.20.20 //自訂位址</span><br></pre></td></tr></table></figure>
-<h4 id="佈署，可以將hexo佈署到GitHub"><a href="#佈署，可以將hexo佈署到GitHub" class="headerlink" title="佈署，可以將hexo佈署到GitHub"></a>佈署，可以將hexo佈署到GitHub</h4><p>   ** 佈署的細節分為三步驟請往回看前面的安裝步驟 **</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br><span class="line">$ hexo d</span><br></pre></td></tr></table></figure>
-<h4 id="產生靜態檔案"><a href="#產生靜態檔案" class="headerlink" title="產生靜態檔案"></a>產生靜態檔案</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br><span class="line">$ hexo g</span><br></pre></td></tr></table></figure>
-
-<h4 id="清除靜態檔案及快取"><a href="#清除靜態檔案及快取" class="headerlink" title="清除靜態檔案及快取"></a>清除靜態檔案及快取</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean</span><br></pre></td></tr></table></figure>
-
-<h4 id="新增文章"><a href="#新增文章" class="headerlink" title="新增文章"></a>新增文章</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new [layout] &lt;title&gt;       </span><br></pre></td></tr></table></figure>
-
+<ul>
+<li><h4 id="啟動伺服器"><a href="#啟動伺服器" class="headerlink" title="啟動伺服器"></a>啟動伺服器</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server  </span><br></pre></td></tr></table></figure></li>
+<li><h4 id="讓伺服器在其它port運作-以-port-5000為例"><a href="#讓伺服器在其它port運作-以-port-5000為例" class="headerlink" title="讓伺服器在其它port運作,以 port 5000為例"></a>讓伺服器在其它<code>port</code>運作,以 port 5000為例</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo -p 5000 server  </span><br></pre></td></tr></table></figure></li>
+<li><h4 id="其它參數"><a href="#其它參數" class="headerlink" title="其它參數"></a>其它參數</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo server -s  //靜態模式</span><br><span class="line">hexo server -p 5000 //更改port</span><br><span class="line">hexo server -i 192.168.20.20 //自訂位址</span><br></pre></td></tr></table></figure></li>
+<li><h4 id="佈署，可以將hexo佈署到GitHub"><a href="#佈署，可以將hexo佈署到GitHub" class="headerlink" title="佈署，可以將hexo佈署到GitHub"></a>佈署，可以將hexo佈署到GitHub</h4><p> ** 佈署的細節分為三步驟請往回看前面的安裝步驟 **</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br><span class="line">$ hexo d</span><br></pre></td></tr></table></figure></li>
+<li><h4 id="產生靜態檔案"><a href="#產生靜態檔案" class="headerlink" title="產生靜態檔案"></a>產生靜態檔案</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br><span class="line">$ hexo g</span><br></pre></td></tr></table></figure>
+</li>
+<li><h4 id="清除靜態檔案及快取"><a href="#清除靜態檔案及快取" class="headerlink" title="清除靜態檔案及快取"></a>清除靜態檔案及快取</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean</span><br></pre></td></tr></table></figure>
+</li>
+<li><h4 id="新增文章"><a href="#新增文章" class="headerlink" title="新增文章"></a>新增文章</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new [layout] &lt;title&gt;       </span><br></pre></td></tr></table></figure></li>
+</ul>
 <hr>
 <p></br><font size="6" color=red><center> 【 修改 _congif.yaml 】</center></font></p>
 <blockquote>
 <h3 id="修改-congif-yaml"><a href="#修改-congif-yaml" class="headerlink" title="修改 _congif.yaml"></a>修改 _congif.yaml</h3><p>網站訊息 ＞ 佈署訊息 ＞ 修改主題 </p>
 </blockquote>
-<h4 id="Site-關於網站訊息的配置-包含語系"><a href="#Site-關於網站訊息的配置-包含語系" class="headerlink" title="Site (關於網站訊息的配置,包含語系)"></a>Site (關於網站訊息的配置,包含語系)</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"># Site</span><br><span class="line">title: Yufong&#x27;s Blog  #Web Title</span><br><span class="line">subtitle: &#x27;凡走過必留下記憶&#x27;</span><br><span class="line">description: &#x27;記錄著所思所想及所有美好的回憶&#x27;</span><br><span class="line">keywords:</span><br><span class="line">author: Yufong Chen  #作者名稱</span><br><span class="line">language: zh-TW  #使用語系，TW要大寫不然會變亂碼</span><br><span class="line">timezone: &#x27;&#x27; #時差</span><br></pre></td></tr></table></figure>
-<h4 id="Deployment-佈署設定-佈署到Github"><a href="#Deployment-佈署設定-佈署到Github" class="headerlink" title="Deployment 佈署設定,佈署到Github"></a>Deployment 佈署設定,佈署到Github</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"># Deployment 佈署到github</span><br><span class="line">## Docs: https://hexo.io/docs/one-command-deployment</span><br><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: https://github.com/yufong6688/yufong6688.github.io.git  ## 在GitHub申請的網頁空間</span><br><span class="line">  branch: master  ## 佈置到分支為master,主分支</span><br></pre></td></tr></table></figure>
-<h4 id="Extensions-修改佈景主題"><a href="#Extensions-修改佈景主題" class="headerlink" title="Extensions 修改佈景主題"></a>Extensions 修改佈景主題</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"># Extensions</span><br><span class="line">## Plugins: https://hexo.io/plugins/</span><br><span class="line">## Themes: https://hexo.io/themes/</span><br><span class="line">## theme:landscape</span><br><span class="line">theme: next</span><br></pre></td></tr></table></figure>
-
+<ul>
+<li><h4 id="Site-關於網站訊息的配置-包含語系"><a href="#Site-關於網站訊息的配置-包含語系" class="headerlink" title="Site (關於網站訊息的配置,包含語系)"></a>Site (關於網站訊息的配置,包含語系)</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"># Site</span><br><span class="line">title: Yufong&#x27;s Blog  #Web Title</span><br><span class="line">subtitle: &#x27;凡走過必留下記憶&#x27;</span><br><span class="line">description: &#x27;記錄著所思所想及所有美好的回憶&#x27;</span><br><span class="line">keywords:</span><br><span class="line">author: Yufong Chen  #作者名稱</span><br><span class="line">language: zh-TW  #使用語系，TW要大寫不然會變亂碼</span><br><span class="line">timezone: &#x27;&#x27; #時差</span><br></pre></td></tr></table></figure></li>
+<li><h4 id="Deployment-佈署設定-佈署到Github"><a href="#Deployment-佈署設定-佈署到Github" class="headerlink" title="Deployment 佈署設定,佈署到Github"></a>Deployment 佈署設定,佈署到Github</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"># Deployment 佈署到github</span><br><span class="line">## Docs: https://hexo.io/docs/one-command-deployment</span><br><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: https://github.com/yufong6688/yufong6688.github.io.git  ## 在GitHub申請的網頁空間</span><br><span class="line">  branch: master  ## 佈置到分支為master,主分支</span><br></pre></td></tr></table></figure></li>
+<li><h4 id="Extensions-修改佈景主題"><a href="#Extensions-修改佈景主題" class="headerlink" title="Extensions 修改佈景主題"></a>Extensions 修改佈景主題</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"># Extensions</span><br><span class="line">## Plugins: https://hexo.io/plugins/</span><br><span class="line">## Themes: https://hexo.io/themes/</span><br><span class="line">## theme:landscape</span><br><span class="line">theme: next</span><br></pre></td></tr></table></figure></li>
+</ul>
 <hr>
 <p></br><font size="6" color=red><center> 【 如何插入圖片 】 </center></font></p>
 <blockquote>
@@ -575,7 +704,7 @@
 <p>方法三：使用Next主題內建的Dark模式,使用按鈕切換</p>
 </blockquote>
 <p>下載 <a target="_blank" rel="noopener" href="https://cdn.jsdelivr.net/npm/darkmode-js/lib/darkmode-js.min.js">darkmodw-js.min.js</a>到NEXT主題裡的lib目錄</p>
-
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>
     </div>
 
     

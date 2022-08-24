@@ -4,6 +4,15 @@
   <url>
     <loc>http://example.com/2022/08/14/20220814HexoLearningJourney/</loc>
     
+    <lastmod>2022-08-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/2022/08/15/hello-world/</loc>
+    
     <lastmod>2022-08-23</lastmod>
     
     <changefreq>monthly</changefreq>
@@ -91,48 +100,39 @@
     <priority>0.6</priority>
   </url>
   
-  <url>
-    <loc>http://example.com/2022/08/15/hello-world/</loc>
-    
-    <lastmod>2022-08-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
 
   <url>
     <loc>http://example.com/</loc>
-    <lastmod>2022-08-23</lastmod>
+    <lastmod>2022-08-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
-    <loc>http://example.com/tags/Hexo/</loc>
-    <lastmod>2022-08-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://example.com/tags/Makedown/</loc>
-    <lastmod>2022-08-23</lastmod>
+    <lastmod>2022-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/NEXT/</loc>
-    <lastmod>2022-08-23</lastmod>
+    <loc>http://example.com/tags/Hexo/</loc>
+    <lastmod>2022-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://example.com/tags/child/</loc>
-    <lastmod>2022-08-23</lastmod>
+    <lastmod>2022-08-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/tags/NEXT/</loc>
+    <lastmod>2022-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -140,22 +140,22 @@
 
   
   <url>
-    <loc>http://example.com/categories/Hexo/</loc>
-    <lastmod>2022-08-23</lastmod>
+    <loc>http://example.com/categories/%E7%94%9F%E6%B4%BB/</loc>
+    <lastmod>2022-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/categories/%E7%94%9F%E6%B4%BB/</loc>
-    <lastmod>2022-08-23</lastmod>
+    <loc>http://example.com/categories/Hexo/</loc>
+    <lastmod>2022-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://example.com/categories/child/</loc>
-    <lastmod>2022-08-23</lastmod>
+    <lastmod>2022-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>

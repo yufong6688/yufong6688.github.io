@@ -31,8 +31,8 @@
 <meta property="article:published_time" content="2022-08-07T17:36:00.000Z">
 <meta property="article:modified_time" content="2022-08-23T05:12:35.590Z">
 <meta property="article:author" content="Yufong Chen">
-<meta property="article:tag" content="Hexo">
 <meta property="article:tag" content="Makedown">
+<meta property="article:tag" content="Hexo">
 <meta name="twitter:card" content="summary">
 
 
@@ -53,7 +53,37 @@
   <noscript>
     <link rel="stylesheet" href="/css/noscript.css">
   </noscript>
-</head>
+<style type="text/css">
+.spoiler {
+  display: inline-flex;
+}
+p.spoiler {
+  display: flex;
+}
+.spoiler a {
+  pointer-events: none;
+}
+.spoiler-blur, .spoiler-blur > * {
+  transition: text-shadow .5s ease;
+}
+.spoiler .spoiler-blur, .spoiler .spoiler-blur > * {
+  color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
+  text-shadow: 0 0 10px grey;
+  cursor: pointer;
+}
+.spoiler .spoiler-blur:hover, .spoiler .spoiler-blur:hover > * {
+  text-shadow: 0 0 5px grey;
+}
+.spoiler-box, .spoiler-box > * {
+  transition: color .5s ease,
+  background-color .5s ease;
+}
+.spoiler .spoiler-box, .spoiler .spoiler-box > * {
+  color: black;
+  background-color: black;
+  text-shadow: none;
+}</style></head>
 
 <body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
   <div class="headband"></div>
@@ -312,7 +342,7 @@
 <h2 id="意外改變寫作外無效率的發佈"><a href="#意外改變寫作外無效率的發佈" class="headerlink" title="意外改變寫作外無效率的發佈"></a>意外改變寫作外無效率的發佈</h2></blockquote>
 <p>意料外的事，使用makedown文章使用VScode就可以看到文章的展現而且是即時，以往在wordpress不好的習慣就是文章沒全部寫好就按個發佈看一下結果，但都很花時間，不像makedown我把文章寫好了，再來處理格式，但都是即時呈現，少了文章寫一半就分心去發佈看結果呈現，然後邊調整格式邊寫文章超花時間在格式調整上。</p>
 <p>綜合上述思考與拼湊，終於一個早晨寫完一篇文章，在邊寫邊思考下更確定駐足在HEXO，未來可能以玩票性質去認識其它平台，不過可能的話不想要再去用database系統的blog，沒錯就是HEXO了，心中的一個奇異果廣告旋律，寫起來~寫起來…</p>
-
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>
     </div>
 
     
@@ -321,8 +351,8 @@
 
     <footer class="post-footer">
           <div class="post-tags">
-              <a href="/tags/Hexo/" rel="tag"># Hexo</a>
               <a href="/tags/Makedown/" rel="tag"># Makedown</a>
+              <a href="/tags/Hexo/" rel="tag"># Hexo</a>
           </div>
 
         

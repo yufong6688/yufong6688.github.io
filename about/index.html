@@ -56,7 +56,37 @@
   <noscript>
     <link rel="stylesheet" href="/css/noscript.css">
   </noscript>
-</head>
+<style type="text/css">
+.spoiler {
+  display: inline-flex;
+}
+p.spoiler {
+  display: flex;
+}
+.spoiler a {
+  pointer-events: none;
+}
+.spoiler-blur, .spoiler-blur > * {
+  transition: text-shadow .5s ease;
+}
+.spoiler .spoiler-blur, .spoiler .spoiler-blur > * {
+  color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
+  text-shadow: 0 0 10px grey;
+  cursor: pointer;
+}
+.spoiler .spoiler-blur:hover, .spoiler .spoiler-blur:hover > * {
+  text-shadow: 0 0 5px grey;
+}
+.spoiler-box, .spoiler-box > * {
+  transition: color .5s ease,
+  background-color .5s ease;
+}
+.spoiler .spoiler-box, .spoiler .spoiler-box > * {
+  color: black;
+  background-color: black;
+  text-shadow: none;
+}</style></head>
 
 <body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
   <div class="headband"></div>
@@ -272,7 +302,7 @@
 <blockquote>
 <h3 id="為何用Hexo架站"><a href="#為何用Hexo架站" class="headerlink" title="為何用Hexo架站"></a>為何用Hexo架站</h3><p>這就要講到為何要架站？<br>主要是我希望把學到的一些東西記錄起來，<br>也能方便找到，之前使用Wordpress架站<br>但最先是用F2Blog,這是一個好介面，<br>該有的功能都有，但後來沒人維護了。<br>轉到Wordpress用了一陣子，<br>後來NAS常出問題，加上移植備份還原都很麻煩<br>站掛了要看某一篇文章就必須要先懂SQL語法<br>討厭架站還要搞定WebServer和SQL Server<br>希望能更單純簡單點，<br>理想的Blog就是好記錄、好整理、能分類，可搜尋，<br>跨平台，好備份，好復原，可隨身攜帶，<br>可以的話買個Windows系統的電視棒就可以架好了。<br>或是裝在Raspberry Pi Zero 2 W,隨身攜帶<br>而Hexo是靜態網頁，就算站掛了，<br>我也能很輕鬆的從檔案裡找到資料。<br>不用還得要在把SQL語法拿出來。<br>缺點就是門檻高，就算架好了後面還有一堆東西要妥善<br>另外就是寫作要學一下Makedown語法，<br>但一切都是先苦後甘，因為維護很簡單。<br>而且問題少好解決，就算最差情況不能解決，<br>就是整個系統重建，然後在把寫好的文件圖檔…複製貼上<br>不用搞一堆複雜的指令，省了很多事。<br>另外他也達成了一般文書軟體不能達成的事。<br>例如放文章放圖片，影音，文件引用，公式，階層式…<br>彈性遠遠超過任何文書應用軟體</p>
 </blockquote>
-
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>
       </div>
       
       
