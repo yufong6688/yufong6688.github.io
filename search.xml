@@ -438,6 +438,39 @@
       </tags>
   </entry>
   <entry>
+    <title>General MacArthur&#39;s Prayer For His Son</title>
+    <url>/2022/08/24/GeneralMacArthursPrayerForHisSon/</url>
+    <content><![CDATA[<h2 id="全文循環播放"><a href="#全文循環播放" class="headerlink" title="全文循環播放"></a>全文循環播放</h2><p>​<audio id="audio" controls="" preload="none"><br>      <source id="mp3" src="/music/Gerernal MacArthur's Prayer For His Son.mp3"><br></audio></p>
+<h2 id="第一段循環播放"><a href="#第一段循環播放" class="headerlink" title="第一段循環播放"></a>第一段循環播放</h2><p>​<audio id="audio" controls="" preload="none"><br>      <source id="mp3" src="/music/Gerernal MacArthur's Prayer For His Son_1.mp3"><br></audio></p>
+<ol>
+<li>General MacArthur’s Prayer For His Son<br>By Douglas MacArthur<br>Build me a son, O Lord,<br>who will be strong enough to know when he is weak,<br>and brave enough to face himself when he is afraid;<br>one who will be proud and unbending<br>in honest defeat, and humble and gentle in victory.</li>
+</ol>
+<h2 id="第二段循環播放"><a href="#第二段循環播放" class="headerlink" title="第二段循環播放"></a>第二段循環播放</h2><p>​<audio id="audio" controls="" preload="none"><br>      <source id="mp3" src="/music/Gerernal MacArthur's Prayer For His Son_2.mp3"><br></audio></p>
+<ol start="2">
+<li>Build me a son<br>whose wishes will not take the place of deeds;<br>a son who will know Thee -<br>and that to know himself<br>is the foundation stone of knowledge.</li>
+</ol>
+<h2 id="第三段循環播放"><a href="#第三段循環播放" class="headerlink" title="第三段循環播放"></a>第三段循環播放</h2><p>​<audio id="audio" controls="" preload="none"><br>      <source id="mp3" src="/music/Gerernal MacArthur's Prayer For His Son_3.mp3"><br></audio></p>
+<ol start="3">
+<li>Lead him, I pray,<br>not in the path of ease and comfort,<br>but under the stress and spur<br>of difficulties and challenge.<br>Here let him learn<br>to stand up in the storm;<br>here let him learn<br>compassion for those who fail.</li>
+</ol>
+<h2 id="第四段循環播放"><a href="#第四段循環播放" class="headerlink" title="第四段循環播放"></a>第四段循環播放</h2><p>​<audio id="audio" controls="" preload="none"><br>      <source id="mp3" src="/music/Gerernal MacArthur's Prayer For His Son_4.mp3"><br></audio></p>
+<ol start="4">
+<li>Build me a son whose heart will be clear,<br>whose goal will be high;<br>a son who will master himself<br>before he seeks to master other men;<br>one who will reach into the future,<br>yet never forget the past.</li>
+</ol>
+<h2 id="第五段循環播放"><a href="#第五段循環播放" class="headerlink" title="第五段循環播放"></a>第五段循環播放</h2><p>​<audio id="audio" controls="" preload="none"><br>      <source id="mp3" src="/music/Gerernal MacArthur's Prayer For His Son_5.mp3"><br></audio></p>
+<ol start="5">
+<li>And after all these things are his,<br>add, I pray enough of a sense of humor,<br>so that he may always be serious,<br>yet never take himself too seriously.<br>Give him humility,<br>so that he may always remember<br>the simplicity of true greatness,<br>the open mind of true wisdom,<br>and the meekness of true strength.<br>Then, I, his father,<br>will dare to whisper,<br>“I have not lived in vain.”</li>
+</ol>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+      <categories>
+        <category>西方文化導讀</category>
+      </categories>
+      <tags>
+        <tag>西方文化導讀</tag>
+        <tag>英文讀經</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hexo常用的編輯指令</title>
     <url>/2022/08/20/Hexo%E5%B8%B8%E7%94%A8%E7%9A%84%E7%B7%A8%E8%BC%AF%E6%8C%87%E4%BB%A4/</url>
     <content><![CDATA[<h3 id="連結篇"><a href="#連結篇" class="headerlink" title="連結篇"></a>連結篇</h3><h4 id="連結到Hexo其它文章"><a href="#連結到Hexo其它文章" class="headerlink" title="連結到Hexo其它文章"></a>連結到Hexo其它文章</h4><p>必須考慮移植性，不管未來網頁網址如何變它都不會因為此而失連,使用Hexo內置的標籤語法</p>
@@ -482,11 +515,13 @@
 </ol>
 <h4 id="使用外掛-hexo-renderer-marked"><a href="#使用外掛-hexo-renderer-marked" class="headerlink" title="使用外掛 hexo-renderer-marked"></a>使用外掛 <code>hexo-renderer-marked</code></h4><ol>
 <li>安裝<code>hexo-renderer-marked</code> 插件<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ npm install hexo-renderer-marked --save</span><br></pre></td></tr></table></figure></li>
-<li>開啟 <code>_config.yml</code> 加入下面參數設定<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">post_asset_folder: true</span><br><span class="line">marked:</span><br><span class="line">  prependRoot: true  #將根值附加到（內部）圖像路徑。 root : /blog/</span><br><span class="line">  postAsset: true  # 將 post 資產的圖像路徑解析為相對路徑</span><br></pre></td></tr></table></figure>
+<li>開啟 <code>_config.yml</code> 加入下面參數設定 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">post_asset_folder: true</span><br><span class="line">marked:</span><br><span class="line">  prependRoot: true  #將根值附加到（內部）圖像路徑。 root : /blog/</span><br><span class="line">  postAsset: true  # 將 post 資產的圖像路徑解析為相對路徑</span><br></pre></td></tr></table></figure>
  啟用後，資產圖像將自動解析為其相應帖子的路徑。<br> 例如，<code>“image.jpg”</code>位於<code>“/2020/01/02/foo/image.jpg”</code>，表示它是<code>“/2020/01/02/foo/”</code>帖子的資產圖片，將被渲染為<code> .![](image.jpg)&lt;img src=&quot;/2020/01/02/foo/image.jpg&quot;&gt;</code></li>
 <li>參數解析<br>因為<code>marked:</code>有眾多參數，詳細參數仍要看原始說明<br> <a href="https://github.com/hexojs/hexo-renderer-marked">hexo-renderer-marked </a></li>
 </ol>
 <h4 id="Typora插入方式"><a href="#Typora插入方式" class="headerlink" title="Typora插入方式"></a>Typora插入方式</h4><p><a href="https://www.gushiciku.cn/pl/ptBs/zh-tw">其它使用外掛及Typora插入方式</a></p>
+<hr>
+<h4 id="插入簡易mp3播放器"><a href="#插入簡易mp3播放器" class="headerlink" title="插入簡易mp3播放器"></a>插入簡易mp3播放器</h4><p><code>​&lt;audio id=&quot;audio&quot; controls=&quot;&quot; preload=&quot;none&quot;&gt;       &lt;source id=&quot;mp3&quot; src=&quot;音檔存放位置&quot;&gt; &lt;/audio&gt;</code><br>​<audio id="audio" controls="" preload="none"><br>      <source id="mp3" src="/music/Gerernal MacArthur's Prayer For His Son.mp3"><br></audio></p>
 <hr>
 <h3 id="標籤外掛"><a href="#標籤外掛" class="headerlink" title="標籤外掛"></a>標籤外掛</h3><h4 id="官網標籤外掛"><a href="#官網標籤外掛" class="headerlink" title="官網標籤外掛"></a><a href="https://hexo.io/zh-tw/docs/tag-plugins">官網標籤外掛</a></h4><p>有空要來研究一下</p>
 <blockquote><p>Do not just seek happiness for yourself. Seek happiness for all. Through kindness. Through mercy.</p>
@@ -624,19 +659,18 @@
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
   </entry>
   <entry>
-    <title>General MacArthur&#39;s Prayer For His Son</title>
-    <url>/2022/08/24/GeneralMacArthursPrayerForHisSon/</url>
-    <content><![CDATA[<p>General MacArthur’s Prayer For His Son<br>By Douglas MacArthur<br>Build me a son, O Lord, who will be strong enough to know when he is weak, and brave enough to face himself when he is afraid; one who will be proud and unbending in honest defeat, and humble and gentle in victory.</p>
-<p>Build me a son whose wishes will not take the place of deeds;<br>a son who will know Thee -<br>and that to know himself is the foundation stone of knowledge.<br>Lead him, I pray, not in the path of ease and comfort, but under the stress and spur of difficulties and challenge.<br>Here let him learn to stand up in the storm; here let him learn compassion for those who fail.</p>
-<p>Build me a son<br>whose heart will be clear, whose goal will be high; a son who will master himself before he seeks to master other men;<br>one who will reach into the future, yet never forget the past.<br>And after all these things are his, add, I pray enough of a sense of humor, so that he may always be serious, yet never take himself too seriously.</p>
-<p>Give him humility, so that he may always remember the simplicity of true greatness, the open mind of true wisdom, and the meekness of true strength.<br>Then, I, his father,<br>will dare to whisper, “I have not lived in vain.”</p>
+    <title>Anki音檔存放路徑</title>
+    <url>/2022/08/25/Anki%E9%9F%B3%E6%AA%94%E5%AD%98%E6%94%BE%E8%B7%AF%E5%BE%91/</url>
+    <content><![CDATA[<h1 id="ANKI的資源的存放路徑"><a href="#ANKI的資源的存放路徑" class="headerlink" title="ANKI的資源的存放路徑"></a>ANKI的資源的存放路徑</h1><p>最直接的做法就是先看ANKI的檔案是存在哪的？</p>
+<p>工具 &#x2F; 附加元件 點選【檢視檔案】</p>
+<p>從附加元件的存放位置可以很容易找到音檔的存放位置</p>
+<p>\使用者\使用者名稱\AppData\Roaming\Anki2\使用者1\collection.media</p>
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
       <categories>
-        <category>西方文化導讀</category>
+        <category>ANKI</category>
       </categories>
       <tags>
-        <tag>西方文化導讀</tag>
-        <tag>英文讀經</tag>
+        <tag>ANKI</tag>
       </tags>
   </entry>
 </search>
