@@ -1,8 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>更新記錄</title>
+    <url>/2022/08/25/20220000%E6%9B%B4%E6%96%B0%E8%A8%98%E9%8C%84/</url>
+    <content><![CDATA[<ul>
+<li>2022&#x2F;08&#x2F;25【plugin】hexo-bridge		<a href="http://localhost:4000/bridge">http://localhost:4000/bridge</a> <br></li>
+<li>2022&#x2F;08&#x2F;25【文章】General MacArthur’s Prayer For His Son加音檔 <br></li>
+<li>2022&#x2F;08&#x2F;25【文章】ANKI 的資源的存放路徑 <br></li>
+<li>2022&#x2F;08&#x2F;25【文章】blog更新記錄 <br></li>
+<li>2022&#x2F;08&#x2F;25【HTML】新增錄音程式，放入一個\public\code\recode01.html <br></li>
+<li>2022&#x2F;08&#x2F;25【HTML】套用錄音程式， <br><ul>
+<li><code>&lt;iframe src=&quot;/code/record01.html&quot; height=&quot;300px&quot; width=&quot;420px&quot; scrolling=&quot;auto&quot; frameborder=&quot;0&quot; style=&quot;box-shadow: 0px 0px 20px -10px #888;&quot;&gt;</code></li>
+</ul>
+</li>
+<li>2022&#x2F;08&#x2F;25【文章】 General MacArthur’s Prayer For His Son 嵌入錄音<br> </li>
+<li>2022&#x2F;08&#x2F;26【文章】Anki音檔存放路徑</li>
+<li>2022&#x2F;08&#x2F;28【文章】文字轉語音</li>
+<li>2022&#x2F;08&#x2F;28 【文章】Audacity常用功能之自動音頻分段</li>
+</ul>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+  </entry>
+  <entry>
     <title>Hexo之Makedown初體驗</title>
-    <url>/2022/08/08/20220808-MyFirstMakedown/</url>
+    <url>/2022/08/08/20220808-Hexo%E4%B9%8BMakedown%E5%88%9D%E9%AB%94%E9%A9%97/</url>
     <content><![CDATA[<blockquote>
 <h2 id="偶遇HEXO"><a href="#偶遇HEXO" class="headerlink" title="偶遇HEXO"></a>偶遇HEXO</h2></blockquote>
 <p>第一次聽到Hexo可以建立部落格是因為學習ESP32常常聽老師提到GitHub常常有人提出很有趣的專案，它是每個學習技術的人要去瞭解的，在接觸Gethub平台無意中發現到有人可以把網頁掛在Github免費平台上，因此好奇心之下才發現只能放純靜態網頁但據我所知要架起一個Blog的平台都要能跑SQL server，只能放靜態網頁為什麼有些人偏偏從wordpress這個有強大三方支援的平台移到這？另外當時也是想找一個類似HackMD的階層式部落格平台，其實它在撰寫文章時會自動生成一個階層式的目錄，這目錄可以很快的讓你移動到你要看的文章的某一段。瞭解下發現它還可以解決我很多問題，只是全都是要輸入命令，比起之前使用Wordpress還難啃，或許回想到二十幾年前常常都要Keyin程式碼，報告…應該可以先了解是否合適。</p>
@@ -34,8 +57,47 @@
       </tags>
   </entry>
   <entry>
+    <title>Hello World</title>
+    <url>/2022/08/15/20220801_hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<span id="more"></span>
+
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+
+<details><summary>Where are you from?</summary><p>I’m from the Earth. Water Planet!</p>
+</details>
+
+<details open="open"><summary>What food do you like?</summary><ol>
+<li>Sushi</li>
+<li>Tempura</li>
+<li>Sukiyaki</li>
+</ol>
+</details>
+
+
+<details><summary>**程式片段**</summary><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#x27;use strict&#x27;;</span><br><span class="line"></span><br><span class="line">const pagination = require(&#x27;hexo-pagination&#x27;);</span><br><span class="line">const &#123; sort &#125; = require(&#x27;timsort&#x27;);</span><br><span class="line"></span><br><span class="line">module.exports = function(locals) &#123;</span><br><span class="line">  const config = this.config;</span><br><span class="line">  const posts = locals.posts.sort(config.index_generator.order_by);</span><br><span class="line"></span><br><span class="line">  posts.data = posts.data.sort(function(a, b) &#123;</span><br><span class="line">    if(a.top &amp;&amp; b.top) &#123; // 两篇文章都有top，top大的在前</span><br><span class="line">        if(a.top == b.top)</span><br><span class="line">			return b.date - a.date; // 若top值一样，最新的文章在前面</span><br><span class="line">        else</span><br><span class="line">			return b.top - a.top; // top大的在前面</span><br><span class="line">    &#125;</span><br><span class="line">    else if(a.top &amp;&amp; !b.top) &#123; // 以下是只有一篇文章top有定义，那么将有top的排在前面</span><br><span class="line">        return -1;</span><br><span class="line">    &#125;</span><br><span class="line">    else if(!a.top &amp;&amp; b.top) &#123;</span><br><span class="line">        return 1;</span><br><span class="line">    &#125;</span><br><span class="line">    else return b.date - a.date; 	//都没有top标签，最新的文章在前面</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line">  // sort(posts.data, (a, b) =&gt; (b.sticky || 0) - (a.sticky || 0));  &lt;--刪除標註起來</span><br><span class="line">  const paginationDir = config.pagination_dir || &#x27;page&#x27;;</span><br><span class="line">  const path = config.index_generator.path || &#x27;&#x27;;</span><br><span class="line"></span><br><span class="line">  return pagination(path, posts, &#123;</span><br><span class="line">    perPage: config.index_generator.per_page,</span><br><span class="line">    layout: [&#x27;index&#x27;, &#x27;archive&#x27;],</span><br><span class="line">    format: paginationDir + &#x27;/%d/&#x27;,</span><br><span class="line">    data: &#123;</span><br><span class="line">      __index: true</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;);</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+<p><img src="/images/20220814HexoHexoLearningJourney_pic28.webp"> </p>
+</details>
+
+
+
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+  </entry>
+  <entry>
     <title>Hexo學習記錄</title>
-    <url>/2022/08/14/20220814HexoLearningJourney/</url>
+    <url>/2022/08/14/20220814_HexoLearningJourney/</url>
     <content><![CDATA[<blockquote>
 <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>Hexo是一款不用安裝任何Database就可以運作的Blog架站程式，文章編輯回歸簡單的文字輸入沒有像Word一樣的編輯畫面，有的像更古老的二十多年前用的PE2或PE3的前置指令來格式化文字，它使用的標準為<a href="https://markdown.tw/">Markdown語法</a>，指令産生靜態網頁，所以它只要一個網頁空間不需要運作其它複雜的後台程式就可以運作了，一切回歸到簡單</p>
 </blockquote>
@@ -346,7 +408,7 @@
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">使用![](Hexo-logo.png)語法(會有問題)</span><br></pre></td></tr></table></figure>
 <p><img src="/Hexo-logo.png"></p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">使用 &#123;% asset_img Hexo-logo.png 這是一張圖片 %&#125; 語法</span><br></pre></td></tr></table></figure>
-<img src="/2022/08/14/20220814HexoLearningJourney/Hexo-logo.png" class="" title="這是一張圖片"></li>
+</li>
 </ol>
 <h4 id="使用外掛-hexo-renderer-marked"><a href="#使用外掛-hexo-renderer-marked" class="headerlink" title="使用外掛 hexo-renderer-marked"></a>使用外掛 <code>hexo-renderer-marked</code></h4><ol>
 <li>安裝<code>hexo-renderer-marked</code> 插件<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ npm install hexo-renderer-marked --save</span><br></pre></td></tr></table></figure></li>
@@ -384,35 +446,8 @@
       </tags>
   </entry>
   <entry>
-    <title>任務卡製作</title>
-    <url>/2022/08/23/20220823%E4%BB%BB%E5%8B%99%E5%8D%A1%E8%A3%BD%E4%BD%9C/</url>
-    <content><![CDATA[<blockquote>
-<h2 id="緣起"><a href="#緣起" class="headerlink" title="緣起"></a>緣起</h2><p>我們都知道希望小孩學習的東西並不見得是他想學的,他想學的可能是和學業扯不上一點關係,像我家的小孩就很喜歡玩史萊姆,一叫她看英文就興趣缺缺。學習是有門檻,也就是剛開始會比較難,像英文從來不背單字的,即使靠著自然發音他都感覺十分有難度，但是半強迫加上使用Wordup及ANKI加一些學習法，滴水穿石的學習，慢慢的記得越來越多字，英文讀久了就會發現某些音就能連出某串字例如：tion、and、all、ter、ch、eat、side、ing、der、ly、air…隨著背的單字到達一個門檻配合發音記憶就很快也能越背越長。所以任何學習一旦跨過了門檻學習速度就會提升，但如果沒跨過則一切都歸零。這也是我堅持教小孩自學我就是不想讓小孩去補英文，補了沒複習久了也忘光了。</p>
-</blockquote>
-<span id="more"></span>
-<blockquote>
-<h2 id="任務卡設計的作用"><a href="#任務卡設計的作用" class="headerlink" title="任務卡設計的作用"></a>任務卡設計的作用</h2><p>由於學習最初門檻都很高，於是我想到來設計任務卡，做了之後發現我好像在設計一款卡片遊戲，它的作用</p>
-</blockquote>
-<ol>
-<li>學習能專注在一個任務或二個任務<br>不能一次發太多，會失焦然後達不到反而沒信心</li>
-<li>任務要有奬勵，直接就發金錢<br>因為我發現小孩有錢她還不知道要花在哪？順便學會理財金錢觀</li>
-<li>有些任務是教更小的妹妹<br>這還蠻伐算的投資，因為教學相長</li>
-<li>任務卡保留起來成為一個學習歷程<br>學習歷程是很重要的，因為更小的妹妹可跟著任務再跑一次</li>
-<li>學習自制教材也是任務中另一種加值<br>這裡的想法是讓小孩設計問題，例如讀一篇文章設計五個問題，一方便他會讀的更仔細，但作用在當妹妹再讀時我可以用這些問題問她，其它如anki、wordup卡面自製，自己複習…</li>
-<li>自拍小影片上傳，可能是學習或讀經什麼都可以，現在拍片還能賺錢</li>
-<li>還有其它沒想到的後面補充</li>
-</ol>
-<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
-      <categories>
-        <category>child</category>
-      </categories>
-      <tags>
-        <tag>child</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>20220815小孩的自學計劃</title>
-    <url>/2022/08/15/20220815%E5%B0%8F%E5%AD%A9%E7%9A%84%E8%87%AA%E5%AD%B8%E8%A8%88%E5%8A%83/</url>
+    <url>/2022/08/15/20220815_%E5%B0%8F%E5%AD%A9%E7%9A%84%E8%87%AA%E5%AD%B8%E8%A8%88%E5%8A%83/</url>
     <content><![CDATA[<h3 id="簡介"><a href="#簡介" class="headerlink" title="簡介"></a>簡介</h3><p>本區是大概記錄一下小孩的學習歷程，以及自己為了讓小孩自學買了什麼教案，看了哪些影片又買了哪些書，年齡到了就把該書拿出來給小孩讀，才不會忘了自己買過這些書要給小孩看，萬一忘了時間過了之前書的這些書、影片、APP…就白費了，另YOUTUBE有家長或老師讀繪本給小孩看，內容真的很不錯，這就省去了很多自己英文能力不好沒辦法去教小孩的煩惱…,大概我會把這些做個分齡可以時間到了就拿出來給小孩學習</p>
 <ul>
 <li>記錄小孩的學習歷程</li>
@@ -438,23 +473,36 @@
       </tags>
   </entry>
   <entry>
-    <title>Anki音檔存放路徑</title>
-    <url>/2022/08/25/Anki%E9%9F%B3%E6%AA%94%E5%AD%98%E6%94%BE%E8%B7%AF%E5%BE%91/</url>
-    <content><![CDATA[<h1 id="ANKI的資源的存放路徑"><a href="#ANKI的資源的存放路徑" class="headerlink" title="ANKI的資源的存放路徑"></a>ANKI的資源的存放路徑</h1><p>最直接的做法就是先看ANKI的檔案是存在哪的？</p>
-<p>工具 &#x2F; 附加元件 點選【檢視檔案】</p>
-<p>從附加元件的存放位置可以很容易找到音檔的存放位置</p>
-<p>\使用者\使用者名稱\AppData\Roaming\Anki2\使用者1\collection.media</p>
-<span id="more"></span><link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+    <title>線上錄音程式</title>
+    <url>/2022/08/24/20220815_%E7%B7%9A%E4%B8%8A%E9%8C%84%E9%9F%B3%E7%A8%8B%E5%BC%8F/</url>
+    <content><![CDATA[<h1 id="錄音程式1"><a href="#錄音程式1" class="headerlink" title="錄音程式1"></a>錄音程式1</h1><p>本程式參考 <a href="https://www.youtube.com/watch?v=B3wWIsNHPk4">Audio Recorder | HTML, CSS and JavaScript Tutorial</a><br>優點：按鈕很美觀、錄音存成檔案<br>缺點：檔案很大，不是存mp3，按鈕很大要插在文章裡會佔掉很大位置，沒辦法上傳到Server</p>
+<iframe src="/code/recorder01.html" height="300px" width="420px" scrolling="auto" frameborder="0" style="box-shadow: 0px 0px 20px -10px #888;">
+</iframe>
+
+<h1 id="錄音程式2"><a href="#錄音程式2" class="headerlink" title="錄音程式2"></a>錄音程式2</h1><p>本程式參考 <a href="https://www.gushiciku.cn/pl/2NhU/zh-tw">HTML5網頁錄音和上傳到伺服器，支援PC、Android，支援IOS微信</a><br>優點：可錄音回放<br>缺點：錄出來的檔案不曉得存在哪裡？，沒辦法上傳到Server</p>
+<iframe src="/code/recorder02.html" height="300px" width="420px" scrolling="auto" frameborder="0" ></iframe>
+
+<h1 id="錄音程式3-flash已經禁用了"><a href="#錄音程式3-flash已經禁用了" class="headerlink" title="錄音程式3 (flash已經禁用了)"></a>錄音程式3 (flash已經禁用了)</h1><p>本程式參考 <a href="https://www.gushiciku.cn/pl/2NhU/zh-tw">使用插件js-audio-plugin</a><br>優點：可錄音回放<br>缺點：錄出來的檔案不曉得存在哪裡？，沒辦法上傳到Server</p>
+<iframe src="/code/recorder03.html" height="300px" width="420px" scrolling="auto" frameborder="0" ></iframe>
+
+<h1 id="錄音程式4-使用js-audio-plugin"><a href="#錄音程式4-使用js-audio-plugin" class="headerlink" title="錄音程式4 (使用js-audio-plugin)"></a>錄音程式4 (使用js-audio-plugin)</h1><p><a href="https://github.com/2fps/recorder/tree/master/site">js-audio-plugin纯js实现浏览器端录音</a><br><a href="http://recorder.api.zhuyuntao.cn/">說明文件</a><br><a href="https://recorder.zhuyuntao.cn/">DEMO</a><br><a href="https://blog.csdn.net/weixin_43415075/article/details/118099862">程式寫法參考</a><br>本程式參考 <a href="http://recorder.api.zhuyuntao.cn/">HTML5網頁錄音和上傳到伺服器，支援PC、Android，支援IOS微信</a><br>優點：可錄音回放<br>缺點：錄出來的檔案不曉得存在哪裡？，沒辦法上傳到Server</p>
+<iframe src="/code/recorder04.html" height="300px" width="420px" scrolling="auto" frameborder="0" ></iframe>
+
+<h1 id="錄音程式5-使用js-audio-plugin"><a href="#錄音程式5-使用js-audio-plugin" class="headerlink" title="錄音程式5 (使用js-audio-plugin)"></a>錄音程式5 (使用js-audio-plugin)</h1><p>[Javascript教程：錄製音訊並將其編碼為mp3](<a href="https://medium.com/jeremy-gottfrieds-tech-blog/">https://medium.com/jeremy-gottfrieds-tech-blog/</a><br>幾周前，我正在使用Google Cloud Voice API構建一個Web應用程式，我需要在瀏覽器中構建一個“記錄”功能。我發現了Javascript的MediaRecorder API用於錄製音訊，以及用於編碼音訊的ffmpeg節點庫。</p>
+<p>下面是一個指向 CodePen 的連結，其中包含我正在覆蓋的所有前端代碼 — <a href="https://codepen.io/jeremyagottfried/pen/bMqyNZ%E3%80%82%E6%88%91%E9%80%A3%E7%B5%90%E5%88%B0%E5%AE%83%E8%80%8C%E4%B8%8D%E6%98%AF%E5%B5%8C%E5%85%A5%EF%BC%8C%E5%9B%A0%E7%82%BA%E5%B5%8C%E5%85%A5%E5%BC%8FCodePen%E4%B8%8D%E5%85%81%E8%A8%B1%E6%82%A8%E8%AB%8B%E6%B1%82%E9%BA%A5%E5%85%8B%E9%A2%A8%E8%A8%B1%E5%8F%AF%E6%AC%8A%E3%80%82">https://codepen.io/jeremyagottfried/pen/bMqyNZ。我連結到它而不是嵌入，因為嵌入式CodePen不允許您請求麥克風許可權。</a></p>
+<p>如果你想瞭解如何構建一個能夠錄製音訊並將其保存到mp3檔的簡單Web應用程式，這裡有一個教程：</p>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
       <categories>
-        <category>ANKI</category>
+        <category>javascript</category>
       </categories>
       <tags>
-        <tag>ANKI</tag>
+        <tag>朗讀</tag>
+        <tag>javascript</tag>
       </tags>
   </entry>
   <entry>
     <title>General MacArthur&#39;s Prayer For His Son</title>
-    <url>/2022/08/24/GeneralMacArthursPrayerForHisSon/</url>
+    <url>/2022/08/24/20220820_GeneralMacArthursPrayerForHisSon/</url>
     <content><![CDATA[<h2 id="全文循環播放"><a href="#全文循環播放" class="headerlink" title="全文循環播放"></a>全文循環播放</h2><p>​<audio id="audio" controls="" preload="none"><br>      <source id="mp3" src="/music/Gerernal MacArthur's Prayer For His Son.mp3"><br></audio></p>
 <span id="more"></span>
 
@@ -497,6 +545,112 @@
       </tags>
   </entry>
   <entry>
+    <title>任務卡製作</title>
+    <url>/2022/08/23/20220823_%E4%BB%BB%E5%8B%99%E5%8D%A1%E8%A3%BD%E4%BD%9C/</url>
+    <content><![CDATA[<blockquote>
+<h2 id="緣起"><a href="#緣起" class="headerlink" title="緣起"></a>緣起</h2><p>我們都知道希望小孩學習的東西並不見得是他想學的,他想學的可能是和學業扯不上一點關係,像我家的小孩就很喜歡玩史萊姆,一叫她看英文就興趣缺缺。學習是有門檻,也就是剛開始會比較難,像英文從來不背單字的,即使靠著自然發音他都感覺十分有難度，但是半強迫加上使用Wordup及ANKI加一些學習法，滴水穿石的學習，慢慢的記得越來越多字，英文讀久了就會發現某些音就能連出某串字例如：tion、and、all、ter、ch、eat、side、ing、der、ly、air…隨著背的單字到達一個門檻配合發音記憶就很快也能越背越長。所以任何學習一旦跨過了門檻學習速度就會提升，但如果沒跨過則一切都歸零。這也是我堅持教小孩自學我就是不想讓小孩去補英文，補了沒複習久了也忘光了。</p>
+</blockquote>
+<span id="more"></span>
+<blockquote>
+<h2 id="任務卡設計的作用"><a href="#任務卡設計的作用" class="headerlink" title="任務卡設計的作用"></a>任務卡設計的作用</h2><p>由於學習最初門檻都很高，於是我想到來設計任務卡，做了之後發現我好像在設計一款卡片遊戲，它的作用</p>
+</blockquote>
+<ol>
+<li>學習能專注在一個任務或二個任務<br>不能一次發太多，會失焦然後達不到反而沒信心</li>
+<li>任務要有奬勵，直接就發金錢<br>因為我發現小孩有錢她還不知道要花在哪？順便學會理財金錢觀</li>
+<li>有些任務是教更小的妹妹<br>這還蠻伐算的投資，因為教學相長</li>
+<li>任務卡保留起來成為一個學習歷程<br>學習歷程是很重要的，因為更小的妹妹可跟著任務再跑一次</li>
+<li>學習自制教材也是任務中另一種加值<br>這裡的想法是讓小孩設計問題，例如讀一篇文章設計五個問題，一方便他會讀的更仔細，但作用在當妹妹再讀時我可以用這些問題問她，其它如anki、wordup卡面自製，自己複習…</li>
+<li>自拍小影片上傳，可能是學習或讀經什麼都可以，現在拍片還能賺錢</li>
+<li>還有其它沒想到的後面補充</li>
+</ol>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+      <categories>
+        <category>child</category>
+      </categories>
+      <tags>
+        <tag>child</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Anki音檔存放路徑</title>
+    <url>/2022/08/25/20220826_Anki%E9%9F%B3%E6%AA%94%E5%AD%98%E6%94%BE%E8%B7%AF%E5%BE%91/</url>
+    <content><![CDATA[<h1 id="ANKI的資源的存放路徑"><a href="#ANKI的資源的存放路徑" class="headerlink" title="ANKI的資源的存放路徑"></a>ANKI的資源的存放路徑</h1><p>最直接的做法就是先看ANKI的檔案是存在哪的？</p>
+<p>工具 &#x2F; 附加元件 點選【檢視檔案】</p>
+<p>從附加元件的存放位置可以很容易找到音檔的存放位置</p>
+<p>\使用者\使用者名稱\AppData\Roaming\Anki2\使用者1\collection.media</p>
+<span id="more"></span><link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+      <categories>
+        <category>ANKI</category>
+      </categories>
+      <tags>
+        <tag>ANKI</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>文字轉語音</title>
+    <url>/2022/08/27/20220827_%E6%96%87%E5%AD%97%E8%BD%89%E8%AA%9E%E9%9F%B3/</url>
+    <content><![CDATA[<h2 id="方法一："><a href="#方法一：" class="headerlink" title="方法一："></a>方法一：</h2><blockquote>
+<h3 id="使用Tampermonkey腳本方式下載"><a href="#使用Tampermonkey腳本方式下載" class="headerlink" title="使用Tampermonkey腳本方式下載"></a>使用Tampermonkey腳本方式下載</h3></blockquote>
+<ul>
+<li>先安裝 IDM 很好用的下載工具</li>
+<li>在Microsoft edge安裝<a href="https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=zh-TW">Tampermonkey</a></li>
+<li>開啟Tampermonkey搜尋azure 並安裝腳本<span id="more"></span>
+<img src="/%5Cimages%5C20220827%E6%96%87%E5%AD%97%E8%BD%89%E8%AA%9E%E9%9F%B301.webp"><br><img src="/%5Cimages%5C20220827%E6%96%87%E5%AD%97%E8%BD%89%E8%AA%9E%E9%9F%B302.webp"><br><img src="/%5Cimages%5C20220827%E6%96%87%E5%AD%97%E8%BD%89%E8%AA%9E%E9%9F%B303.webp"><br><img src="/%5Cimages%5C20220827%E6%96%87%E5%AD%97%E8%BD%89%E8%AA%9E%E9%9F%B304.webp"><br><img src="/%5Cimages%5C20220827%E6%96%87%E5%AD%97%E8%BD%89%E8%AA%9E%E9%9F%B305.webp"></li>
+<li>打開 <a href="https://azure.microsoft.com/zh-tw/services/cognitive-services/text-to-speech/#overview">Microsoft TTS Azure</a>,拉到最下面就會看到文字輸入區<br>  <img src="/%5Cimages%5C20220827%E6%96%87%E5%AD%97%E8%BD%89%E8%AA%9E%E9%9F%B306.webp"></li>
+<li>根據經驗下載太多次起先要每次更新網頁才能再下載,後來就沒辦法下載,連下載按鈕都會不見,所以最好是全部輸入好按下載,速度很快就下載完了,因為每個單字都會有斷音有助於我們把斷音切割出來</li>
+<li>最後再使用Audacity把每一段單字切出來</li>
+</ul>
+<blockquote>
+<h3 id="使用oCam裡的內錄音功能"><a href="#使用oCam裡的內錄音功能" class="headerlink" title="使用oCam裡的內錄音功能"></a>使用oCam裡的內錄音功能</h3></blockquote>
+<ul>
+<li>打開 <a href="https://azure.microsoft.com/zh-tw/services/cognitive-services/text-to-speech/#overview">Microsoft TTS Azure</a>,拉到最下面就會看到文字輸入區</li>
+<li>輸入要轉語音的英文字</li>
+<li>開啟oCam的內錄音</li>
+<li>按下錄音開始錄音</li>
+</ul>
+<blockquote>
+<h3 id="一樣使用oCam裡的內錄音功能"><a href="#一樣使用oCam裡的內錄音功能" class="headerlink" title="一樣使用oCam裡的內錄音功能"></a>一樣使用oCam裡的內錄音功能</h3><p>如果想得到用Microsoft TTS外的其它像Google或Amazon就必須在chrom安裝Read Aloud 外掛</p>
+</blockquote>
+<ul>
+<li>打開<a href="https://docs.google.com/document/u/0/">Google文件</a></li>
+<li>開啟新文件輸入英文單字</li>
+<li>安裝 Read Aloud 插件,重開瀏覽器</li>
+<li>回到Google 文件剛才輸入的地方,開啟Read Aloud ,選一個語音</li>
+<li>開啟oCam內錄音,使用Read Aloud開始朗讀</li>
+</ul>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+      <categories>
+        <category>ANKI</category>
+      </categories>
+      <tags>
+        <tag>child</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Audacity常用功能</title>
+    <url>/2022/08/28/20220828_Audacity%E5%B8%B8%E7%94%A8%E5%8A%9F%E8%83%BD/</url>
+    <content><![CDATA[<blockquote>
+<h2 id="音頻自動切割"><a href="#音頻自動切割" class="headerlink" title="音頻自動切割"></a>音頻自動切割</h2><p>這使用有固定時間分割要分斷各存成檔案很好用</p>
+</blockquote>
+<ol>
+<li>載入音檔並Ctrl+A選取全段音頻</li>
+<li>可按Ctrl+滑鼠縮放音頻記錄每段間隔幾秒</li>
+<li>分析 ／ 標籤音效 </li>
+<li>設定如下,自動分段完成,每一段間隔多少好像軟體會自動偵測<span id="more"></span><br><img src="/%5Cimages%5C20220828_Audacity%E5%B8%B8%E7%94%A8%E5%8A%9F%E8%83%BD01.webp"></li>
+<li>檔案 &#x2F; 匯出多個檔案 (聲音01 …. 聲音N可以重新命名)設定如下<br><img src="/%5Cimages%5C20220828_Audacity%E5%B8%B8%E7%94%A8%E5%8A%9F%E8%83%BD02.webp"></li>
+<li>匯出完成</li>
+</ol>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+      <categories>
+        <category>應用軟體</category>
+      </categories>
+      <tags>
+        <tag>音頻</tag>
+        <tag>教案製作</tag>
+        <tag>應用軟體 </tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hexo常用的編輯指令</title>
     <url>/2022/08/20/Hexo%E5%B8%B8%E7%94%A8%E7%9A%84%E7%B7%A8%E8%BC%AF%E6%8C%87%E4%BB%A4/</url>
     <content><![CDATA[<h3 id="連結篇"><a href="#連結篇" class="headerlink" title="連結篇"></a>連結篇</h3><h4 id="連結到Hexo其它文章"><a href="#連結到Hexo其它文章" class="headerlink" title="連結到Hexo其它文章"></a>連結到Hexo其它文章</h4><p>必須考慮移植性，不管未來網頁網址如何變它都不會因為此而失連,使用Hexo內置的標籤語法</p>
@@ -504,8 +658,8 @@
 <ul>
 <li>文件名：Hexo內建文章,hello-world.md<br><img src="/images/Hexo%E5%B8%B8%E7%94%A8%E7%9A%84%E7%B7%A8%E8%BC%AF%E6%8C%87%E4%BB%A401.webp">  </li>
 <li>文章別名：簡短介紹這個連結</li>
-<li>範例執行1：<a href="/2022/08/15/hello-world/" title="Hexo安裝好內建的第一篇文章">Hexo安裝好內建的第一篇文章</a></li>
-<li>範例執行2：<a href="/2022/08/15/hello-world/" title="Hexo&lt;b&gt;加入粗體&lt;&#x2F;b&gt;">Hexo&lt;b&gt;加入粗體&lt;&#x2F;b&gt;</a></li>
+<li>範例執行1：<a href="#">Post not found: hello-world Hexo安裝好內建的第一篇文章</a></li>
+<li>範例執行2：<a href="#">Post not found: hello-world Hexo<b>加入粗體</b></a></li>
 </ul>
 <span id="more"></span>
 
@@ -646,87 +800,22 @@
       </tags>
   </entry>
   <entry>
-    <title>更新記錄</title>
-    <url>/2022/08/25/%E6%9B%B4%E6%96%B0%E8%A8%98%E9%8C%84/</url>
-    <content><![CDATA[<ul>
-<li>2022&#x2F;8&#x2F;25【plugin】hexo-bridge		<a href="http://localhost:4000/bridge">http://localhost:4000/bridge</a> <br></li>
-<li>2022&#x2F;8&#x2F;25【文章】General MacArthur’s Prayer For His Son加音檔 <br></li>
-<li>2022&#x2F;8&#x2F;25【文章】ANKI 的資源的存放路徑 <br></li>
-<li>2022&#x2F;8&#x2F;25【文章】blog更新記錄 <br></li>
-<li>2022&#x2F;8&#x2F;25【HTML】新增錄音程式，放入一個\public\code\recode01.html <br></li>
-<li>2022&#x2F;8&#x2F;25【HTML】套用錄音程式， <br><ul>
-<li><code>&lt;iframe src=&quot;/code/record01.html&quot; height=&quot;300px&quot; width=&quot;420px&quot; scrolling=&quot;auto&quot; frameborder=&quot;0&quot; style=&quot;box-shadow: 0px 0px 20px -10px #888;&quot;&gt;</code></li>
-</ul>
-</li>
-<li>2022&#x2F;8&#x2F;25【文章】 General MacArthur’s Prayer For His Son 嵌入錄音<br></li>
-</ul>
-<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2022/08/15/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<span id="more"></span>
-
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-
-<details><summary>Where are you from?</summary><p>I’m from the Earth. Water Planet!</p>
-</details>
-
-<details open="open"><summary>What food do you like?</summary><ol>
-<li>Sushi</li>
-<li>Tempura</li>
-<li>Sukiyaki</li>
+    <title>Anki國小單字背誦</title>
+    <url>/2022/08/28/20220828Anki%E5%9C%8B%E5%B0%8F%E5%96%AE%E5%AD%97%E8%83%8C%E8%AA%A6/</url>
+    <content><![CDATA[<h2 id="自製國小單字背誦"><a href="#自製國小單字背誦" class="headerlink" title="自製國小單字背誦"></a>自製國小單字背誦</h2><h3 id="使用Anki聽音拼字"><a href="#使用Anki聽音拼字" class="headerlink" title="使用Anki聽音拼字"></a>使用Anki聽音拼字</h3><ol>
+<li>「[Youtube全民英檢國小單字]邊看邊背(<a href="https://www.youtube.com/watch?v=yGKIUgrWuOA&amp;list=PLdvm7xnbDu49I_9E6ngEW8SoK_O9kZyXs">https://www.youtube.com/watch?v=yGKIUgrWuOA&amp;list=PLdvm7xnbDu49I_9E6ngEW8SoK_O9kZyXs</a>)</li>
+<li>把單字再打進Wordup使用它目地是這裡的出題較多元，另外自建卡片有單字重覆會題示</li>
+<li>再把裡面的單字打進微軟TTS，把語音分段</li>
+<li>開啟Wordup、ANKI、檔案總管並排好</li>
+<li>先從檔案總管拉切好的音檔進Anki,會聽到發音</li>
+<li>然後從Word把資料貼到Anki直到建檔完成<span id="more"></span></li>
 </ol>
-</details>
-
-
-<details><summary>**程式片段**</summary><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#x27;use strict&#x27;;</span><br><span class="line"></span><br><span class="line">const pagination = require(&#x27;hexo-pagination&#x27;);</span><br><span class="line">const &#123; sort &#125; = require(&#x27;timsort&#x27;);</span><br><span class="line"></span><br><span class="line">module.exports = function(locals) &#123;</span><br><span class="line">  const config = this.config;</span><br><span class="line">  const posts = locals.posts.sort(config.index_generator.order_by);</span><br><span class="line"></span><br><span class="line">  posts.data = posts.data.sort(function(a, b) &#123;</span><br><span class="line">    if(a.top &amp;&amp; b.top) &#123; // 两篇文章都有top，top大的在前</span><br><span class="line">        if(a.top == b.top)</span><br><span class="line">			return b.date - a.date; // 若top值一样，最新的文章在前面</span><br><span class="line">        else</span><br><span class="line">			return b.top - a.top; // top大的在前面</span><br><span class="line">    &#125;</span><br><span class="line">    else if(a.top &amp;&amp; !b.top) &#123; // 以下是只有一篇文章top有定义，那么将有top的排在前面</span><br><span class="line">        return -1;</span><br><span class="line">    &#125;</span><br><span class="line">    else if(!a.top &amp;&amp; b.top) &#123;</span><br><span class="line">        return 1;</span><br><span class="line">    &#125;</span><br><span class="line">    else return b.date - a.date; 	//都没有top标签，最新的文章在前面</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line">  // sort(posts.data, (a, b) =&gt; (b.sticky || 0) - (a.sticky || 0));  &lt;--刪除標註起來</span><br><span class="line">  const paginationDir = config.pagination_dir || &#x27;page&#x27;;</span><br><span class="line">  const path = config.index_generator.path || &#x27;&#x27;;</span><br><span class="line"></span><br><span class="line">  return pagination(path, posts, &#123;</span><br><span class="line">    perPage: config.index_generator.per_page,</span><br><span class="line">    layout: [&#x27;index&#x27;, &#x27;archive&#x27;],</span><br><span class="line">    format: paginationDir + &#x27;/%d/&#x27;,</span><br><span class="line">    data: &#123;</span><br><span class="line">      __index: true</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;);</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-<p><img src="/images/20220814HexoHexoLearningJourney_pic28.webp"> </p>
-</details>
-
-
-
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
-  </entry>
-  <entry>
-    <title>線上錄音程式</title>
-    <url>/2022/08/24/%E7%B7%9A%E4%B8%8A%E9%8C%84%E9%9F%B3%E7%A8%8B%E5%BC%8F/</url>
-    <content><![CDATA[<h1 id="錄音程式1"><a href="#錄音程式1" class="headerlink" title="錄音程式1"></a>錄音程式1</h1><p>本程式參考 <a href="https://www.youtube.com/watch?v=B3wWIsNHPk4">Audio Recorder | HTML, CSS and JavaScript Tutorial</a><br>優點：按鈕很美觀、錄音存成檔案<br>缺點：檔案很大，不是存mp3，按鈕很大要插在文章裡會佔掉很大位置，沒辦法上傳到Server</p>
-<iframe src="/code/recorder01.html" height="300px" width="420px" scrolling="auto" frameborder="0" style="box-shadow: 0px 0px 20px -10px #888;">
-</iframe>
-
-<h1 id="錄音程式2"><a href="#錄音程式2" class="headerlink" title="錄音程式2"></a>錄音程式2</h1><p>本程式參考 <a href="https://www.gushiciku.cn/pl/2NhU/zh-tw">HTML5網頁錄音和上傳到伺服器，支援PC、Android，支援IOS微信</a><br>優點：可錄音回放<br>缺點：錄出來的檔案不曉得存在哪裡？，沒辦法上傳到Server</p>
-<iframe src="/code/recorder02.html" height="300px" width="420px" scrolling="auto" frameborder="0" ></iframe>
-
-<h1 id="錄音程式3-flash已經禁用了"><a href="#錄音程式3-flash已經禁用了" class="headerlink" title="錄音程式3 (flash已經禁用了)"></a>錄音程式3 (flash已經禁用了)</h1><p>本程式參考 <a href="https://www.gushiciku.cn/pl/2NhU/zh-tw">使用插件js-audio-plugin</a><br>優點：可錄音回放<br>缺點：錄出來的檔案不曉得存在哪裡？，沒辦法上傳到Server</p>
-<iframe src="/code/recorder03.html" height="300px" width="420px" scrolling="auto" frameborder="0" ></iframe>
-
-<h1 id="錄音程式4-使用js-audio-plugin"><a href="#錄音程式4-使用js-audio-plugin" class="headerlink" title="錄音程式4 (使用js-audio-plugin)"></a>錄音程式4 (使用js-audio-plugin)</h1><p><a href="https://github.com/2fps/recorder/tree/master/site">js-audio-plugin纯js实现浏览器端录音</a><br><a href="http://recorder.api.zhuyuntao.cn/">說明文件</a><br><a href="https://recorder.zhuyuntao.cn/">DEMO</a><br><a href="https://blog.csdn.net/weixin_43415075/article/details/118099862">程式寫法參考</a><br>本程式參考 <a href="http://recorder.api.zhuyuntao.cn/">HTML5網頁錄音和上傳到伺服器，支援PC、Android，支援IOS微信</a><br>優點：可錄音回放<br>缺點：錄出來的檔案不曉得存在哪裡？，沒辦法上傳到Server</p>
-<iframe src="/code/recorder04.html" height="300px" width="420px" scrolling="auto" frameborder="0" ></iframe>
-
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
       <categories>
-        <category>javascript</category>
+        <category>anki</category>
       </categories>
       <tags>
-        <tag>朗讀</tag>
-        <tag>javascript</tag>
+        <tag>child</tag>
       </tags>
   </entry>
 </search>
