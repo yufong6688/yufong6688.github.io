@@ -25,39 +25,6 @@
       </categories>
   </entry>
   <entry>
-    <title>Hexo之Makedown初體驗</title>
-    <url>/2022/08/08/20220808-Hexo%E4%B9%8BMakedown%E5%88%9D%E9%AB%94%E9%A9%97/</url>
-    <content><![CDATA[<blockquote>
-<h2 id="偶遇HEXO"><a href="#偶遇HEXO" class="headerlink" title="偶遇HEXO"></a>偶遇HEXO</h2></blockquote>
-<p>第一次聽到Hexo可以建立部落格是因為學習ESP32常常聽老師提到GitHub常常有人提出很有趣的專案，它是每個學習技術的人要去瞭解的，在接觸Gethub平台無意中發現到有人可以把網頁掛在Github免費平台上，因此好奇心之下才發現只能放純靜態網頁但據我所知要架起一個Blog的平台都要能跑SQL server，只能放靜態網頁為什麼有些人偏偏從wordpress這個有強大三方支援的平台移到這？另外當時也是想找一個類似HackMD的階層式部落格平台，其實它在撰寫文章時會自動生成一個階層式的目錄，這目錄可以很快的讓你移動到你要看的文章的某一段。瞭解下發現它還可以解決我很多問題，只是全都是要輸入命令，比起之前使用Wordpress還難啃，或許回想到二十幾年前常常都要Keyin程式碼，報告…應該可以先了解是否合適。</p>
-<span id="more"></span>
-
-<blockquote>
-<h2 id="HEXO讓我愛上它了"><a href="#HEXO讓我愛上它了" class="headerlink" title="HEXO讓我愛上它了"></a>HEXO讓我愛上它了</h2></blockquote>
-<p>之前用過F2Blog、wordpress這兩者都需要先建構好SQL Server，常常發生的問題是Blog無法連線到SQL Server尤其我Blog是架在家裡的NAS，那個時候常常因為要update會出現連不上SQL Server經常要去排除，另一個問題就是要備份還原wordpress也很傷腦筋，雖然他有提供plugin但心理因素就是我只是要在平台上做一個移動式的類圖書館的東西卻常要排除這問題，然後又得要搬出我塵封已久的SQL語法來下命令，還有要看資料還要裝phpAdmin來管理database想寫個blog要這麼麻煩嗎？HEXO他是用Makedown語法來寫文章，寫要自動生成格式化的網頁文章，而且最讓我喜歡的還是它會自己産生目錄結構，未來文章太長可以直接看目錄找到要找的資料。另一點則是它解決了不用SQL的問題，因為它本身就是文字檔可以用VScode直接編輯，VScode又支援Madedown plugin，可以一邊寫一邊看到結果。VScode也是免費的，真是太棒的組合，我常年尋找的東西終於一步步拼湊完成。</p>
-<blockquote>
-<h2 id="安心寫文章才是重點"><a href="#安心寫文章才是重點" class="headerlink" title="安心寫文章才是重點"></a>安心寫文章才是重點</h2></blockquote>
-<p>文章移到一個新平台都會問自己一些問題，文章好備份嗎？最好是無腦備份，平台好轉移嗎？比較可能就是換了NAS就要把平台移到新主機又是一個大工程，那用word，Evernote，Onenote…都沒有一次能解決我想把資料移動必要時可以做分享的平台，有的話也是該平台現在很棒，但把文章放在別人主機還是比放在自己電腦上及用一台淘汰的電腦就可以跑起來，被入侵綁架了反正它只是個分身，我可以很快的就用電腦就佈署一個及它還支援github平台，那就有二個分身，真的很棒，安心，簡單能掌握才是重點。</p>
-<blockquote>
-<h2 id="即時性佈署快是另一個優點"><a href="#即時性佈署快是另一個優點" class="headerlink" title="即時性佈署快是另一個優點"></a>即時性佈署快是另一個優點</h2></blockquote>
-<p>總不能寫個makedown要花很多時間才能轉成網頁，不過以現在電腦速度就算上千篇文章可能也是一瞬間完成吧，因為它只是文章形式，但也希望hexo不要越昇級越肥大。，還有就是佈署快，沒想到都用指令也可以用的很無腦，因為常用的指令就是建一個指令庫，複製貼上。或話比移動滑鼠開選單找按鈕還有效率一些。</p>
-<blockquote>
-<h2 id="安全性"><a href="#安全性" class="headerlink" title="安全性"></a>安全性</h2></blockquote>
-<p>還有最近想買一台NAS來放部落格，又怕外連網路會發生風險，主要還是wordpress要建一個database，那就只能建在一台不差的NAS上，但現在用了Hexo是自動産生靜態網頁那就簡單多了，重要的是放github不用錢，是免費的。那買來的新NAS就專心的在內網做它要負責的儲存工作。或許那一台QNAP三不五時就會被入侵的NAS現在不用了，可以直接放顆不要的硬碟，就在外網架起來，反正被入侵了還有一個github當WebServer用沒再怕。</p>
-<blockquote>
-<h2 id="意外改變寫作外無效率的發佈"><a href="#意外改變寫作外無效率的發佈" class="headerlink" title="意外改變寫作外無效率的發佈"></a>意外改變寫作外無效率的發佈</h2></blockquote>
-<p>意料外的事，使用makedown文章使用VScode就可以看到文章的展現而且是即時，以往在wordpress不好的習慣就是文章沒全部寫好就按個發佈看一下結果，但都很花時間，不像makedown我把文章寫好了，再來處理格式，但都是即時呈現，少了文章寫一半就分心去發佈看結果呈現，然後邊調整格式邊寫文章超花時間在格式調整上。</p>
-<p>綜合上述思考與拼湊，終於一個早晨寫完一篇文章，在邊寫邊思考下更確定駐足在HEXO，未來可能以玩票性質去認識其它平台，不過可能的話不想要再去用database系統的blog，沒錯就是HEXO了，心中的一個奇異果廣告旋律，寫起來~寫起來…</p>
-<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>Makedown</tag>
-        <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hello World</title>
     <url>/2022/08/15/20220801_hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -95,6 +62,66 @@
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+  </entry>
+  <entry>
+    <title>Hexo之Makedown初體驗</title>
+    <url>/2022/08/08/20220808-Hexo%E4%B9%8BMakedown%E5%88%9D%E9%AB%94%E9%A9%97/</url>
+    <content><![CDATA[<blockquote>
+<h2 id="偶遇HEXO"><a href="#偶遇HEXO" class="headerlink" title="偶遇HEXO"></a>偶遇HEXO</h2></blockquote>
+<p>第一次聽到Hexo可以建立部落格是因為學習ESP32常常聽老師提到GitHub常常有人提出很有趣的專案，它是每個學習技術的人要去瞭解的，在接觸Gethub平台無意中發現到有人可以把網頁掛在Github免費平台上，因此好奇心之下才發現只能放純靜態網頁但據我所知要架起一個Blog的平台都要能跑SQL server，只能放靜態網頁為什麼有些人偏偏從wordpress這個有強大三方支援的平台移到這？另外當時也是想找一個類似HackMD的階層式部落格平台，其實它在撰寫文章時會自動生成一個階層式的目錄，這目錄可以很快的讓你移動到你要看的文章的某一段。瞭解下發現它還可以解決我很多問題，只是全都是要輸入命令，比起之前使用Wordpress還難啃，或許回想到二十幾年前常常都要Keyin程式碼，報告…應該可以先了解是否合適。</p>
+<span id="more"></span>
+
+<blockquote>
+<h2 id="HEXO讓我愛上它了"><a href="#HEXO讓我愛上它了" class="headerlink" title="HEXO讓我愛上它了"></a>HEXO讓我愛上它了</h2></blockquote>
+<p>之前用過F2Blog、wordpress這兩者都需要先建構好SQL Server，常常發生的問題是Blog無法連線到SQL Server尤其我Blog是架在家裡的NAS，那個時候常常因為要update會出現連不上SQL Server經常要去排除，另一個問題就是要備份還原wordpress也很傷腦筋，雖然他有提供plugin但心理因素就是我只是要在平台上做一個移動式的類圖書館的東西卻常要排除這問題，然後又得要搬出我塵封已久的SQL語法來下命令，還有要看資料還要裝phpAdmin來管理database想寫個blog要這麼麻煩嗎？HEXO他是用Makedown語法來寫文章，寫要自動生成格式化的網頁文章，而且最讓我喜歡的還是它會自己産生目錄結構，未來文章太長可以直接看目錄找到要找的資料。另一點則是它解決了不用SQL的問題，因為它本身就是文字檔可以用VScode直接編輯，VScode又支援Madedown plugin，可以一邊寫一邊看到結果。VScode也是免費的，真是太棒的組合，我常年尋找的東西終於一步步拼湊完成。</p>
+<blockquote>
+<h2 id="安心寫文章才是重點"><a href="#安心寫文章才是重點" class="headerlink" title="安心寫文章才是重點"></a>安心寫文章才是重點</h2></blockquote>
+<p>文章移到一個新平台都會問自己一些問題，文章好備份嗎？最好是無腦備份，平台好轉移嗎？比較可能就是換了NAS就要把平台移到新主機又是一個大工程，那用word，Evernote，Onenote…都沒有一次能解決我想把資料移動必要時可以做分享的平台，有的話也是該平台現在很棒，但把文章放在別人主機還是比放在自己電腦上及用一台淘汰的電腦就可以跑起來，被入侵綁架了反正它只是個分身，我可以很快的就用電腦就佈署一個及它還支援github平台，那就有二個分身，真的很棒，安心，簡單能掌握才是重點。</p>
+<blockquote>
+<h2 id="即時性佈署快是另一個優點"><a href="#即時性佈署快是另一個優點" class="headerlink" title="即時性佈署快是另一個優點"></a>即時性佈署快是另一個優點</h2></blockquote>
+<p>總不能寫個makedown要花很多時間才能轉成網頁，不過以現在電腦速度就算上千篇文章可能也是一瞬間完成吧，因為它只是文章形式，但也希望hexo不要越昇級越肥大。，還有就是佈署快，沒想到都用指令也可以用的很無腦，因為常用的指令就是建一個指令庫，複製貼上。或話比移動滑鼠開選單找按鈕還有效率一些。</p>
+<blockquote>
+<h2 id="安全性"><a href="#安全性" class="headerlink" title="安全性"></a>安全性</h2></blockquote>
+<p>還有最近想買一台NAS來放部落格，又怕外連網路會發生風險，主要還是wordpress要建一個database，那就只能建在一台不差的NAS上，但現在用了Hexo是自動産生靜態網頁那就簡單多了，重要的是放github不用錢，是免費的。那買來的新NAS就專心的在內網做它要負責的儲存工作。或許那一台QNAP三不五時就會被入侵的NAS現在不用了，可以直接放顆不要的硬碟，就在外網架起來，反正被入侵了還有一個github當WebServer用沒再怕。</p>
+<blockquote>
+<h2 id="意外改變寫作外無效率的發佈"><a href="#意外改變寫作外無效率的發佈" class="headerlink" title="意外改變寫作外無效率的發佈"></a>意外改變寫作外無效率的發佈</h2></blockquote>
+<p>意料外的事，使用makedown文章使用VScode就可以看到文章的展現而且是即時，以往在wordpress不好的習慣就是文章沒全部寫好就按個發佈看一下結果，但都很花時間，不像makedown我把文章寫好了，再來處理格式，但都是即時呈現，少了文章寫一半就分心去發佈看結果呈現，然後邊調整格式邊寫文章超花時間在格式調整上。</p>
+<p>綜合上述思考與拼湊，終於一個早晨寫完一篇文章，在邊寫邊思考下更確定駐足在HEXO，未來可能以玩票性質去認識其它平台，不過可能的話不想要再去用database系統的blog，沒錯就是HEXO了，心中的一個奇異果廣告旋律，寫起來~寫起來…</p>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>Makedown</tag>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>20220815小孩的自學計劃</title>
+    <url>/2022/08/15/20220815_%E5%B0%8F%E5%AD%A9%E7%9A%84%E8%87%AA%E5%AD%B8%E8%A8%88%E5%8A%83/</url>
+    <content><![CDATA[<h3 id="簡介"><a href="#簡介" class="headerlink" title="簡介"></a>簡介</h3><p>本區是大概記錄一下小孩的學習歷程，以及自己為了讓小孩自學買了什麼教案，看了哪些影片又買了哪些書，年齡到了就把該書拿出來給小孩讀，才不會忘了自己買過這些書要給小孩看，萬一忘了時間過了之前書的這些書、影片、APP…就白費了，另YOUTUBE有家長或老師讀繪本給小孩看，內容真的很不錯，這就省去了很多自己英文能力不好沒辦法去教小孩的煩惱…,大概我會把這些做個分齡可以時間到了就拿出來給小孩學習</p>
+<ul>
+<li>記錄小孩的學習歷程</li>
+<li>購買的教案、線上課程、APP</li>
+<li>網路學習資源 ( Youtube、練習本…  )</li>
+<li>自製學習教案及軟體學習工具</li>
+<li>學習書單</li>
+</ul>
+<span id="more"></span>
+
+<h3 id="英文自學"><a href="#英文自學" class="headerlink" title="英文自學"></a>英文自學</h3><blockquote>
+<h4 id="自學書單"><a href="#自學書單" class="headerlink" title="自學書單"></a>自學書單</h4></blockquote>
+<blockquote>
+<h4 id="自學網路資源"><a href="#自學網路資源" class="headerlink" title="自學網路資源"></a>自學網路資源</h4></blockquote>
+<blockquote>
+<h4 id="自學工具"><a href="#自學工具" class="headerlink" title="自學工具"></a>自學工具</h4></blockquote>
+<h5 id="Wordup"><a href="#Wordup" class="headerlink" title="Wordup"></a>Wordup</h5><h5 id="ANKI"><a href="#ANKI" class="headerlink" title="ANKI"></a>ANKI</h5><link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+      <categories>
+        <category>child</category>
+      </categories>
+      <tags>
+        <tag>child</tag>
+      </tags>
   </entry>
   <entry>
     <title>Hexo學習記錄</title>
@@ -447,33 +474,6 @@
       </tags>
   </entry>
   <entry>
-    <title>20220815小孩的自學計劃</title>
-    <url>/2022/08/15/20220815_%E5%B0%8F%E5%AD%A9%E7%9A%84%E8%87%AA%E5%AD%B8%E8%A8%88%E5%8A%83/</url>
-    <content><![CDATA[<h3 id="簡介"><a href="#簡介" class="headerlink" title="簡介"></a>簡介</h3><p>本區是大概記錄一下小孩的學習歷程，以及自己為了讓小孩自學買了什麼教案，看了哪些影片又買了哪些書，年齡到了就把該書拿出來給小孩讀，才不會忘了自己買過這些書要給小孩看，萬一忘了時間過了之前書的這些書、影片、APP…就白費了，另YOUTUBE有家長或老師讀繪本給小孩看，內容真的很不錯，這就省去了很多自己英文能力不好沒辦法去教小孩的煩惱…,大概我會把這些做個分齡可以時間到了就拿出來給小孩學習</p>
-<ul>
-<li>記錄小孩的學習歷程</li>
-<li>購買的教案、線上課程、APP</li>
-<li>網路學習資源 ( Youtube、練習本…  )</li>
-<li>自製學習教案及軟體學習工具</li>
-<li>學習書單</li>
-</ul>
-<span id="more"></span>
-
-<h3 id="英文自學"><a href="#英文自學" class="headerlink" title="英文自學"></a>英文自學</h3><blockquote>
-<h4 id="自學書單"><a href="#自學書單" class="headerlink" title="自學書單"></a>自學書單</h4></blockquote>
-<blockquote>
-<h4 id="自學網路資源"><a href="#自學網路資源" class="headerlink" title="自學網路資源"></a>自學網路資源</h4></blockquote>
-<blockquote>
-<h4 id="自學工具"><a href="#自學工具" class="headerlink" title="自學工具"></a>自學工具</h4></blockquote>
-<h5 id="Wordup"><a href="#Wordup" class="headerlink" title="Wordup"></a>Wordup</h5><h5 id="ANKI"><a href="#ANKI" class="headerlink" title="ANKI"></a>ANKI</h5><link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
-      <categories>
-        <category>child</category>
-      </categories>
-      <tags>
-        <tag>child</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>線上錄音程式</title>
     <url>/2022/08/24/20220815_%E7%B7%9A%E4%B8%8A%E9%8C%84%E9%9F%B3%E7%A8%8B%E5%BC%8F/</url>
     <content><![CDATA[<h1 id="錄音程式1"><a href="#錄音程式1" class="headerlink" title="錄音程式1"></a>錄音程式1</h1><p>本程式參考 <a href="https://www.youtube.com/watch?v=B3wWIsNHPk4">Audio Recorder | HTML, CSS and JavaScript Tutorial</a><br>優點：按鈕很美觀、錄音存成檔案<br>缺點：檔案很大，不是存mp3，按鈕很大要插在文章裡會佔掉很大位置，沒辦法上傳到Server</p>
@@ -678,76 +678,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Hexo常用的編輯指令</title>
-    <url>/2022/08/20/Hexo%E5%B8%B8%E7%94%A8%E7%9A%84%E7%B7%A8%E8%BC%AF%E6%8C%87%E4%BB%A4/</url>
-    <content><![CDATA[<h3 id="連結篇"><a href="#連結篇" class="headerlink" title="連結篇"></a>連結篇</h3><h4 id="連結到Hexo其它文章"><a href="#連結到Hexo其它文章" class="headerlink" title="連結到Hexo其它文章"></a>連結到Hexo其它文章</h4><p>必須考慮移植性，不管未來網頁網址如何變它都不會因為此而失連,使用Hexo內置的標籤語法</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% post_link 文件名 &#x27;文章別名&#x27;%&#125;</span><br><span class="line">範例：</span><br><span class="line">&#123;% post_link 20220801_hello-world Hexo &#x27;安裝好內建的第一篇文章&#x27; %&#125;</span><br><span class="line">&#123;% post_link 20220801_hello-world &#x27;&lt;b&gt;加入粗體&lt;/b&gt;&#x27; false %&#125;</span><br></pre></td></tr></table></figure>
-<ul>
-<li>文件名：Hexo內建文章,hello-world.md<br><img src="/images/Hexo%E5%B8%B8%E7%94%A8%E7%9A%84%E7%B7%A8%E8%BC%AF%E6%8C%87%E4%BB%A401.webp">  </li>
-<li>文章別名：簡短介紹這個連結</li>
-<li>範例執行1：<a href="/2022/08/15/20220801_hello-world/" title="Hexo安裝好內建的第一篇文章">Hexo安裝好內建的第一篇文章</a></li>
-<li>範例執行2：<a href="/2022/08/15/20220801_hello-world/" title="&lt;b&gt;加入粗體&lt;&#x2F;b&gt;"><b>加入粗體</b></a></li>
-</ul>
-<span id="more"></span>
-
-
-<blockquote>
-<h3 id="如何插入圖片"><a href="#如何插入圖片" class="headerlink" title="如何插入圖片"></a>如何插入圖片</h3><p>圖片插入方式：插入圖片使用外部連結 ＞ 絕對路徑 ＞ 相對路徑 ＞ </p>
-</blockquote>
-<h4 id="插入外部連結圖片"><a href="#插入外部連結圖片" class="headerlink" title="插入外部連結圖片"></a>插入外部連結圖片</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![這是外部連結圖片](https://upload.wikimedia.org/wikipedia/commons/e/e9/Hexo-logo.png)</span><br></pre></td></tr></table></figure>
-<p><img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Hexo-logo.png" alt="這是外部連結圖片"></p>
-<h4 id="絕對路徑"><a href="#絕對路徑" class="headerlink" title="絕對路徑"></a>絕對路徑</h4><p>不管在哪個位置,圖片都放在固定的一個位置</p>
-<ol>
-<li>將圖片存放 <code>/source/images/</code></li>
-<li>語法如下<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![](/images/pic01.png)</span><br></pre></td></tr></table></figure></li>
-<li>因為相對路徑存放圖片都無法顯示，所以目前做法是使用絕對路徑，全部存放在同一資料夾，然後用文件來做前置命名+流水號這樣做法優點防止將來文件一多資料夾就會産生一堆，如果要找某張圖但忘了文件名稱要找就很不容易了，放一起可以一次瀏覽全部圖片，但未來還是會找個圖床來放圖片</li>
-</ol>
-<h4 id="相對路徑"><a href="#相對路徑" class="headerlink" title="相對路徑"></a>相對路徑</h4><p>圖片會跟著文章一起被建立,會建一個和文章同名的資料夾來放圖片</p>
-<ol>
-<li>修改<code>_config.yml</code><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">post_asset_folder: true</span><br></pre></td></tr></table></figure></li>
-</ol>
-<p>修改後以後使用 <code>$ hexo new post_name</code> 建立的文章會在 <code>source/_posts</code>目錄出現,檔案名稱為 <code>post_name.md</code>,另外也會建立一個同名的資料夾 <code>post_name</code>,圖片就放在該資料夾裡。</p>
-
-<ol start="2">
-<li><p>使用Makedown語法插入圖片</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![](Hexo-logo.png)</span><br></pre></td></tr></table></figure>
-<p>如果試不出來要改成</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% asset_img Hexo-logo.png 這是一張圖片 %&#125;</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>使用Makedown語法插入圖片</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">使用![](Hexo-logo.png)語法(會有問題)</span><br></pre></td></tr></table></figure>
-<p><img src="/Hexo-logo.png"></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">使用 &#123;% asset_img Hexo-logo.png 這是一張圖片 %&#125; 語法</span><br></pre></td></tr></table></figure>
-<img src="/2022/08/20/Hexo%E5%B8%B8%E7%94%A8%E7%9A%84%E7%B7%A8%E8%BC%AF%E6%8C%87%E4%BB%A4/Hexo-logo.png" class="" title="這是一張圖片"></li>
-</ol>
-<h4 id="使用外掛-hexo-renderer-marked"><a href="#使用外掛-hexo-renderer-marked" class="headerlink" title="使用外掛 hexo-renderer-marked"></a>使用外掛 <code>hexo-renderer-marked</code></h4><ol>
-<li>安裝<code>hexo-renderer-marked</code> 插件<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ npm install hexo-renderer-marked --save</span><br></pre></td></tr></table></figure></li>
-<li>開啟 <code>_config.yml</code> 加入下面參數設定 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">post_asset_folder: true</span><br><span class="line">marked:</span><br><span class="line">  prependRoot: true  #將根值附加到（內部）圖像路徑。 root : /blog/</span><br><span class="line">  postAsset: true  # 將 post 資產的圖像路徑解析為相對路徑</span><br></pre></td></tr></table></figure>
- 啟用後，資產圖像將自動解析為其相應帖子的路徑。<br> 例如，<code>“image.jpg”</code>位於<code>“/2020/01/02/foo/image.jpg”</code>，表示它是<code>“/2020/01/02/foo/”</code>帖子的資產圖片，將被渲染為<code> .![](image.jpg)&lt;img src=&quot;/2020/01/02/foo/image.jpg&quot;&gt;</code></li>
-<li>參數解析<br>因為<code>marked:</code>有眾多參數，詳細參數仍要看原始說明<br> <a href="https://github.com/hexojs/hexo-renderer-marked">hexo-renderer-marked </a></li>
-</ol>
-<h4 id="Typora插入方式"><a href="#Typora插入方式" class="headerlink" title="Typora插入方式"></a>Typora插入方式</h4><p><a href="https://www.gushiciku.cn/pl/ptBs/zh-tw">其它使用外掛及Typora插入方式</a></p>
-<hr>
-<h4 id="插入簡易mp3播放器"><a href="#插入簡易mp3播放器" class="headerlink" title="插入簡易mp3播放器"></a>插入簡易mp3播放器</h4><p><code>​&lt;audio id=&quot;audio&quot; controls=&quot;&quot; preload=&quot;none&quot;&gt;       &lt;source id=&quot;mp3&quot; src=&quot;音檔存放位置&quot;&gt; &lt;/audio&gt;</code><br>​<audio id="audio" controls="" preload="none"><br>      <source id="mp3" src="/music/Gerernal MacArthur's Prayer For His Son.mp3"><br></audio></p>
-<hr>
-<h3 id="標籤外掛"><a href="#標籤外掛" class="headerlink" title="標籤外掛"></a>標籤外掛</h3><h4 id="官網標籤外掛"><a href="#官網標籤外掛" class="headerlink" title="官網標籤外掛"></a><a href="https://hexo.io/zh-tw/docs/tag-plugins">官網標籤外掛</a></h4><p>有空要來研究一下</p>
-<blockquote><p>Do not just seek happiness for yourself. Seek happiness for all. Through kindness. Through mercy.</p>
-<footer><strong>David Levithan</strong><cite>Wide Awake</cite></footer></blockquote>
-
-<hr>
-<blockquote><p>NEW: DevDocs now comes with syntax highlighting. <a href="http://devdocs.io/">http://devdocs.io</a></p>
-<footer><strong>@DevDocs</strong><cite><a href="https://twitter.com/devdocs/status/356095192085962752">twitter.com/devdocs/status/356095192085962752</a></cite></footer></blockquote>
-
-
-<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
-      <categories>
-        <category>Hexo</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>NEXT主題設定</title>
     <url>/2022/08/16/NEXT%E4%B8%BB%E9%A1%8C%E8%A8%AD%E5%AE%9A/</url>
     <content><![CDATA[<h1 id="記錄Hexo的NEXT主題的設定"><a href="#記錄Hexo的NEXT主題的設定" class="headerlink" title="記錄Hexo的NEXT主題的設定"></a>記錄Hexo的NEXT主題的設定</h1><h2 id="Schemes四種主題"><a href="#Schemes四種主題" class="headerlink" title="Schemes四種主題"></a><code>Schemes</code>四種主題</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># Schemes</span><br><span class="line">scheme: Muse</span><br><span class="line">#scheme: Mist</span><br><span class="line">#scheme: Pisces</span><br><span class="line">#scheme: Gemini</span><br></pre></td></tr></table></figure>
@@ -824,6 +754,76 @@
       <tags>
         <tag>Hexo</tag>
         <tag>NEXT</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo常用的編輯指令</title>
+    <url>/2022/08/20/Hexo%E5%B8%B8%E7%94%A8%E7%9A%84%E7%B7%A8%E8%BC%AF%E6%8C%87%E4%BB%A4/</url>
+    <content><![CDATA[<h3 id="連結篇"><a href="#連結篇" class="headerlink" title="連結篇"></a>連結篇</h3><h4 id="連結到Hexo其它文章"><a href="#連結到Hexo其它文章" class="headerlink" title="連結到Hexo其它文章"></a>連結到Hexo其它文章</h4><p>必須考慮移植性，不管未來網頁網址如何變它都不會因為此而失連,使用Hexo內置的標籤語法</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% post_link 文件名 &#x27;文章別名&#x27;%&#125;</span><br><span class="line">範例：</span><br><span class="line">&#123;% post_link 20220801_hello-world Hexo &#x27;安裝好內建的第一篇文章&#x27; %&#125;</span><br><span class="line">&#123;% post_link 20220801_hello-world &#x27;&lt;b&gt;加入粗體&lt;/b&gt;&#x27; false %&#125;</span><br></pre></td></tr></table></figure>
+<ul>
+<li>文件名：Hexo內建文章,hello-world.md<br><img src="/images/Hexo%E5%B8%B8%E7%94%A8%E7%9A%84%E7%B7%A8%E8%BC%AF%E6%8C%87%E4%BB%A401.webp">  </li>
+<li>文章別名：簡短介紹這個連結</li>
+<li>範例執行1：<a href="/2022/08/15/20220801_hello-world/" title="Hexo安裝好內建的第一篇文章">Hexo安裝好內建的第一篇文章</a></li>
+<li>範例執行2：<a href="/2022/08/15/20220801_hello-world/" title="&lt;b&gt;加入粗體&lt;&#x2F;b&gt;"><b>加入粗體</b></a></li>
+</ul>
+<span id="more"></span>
+
+
+<blockquote>
+<h3 id="如何插入圖片"><a href="#如何插入圖片" class="headerlink" title="如何插入圖片"></a>如何插入圖片</h3><p>圖片插入方式：插入圖片使用外部連結 ＞ 絕對路徑 ＞ 相對路徑 ＞ </p>
+</blockquote>
+<h4 id="插入外部連結圖片"><a href="#插入外部連結圖片" class="headerlink" title="插入外部連結圖片"></a>插入外部連結圖片</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![這是外部連結圖片](https://upload.wikimedia.org/wikipedia/commons/e/e9/Hexo-logo.png)</span><br></pre></td></tr></table></figure>
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Hexo-logo.png" alt="這是外部連結圖片"></p>
+<h4 id="絕對路徑"><a href="#絕對路徑" class="headerlink" title="絕對路徑"></a>絕對路徑</h4><p>不管在哪個位置,圖片都放在固定的一個位置</p>
+<ol>
+<li>將圖片存放 <code>/source/images/</code></li>
+<li>語法如下<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![](/images/pic01.png)</span><br></pre></td></tr></table></figure></li>
+<li>因為相對路徑存放圖片都無法顯示，所以目前做法是使用絕對路徑，全部存放在同一資料夾，然後用文件來做前置命名+流水號這樣做法優點防止將來文件一多資料夾就會産生一堆，如果要找某張圖但忘了文件名稱要找就很不容易了，放一起可以一次瀏覽全部圖片，但未來還是會找個圖床來放圖片</li>
+</ol>
+<h4 id="相對路徑"><a href="#相對路徑" class="headerlink" title="相對路徑"></a>相對路徑</h4><p>圖片會跟著文章一起被建立,會建一個和文章同名的資料夾來放圖片</p>
+<ol>
+<li>修改<code>_config.yml</code><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">post_asset_folder: true</span><br></pre></td></tr></table></figure></li>
+</ol>
+<p>修改後以後使用 <code>$ hexo new post_name</code> 建立的文章會在 <code>source/_posts</code>目錄出現,檔案名稱為 <code>post_name.md</code>,另外也會建立一個同名的資料夾 <code>post_name</code>,圖片就放在該資料夾裡。</p>
+
+<ol start="2">
+<li><p>使用Makedown語法插入圖片</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![](Hexo-logo.png)</span><br></pre></td></tr></table></figure>
+<p>如果試不出來要改成</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% asset_img Hexo-logo.png 這是一張圖片 %&#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>使用Makedown語法插入圖片</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">使用![](Hexo-logo.png)語法(會有問題)</span><br></pre></td></tr></table></figure>
+<p><img src="/Hexo-logo.png"></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">使用 &#123;% asset_img Hexo-logo.png 這是一張圖片 %&#125; 語法</span><br></pre></td></tr></table></figure>
+<img src="/2022/08/20/Hexo%E5%B8%B8%E7%94%A8%E7%9A%84%E7%B7%A8%E8%BC%AF%E6%8C%87%E4%BB%A4/Hexo-logo.png" class="" title="這是一張圖片"></li>
+</ol>
+<h4 id="使用外掛-hexo-renderer-marked"><a href="#使用外掛-hexo-renderer-marked" class="headerlink" title="使用外掛 hexo-renderer-marked"></a>使用外掛 <code>hexo-renderer-marked</code></h4><ol>
+<li>安裝<code>hexo-renderer-marked</code> 插件<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ npm install hexo-renderer-marked --save</span><br></pre></td></tr></table></figure></li>
+<li>開啟 <code>_config.yml</code> 加入下面參數設定 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">post_asset_folder: true</span><br><span class="line">marked:</span><br><span class="line">  prependRoot: true  #將根值附加到（內部）圖像路徑。 root : /blog/</span><br><span class="line">  postAsset: true  # 將 post 資產的圖像路徑解析為相對路徑</span><br></pre></td></tr></table></figure>
+ 啟用後，資產圖像將自動解析為其相應帖子的路徑。<br> 例如，<code>“image.jpg”</code>位於<code>“/2020/01/02/foo/image.jpg”</code>，表示它是<code>“/2020/01/02/foo/”</code>帖子的資產圖片，將被渲染為<code> .![](image.jpg)&lt;img src=&quot;/2020/01/02/foo/image.jpg&quot;&gt;</code></li>
+<li>參數解析<br>因為<code>marked:</code>有眾多參數，詳細參數仍要看原始說明<br> <a href="https://github.com/hexojs/hexo-renderer-marked">hexo-renderer-marked </a></li>
+</ol>
+<h4 id="Typora插入方式"><a href="#Typora插入方式" class="headerlink" title="Typora插入方式"></a>Typora插入方式</h4><p><a href="https://www.gushiciku.cn/pl/ptBs/zh-tw">其它使用外掛及Typora插入方式</a></p>
+<hr>
+<h4 id="插入簡易mp3播放器"><a href="#插入簡易mp3播放器" class="headerlink" title="插入簡易mp3播放器"></a>插入簡易mp3播放器</h4><p><code>​&lt;audio id=&quot;audio&quot; controls=&quot;&quot; preload=&quot;none&quot;&gt;       &lt;source id=&quot;mp3&quot; src=&quot;音檔存放位置&quot;&gt; &lt;/audio&gt;</code><br>​<audio id="audio" controls="" preload="none"><br>      <source id="mp3" src="/music/Gerernal MacArthur's Prayer For His Son.mp3"><br></audio></p>
+<hr>
+<h3 id="標籤外掛"><a href="#標籤外掛" class="headerlink" title="標籤外掛"></a>標籤外掛</h3><h4 id="官網標籤外掛"><a href="#官網標籤外掛" class="headerlink" title="官網標籤外掛"></a><a href="https://hexo.io/zh-tw/docs/tag-plugins">官網標籤外掛</a></h4><p>有空要來研究一下</p>
+<blockquote><p>Do not just seek happiness for yourself. Seek happiness for all. Through kindness. Through mercy.</p>
+<footer><strong>David Levithan</strong><cite>Wide Awake</cite></footer></blockquote>
+
+<hr>
+<blockquote><p>NEW: DevDocs now comes with syntax highlighting. <a href="http://devdocs.io/">http://devdocs.io</a></p>
+<footer><strong>@DevDocs</strong><cite><a href="https://twitter.com/devdocs/status/356095192085962752">twitter.com/devdocs/status/356095192085962752</a></cite></footer></blockquote>
+
+
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
       </tags>
   </entry>
 </search>

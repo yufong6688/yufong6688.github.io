@@ -21,24 +21,24 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.12.3","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":true,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜尋...","empty":"我們無法找到任何有關 ${query} 的搜索結果","hits_time":"${hits} 找到 ${time} 個結果","hits":"找到 ${hits} 個結果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="Tutorial &gt; Audio Recorder                                                                                                                body {                 position: absolute;">
+    <meta name="description" content="var rec; function startRec(){     rec&#x3D;Recorder();&#x2F;&#x2F;使用預設配置，mp3格式          &#x2F;&#x2F;開啟麥克風授權獲得相關資源     rec.open(function(){         &#x2F;&#x2F;開始錄音         rec.start();     },function(msg,isUserNotAllow){">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Yufong&#39;s Blog">
-<meta property="og:url" content="http://example.com/src/recorder01.html">
+<meta property="og:url" content="http://example.com/src/recorder02.html">
 <meta property="og:site_name" content="Yufong&#39;s Blog">
-<meta property="og:description" content="Tutorial &gt; Audio Recorder                                                                                                                body {                 position: absolute;">
+<meta property="og:description" content="var rec; function startRec(){     rec&#x3D;Recorder();&#x2F;&#x2F;使用預設配置，mp3格式          &#x2F;&#x2F;開啟麥克風授權獲得相關資源     rec.open(function(){         &#x2F;&#x2F;開始錄音         rec.start();     },function(msg,isUserNotAllow){">
 <meta property="og:locale" content="zh_TW">
-<meta property="article:published_time" content="2022-08-28T14:24:47.562Z">
-<meta property="article:modified_time" content="2022-08-28T14:23:51.083Z">
+<meta property="article:published_time" content="2022-08-28T14:44:15.641Z">
+<meta property="article:modified_time" content="2022-08-28T14:44:15.381Z">
 <meta property="article:author" content="Yufong Chen">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="http://example.com/src/recorder01">
+<link rel="canonical" href="http://example.com/src/recorder02">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":false,"lang":"zh-TW","comments":true,"permalink":"http://example.com/src/recorder01.html","path":"src/recorder01.html","title":""}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":false,"lang":"zh-TW","comments":true,"permalink":"http://example.com/src/recorder02.html","path":"src/recorder02.html","title":""}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
 <title> | Yufong's Blog
@@ -269,213 +269,72 @@ p.spoiler {
       
       
       <div class="post-body">
-          <!doctype html>
-<html lang="en">
-    <head>
-        <title>Tutorial &gt; Audio Recorder</title>
-        <link rel="canonical" href="https://markjivko.com/tutorials/B3wWIsNHPk4/">
-        <meta charset="UTF-8">
-        <meta name="Author" content="Mark Jivko">
-        <meta name="Keywords" content="js,audio recorder">
-        <meta name="Description" content="Recording audio with HTML 5 and JavaScript">
-        <meta name="apple-mobile-web-app-capable" content="yes">
-        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-        <meta name="viewport" content="initial-scale=1.0, width=device-width">
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <link rel="icon" type="image/ico" href="https://markjivko.com/favicon.ico">
-        <style type="text/css">
-            body {
-                position: absolute;
-                display: -webkit-box;
-                display: -webkit-flex;
-                display: -ms-flexbox;
-                display: flex;
-                -webkit-box-pack: center;
-                -webkit-justify-content: center;
-                    -ms-flex-pack: center;
-                        justify-content: center;
-                -webkit-box-align: center;
-                -webkit-align-items: center;
-                    -ms-flex-align: center;
-                        align-items: center;
-                height: 100%;
-                width: 100%;
-                margin: 0;
-            }
-            .holder {
-                background-color: #4c474c;
-                background-image: -webkit-gradient(linear, left bottom, left top, from(#4c474c), to(#141414));
-                background-image: -o-linear-gradient(bottom, #4c474c 0%, #141414 100%);
-                background-image: linear-gradient(0deg, #4c474c 0%, #141414 100%);
-                border-radius: 50px;
-            }
-            [data-role="controls"] > button {
-                margin: 50px auto;
-                outline: none;
-                display: block;
-                border: none;
-                background-color: #D9AFD9;
-                background-image: -webkit-gradient(linear, left bottom, left top, from(#D9AFD9), to(#97D9E1));
-                background-image: -o-linear-gradient(bottom, #D9AFD9 0%, #97D9E1 100%);
-                background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
-                width: 100px;
-                height: 100px;
-                border-radius: 50%;
-                text-indent: -1000em;
-                cursor: pointer;
-                -webkit-box-shadow: 0px 5px 5px 2px rgba(0,0,0,0.3) inset, 
-                    0px 0px 0px 30px #fff, 0px 0px 0px 35px #333;
-                        box-shadow: 0px 5px 5px 2px rgba(0,0,0,0.3) inset, 
-                    0px 0px 0px 30px #fff, 0px 0px 0px 35px #333;
-            }
-            [data-role="controls"] > button:hover {
-                background-color: #ee7bee;
-                background-image: -webkit-gradient(linear, left bottom, left top, from(#ee7bee), to(#6fe1f5));
-                background-image: -o-linear-gradient(bottom, #ee7bee 0%, #6fe1f5 100%);
-                background-image: linear-gradient(0deg, #ee7bee 0%, #6fe1f5 100%);
-            }
-            [data-role="controls"] > button[data-recording="true"] {
-                background-color: #ff2038;
-                background-image: -webkit-gradient(linear, left bottom, left top, from(#ff2038), to(#b30003));
-                background-image: -o-linear-gradient(bottom, #ff2038 0%, #b30003 100%);
-                background-image: linear-gradient(0deg, #ff2038 0%, #b30003 100%);
-            }
-            [data-role="recordings"] > .row {
-                width: auto;
-                height: auto;
-                padding: 20px;
-            }
-            [data-role="recordings"] > .row > audio {
-                outline: none;
-            }
-            [data-role="recordings"] > .row > a {
-                display: inline-block;
-                text-align: center;
-                font-size: 20px;
-                line-height: 50px;
-                vertical-align: middle;
-                width: 50px;
-                height: 50px;
-                border-radius: 20px;
-                color: #fff;
-                font-weight: bold;
-                text-decoration: underline;
-                background-color: #0093E9;
-                background-image: -webkit-gradient(linear, left bottom, left top, from(#0093E9), to(#80D0C7));
-                background-image: -o-linear-gradient(bottom, #0093E9 0%, #80D0C7 100%);
-                background-image: linear-gradient(0deg, #0093E9 0%, #80D0C7 100%);
-                float: right;
-                margin-left: 20px;
-                cursor: pointer;
-            }
-            [data-role="recordings"] > .row > a:hover {
-                text-decoration: none;
-            }
-            [data-role="recordings"] > .row > a:active {
-                background-image: -webkit-gradient(linear, left top, left bottom, from(#0093E9), to(#80D0C7));
-                background-image: -o-linear-gradient(top, #0093E9 0%, #80D0C7 100%);
-                background-image: linear-gradient(180deg, #0093E9 0%, #80D0C7 100%);
-            }
-        </style>
-        <script type="text/javascript" src="https://code.jquery.com/jquery.min.js"></script>
-        <script src="https://markjivko.com/dist/recorder.js"></script>
-        <script>
-            jQuery(document).ready(function () {
-                var $ = jQuery;
-                var myRecorder = {
-                    objects: {
-                        context: null,
-                        stream: null,
-                        recorder: null
-                    },
-                    init: function () {
-                        if (null === myRecorder.objects.context) {
-                            myRecorder.objects.context = new (
-                                    window.AudioContext || window.webkitAudioContext
-                                    );
-                        }
-                    },
-                    start: function () {
-                        var options = {audio: true, video: false};
-                        navigator.mediaDevices.getUserMedia(options).then(function (stream) {
-                            myRecorder.objects.stream = stream;
-                            myRecorder.objects.recorder = new Recorder(
-                                    myRecorder.objects.context.createMediaStreamSource(stream),
-                                    {numChannels: 1}
-                            );
-                            myRecorder.objects.recorder.record();
-                        }).catch(function (err) {});
-                    },
-                    stop: function (listObject) {
-                        if (null !== myRecorder.objects.stream) {
-                            myRecorder.objects.stream.getAudioTracks()[0].stop();
-                        }
-                        if (null !== myRecorder.objects.recorder) {
-                            myRecorder.objects.recorder.stop();
+          <!-- 先載入js錄音庫，注意：你應該把js clone到本地使用 --><meta charset="utf-8" />
+<script src="https://xiangyuecn.github.io/Recorder/recorder.mp3.min.js"></script>
 
-                            // Validate object
-                            if (null !== listObject
-                                    && 'object' === typeof listObject
-                                    && listObject.length > 0) {
-                                // Export the WAV file
-                                myRecorder.objects.recorder.exportWAV(function (blob) {
-                                    var url = (window.URL || window.webkitURL)
-                                            .createObjectURL(blob);
+<input type="button" onclick="startRec()" value="開始錄音">
+<hr>
+<input type="button" onclick="playRec()" value="結束並播放">
+<input type="button" onclick="uploadRec()" value="結束並上傳">
 
-                                    // Prepare the playback
-                                    var audioObject = $('<audio controls></audio>')
-                                            .attr('src', url);
+<script>
+var rec;
+function startRec(){
+    rec=Recorder();//使用預設配置，mp3格式
+    
+    //開啟麥克風授權獲得相關資源
+    rec.open(function(){
+        //開始錄音
+        rec.start();
+    },function(msg,isUserNotAllow){
+        //使用者拒絕了許可權或瀏覽器不支援
+        alert((isUserNotAllow?"使用者拒絕了許可權，":"")+"無法錄音:"+msg);
+    });
+};
+</script>
 
-                                    // Prepare the download link
-                                    var downloadObject = $('<a>&#9660;</a>')
-                                            .attr('href', url)
-                                            .attr('download', new Date().toUTCString() + '.wav');
+<script>
+    function uploadRec(){
+        //停止錄音，得到了錄音檔案blob二進位制物件，想幹嘛就幹嘛
+        rec.stop(function(blob,duration){
+            /*
+            blob檔案物件，可以用FileReader讀取出內容
+            ，或者用FormData上傳，本例直接上傳二進位制檔案
+            ，對於普通application/x-www-form-urlencoded表單上傳
+            ，請參考github裡面的例子
+            */
+            var form=new FormData();
+            form.append("upfile",blob,"recorder.mp3"); //和普通form表單並無二致，後端接收到upfile引數的檔案，檔名為recorder.mp3
+            
+            //直接用ajax上傳
+            var xhr=new XMLHttpRequest();
+            xhr.open("POST","http://baidu.com/修改成你的上傳地址");//這個假地址在控制檯network中能看到請求資料和格式，請求結果無關緊要
+            xhr.onreadystatechange=function(){
+                if(xhr.readyState==4){
+                    alert(xhr.status==200?"上傳成功":"測試請先開啟瀏覽器控制檯，然後重新錄音，在network選項卡里面就能看到上傳請求資料和格式了");
+                }
+            }
+            xhr.send(form);
+        },function(msg){
+            alert("錄音失敗:"+msg);
+        });
+    };</script>
 
-                                    // Wrap everything in a row
-                                    var holderObject = $('<div class="row"></div>')
-                                            .append(audioObject)
-                                            .append(downloadObject);
-
-                                    // Append to the list
-                                    listObject.append(holderObject);
-                                });
-                            }
-                        }
-                    }
-                };
-
-                // Prepare the recordings list
-                var listObject = $('[data-role="recordings"]');
-
-                // Prepare the record button
-                $('[data-role="controls"] > button').click(function () {
-                    // Initialize the recorder
-                    myRecorder.init();
-
-                    // Get the button state 
-                    var buttonState = !!$(this).attr('data-recording');
-
-                    // Toggle
-                    if (!buttonState) {
-                        $(this).attr('data-recording', 'true');
-                        myRecorder.start();
-                    } else {
-                        $(this).attr('data-recording', '');
-                        myRecorder.stop(listObject);
-                    }
-                });
-            });
-        </script>
-    </head>
-    <body>
-        <div class="holder">
-            <div data-role="controls">
-                <button>Record</button>
-            </div>
-            <div data-role="recordings"></div>
-        </div>
-    </body>
-</html><link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>
+<script>
+    function playRec(){
+        //停止錄音，得到了錄音檔案blob二進位制物件，想幹嘛就幹嘛
+        rec.stop(function(blob,duration){
+            var audio=document.createElement("audio");
+            audio.controls=true;
+            document.body.appendChild(audio);
+            
+            //非常簡單的就能拿到blob音訊url
+            audio.src=URL.createObjectURL(blob);
+            audio.play();
+        },function(msg){
+            alert("錄音失敗:"+msg);
+        });
+    };</script><link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>
       </div>
       
       
