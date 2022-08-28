@@ -578,7 +578,7 @@
     <content><![CDATA[<h1 id="ANKI的資源的存放路徑"><a href="#ANKI的資源的存放路徑" class="headerlink" title="ANKI的資源的存放路徑"></a>ANKI的資源的存放路徑</h1><p>最直接的做法就是先看ANKI的檔案是存在哪的？</p>
 <p>工具 &#x2F; 附加元件 點選【檢視檔案】</p>
 <p>從附加元件的存放位置可以很容易找到音檔的存放位置</p>
-<p>\使用者\使用者名稱\AppData\Roaming\Anki2\使用者1\collection.media</p>
+<p><code>\\使用者\使用者名稱\AppData\Roaming\Anki2\使用者1\collection.media</code></p>
 <span id="more"></span><link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
       <categories>
         <category>ANKI</category>
@@ -596,8 +596,8 @@
 <ul>
 <li>先安裝 IDM 很好用的下載工具</li>
 <li>在Microsoft edge安裝<a href="https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=zh-TW">Tampermonkey</a></li>
-<li>開啟Tampermonkey搜尋azure 並安裝腳本<br><img src="/%5Cimages%5C20220827%E6%96%87%E5%AD%97%E8%BD%89%E8%AA%9E%E9%9F%B301.webp"><br><img src="/%5Cimages%5C20220827%E6%96%87%E5%AD%97%E8%BD%89%E8%AA%9E%E9%9F%B302.webp"><br><img src="/%5Cimages%5C20220827%E6%96%87%E5%AD%97%E8%BD%89%E8%AA%9E%E9%9F%B303.webp"><br><img src="/%5Cimages%5C20220827%E6%96%87%E5%AD%97%E8%BD%89%E8%AA%9E%E9%9F%B304.webp"><br><img src="/%5Cimages%5C20220827%E6%96%87%E5%AD%97%E8%BD%89%E8%AA%9E%E9%9F%B305.webp"></li>
-<li>打開 <a href="https://azure.microsoft.com/zh-tw/services/cognitive-services/text-to-speech/#overview">Microsoft TTS Azure</a>,拉到最下面就會看到文字輸入區<br>  <img src="/%5Cimages%5C20220827%E6%96%87%E5%AD%97%E8%BD%89%E8%AA%9E%E9%9F%B306.webp"></li>
+<li>開啟Tampermonkey搜尋azure 並安裝腳本<br><img src="/images/20220827_%E6%96%87%E5%AD%97%E8%BD%89%E8%AA%9E%E9%9F%B301.webp"><br><img src="/images/20220827_%E6%96%87%E5%AD%97%E8%BD%89%E8%AA%9E%E9%9F%B302.webp"><br><img src="/images/20220827_%E6%96%87%E5%AD%97%E8%BD%89%E8%AA%9E%E9%9F%B303.webp"><br><img src="/images/20220827_%E6%96%87%E5%AD%97%E8%BD%89%E8%AA%9E%E9%9F%B304.webp"><br><img src="/images/20220827_%E6%96%87%E5%AD%97%E8%BD%89%E8%AA%9E%E9%9F%B305.webp"></li>
+<li>打開 <a href="https://azure.microsoft.com/zh-tw/services/cognitive-services/text-to-speech/#overview">Microsoft TTS Azure</a>,拉到最下面就會看到文字輸入區<br>  <img src="/images/20220827%E6%96%87%E5%AD%97%E8%BD%89%E8%AA%9E%E9%9F%B306.webp"></li>
 <li>根據經驗下載太多次起先要每次更新網頁才能再下載,後來就沒辦法下載,連下載按鈕都會不見,所以最好是全部輸入好按下載,速度很快就下載完了,因為每個單字都會有斷音有助於我們把斷音切割出來</li>
 <li>最後再使用Audacity把每一段單字切出來</li>
 </ul>
