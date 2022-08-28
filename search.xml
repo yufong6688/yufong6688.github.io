@@ -576,12 +576,12 @@
     <title>文字轉語音</title>
     <url>/2022/08/27/20220827_%E6%96%87%E5%AD%97%E8%BD%89%E8%AA%9E%E9%9F%B3/</url>
     <content><![CDATA[<h2 id="方法一："><a href="#方法一：" class="headerlink" title="方法一："></a>方法一：</h2><blockquote>
-<h3 id="使用Tampermonkey腳本方式下載"><a href="#使用Tampermonkey腳本方式下載" class="headerlink" title="使用Tampermonkey腳本方式下載"></a>使用Tampermonkey腳本方式下載</h3></blockquote>
+<h3 id="使用Tampermonkey腳本方式下載"><a href="#使用Tampermonkey腳本方式下載" class="headerlink" title="使用Tampermonkey腳本方式下載"></a>使用Tampermonkey腳本方式下載</h3>  <span id="more"></span>
+</blockquote>
 <ul>
 <li>先安裝 IDM 很好用的下載工具</li>
 <li>在Microsoft edge安裝<a href="https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=zh-TW">Tampermonkey</a></li>
-<li>開啟Tampermonkey搜尋azure 並安裝腳本<span id="more"></span>
-<img src="/%5Cimages%5C20220827%E6%96%87%E5%AD%97%E8%BD%89%E8%AA%9E%E9%9F%B301.webp"><br><img src="/%5Cimages%5C20220827%E6%96%87%E5%AD%97%E8%BD%89%E8%AA%9E%E9%9F%B302.webp"><br><img src="/%5Cimages%5C20220827%E6%96%87%E5%AD%97%E8%BD%89%E8%AA%9E%E9%9F%B303.webp"><br><img src="/%5Cimages%5C20220827%E6%96%87%E5%AD%97%E8%BD%89%E8%AA%9E%E9%9F%B304.webp"><br><img src="/%5Cimages%5C20220827%E6%96%87%E5%AD%97%E8%BD%89%E8%AA%9E%E9%9F%B305.webp"></li>
+<li>開啟Tampermonkey搜尋azure 並安裝腳本<br><img src="/%5Cimages%5C20220827%E6%96%87%E5%AD%97%E8%BD%89%E8%AA%9E%E9%9F%B301.webp"><br><img src="/%5Cimages%5C20220827%E6%96%87%E5%AD%97%E8%BD%89%E8%AA%9E%E9%9F%B302.webp"><br><img src="/%5Cimages%5C20220827%E6%96%87%E5%AD%97%E8%BD%89%E8%AA%9E%E9%9F%B303.webp"><br><img src="/%5Cimages%5C20220827%E6%96%87%E5%AD%97%E8%BD%89%E8%AA%9E%E9%9F%B304.webp"><br><img src="/%5Cimages%5C20220827%E6%96%87%E5%AD%97%E8%BD%89%E8%AA%9E%E9%9F%B305.webp"></li>
 <li>打開 <a href="https://azure.microsoft.com/zh-tw/services/cognitive-services/text-to-speech/#overview">Microsoft TTS Azure</a>,拉到最下面就會看到文字輸入區<br>  <img src="/%5Cimages%5C20220827%E6%96%87%E5%AD%97%E8%BD%89%E8%AA%9E%E9%9F%B306.webp"></li>
 <li>根據經驗下載太多次起先要每次更新網頁才能再下載,後來就沒辦法下載,連下載按鈕都會不見,所以最好是全部輸入好按下載,速度很快就下載完了,因為每個單字都會有斷音有助於我們把斷音切割出來</li>
 <li>最後再使用Audacity把每一段單字切出來</li>
