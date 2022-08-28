@@ -97,6 +97,34 @@
       </tags>
   </entry>
   <entry>
+    <title>線上錄音程式</title>
+    <url>/2022/08/24/20220815_%E7%B7%9A%E4%B8%8A%E9%8C%84%E9%9F%B3%E7%A8%8B%E5%BC%8F/</url>
+    <content><![CDATA[<h1 id="錄音程式1"><a href="#錄音程式1" class="headerlink" title="錄音程式1"></a>錄音程式1</h1><p>本程式參考 <a href="https://www.youtube.com/watch?v=B3wWIsNHPk4">Audio Recorder | HTML, CSS and JavaScript Tutorial</a><br>優點：按鈕很美觀、錄音存成檔案<br>缺點：檔案很大，不是存mp3，按鈕很大要插在文章裡會佔掉很大位置，沒辦法上傳到Server</p>
+<iframe src="/code/recorder01.html" height="300px" width="420px" scrolling="auto" frameborder="0" style="box-shadow: 0px 0px 20px -10px #888;">
+</iframe>
+
+<h1 id="錄音程式2"><a href="#錄音程式2" class="headerlink" title="錄音程式2"></a>錄音程式2</h1><p>本程式參考 <a href="https://www.gushiciku.cn/pl/2NhU/zh-tw">HTML5網頁錄音和上傳到伺服器，支援PC、Android，支援IOS微信</a><br>優點：可錄音回放<br>缺點：錄出來的檔案不曉得存在哪裡？，沒辦法上傳到Server</p>
+<iframe src="/code/recorder02.html" height="300px" width="420px" scrolling="auto" frameborder="0" ></iframe>
+
+<h1 id="錄音程式3-flash已經禁用了"><a href="#錄音程式3-flash已經禁用了" class="headerlink" title="錄音程式3 (flash已經禁用了)"></a>錄音程式3 (flash已經禁用了)</h1><p>本程式參考 <a href="https://www.gushiciku.cn/pl/2NhU/zh-tw">使用插件js-audio-plugin</a><br>優點：可錄音回放<br>缺點：錄出來的檔案不曉得存在哪裡？，沒辦法上傳到Server</p>
+<iframe src="/code/recorder03.html" height="300px" width="420px" scrolling="auto" frameborder="0" ></iframe>
+
+<h1 id="錄音程式4-使用js-audio-plugin"><a href="#錄音程式4-使用js-audio-plugin" class="headerlink" title="錄音程式4 (使用js-audio-plugin)"></a>錄音程式4 (使用js-audio-plugin)</h1><p><a href="https://github.com/2fps/recorder/tree/master/site">js-audio-plugin纯js实现浏览器端录音</a><br><a href="http://recorder.api.zhuyuntao.cn/">說明文件</a><br><a href="https://recorder.zhuyuntao.cn/">DEMO</a><br><a href="https://blog.csdn.net/weixin_43415075/article/details/118099862">程式寫法參考</a><br>本程式參考 <a href="http://recorder.api.zhuyuntao.cn/">HTML5網頁錄音和上傳到伺服器，支援PC、Android，支援IOS微信</a><br>優點：可錄音回放<br>缺點：錄出來的檔案不曉得存在哪裡？，沒辦法上傳到Server</p>
+<iframe src="/code/recorder04.html" height="300px" width="420px" scrolling="auto" frameborder="0" ></iframe>
+
+<h1 id="錄音程式5-使用js-audio-plugin"><a href="#錄音程式5-使用js-audio-plugin" class="headerlink" title="錄音程式5 (使用js-audio-plugin)"></a>錄音程式5 (使用js-audio-plugin)</h1><p>[Javascript教程：錄製音訊並將其編碼為mp3](<a href="https://medium.com/jeremy-gottfrieds-tech-blog/">https://medium.com/jeremy-gottfrieds-tech-blog/</a><br>幾周前，我正在使用Google Cloud Voice API構建一個Web應用程式，我需要在瀏覽器中構建一個“記錄”功能。我發現了Javascript的MediaRecorder API用於錄製音訊，以及用於編碼音訊的ffmpeg節點庫。</p>
+<p>下面是一個指向 CodePen 的連結，其中包含我正在覆蓋的所有前端代碼 — <a href="https://codepen.io/jeremyagottfried/pen/bMqyNZ%E3%80%82%E6%88%91%E9%80%A3%E7%B5%90%E5%88%B0%E5%AE%83%E8%80%8C%E4%B8%8D%E6%98%AF%E5%B5%8C%E5%85%A5%EF%BC%8C%E5%9B%A0%E7%82%BA%E5%B5%8C%E5%85%A5%E5%BC%8FCodePen%E4%B8%8D%E5%85%81%E8%A8%B1%E6%82%A8%E8%AB%8B%E6%B1%82%E9%BA%A5%E5%85%8B%E9%A2%A8%E8%A8%B1%E5%8F%AF%E6%AC%8A%E3%80%82">https://codepen.io/jeremyagottfried/pen/bMqyNZ。我連結到它而不是嵌入，因為嵌入式CodePen不允許您請求麥克風許可權。</a></p>
+<p>如果你想瞭解如何構建一個能夠錄製音訊並將其保存到mp3檔的簡單Web應用程式，這裡有一個教程：</p>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+      <categories>
+        <category>javascript</category>
+      </categories>
+      <tags>
+        <tag>朗讀</tag>
+        <tag>javascript</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hexo學習記錄</title>
     <url>/2022/08/14/20220814_HexoLearningJourney/</url>
     <content><![CDATA[<blockquote>
@@ -447,34 +475,6 @@
       </tags>
   </entry>
   <entry>
-    <title>線上錄音程式</title>
-    <url>/2022/08/24/20220815_%E7%B7%9A%E4%B8%8A%E9%8C%84%E9%9F%B3%E7%A8%8B%E5%BC%8F/</url>
-    <content><![CDATA[<h1 id="錄音程式1"><a href="#錄音程式1" class="headerlink" title="錄音程式1"></a>錄音程式1</h1><p>本程式參考 <a href="https://www.youtube.com/watch?v=B3wWIsNHPk4">Audio Recorder | HTML, CSS and JavaScript Tutorial</a><br>優點：按鈕很美觀、錄音存成檔案<br>缺點：檔案很大，不是存mp3，按鈕很大要插在文章裡會佔掉很大位置，沒辦法上傳到Server</p>
-<iframe src="/code/recorder01.html" height="300px" width="420px" scrolling="auto" frameborder="0" style="box-shadow: 0px 0px 20px -10px #888;">
-</iframe>
-
-<h1 id="錄音程式2"><a href="#錄音程式2" class="headerlink" title="錄音程式2"></a>錄音程式2</h1><p>本程式參考 <a href="https://www.gushiciku.cn/pl/2NhU/zh-tw">HTML5網頁錄音和上傳到伺服器，支援PC、Android，支援IOS微信</a><br>優點：可錄音回放<br>缺點：錄出來的檔案不曉得存在哪裡？，沒辦法上傳到Server</p>
-<iframe src="/code/recorder02.html" height="300px" width="420px" scrolling="auto" frameborder="0" ></iframe>
-
-<h1 id="錄音程式3-flash已經禁用了"><a href="#錄音程式3-flash已經禁用了" class="headerlink" title="錄音程式3 (flash已經禁用了)"></a>錄音程式3 (flash已經禁用了)</h1><p>本程式參考 <a href="https://www.gushiciku.cn/pl/2NhU/zh-tw">使用插件js-audio-plugin</a><br>優點：可錄音回放<br>缺點：錄出來的檔案不曉得存在哪裡？，沒辦法上傳到Server</p>
-<iframe src="/code/recorder03.html" height="300px" width="420px" scrolling="auto" frameborder="0" ></iframe>
-
-<h1 id="錄音程式4-使用js-audio-plugin"><a href="#錄音程式4-使用js-audio-plugin" class="headerlink" title="錄音程式4 (使用js-audio-plugin)"></a>錄音程式4 (使用js-audio-plugin)</h1><p><a href="https://github.com/2fps/recorder/tree/master/site">js-audio-plugin纯js实现浏览器端录音</a><br><a href="http://recorder.api.zhuyuntao.cn/">說明文件</a><br><a href="https://recorder.zhuyuntao.cn/">DEMO</a><br><a href="https://blog.csdn.net/weixin_43415075/article/details/118099862">程式寫法參考</a><br>本程式參考 <a href="http://recorder.api.zhuyuntao.cn/">HTML5網頁錄音和上傳到伺服器，支援PC、Android，支援IOS微信</a><br>優點：可錄音回放<br>缺點：錄出來的檔案不曉得存在哪裡？，沒辦法上傳到Server</p>
-<iframe src="/code/recorder04.html" height="300px" width="420px" scrolling="auto" frameborder="0" ></iframe>
-
-<h1 id="錄音程式5-使用js-audio-plugin"><a href="#錄音程式5-使用js-audio-plugin" class="headerlink" title="錄音程式5 (使用js-audio-plugin)"></a>錄音程式5 (使用js-audio-plugin)</h1><p>[Javascript教程：錄製音訊並將其編碼為mp3](<a href="https://medium.com/jeremy-gottfrieds-tech-blog/">https://medium.com/jeremy-gottfrieds-tech-blog/</a><br>幾周前，我正在使用Google Cloud Voice API構建一個Web應用程式，我需要在瀏覽器中構建一個“記錄”功能。我發現了Javascript的MediaRecorder API用於錄製音訊，以及用於編碼音訊的ffmpeg節點庫。</p>
-<p>下面是一個指向 CodePen 的連結，其中包含我正在覆蓋的所有前端代碼 — <a href="https://codepen.io/jeremyagottfried/pen/bMqyNZ%E3%80%82%E6%88%91%E9%80%A3%E7%B5%90%E5%88%B0%E5%AE%83%E8%80%8C%E4%B8%8D%E6%98%AF%E5%B5%8C%E5%85%A5%EF%BC%8C%E5%9B%A0%E7%82%BA%E5%B5%8C%E5%85%A5%E5%BC%8FCodePen%E4%B8%8D%E5%85%81%E8%A8%B1%E6%82%A8%E8%AB%8B%E6%B1%82%E9%BA%A5%E5%85%8B%E9%A2%A8%E8%A8%B1%E5%8F%AF%E6%AC%8A%E3%80%82">https://codepen.io/jeremyagottfried/pen/bMqyNZ。我連結到它而不是嵌入，因為嵌入式CodePen不允許您請求麥克風許可權。</a></p>
-<p>如果你想瞭解如何構建一個能夠錄製音訊並將其保存到mp3檔的簡單Web應用程式，這裡有一個教程：</p>
-<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
-      <categories>
-        <category>javascript</category>
-      </categories>
-      <tags>
-        <tag>朗讀</tag>
-        <tag>javascript</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>20220815小孩的自學計劃</title>
     <url>/2022/08/15/20220815_%E5%B0%8F%E5%AD%A9%E7%9A%84%E8%87%AA%E5%AD%B8%E8%A8%88%E5%8A%83/</url>
     <content><![CDATA[<h3 id="簡介"><a href="#簡介" class="headerlink" title="簡介"></a>簡介</h3><p>本區是大概記錄一下小孩的學習歷程，以及自己為了讓小孩自學買了什麼教案，看了哪些影片又買了哪些書，年齡到了就把該書拿出來給小孩讀，才不會忘了自己買過這些書要給小孩看，萬一忘了時間過了之前書的這些書、影片、APP…就白費了，另YOUTUBE有家長或老師讀繪本給小孩看，內容真的很不錯，這就省去了很多自己英文能力不好沒辦法去教小孩的煩惱…,大概我會把這些做個分齡可以時間到了就拿出來給小孩學習</p>
@@ -546,21 +546,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Anki音檔存放路徑</title>
-    <url>/2022/08/25/20220826_Anki%E9%9F%B3%E6%AA%94%E5%AD%98%E6%94%BE%E8%B7%AF%E5%BE%91/</url>
-    <content><![CDATA[<h1 id="ANKI的資源的存放路徑"><a href="#ANKI的資源的存放路徑" class="headerlink" title="ANKI的資源的存放路徑"></a>ANKI的資源的存放路徑</h1><p>最直接的做法就是先看ANKI的檔案是存在哪的？</p>
-<p>工具 &#x2F; 附加元件 點選【檢視檔案】</p>
-<p>從附加元件的存放位置可以很容易找到音檔的存放位置</p>
-<p>\使用者\使用者名稱\AppData\Roaming\Anki2\使用者1\collection.media</p>
-<span id="more"></span><link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
-      <categories>
-        <category>ANKI</category>
-      </categories>
-      <tags>
-        <tag>ANKI</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>任務卡製作</title>
     <url>/2022/08/23/20220823_%E4%BB%BB%E5%8B%99%E5%8D%A1%E8%A3%BD%E4%BD%9C/</url>
     <content><![CDATA[<blockquote>
@@ -585,6 +570,21 @@
       </categories>
       <tags>
         <tag>child</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Anki音檔存放路徑</title>
+    <url>/2022/08/25/20220826_Anki%E9%9F%B3%E6%AA%94%E5%AD%98%E6%94%BE%E8%B7%AF%E5%BE%91/</url>
+    <content><![CDATA[<h1 id="ANKI的資源的存放路徑"><a href="#ANKI的資源的存放路徑" class="headerlink" title="ANKI的資源的存放路徑"></a>ANKI的資源的存放路徑</h1><p>最直接的做法就是先看ANKI的檔案是存在哪的？</p>
+<p>工具 &#x2F; 附加元件 點選【檢視檔案】</p>
+<p>從附加元件的存放位置可以很容易找到音檔的存放位置</p>
+<p>\使用者\使用者名稱\AppData\Roaming\Anki2\使用者1\collection.media</p>
+<span id="more"></span><link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+      <categories>
+        <category>ANKI</category>
+      </categories>
+      <tags>
+        <tag>ANKI</tag>
       </tags>
   </entry>
   <entry>
@@ -628,6 +628,26 @@
       </tags>
   </entry>
   <entry>
+    <title>Anki國小單字背誦字卡製作</title>
+    <url>/2022/08/28/20220828_Anki%E5%9C%8B%E5%B0%8F%E5%96%AE%E5%AD%97%E8%83%8C%E8%AA%A6/</url>
+    <content><![CDATA[<h2 id="自製國小單字背誦"><a href="#自製國小單字背誦" class="headerlink" title="自製國小單字背誦"></a>自製國小單字背誦</h2><h3 id="使用Anki聽音拼字"><a href="#使用Anki聽音拼字" class="headerlink" title="使用Anki聽音拼字"></a>使用Anki聽音拼字</h3><ol>
+<li>「<a href="https://www.youtube.com/watch?v=yGKIUgrWuOA&list=PLdvm7xnbDu49I_9E6ngEW8SoK_O9kZyXs">Youtube全民英檢國小單字</a> 邊看邊背</li>
+<li>把單字再打進Wordup使用它目地是這裡的出題較多元，另外自建卡片有單字重覆會提示重覆</li>
+<li>再把裡面的單字打進微軟TTS  <a href="/2022/08/27/20220827_%E6%96%87%E5%AD%97%E8%BD%89%E8%AA%9E%E9%9F%B3/" title="&lt;b&gt;【文字轉語音並下載教學】&lt;&#x2F;b&gt;"><b>【文字轉語音並下載教學】</b></a> ，把語音分段 <a href="/2022/08/28/20220828_Audacity%E5%B8%B8%E7%94%A8%E5%8A%9F%E8%83%BD/" title="&lt;b&gt;【把語音分段教學】&lt;&#x2F;b&gt;"><b>【把語音分段教學】</b></a> </li>
+<li>開啟Wordup、ANKI、檔案總管並排好</li>
+<li>先從檔案總管拉切好的音檔進Anki,會聽到發音</li>
+<li>然後從Wordup把單字相關資料貼到Anki直到建檔完成<span id="more"></span>
+純手工製作最快的方式就是一個畫面把所有要用的視窗開好<br>Anki &#x2F; 檔案總管 &#x2F; Wordup網頁版<br>輔助外掛 【在線詞典助手】、【QTranslate】<br><img src="/%5Cimages%5C20220828Anki%E5%9C%8B%E5%B0%8F%E5%96%AE%E5%AD%97%E8%83%8C%E8%AA%A601.webp"></li>
+</ol>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+      <categories>
+        <category>anki</category>
+      </categories>
+      <tags>
+        <tag>child</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Audacity常用功能</title>
     <url>/2022/08/28/20220828_Audacity%E5%B8%B8%E7%94%A8%E5%8A%9F%E8%83%BD/</url>
     <content><![CDATA[<blockquote>
@@ -649,6 +669,76 @@
         <tag>音頻</tag>
         <tag>教案製作</tag>
         <tag>應用軟體 </tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo常用的編輯指令</title>
+    <url>/2022/08/20/Hexo%E5%B8%B8%E7%94%A8%E7%9A%84%E7%B7%A8%E8%BC%AF%E6%8C%87%E4%BB%A4/</url>
+    <content><![CDATA[<h3 id="連結篇"><a href="#連結篇" class="headerlink" title="連結篇"></a>連結篇</h3><h4 id="連結到Hexo其它文章"><a href="#連結到Hexo其它文章" class="headerlink" title="連結到Hexo其它文章"></a>連結到Hexo其它文章</h4><p>必須考慮移植性，不管未來網頁網址如何變它都不會因為此而失連,使用Hexo內置的標籤語法</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% post_link 文件名 &#x27;文章別名&#x27;%&#125;</span><br><span class="line">範例：</span><br><span class="line">&#123;% post_link 20220801_hello-world Hexo &#x27;安裝好內建的第一篇文章&#x27; %&#125;</span><br><span class="line">&#123;% post_link 20220801_hello-world &#x27;&lt;b&gt;加入粗體&lt;/b&gt;&#x27; false %&#125;</span><br></pre></td></tr></table></figure>
+<ul>
+<li>文件名：Hexo內建文章,hello-world.md<br><img src="/images/Hexo%E5%B8%B8%E7%94%A8%E7%9A%84%E7%B7%A8%E8%BC%AF%E6%8C%87%E4%BB%A401.webp">  </li>
+<li>文章別名：簡短介紹這個連結</li>
+<li>範例執行1：<a href="/2022/08/15/20220801_hello-world/" title="Hexo安裝好內建的第一篇文章">Hexo安裝好內建的第一篇文章</a></li>
+<li>範例執行2：<a href="/2022/08/15/20220801_hello-world/" title="&lt;b&gt;加入粗體&lt;&#x2F;b&gt;"><b>加入粗體</b></a></li>
+</ul>
+<span id="more"></span>
+
+
+<blockquote>
+<h3 id="如何插入圖片"><a href="#如何插入圖片" class="headerlink" title="如何插入圖片"></a>如何插入圖片</h3><p>圖片插入方式：插入圖片使用外部連結 ＞ 絕對路徑 ＞ 相對路徑 ＞ </p>
+</blockquote>
+<h4 id="插入外部連結圖片"><a href="#插入外部連結圖片" class="headerlink" title="插入外部連結圖片"></a>插入外部連結圖片</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![這是外部連結圖片](https://upload.wikimedia.org/wikipedia/commons/e/e9/Hexo-logo.png)</span><br></pre></td></tr></table></figure>
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Hexo-logo.png" alt="這是外部連結圖片"></p>
+<h4 id="絕對路徑"><a href="#絕對路徑" class="headerlink" title="絕對路徑"></a>絕對路徑</h4><p>不管在哪個位置,圖片都放在固定的一個位置</p>
+<ol>
+<li>將圖片存放 <code>/source/images/</code></li>
+<li>語法如下<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![](/images/pic01.png)</span><br></pre></td></tr></table></figure></li>
+<li>因為相對路徑存放圖片都無法顯示，所以目前做法是使用絕對路徑，全部存放在同一資料夾，然後用文件來做前置命名+流水號這樣做法優點防止將來文件一多資料夾就會産生一堆，如果要找某張圖但忘了文件名稱要找就很不容易了，放一起可以一次瀏覽全部圖片，但未來還是會找個圖床來放圖片</li>
+</ol>
+<h4 id="相對路徑"><a href="#相對路徑" class="headerlink" title="相對路徑"></a>相對路徑</h4><p>圖片會跟著文章一起被建立,會建一個和文章同名的資料夾來放圖片</p>
+<ol>
+<li>修改<code>_config.yml</code><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">post_asset_folder: true</span><br></pre></td></tr></table></figure></li>
+</ol>
+<p>修改後以後使用 <code>$ hexo new post_name</code> 建立的文章會在 <code>source/_posts</code>目錄出現,檔案名稱為 <code>post_name.md</code>,另外也會建立一個同名的資料夾 <code>post_name</code>,圖片就放在該資料夾裡。</p>
+
+<ol start="2">
+<li><p>使用Makedown語法插入圖片</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![](Hexo-logo.png)</span><br></pre></td></tr></table></figure>
+<p>如果試不出來要改成</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% asset_img Hexo-logo.png 這是一張圖片 %&#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>使用Makedown語法插入圖片</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">使用![](Hexo-logo.png)語法(會有問題)</span><br></pre></td></tr></table></figure>
+<p><img src="/Hexo-logo.png"></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">使用 &#123;% asset_img Hexo-logo.png 這是一張圖片 %&#125; 語法</span><br></pre></td></tr></table></figure>
+<img src="/2022/08/20/Hexo%E5%B8%B8%E7%94%A8%E7%9A%84%E7%B7%A8%E8%BC%AF%E6%8C%87%E4%BB%A4/Hexo-logo.png" class="" title="這是一張圖片"></li>
+</ol>
+<h4 id="使用外掛-hexo-renderer-marked"><a href="#使用外掛-hexo-renderer-marked" class="headerlink" title="使用外掛 hexo-renderer-marked"></a>使用外掛 <code>hexo-renderer-marked</code></h4><ol>
+<li>安裝<code>hexo-renderer-marked</code> 插件<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ npm install hexo-renderer-marked --save</span><br></pre></td></tr></table></figure></li>
+<li>開啟 <code>_config.yml</code> 加入下面參數設定 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">post_asset_folder: true</span><br><span class="line">marked:</span><br><span class="line">  prependRoot: true  #將根值附加到（內部）圖像路徑。 root : /blog/</span><br><span class="line">  postAsset: true  # 將 post 資產的圖像路徑解析為相對路徑</span><br></pre></td></tr></table></figure>
+ 啟用後，資產圖像將自動解析為其相應帖子的路徑。<br> 例如，<code>“image.jpg”</code>位於<code>“/2020/01/02/foo/image.jpg”</code>，表示它是<code>“/2020/01/02/foo/”</code>帖子的資產圖片，將被渲染為<code> .![](image.jpg)&lt;img src=&quot;/2020/01/02/foo/image.jpg&quot;&gt;</code></li>
+<li>參數解析<br>因為<code>marked:</code>有眾多參數，詳細參數仍要看原始說明<br> <a href="https://github.com/hexojs/hexo-renderer-marked">hexo-renderer-marked </a></li>
+</ol>
+<h4 id="Typora插入方式"><a href="#Typora插入方式" class="headerlink" title="Typora插入方式"></a>Typora插入方式</h4><p><a href="https://www.gushiciku.cn/pl/ptBs/zh-tw">其它使用外掛及Typora插入方式</a></p>
+<hr>
+<h4 id="插入簡易mp3播放器"><a href="#插入簡易mp3播放器" class="headerlink" title="插入簡易mp3播放器"></a>插入簡易mp3播放器</h4><p><code>​&lt;audio id=&quot;audio&quot; controls=&quot;&quot; preload=&quot;none&quot;&gt;       &lt;source id=&quot;mp3&quot; src=&quot;音檔存放位置&quot;&gt; &lt;/audio&gt;</code><br>​<audio id="audio" controls="" preload="none"><br>      <source id="mp3" src="/music/Gerernal MacArthur's Prayer For His Son.mp3"><br></audio></p>
+<hr>
+<h3 id="標籤外掛"><a href="#標籤外掛" class="headerlink" title="標籤外掛"></a>標籤外掛</h3><h4 id="官網標籤外掛"><a href="#官網標籤外掛" class="headerlink" title="官網標籤外掛"></a><a href="https://hexo.io/zh-tw/docs/tag-plugins">官網標籤外掛</a></h4><p>有空要來研究一下</p>
+<blockquote><p>Do not just seek happiness for yourself. Seek happiness for all. Through kindness. Through mercy.</p>
+<footer><strong>David Levithan</strong><cite>Wide Awake</cite></footer></blockquote>
+
+<hr>
+<blockquote><p>NEW: DevDocs now comes with syntax highlighting. <a href="http://devdocs.io/">http://devdocs.io</a></p>
+<footer><strong>@DevDocs</strong><cite><a href="https://twitter.com/devdocs/status/356095192085962752">twitter.com/devdocs/status/356095192085962752</a></cite></footer></blockquote>
+
+
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
       </tags>
   </entry>
   <entry>
@@ -728,96 +818,6 @@
       <tags>
         <tag>Hexo</tag>
         <tag>NEXT</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo常用的編輯指令</title>
-    <url>/2022/08/20/Hexo%E5%B8%B8%E7%94%A8%E7%9A%84%E7%B7%A8%E8%BC%AF%E6%8C%87%E4%BB%A4/</url>
-    <content><![CDATA[<h3 id="連結篇"><a href="#連結篇" class="headerlink" title="連結篇"></a>連結篇</h3><h4 id="連結到Hexo其它文章"><a href="#連結到Hexo其它文章" class="headerlink" title="連結到Hexo其它文章"></a>連結到Hexo其它文章</h4><p>必須考慮移植性，不管未來網頁網址如何變它都不會因為此而失連,使用Hexo內置的標籤語法</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% post_link 文件名 &#x27;文章別名&#x27;%&#125;</span><br><span class="line">範例：</span><br><span class="line">&#123;% post_link 20220801_hello-world Hexo &#x27;安裝好內建的第一篇文章&#x27; %&#125;</span><br><span class="line">&#123;% post_link 20220801_hello-world &#x27;&lt;b&gt;加入粗體&lt;/b&gt;&#x27; false %&#125;</span><br></pre></td></tr></table></figure>
-<ul>
-<li>文件名：Hexo內建文章,hello-world.md<br><img src="/images/Hexo%E5%B8%B8%E7%94%A8%E7%9A%84%E7%B7%A8%E8%BC%AF%E6%8C%87%E4%BB%A401.webp">  </li>
-<li>文章別名：簡短介紹這個連結</li>
-<li>範例執行1：<a href="/2022/08/15/20220801_hello-world/" title="Hexo安裝好內建的第一篇文章">Hexo安裝好內建的第一篇文章</a></li>
-<li>範例執行2：<a href="/2022/08/15/20220801_hello-world/" title="&lt;b&gt;加入粗體&lt;&#x2F;b&gt;"><b>加入粗體</b></a></li>
-</ul>
-<span id="more"></span>
-
-
-<blockquote>
-<h3 id="如何插入圖片"><a href="#如何插入圖片" class="headerlink" title="如何插入圖片"></a>如何插入圖片</h3><p>圖片插入方式：插入圖片使用外部連結 ＞ 絕對路徑 ＞ 相對路徑 ＞ </p>
-</blockquote>
-<h4 id="插入外部連結圖片"><a href="#插入外部連結圖片" class="headerlink" title="插入外部連結圖片"></a>插入外部連結圖片</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![這是外部連結圖片](https://upload.wikimedia.org/wikipedia/commons/e/e9/Hexo-logo.png)</span><br></pre></td></tr></table></figure>
-<p><img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Hexo-logo.png" alt="這是外部連結圖片"></p>
-<h4 id="絕對路徑"><a href="#絕對路徑" class="headerlink" title="絕對路徑"></a>絕對路徑</h4><p>不管在哪個位置,圖片都放在固定的一個位置</p>
-<ol>
-<li>將圖片存放 <code>/source/images/</code></li>
-<li>語法如下<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![](/images/pic01.png)</span><br></pre></td></tr></table></figure></li>
-<li>因為相對路徑存放圖片都無法顯示，所以目前做法是使用絕對路徑，全部存放在同一資料夾，然後用文件來做前置命名+流水號這樣做法優點防止將來文件一多資料夾就會産生一堆，如果要找某張圖但忘了文件名稱要找就很不容易了，放一起可以一次瀏覽全部圖片，但未來還是會找個圖床來放圖片</li>
-</ol>
-<h4 id="相對路徑"><a href="#相對路徑" class="headerlink" title="相對路徑"></a>相對路徑</h4><p>圖片會跟著文章一起被建立,會建一個和文章同名的資料夾來放圖片</p>
-<ol>
-<li>修改<code>_config.yml</code><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">post_asset_folder: true</span><br></pre></td></tr></table></figure></li>
-</ol>
-<p>修改後以後使用 <code>$ hexo new post_name</code> 建立的文章會在 <code>source/_posts</code>目錄出現,檔案名稱為 <code>post_name.md</code>,另外也會建立一個同名的資料夾 <code>post_name</code>,圖片就放在該資料夾裡。</p>
-
-<ol start="2">
-<li><p>使用Makedown語法插入圖片</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![](Hexo-logo.png)</span><br></pre></td></tr></table></figure>
-<p>如果試不出來要改成</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% asset_img Hexo-logo.png 這是一張圖片 %&#125;</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>使用Makedown語法插入圖片</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">使用![](Hexo-logo.png)語法(會有問題)</span><br></pre></td></tr></table></figure>
-<p><img src="/Hexo-logo.png"></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">使用 &#123;% asset_img Hexo-logo.png 這是一張圖片 %&#125; 語法</span><br></pre></td></tr></table></figure>
-<img src="/2022/08/20/Hexo%E5%B8%B8%E7%94%A8%E7%9A%84%E7%B7%A8%E8%BC%AF%E6%8C%87%E4%BB%A4/Hexo-logo.png" class="" title="這是一張圖片"></li>
-</ol>
-<h4 id="使用外掛-hexo-renderer-marked"><a href="#使用外掛-hexo-renderer-marked" class="headerlink" title="使用外掛 hexo-renderer-marked"></a>使用外掛 <code>hexo-renderer-marked</code></h4><ol>
-<li>安裝<code>hexo-renderer-marked</code> 插件<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ npm install hexo-renderer-marked --save</span><br></pre></td></tr></table></figure></li>
-<li>開啟 <code>_config.yml</code> 加入下面參數設定 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">post_asset_folder: true</span><br><span class="line">marked:</span><br><span class="line">  prependRoot: true  #將根值附加到（內部）圖像路徑。 root : /blog/</span><br><span class="line">  postAsset: true  # 將 post 資產的圖像路徑解析為相對路徑</span><br></pre></td></tr></table></figure>
- 啟用後，資產圖像將自動解析為其相應帖子的路徑。<br> 例如，<code>“image.jpg”</code>位於<code>“/2020/01/02/foo/image.jpg”</code>，表示它是<code>“/2020/01/02/foo/”</code>帖子的資產圖片，將被渲染為<code> .![](image.jpg)&lt;img src=&quot;/2020/01/02/foo/image.jpg&quot;&gt;</code></li>
-<li>參數解析<br>因為<code>marked:</code>有眾多參數，詳細參數仍要看原始說明<br> <a href="https://github.com/hexojs/hexo-renderer-marked">hexo-renderer-marked </a></li>
-</ol>
-<h4 id="Typora插入方式"><a href="#Typora插入方式" class="headerlink" title="Typora插入方式"></a>Typora插入方式</h4><p><a href="https://www.gushiciku.cn/pl/ptBs/zh-tw">其它使用外掛及Typora插入方式</a></p>
-<hr>
-<h4 id="插入簡易mp3播放器"><a href="#插入簡易mp3播放器" class="headerlink" title="插入簡易mp3播放器"></a>插入簡易mp3播放器</h4><p><code>​&lt;audio id=&quot;audio&quot; controls=&quot;&quot; preload=&quot;none&quot;&gt;       &lt;source id=&quot;mp3&quot; src=&quot;音檔存放位置&quot;&gt; &lt;/audio&gt;</code><br>​<audio id="audio" controls="" preload="none"><br>      <source id="mp3" src="/music/Gerernal MacArthur's Prayer For His Son.mp3"><br></audio></p>
-<hr>
-<h3 id="標籤外掛"><a href="#標籤外掛" class="headerlink" title="標籤外掛"></a>標籤外掛</h3><h4 id="官網標籤外掛"><a href="#官網標籤外掛" class="headerlink" title="官網標籤外掛"></a><a href="https://hexo.io/zh-tw/docs/tag-plugins">官網標籤外掛</a></h4><p>有空要來研究一下</p>
-<blockquote><p>Do not just seek happiness for yourself. Seek happiness for all. Through kindness. Through mercy.</p>
-<footer><strong>David Levithan</strong><cite>Wide Awake</cite></footer></blockquote>
-
-<hr>
-<blockquote><p>NEW: DevDocs now comes with syntax highlighting. <a href="http://devdocs.io/">http://devdocs.io</a></p>
-<footer><strong>@DevDocs</strong><cite><a href="https://twitter.com/devdocs/status/356095192085962752">twitter.com/devdocs/status/356095192085962752</a></cite></footer></blockquote>
-
-
-<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
-      <categories>
-        <category>Hexo</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Anki國小單字背誦字卡製作</title>
-    <url>/2022/08/28/20220828_Anki%E5%9C%8B%E5%B0%8F%E5%96%AE%E5%AD%97%E8%83%8C%E8%AA%A6/</url>
-    <content><![CDATA[<h2 id="自製國小單字背誦"><a href="#自製國小單字背誦" class="headerlink" title="自製國小單字背誦"></a>自製國小單字背誦</h2><h3 id="使用Anki聽音拼字"><a href="#使用Anki聽音拼字" class="headerlink" title="使用Anki聽音拼字"></a>使用Anki聽音拼字</h3><ol>
-<li>「<a href="https://www.youtube.com/watch?v=yGKIUgrWuOA&list=PLdvm7xnbDu49I_9E6ngEW8SoK_O9kZyXs">Youtube全民英檢國小單字</a> 邊看邊背</li>
-<li>把單字再打進Wordup使用它目地是這裡的出題較多元，另外自建卡片有單字重覆會提示重覆</li>
-<li>再把裡面的單字打進微軟TTS  <a href="/2022/08/27/20220827_%E6%96%87%E5%AD%97%E8%BD%89%E8%AA%9E%E9%9F%B3/" title="&lt;b&gt;【文字轉語音並下載教學】&lt;&#x2F;b&gt;"><b>【文字轉語音並下載教學】</b></a> ，把語音分段 <a href="/2022/08/28/20220828_Audacity%E5%B8%B8%E7%94%A8%E5%8A%9F%E8%83%BD/" title="&lt;b&gt;【把語音分段教學】&lt;&#x2F;b&gt;"><b>【把語音分段教學】</b></a> </li>
-<li>開啟Wordup、ANKI、檔案總管並排好</li>
-<li>先從檔案總管拉切好的音檔進Anki,會聽到發音</li>
-<li>然後從Wordup把單字相關資料貼到Anki直到建檔完成<span id="more"></span>
-純手工製作最快的方式就是一個畫面把所有要用的視窗開好<br>Anki &#x2F; 檔案總管 &#x2F; Wordup網頁版<br>輔助外掛 【在線詞典助手】、【QTranslate】<br><img src="/%5Cimages%5C20220828Anki%E5%9C%8B%E5%B0%8F%E5%96%AE%E5%AD%97%E8%83%8C%E8%AA%A601.webp"></li>
-</ol>
-<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
-      <categories>
-        <category>anki</category>
-      </categories>
-      <tags>
-        <tag>child</tag>
       </tags>
   </entry>
 </search>

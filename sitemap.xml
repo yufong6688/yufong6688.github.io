@@ -266,14 +266,14 @@
   </url>
   
   <url>
-    <loc>http://example.com/categories/Hexo/</loc>
+    <loc>http://example.com/categories/javascript/</loc>
     <lastmod>2022-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/categories/javascript/</loc>
+    <loc>http://example.com/categories/Hexo/</loc>
     <lastmod>2022-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -301,14 +301,14 @@
   </url>
   
   <url>
-    <loc>http://example.com/categories/%E6%87%89%E7%94%A8%E8%BB%9F%E9%AB%94/</loc>
+    <loc>http://example.com/categories/anki/</loc>
     <lastmod>2022-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/categories/anki/</loc>
+    <loc>http://example.com/categories/%E6%87%89%E7%94%A8%E8%BB%9F%E9%AB%94/</loc>
     <lastmod>2022-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
