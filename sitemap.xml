@@ -187,6 +187,13 @@
   </url>
   
   <url>
+    <loc>http://example.com/tags/child/</loc>
+    <lastmod>2022-08-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://example.com/tags/%E6%9C%97%E8%AE%80/</loc>
     <lastmod>2022-08-28</lastmod>
     <changefreq>weekly</changefreq>
@@ -195,13 +202,6 @@
   
   <url>
     <loc>http://example.com/tags/javascript/</loc>
-    <lastmod>2022-08-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/tags/child/</loc>
     <lastmod>2022-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -266,13 +266,6 @@
   </url>
   
   <url>
-    <loc>http://example.com/categories/javascript/</loc>
-    <lastmod>2022-08-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://example.com/categories/Hexo/</loc>
     <lastmod>2022-08-28</lastmod>
     <changefreq>weekly</changefreq>
@@ -281,6 +274,13 @@
   
   <url>
     <loc>http://example.com/categories/child/</loc>
+    <lastmod>2022-08-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/categories/javascript/</loc>
     <lastmod>2022-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

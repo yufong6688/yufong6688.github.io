@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>更新記錄</title>
+    <url>/2022/08/25/20220000%E6%9B%B4%E6%96%B0%E8%A8%98%E9%8C%84/</url>
+    <content><![CDATA[<ul>
+<li>2022&#x2F;08&#x2F;25【plugin】hexo-bridge		<a href="http://localhost:4000/bridge">http://localhost:4000/bridge</a> <br></li>
+<li>2022&#x2F;08&#x2F;25【文章】General MacArthur’s Prayer For His Son加音檔 <br></li>
+<li>2022&#x2F;08&#x2F;25【文章】ANKI 的資源的存放路徑 <br></li>
+<li>2022&#x2F;08&#x2F;25【文章】blog更新記錄 <br></li>
+<li>2022&#x2F;08&#x2F;25【HTML】新增錄音程式，放入一個\public\code\recode01.html <br></li>
+<li>2022&#x2F;08&#x2F;25【HTML】套用錄音程式， <br><ul>
+<li><code>&lt;iframe src=&quot;/code/record01.html&quot; height=&quot;300px&quot; width=&quot;420px&quot; scrolling=&quot;auto&quot; frameborder=&quot;0&quot; style=&quot;box-shadow: 0px 0px 20px -10px #888;&quot;&gt;</code></li>
+</ul>
+</li>
+<li>2022&#x2F;08&#x2F;25【文章】 General MacArthur’s Prayer For His Son 嵌入錄音<br> </li>
+<li>2022&#x2F;08&#x2F;26【文章】Anki音檔存放路徑</li>
+<li>2022&#x2F;08&#x2F;28【文章】文字轉語音</li>
+<li>2022&#x2F;08&#x2F;28 【文章】Audacity常用功能【自動音頻分段】</li>
+<li>2022&#x2F;08&#x2F;28 【文章】20220828_Anki國小單字背誦</li>
+</ul>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+  </entry>
+  <entry>
     <title>Hello World</title>
     <url>/2022/08/15/20220801_hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -40,30 +64,6 @@
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
   </entry>
   <entry>
-    <title>更新記錄</title>
-    <url>/2022/08/25/20220000%E6%9B%B4%E6%96%B0%E8%A8%98%E9%8C%84/</url>
-    <content><![CDATA[<ul>
-<li>2022&#x2F;08&#x2F;25【plugin】hexo-bridge		<a href="http://localhost:4000/bridge">http://localhost:4000/bridge</a> <br></li>
-<li>2022&#x2F;08&#x2F;25【文章】General MacArthur’s Prayer For His Son加音檔 <br></li>
-<li>2022&#x2F;08&#x2F;25【文章】ANKI 的資源的存放路徑 <br></li>
-<li>2022&#x2F;08&#x2F;25【文章】blog更新記錄 <br></li>
-<li>2022&#x2F;08&#x2F;25【HTML】新增錄音程式，放入一個\public\code\recode01.html <br></li>
-<li>2022&#x2F;08&#x2F;25【HTML】套用錄音程式， <br><ul>
-<li><code>&lt;iframe src=&quot;/code/record01.html&quot; height=&quot;300px&quot; width=&quot;420px&quot; scrolling=&quot;auto&quot; frameborder=&quot;0&quot; style=&quot;box-shadow: 0px 0px 20px -10px #888;&quot;&gt;</code></li>
-</ul>
-</li>
-<li>2022&#x2F;08&#x2F;25【文章】 General MacArthur’s Prayer For His Son 嵌入錄音<br> </li>
-<li>2022&#x2F;08&#x2F;26【文章】Anki音檔存放路徑</li>
-<li>2022&#x2F;08&#x2F;28【文章】文字轉語音</li>
-<li>2022&#x2F;08&#x2F;28 【文章】Audacity常用功能【自動音頻分段】</li>
-<li>2022&#x2F;08&#x2F;28 【文章】20220828_Anki國小單字背誦</li>
-</ul>
-<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Hexo之Makedown初體驗</title>
     <url>/2022/08/08/20220808-Hexo%E4%B9%8BMakedown%E5%88%9D%E9%AB%94%E9%A9%97/</url>
     <content><![CDATA[<blockquote>
@@ -94,34 +94,6 @@
       <tags>
         <tag>Makedown</tag>
         <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>線上錄音程式</title>
-    <url>/2022/08/24/20220815_%E7%B7%9A%E4%B8%8A%E9%8C%84%E9%9F%B3%E7%A8%8B%E5%BC%8F/</url>
-    <content><![CDATA[<h1 id="錄音程式1"><a href="#錄音程式1" class="headerlink" title="錄音程式1"></a>錄音程式1</h1><p>本程式參考 <a href="https://www.youtube.com/watch?v=B3wWIsNHPk4">Audio Recorder | HTML, CSS and JavaScript Tutorial</a><br>優點：按鈕很美觀、錄音存成檔案<br>缺點：檔案很大，不是存mp3，按鈕很大要插在文章裡會佔掉很大位置，沒辦法上傳到Server</p>
-<iframe src="/code/recorder01.html" height="300px" width="420px" scrolling="auto" frameborder="0" style="box-shadow: 0px 0px 20px -10px #888;">
-</iframe>
-
-<h1 id="錄音程式2"><a href="#錄音程式2" class="headerlink" title="錄音程式2"></a>錄音程式2</h1><p>本程式參考 <a href="https://www.gushiciku.cn/pl/2NhU/zh-tw">HTML5網頁錄音和上傳到伺服器，支援PC、Android，支援IOS微信</a><br>優點：可錄音回放<br>缺點：錄出來的檔案不曉得存在哪裡？，沒辦法上傳到Server</p>
-<iframe src="/code/recorder02.html" height="300px" width="420px" scrolling="auto" frameborder="0" ></iframe>
-
-<h1 id="錄音程式3-flash已經禁用了"><a href="#錄音程式3-flash已經禁用了" class="headerlink" title="錄音程式3 (flash已經禁用了)"></a>錄音程式3 (flash已經禁用了)</h1><p>本程式參考 <a href="https://www.gushiciku.cn/pl/2NhU/zh-tw">使用插件js-audio-plugin</a><br>優點：可錄音回放<br>缺點：錄出來的檔案不曉得存在哪裡？，沒辦法上傳到Server</p>
-<iframe src="/code/recorder03.html" height="300px" width="420px" scrolling="auto" frameborder="0" ></iframe>
-
-<h1 id="錄音程式4-使用js-audio-plugin"><a href="#錄音程式4-使用js-audio-plugin" class="headerlink" title="錄音程式4 (使用js-audio-plugin)"></a>錄音程式4 (使用js-audio-plugin)</h1><p><a href="https://github.com/2fps/recorder/tree/master/site">js-audio-plugin纯js实现浏览器端录音</a><br><a href="http://recorder.api.zhuyuntao.cn/">說明文件</a><br><a href="https://recorder.zhuyuntao.cn/">DEMO</a><br><a href="https://blog.csdn.net/weixin_43415075/article/details/118099862">程式寫法參考</a><br>本程式參考 <a href="http://recorder.api.zhuyuntao.cn/">HTML5網頁錄音和上傳到伺服器，支援PC、Android，支援IOS微信</a><br>優點：可錄音回放<br>缺點：錄出來的檔案不曉得存在哪裡？，沒辦法上傳到Server</p>
-<iframe src="/code/recorder04.html" height="300px" width="420px" scrolling="auto" frameborder="0" ></iframe>
-
-<h1 id="錄音程式5-使用js-audio-plugin"><a href="#錄音程式5-使用js-audio-plugin" class="headerlink" title="錄音程式5 (使用js-audio-plugin)"></a>錄音程式5 (使用js-audio-plugin)</h1><p>[Javascript教程：錄製音訊並將其編碼為mp3](<a href="https://medium.com/jeremy-gottfrieds-tech-blog/">https://medium.com/jeremy-gottfrieds-tech-blog/</a><br>幾周前，我正在使用Google Cloud Voice API構建一個Web應用程式，我需要在瀏覽器中構建一個“記錄”功能。我發現了Javascript的MediaRecorder API用於錄製音訊，以及用於編碼音訊的ffmpeg節點庫。</p>
-<p>下面是一個指向 CodePen 的連結，其中包含我正在覆蓋的所有前端代碼 — <a href="https://codepen.io/jeremyagottfried/pen/bMqyNZ%E3%80%82%E6%88%91%E9%80%A3%E7%B5%90%E5%88%B0%E5%AE%83%E8%80%8C%E4%B8%8D%E6%98%AF%E5%B5%8C%E5%85%A5%EF%BC%8C%E5%9B%A0%E7%82%BA%E5%B5%8C%E5%85%A5%E5%BC%8FCodePen%E4%B8%8D%E5%85%81%E8%A8%B1%E6%82%A8%E8%AB%8B%E6%B1%82%E9%BA%A5%E5%85%8B%E9%A2%A8%E8%A8%B1%E5%8F%AF%E6%AC%8A%E3%80%82">https://codepen.io/jeremyagottfried/pen/bMqyNZ。我連結到它而不是嵌入，因為嵌入式CodePen不允許您請求麥克風許可權。</a></p>
-<p>如果你想瞭解如何構建一個能夠錄製音訊並將其保存到mp3檔的簡單Web應用程式，這裡有一個教程：</p>
-<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
-      <categories>
-        <category>javascript</category>
-      </categories>
-      <tags>
-        <tag>朗讀</tag>
-        <tag>javascript</tag>
       </tags>
   </entry>
   <entry>
@@ -499,6 +471,34 @@
       </categories>
       <tags>
         <tag>child</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>線上錄音程式</title>
+    <url>/2022/08/24/20220815_%E7%B7%9A%E4%B8%8A%E9%8C%84%E9%9F%B3%E7%A8%8B%E5%BC%8F/</url>
+    <content><![CDATA[<h1 id="錄音程式1"><a href="#錄音程式1" class="headerlink" title="錄音程式1"></a>錄音程式1</h1><p>本程式參考 <a href="https://www.youtube.com/watch?v=B3wWIsNHPk4">Audio Recorder | HTML, CSS and JavaScript Tutorial</a><br>優點：按鈕很美觀、錄音存成檔案<br>缺點：檔案很大，不是存mp3，按鈕很大要插在文章裡會佔掉很大位置，沒辦法上傳到Server</p>
+<iframe src="/code/recorder01.html" height="300px" width="420px" scrolling="auto" frameborder="0" style="box-shadow: 0px 0px 20px -10px #888;">
+</iframe>
+
+<h1 id="錄音程式2"><a href="#錄音程式2" class="headerlink" title="錄音程式2"></a>錄音程式2</h1><p>本程式參考 <a href="https://www.gushiciku.cn/pl/2NhU/zh-tw">HTML5網頁錄音和上傳到伺服器，支援PC、Android，支援IOS微信</a><br>優點：可錄音回放<br>缺點：錄出來的檔案不曉得存在哪裡？，沒辦法上傳到Server</p>
+<iframe src="/code/recorder02.html" height="300px" width="420px" scrolling="auto" frameborder="0" ></iframe>
+
+<h1 id="錄音程式3-flash已經禁用了"><a href="#錄音程式3-flash已經禁用了" class="headerlink" title="錄音程式3 (flash已經禁用了)"></a>錄音程式3 (flash已經禁用了)</h1><p>本程式參考 <a href="https://www.gushiciku.cn/pl/2NhU/zh-tw">使用插件js-audio-plugin</a><br>優點：可錄音回放<br>缺點：錄出來的檔案不曉得存在哪裡？，沒辦法上傳到Server</p>
+<iframe src="/code/recorder03.html" height="300px" width="420px" scrolling="auto" frameborder="0" ></iframe>
+
+<h1 id="錄音程式4-使用js-audio-plugin"><a href="#錄音程式4-使用js-audio-plugin" class="headerlink" title="錄音程式4 (使用js-audio-plugin)"></a>錄音程式4 (使用js-audio-plugin)</h1><p><a href="https://github.com/2fps/recorder/tree/master/site">js-audio-plugin纯js实现浏览器端录音</a><br><a href="http://recorder.api.zhuyuntao.cn/">說明文件</a><br><a href="https://recorder.zhuyuntao.cn/">DEMO</a><br><a href="https://blog.csdn.net/weixin_43415075/article/details/118099862">程式寫法參考</a><br>本程式參考 <a href="http://recorder.api.zhuyuntao.cn/">HTML5網頁錄音和上傳到伺服器，支援PC、Android，支援IOS微信</a><br>優點：可錄音回放<br>缺點：錄出來的檔案不曉得存在哪裡？，沒辦法上傳到Server</p>
+<iframe src="/code/recorder04.html" height="300px" width="420px" scrolling="auto" frameborder="0" ></iframe>
+
+<h1 id="錄音程式5-使用js-audio-plugin"><a href="#錄音程式5-使用js-audio-plugin" class="headerlink" title="錄音程式5 (使用js-audio-plugin)"></a>錄音程式5 (使用js-audio-plugin)</h1><p>[Javascript教程：錄製音訊並將其編碼為mp3](<a href="https://medium.com/jeremy-gottfrieds-tech-blog/">https://medium.com/jeremy-gottfrieds-tech-blog/</a><br>幾周前，我正在使用Google Cloud Voice API構建一個Web應用程式，我需要在瀏覽器中構建一個“記錄”功能。我發現了Javascript的MediaRecorder API用於錄製音訊，以及用於編碼音訊的ffmpeg節點庫。</p>
+<p>下面是一個指向 CodePen 的連結，其中包含我正在覆蓋的所有前端代碼 — <a href="https://codepen.io/jeremyagottfried/pen/bMqyNZ%E3%80%82%E6%88%91%E9%80%A3%E7%B5%90%E5%88%B0%E5%AE%83%E8%80%8C%E4%B8%8D%E6%98%AF%E5%B5%8C%E5%85%A5%EF%BC%8C%E5%9B%A0%E7%82%BA%E5%B5%8C%E5%85%A5%E5%BC%8FCodePen%E4%B8%8D%E5%85%81%E8%A8%B1%E6%82%A8%E8%AB%8B%E6%B1%82%E9%BA%A5%E5%85%8B%E9%A2%A8%E8%A8%B1%E5%8F%AF%E6%AC%8A%E3%80%82">https://codepen.io/jeremyagottfried/pen/bMqyNZ。我連結到它而不是嵌入，因為嵌入式CodePen不允許您請求麥克風許可權。</a></p>
+<p>如果你想瞭解如何構建一個能夠錄製音訊並將其保存到mp3檔的簡單Web應用程式，這裡有一個教程：</p>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+      <categories>
+        <category>javascript</category>
+      </categories>
+      <tags>
+        <tag>朗讀</tag>
+        <tag>javascript</tag>
       </tags>
   </entry>
   <entry>
