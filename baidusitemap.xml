@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://example.com/2022/08/24/20220815_%E7%B7%9A%E4%B8%8A%E9%8C%84%E9%9F%B3%E7%A8%8B%E5%BC%8F/</loc>
+    <lastmod>2022-08-28</lastmod>
+  </url>
+  <url>
     <loc>http://example.com/2022/08/28/20220828_Anki%E5%9C%8B%E5%B0%8F%E5%96%AE%E5%AD%97%E8%83%8C%E8%AA%A6%E5%AD%97%E5%8D%A1%E8%A3%BD%E4%BD%9C/</loc>
     <lastmod>2022-08-28</lastmod>
   </url>
@@ -23,10 +27,6 @@
   <url>
     <loc>http://example.com/2022/08/20/Hexo%E5%B8%B8%E7%94%A8%E7%9A%84%E7%B7%A8%E8%BC%AF%E6%8C%87%E4%BB%A4/</loc>
     <lastmod>2022-08-28</lastmod>
-  </url>
-  <url>
-    <loc>http://example.com/2022/08/24/20220815_%E7%B7%9A%E4%B8%8A%E9%8C%84%E9%9F%B3%E7%A8%8B%E5%BC%8F/</loc>
-    <lastmod>2022-08-27</lastmod>
   </url>
   <url>
     <loc>http://example.com/2022/08/24/20220820_GeneralMacArthursPrayerForHisSon/</loc>
