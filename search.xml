@@ -25,39 +25,6 @@
       </categories>
   </entry>
   <entry>
-    <title>Hexo之Makedown初體驗</title>
-    <url>/2022/08/08/20220808-Hexo%E4%B9%8BMakedown%E5%88%9D%E9%AB%94%E9%A9%97/</url>
-    <content><![CDATA[<blockquote>
-<h2 id="偶遇HEXO"><a href="#偶遇HEXO" class="headerlink" title="偶遇HEXO"></a>偶遇HEXO</h2></blockquote>
-<p>第一次聽到Hexo可以建立部落格是因為學習ESP32常常聽老師提到GitHub常常有人提出很有趣的專案，它是每個學習技術的人要去瞭解的，在接觸Gethub平台無意中發現到有人可以把網頁掛在Github免費平台上，因此好奇心之下才發現只能放純靜態網頁但據我所知要架起一個Blog的平台都要能跑SQL server，只能放靜態網頁為什麼有些人偏偏從wordpress這個有強大三方支援的平台移到這？另外當時也是想找一個類似HackMD的階層式部落格平台，其實它在撰寫文章時會自動生成一個階層式的目錄，這目錄可以很快的讓你移動到你要看的文章的某一段。瞭解下發現它還可以解決我很多問題，只是全都是要輸入命令，比起之前使用Wordpress還難啃，或許回想到二十幾年前常常都要Keyin程式碼，報告…應該可以先了解是否合適。</p>
-<span id="more"></span>
-
-<blockquote>
-<h2 id="HEXO讓我愛上它了"><a href="#HEXO讓我愛上它了" class="headerlink" title="HEXO讓我愛上它了"></a>HEXO讓我愛上它了</h2></blockquote>
-<p>之前用過F2Blog、wordpress這兩者都需要先建構好SQL Server，常常發生的問題是Blog無法連線到SQL Server尤其我Blog是架在家裡的NAS，那個時候常常因為要update會出現連不上SQL Server經常要去排除，另一個問題就是要備份還原wordpress也很傷腦筋，雖然他有提供plugin但心理因素就是我只是要在平台上做一個移動式的類圖書館的東西卻常要排除這問題，然後又得要搬出我塵封已久的SQL語法來下命令，還有要看資料還要裝phpAdmin來管理database想寫個blog要這麼麻煩嗎？HEXO他是用Makedown語法來寫文章，寫要自動生成格式化的網頁文章，而且最讓我喜歡的還是它會自己産生目錄結構，未來文章太長可以直接看目錄找到要找的資料。另一點則是它解決了不用SQL的問題，因為它本身就是文字檔可以用VScode直接編輯，VScode又支援Madedown plugin，可以一邊寫一邊看到結果。VScode也是免費的，真是太棒的組合，我常年尋找的東西終於一步步拼湊完成。</p>
-<blockquote>
-<h2 id="安心寫文章才是重點"><a href="#安心寫文章才是重點" class="headerlink" title="安心寫文章才是重點"></a>安心寫文章才是重點</h2></blockquote>
-<p>文章移到一個新平台都會問自己一些問題，文章好備份嗎？最好是無腦備份，平台好轉移嗎？比較可能就是換了NAS就要把平台移到新主機又是一個大工程，那用word，Evernote，Onenote…都沒有一次能解決我想把資料移動必要時可以做分享的平台，有的話也是該平台現在很棒，但把文章放在別人主機還是比放在自己電腦上及用一台淘汰的電腦就可以跑起來，被入侵綁架了反正它只是個分身，我可以很快的就用電腦就佈署一個及它還支援github平台，那就有二個分身，真的很棒，安心，簡單能掌握才是重點。</p>
-<blockquote>
-<h2 id="即時性佈署快是另一個優點"><a href="#即時性佈署快是另一個優點" class="headerlink" title="即時性佈署快是另一個優點"></a>即時性佈署快是另一個優點</h2></blockquote>
-<p>總不能寫個makedown要花很多時間才能轉成網頁，不過以現在電腦速度就算上千篇文章可能也是一瞬間完成吧，因為它只是文章形式，但也希望hexo不要越昇級越肥大。，還有就是佈署快，沒想到都用指令也可以用的很無腦，因為常用的指令就是建一個指令庫，複製貼上。或話比移動滑鼠開選單找按鈕還有效率一些。</p>
-<blockquote>
-<h2 id="安全性"><a href="#安全性" class="headerlink" title="安全性"></a>安全性</h2></blockquote>
-<p>還有最近想買一台NAS來放部落格，又怕外連網路會發生風險，主要還是wordpress要建一個database，那就只能建在一台不差的NAS上，但現在用了Hexo是自動産生靜態網頁那就簡單多了，重要的是放github不用錢，是免費的。那買來的新NAS就專心的在內網做它要負責的儲存工作。或許那一台QNAP三不五時就會被入侵的NAS現在不用了，可以直接放顆不要的硬碟，就在外網架起來，反正被入侵了還有一個github當WebServer用沒再怕。</p>
-<blockquote>
-<h2 id="意外改變寫作外無效率的發佈"><a href="#意外改變寫作外無效率的發佈" class="headerlink" title="意外改變寫作外無效率的發佈"></a>意外改變寫作外無效率的發佈</h2></blockquote>
-<p>意料外的事，使用makedown文章使用VScode就可以看到文章的展現而且是即時，以往在wordpress不好的習慣就是文章沒全部寫好就按個發佈看一下結果，但都很花時間，不像makedown我把文章寫好了，再來處理格式，但都是即時呈現，少了文章寫一半就分心去發佈看結果呈現，然後邊調整格式邊寫文章超花時間在格式調整上。</p>
-<p>綜合上述思考與拼湊，終於一個早晨寫完一篇文章，在邊寫邊思考下更確定駐足在HEXO，未來可能以玩票性質去認識其它平台，不過可能的話不想要再去用database系統的blog，沒錯就是HEXO了，心中的一個奇異果廣告旋律，寫起來~寫起來…</p>
-<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>Makedown</tag>
-        <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hello World</title>
     <url>/2022/08/15/20220801_hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -97,31 +64,36 @@
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
   </entry>
   <entry>
-    <title>線上錄音程式</title>
-    <url>/2022/08/24/20220815_%E7%B7%9A%E4%B8%8A%E9%8C%84%E9%9F%B3%E7%A8%8B%E5%BC%8F/</url>
-    <content><![CDATA[<h1 id="錄音程式1"><a href="#錄音程式1" class="headerlink" title="錄音程式1"></a>錄音程式1</h1><p>本程式參考 <a href="https://www.youtube.com/watch?v=B3wWIsNHPk4">Audio Recorder | HTML, CSS and JavaScript Tutorial</a><br>優點：按鈕很美觀、錄音存成檔案<br>缺點：檔案很大，不是存mp3，按鈕很大要插在文章裡會佔掉很大位置，沒辦法上傳到Server</p>
-<iframe src="/code/recorder01.html" height="300px" width="420px" scrolling="auto" frameborder="0" style="box-shadow: 0px 0px 20px -10px #888;">
-</iframe>
+    <title>Hexo之Makedown初體驗</title>
+    <url>/2022/08/08/20220808-Hexo%E4%B9%8BMakedown%E5%88%9D%E9%AB%94%E9%A9%97/</url>
+    <content><![CDATA[<blockquote>
+<h2 id="偶遇HEXO"><a href="#偶遇HEXO" class="headerlink" title="偶遇HEXO"></a>偶遇HEXO</h2></blockquote>
+<p>第一次聽到Hexo可以建立部落格是因為學習ESP32常常聽老師提到GitHub常常有人提出很有趣的專案，它是每個學習技術的人要去瞭解的，在接觸Gethub平台無意中發現到有人可以把網頁掛在Github免費平台上，因此好奇心之下才發現只能放純靜態網頁但據我所知要架起一個Blog的平台都要能跑SQL server，只能放靜態網頁為什麼有些人偏偏從wordpress這個有強大三方支援的平台移到這？另外當時也是想找一個類似HackMD的階層式部落格平台，其實它在撰寫文章時會自動生成一個階層式的目錄，這目錄可以很快的讓你移動到你要看的文章的某一段。瞭解下發現它還可以解決我很多問題，只是全都是要輸入命令，比起之前使用Wordpress還難啃，或許回想到二十幾年前常常都要Keyin程式碼，報告…應該可以先了解是否合適。</p>
+<span id="more"></span>
 
-<h1 id="錄音程式2"><a href="#錄音程式2" class="headerlink" title="錄音程式2"></a>錄音程式2</h1><p>本程式參考 <a href="https://www.gushiciku.cn/pl/2NhU/zh-tw">HTML5網頁錄音和上傳到伺服器，支援PC、Android，支援IOS微信</a><br>優點：可錄音回放<br>缺點：錄出來的檔案不曉得存在哪裡？，沒辦法上傳到Server</p>
-<iframe src="/code/recorder02.html" height="300px" width="420px" scrolling="auto" frameborder="0" ></iframe>
-
-<h1 id="錄音程式3-flash已經禁用了"><a href="#錄音程式3-flash已經禁用了" class="headerlink" title="錄音程式3 (flash已經禁用了)"></a>錄音程式3 (flash已經禁用了)</h1><p>本程式參考 <a href="https://www.gushiciku.cn/pl/2NhU/zh-tw">使用插件js-audio-plugin</a><br>優點：可錄音回放<br>缺點：錄出來的檔案不曉得存在哪裡？，沒辦法上傳到Server</p>
-<iframe src="/code/recorder03.html" height="300px" width="420px" scrolling="auto" frameborder="0" ></iframe>
-
-<h1 id="錄音程式4-使用js-audio-plugin"><a href="#錄音程式4-使用js-audio-plugin" class="headerlink" title="錄音程式4 (使用js-audio-plugin)"></a>錄音程式4 (使用js-audio-plugin)</h1><p><a href="https://github.com/2fps/recorder/tree/master/site">js-audio-plugin纯js实现浏览器端录音</a><br><a href="http://recorder.api.zhuyuntao.cn/">說明文件</a><br><a href="https://recorder.zhuyuntao.cn/">DEMO</a><br><a href="https://blog.csdn.net/weixin_43415075/article/details/118099862">程式寫法參考</a><br>本程式參考 <a href="http://recorder.api.zhuyuntao.cn/">HTML5網頁錄音和上傳到伺服器，支援PC、Android，支援IOS微信</a><br>優點：可錄音回放<br>缺點：錄出來的檔案不曉得存在哪裡？，沒辦法上傳到Server</p>
-<iframe src="/code/recorder04.html" height="300px" width="420px" scrolling="auto" frameborder="0" ></iframe>
-
-<h1 id="錄音程式5-使用js-audio-plugin"><a href="#錄音程式5-使用js-audio-plugin" class="headerlink" title="錄音程式5 (使用js-audio-plugin)"></a>錄音程式5 (使用js-audio-plugin)</h1><p>[Javascript教程：錄製音訊並將其編碼為mp3](<a href="https://medium.com/jeremy-gottfrieds-tech-blog/">https://medium.com/jeremy-gottfrieds-tech-blog/</a><br>幾周前，我正在使用Google Cloud Voice API構建一個Web應用程式，我需要在瀏覽器中構建一個“記錄”功能。我發現了Javascript的MediaRecorder API用於錄製音訊，以及用於編碼音訊的ffmpeg節點庫。</p>
-<p>下面是一個指向 CodePen 的連結，其中包含我正在覆蓋的所有前端代碼 — <a href="https://codepen.io/jeremyagottfried/pen/bMqyNZ%E3%80%82%E6%88%91%E9%80%A3%E7%B5%90%E5%88%B0%E5%AE%83%E8%80%8C%E4%B8%8D%E6%98%AF%E5%B5%8C%E5%85%A5%EF%BC%8C%E5%9B%A0%E7%82%BA%E5%B5%8C%E5%85%A5%E5%BC%8FCodePen%E4%B8%8D%E5%85%81%E8%A8%B1%E6%82%A8%E8%AB%8B%E6%B1%82%E9%BA%A5%E5%85%8B%E9%A2%A8%E8%A8%B1%E5%8F%AF%E6%AC%8A%E3%80%82">https://codepen.io/jeremyagottfried/pen/bMqyNZ。我連結到它而不是嵌入，因為嵌入式CodePen不允許您請求麥克風許可權。</a></p>
-<p>如果你想瞭解如何構建一個能夠錄製音訊並將其保存到mp3檔的簡單Web應用程式，這裡有一個教程：</p>
+<blockquote>
+<h2 id="HEXO讓我愛上它了"><a href="#HEXO讓我愛上它了" class="headerlink" title="HEXO讓我愛上它了"></a>HEXO讓我愛上它了</h2></blockquote>
+<p>之前用過F2Blog、wordpress這兩者都需要先建構好SQL Server，常常發生的問題是Blog無法連線到SQL Server尤其我Blog是架在家裡的NAS，那個時候常常因為要update會出現連不上SQL Server經常要去排除，另一個問題就是要備份還原wordpress也很傷腦筋，雖然他有提供plugin但心理因素就是我只是要在平台上做一個移動式的類圖書館的東西卻常要排除這問題，然後又得要搬出我塵封已久的SQL語法來下命令，還有要看資料還要裝phpAdmin來管理database想寫個blog要這麼麻煩嗎？HEXO他是用Makedown語法來寫文章，寫要自動生成格式化的網頁文章，而且最讓我喜歡的還是它會自己産生目錄結構，未來文章太長可以直接看目錄找到要找的資料。另一點則是它解決了不用SQL的問題，因為它本身就是文字檔可以用VScode直接編輯，VScode又支援Madedown plugin，可以一邊寫一邊看到結果。VScode也是免費的，真是太棒的組合，我常年尋找的東西終於一步步拼湊完成。</p>
+<blockquote>
+<h2 id="安心寫文章才是重點"><a href="#安心寫文章才是重點" class="headerlink" title="安心寫文章才是重點"></a>安心寫文章才是重點</h2></blockquote>
+<p>文章移到一個新平台都會問自己一些問題，文章好備份嗎？最好是無腦備份，平台好轉移嗎？比較可能就是換了NAS就要把平台移到新主機又是一個大工程，那用word，Evernote，Onenote…都沒有一次能解決我想把資料移動必要時可以做分享的平台，有的話也是該平台現在很棒，但把文章放在別人主機還是比放在自己電腦上及用一台淘汰的電腦就可以跑起來，被入侵綁架了反正它只是個分身，我可以很快的就用電腦就佈署一個及它還支援github平台，那就有二個分身，真的很棒，安心，簡單能掌握才是重點。</p>
+<blockquote>
+<h2 id="即時性佈署快是另一個優點"><a href="#即時性佈署快是另一個優點" class="headerlink" title="即時性佈署快是另一個優點"></a>即時性佈署快是另一個優點</h2></blockquote>
+<p>總不能寫個makedown要花很多時間才能轉成網頁，不過以現在電腦速度就算上千篇文章可能也是一瞬間完成吧，因為它只是文章形式，但也希望hexo不要越昇級越肥大。，還有就是佈署快，沒想到都用指令也可以用的很無腦，因為常用的指令就是建一個指令庫，複製貼上。或話比移動滑鼠開選單找按鈕還有效率一些。</p>
+<blockquote>
+<h2 id="安全性"><a href="#安全性" class="headerlink" title="安全性"></a>安全性</h2></blockquote>
+<p>還有最近想買一台NAS來放部落格，又怕外連網路會發生風險，主要還是wordpress要建一個database，那就只能建在一台不差的NAS上，但現在用了Hexo是自動産生靜態網頁那就簡單多了，重要的是放github不用錢，是免費的。那買來的新NAS就專心的在內網做它要負責的儲存工作。或許那一台QNAP三不五時就會被入侵的NAS現在不用了，可以直接放顆不要的硬碟，就在外網架起來，反正被入侵了還有一個github當WebServer用沒再怕。</p>
+<blockquote>
+<h2 id="意外改變寫作外無效率的發佈"><a href="#意外改變寫作外無效率的發佈" class="headerlink" title="意外改變寫作外無效率的發佈"></a>意外改變寫作外無效率的發佈</h2></blockquote>
+<p>意料外的事，使用makedown文章使用VScode就可以看到文章的展現而且是即時，以往在wordpress不好的習慣就是文章沒全部寫好就按個發佈看一下結果，但都很花時間，不像makedown我把文章寫好了，再來處理格式，但都是即時呈現，少了文章寫一半就分心去發佈看結果呈現，然後邊調整格式邊寫文章超花時間在格式調整上。</p>
+<p>綜合上述思考與拼湊，終於一個早晨寫完一篇文章，在邊寫邊思考下更確定駐足在HEXO，未來可能以玩票性質去認識其它平台，不過可能的話不想要再去用database系統的blog，沒錯就是HEXO了，心中的一個奇異果廣告旋律，寫起來~寫起來…</p>
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
       <categories>
-        <category>javascript</category>
+        <category>生活</category>
       </categories>
       <tags>
-        <tag>朗讀</tag>
-        <tag>javascript</tag>
+        <tag>Makedown</tag>
+        <tag>Hexo</tag>
       </tags>
   </entry>
   <entry>
@@ -502,6 +474,61 @@
       </tags>
   </entry>
   <entry>
+    <title>線上錄音程式</title>
+    <url>/2022/08/24/20220815_%E7%B7%9A%E4%B8%8A%E9%8C%84%E9%9F%B3%E7%A8%8B%E5%BC%8F/</url>
+    <content><![CDATA[<h1 id="錄音程式1"><a href="#錄音程式1" class="headerlink" title="錄音程式1"></a>錄音程式1</h1><p>本程式參考 <a href="https://www.youtube.com/watch?v=B3wWIsNHPk4">Audio Recorder | HTML, CSS and JavaScript Tutorial</a><br>優點：按鈕很美觀、錄音存成檔案<br>缺點：檔案很大，不是存mp3，按鈕很大要插在文章裡會佔掉很大位置，沒辦法上傳到Server</p>
+<iframe src="/code/recorder01.html" height="300px" width="420px" scrolling="auto" frameborder="0" style="box-shadow: 0px 0px 20px -10px #888;">
+</iframe>
+
+<h1 id="錄音程式2"><a href="#錄音程式2" class="headerlink" title="錄音程式2"></a>錄音程式2</h1><p>本程式參考 <a href="https://www.gushiciku.cn/pl/2NhU/zh-tw">HTML5網頁錄音和上傳到伺服器，支援PC、Android，支援IOS微信</a><br>優點：可錄音回放<br>缺點：錄出來的檔案不曉得存在哪裡？，沒辦法上傳到Server</p>
+<iframe src="/code/recorder02.html" height="300px" width="420px" scrolling="auto" frameborder="0" ></iframe>
+
+<h1 id="錄音程式3-flash已經禁用了"><a href="#錄音程式3-flash已經禁用了" class="headerlink" title="錄音程式3 (flash已經禁用了)"></a>錄音程式3 (flash已經禁用了)</h1><p>本程式參考 <a href="https://www.gushiciku.cn/pl/2NhU/zh-tw">使用插件js-audio-plugin</a><br>優點：可錄音回放<br>缺點：錄出來的檔案不曉得存在哪裡？，沒辦法上傳到Server</p>
+<iframe src="/code/recorder03.html" height="300px" width="420px" scrolling="auto" frameborder="0" ></iframe>
+
+<h1 id="錄音程式4-使用js-audio-plugin"><a href="#錄音程式4-使用js-audio-plugin" class="headerlink" title="錄音程式4 (使用js-audio-plugin)"></a>錄音程式4 (使用js-audio-plugin)</h1><p><a href="https://github.com/2fps/recorder/tree/master/site">js-audio-plugin纯js实现浏览器端录音</a><br><a href="http://recorder.api.zhuyuntao.cn/">說明文件</a><br><a href="https://recorder.zhuyuntao.cn/">DEMO</a><br><a href="https://blog.csdn.net/weixin_43415075/article/details/118099862">程式寫法參考</a><br>本程式參考 <a href="http://recorder.api.zhuyuntao.cn/">HTML5網頁錄音和上傳到伺服器，支援PC、Android，支援IOS微信</a><br>優點：可錄音回放<br>缺點：錄出來的檔案不曉得存在哪裡？，沒辦法上傳到Server</p>
+<iframe src="/code/recorder04.html" height="300px" width="420px" scrolling="auto" frameborder="0" ></iframe>
+
+<h1 id="錄音程式5-使用js-audio-plugin"><a href="#錄音程式5-使用js-audio-plugin" class="headerlink" title="錄音程式5 (使用js-audio-plugin)"></a>錄音程式5 (使用js-audio-plugin)</h1><p>[Javascript教程：錄製音訊並將其編碼為mp3](<a href="https://medium.com/jeremy-gottfrieds-tech-blog/">https://medium.com/jeremy-gottfrieds-tech-blog/</a><br>幾周前，我正在使用Google Cloud Voice API構建一個Web應用程式，我需要在瀏覽器中構建一個“記錄”功能。我發現了Javascript的MediaRecorder API用於錄製音訊，以及用於編碼音訊的ffmpeg節點庫。</p>
+<p>下面是一個指向 CodePen 的連結，其中包含我正在覆蓋的所有前端代碼 — <a href="https://codepen.io/jeremyagottfried/pen/bMqyNZ%E3%80%82%E6%88%91%E9%80%A3%E7%B5%90%E5%88%B0%E5%AE%83%E8%80%8C%E4%B8%8D%E6%98%AF%E5%B5%8C%E5%85%A5%EF%BC%8C%E5%9B%A0%E7%82%BA%E5%B5%8C%E5%85%A5%E5%BC%8FCodePen%E4%B8%8D%E5%85%81%E8%A8%B1%E6%82%A8%E8%AB%8B%E6%B1%82%E9%BA%A5%E5%85%8B%E9%A2%A8%E8%A8%B1%E5%8F%AF%E6%AC%8A%E3%80%82">https://codepen.io/jeremyagottfried/pen/bMqyNZ。我連結到它而不是嵌入，因為嵌入式CodePen不允許您請求麥克風許可權。</a></p>
+<p>如果你想瞭解如何構建一個能夠錄製音訊並將其保存到mp3檔的簡單Web應用程式，這裡有一個教程：</p>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+      <categories>
+        <category>javascript</category>
+      </categories>
+      <tags>
+        <tag>朗讀</tag>
+        <tag>javascript</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>任務卡製作</title>
+    <url>/2022/08/23/20220823_%E4%BB%BB%E5%8B%99%E5%8D%A1%E8%A3%BD%E4%BD%9C/</url>
+    <content><![CDATA[<blockquote>
+<h2 id="緣起"><a href="#緣起" class="headerlink" title="緣起"></a>緣起</h2><p>我們都知道希望小孩學習的東西並不見得是他想學的,他想學的可能是和學業扯不上一點關係,像我家的小孩就很喜歡玩史萊姆,一叫她看英文就興趣缺缺。學習是有門檻,也就是剛開始會比較難,像英文從來不背單字的,即使靠著自然發音他都感覺十分有難度，但是半強迫加上使用Wordup及ANKI加一些學習法，滴水穿石的學習，慢慢的記得越來越多字，英文讀久了就會發現某些音就能連出某串字例如：tion、and、all、ter、ch、eat、side、ing、der、ly、air…隨著背的單字到達一個門檻配合發音記憶就很快也能越背越長。所以任何學習一旦跨過了門檻學習速度就會提升，但如果沒跨過則一切都歸零。這也是我堅持教小孩自學我就是不想讓小孩去補英文，補了沒複習久了也忘光了。</p>
+</blockquote>
+<span id="more"></span>
+<blockquote>
+<h2 id="任務卡設計的作用"><a href="#任務卡設計的作用" class="headerlink" title="任務卡設計的作用"></a>任務卡設計的作用</h2><p>由於學習最初門檻都很高，於是我想到來設計任務卡，做了之後發現我好像在設計一款卡片遊戲，它的作用</p>
+</blockquote>
+<ol>
+<li>學習能專注在一個任務或二個任務<br>不能一次發太多，會失焦然後達不到反而沒信心</li>
+<li>任務要有奬勵，直接就發金錢<br>因為我發現小孩有錢她還不知道要花在哪？順便學會理財金錢觀</li>
+<li>有些任務是教更小的妹妹<br>這還蠻伐算的投資，因為教學相長</li>
+<li>任務卡保留起來成為一個學習歷程<br>學習歷程是很重要的，因為更小的妹妹可跟著任務再跑一次</li>
+<li>學習自制教材也是任務中另一種加值<br>這裡的想法是讓小孩設計問題，例如讀一篇文章設計五個問題，一方便他會讀的更仔細，但作用在當妹妹再讀時我可以用這些問題問她，其它如anki、wordup卡面自製，自己複習…</li>
+<li>自拍小影片上傳，可能是學習或讀經什麼都可以，現在拍片還能賺錢</li>
+<li>還有其它沒想到的後面補充</li>
+</ol>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+      <categories>
+        <category>child</category>
+      </categories>
+      <tags>
+        <tag>child</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>General MacArthur&#39;s Prayer For His Son</title>
     <url>/2022/08/24/20220820_GeneralMacArthursPrayerForHisSon/</url>
     <content><![CDATA[<h2 id="全文循環播放"><a href="#全文循環播放" class="headerlink" title="全文循環播放"></a>全文循環播放</h2><p>​<audio id="audio" controls="" preload="none"><br>      <source id="mp3" src="/music/Gerernal MacArthur's Prayer For His Son.mp3"><br></audio></p>
@@ -546,30 +573,18 @@
       </tags>
   </entry>
   <entry>
-    <title>任務卡製作</title>
-    <url>/2022/08/23/20220823_%E4%BB%BB%E5%8B%99%E5%8D%A1%E8%A3%BD%E4%BD%9C/</url>
-    <content><![CDATA[<blockquote>
-<h2 id="緣起"><a href="#緣起" class="headerlink" title="緣起"></a>緣起</h2><p>我們都知道希望小孩學習的東西並不見得是他想學的,他想學的可能是和學業扯不上一點關係,像我家的小孩就很喜歡玩史萊姆,一叫她看英文就興趣缺缺。學習是有門檻,也就是剛開始會比較難,像英文從來不背單字的,即使靠著自然發音他都感覺十分有難度，但是半強迫加上使用Wordup及ANKI加一些學習法，滴水穿石的學習，慢慢的記得越來越多字，英文讀久了就會發現某些音就能連出某串字例如：tion、and、all、ter、ch、eat、side、ing、der、ly、air…隨著背的單字到達一個門檻配合發音記憶就很快也能越背越長。所以任何學習一旦跨過了門檻學習速度就會提升，但如果沒跨過則一切都歸零。這也是我堅持教小孩自學我就是不想讓小孩去補英文，補了沒複習久了也忘光了。</p>
-</blockquote>
-<span id="more"></span>
-<blockquote>
-<h2 id="任務卡設計的作用"><a href="#任務卡設計的作用" class="headerlink" title="任務卡設計的作用"></a>任務卡設計的作用</h2><p>由於學習最初門檻都很高，於是我想到來設計任務卡，做了之後發現我好像在設計一款卡片遊戲，它的作用</p>
-</blockquote>
-<ol>
-<li>學習能專注在一個任務或二個任務<br>不能一次發太多，會失焦然後達不到反而沒信心</li>
-<li>任務要有奬勵，直接就發金錢<br>因為我發現小孩有錢她還不知道要花在哪？順便學會理財金錢觀</li>
-<li>有些任務是教更小的妹妹<br>這還蠻伐算的投資，因為教學相長</li>
-<li>任務卡保留起來成為一個學習歷程<br>學習歷程是很重要的，因為更小的妹妹可跟著任務再跑一次</li>
-<li>學習自制教材也是任務中另一種加值<br>這裡的想法是讓小孩設計問題，例如讀一篇文章設計五個問題，一方便他會讀的更仔細，但作用在當妹妹再讀時我可以用這些問題問她，其它如anki、wordup卡面自製，自己複習…</li>
-<li>自拍小影片上傳，可能是學習或讀經什麼都可以，現在拍片還能賺錢</li>
-<li>還有其它沒想到的後面補充</li>
-</ol>
-<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+    <title>Anki音檔存放路徑</title>
+    <url>/2022/08/25/20220826_Anki%E9%9F%B3%E6%AA%94%E5%AD%98%E6%94%BE%E8%B7%AF%E5%BE%91/</url>
+    <content><![CDATA[<h1 id="ANKI的資源的存放路徑"><a href="#ANKI的資源的存放路徑" class="headerlink" title="ANKI的資源的存放路徑"></a>ANKI的資源的存放路徑</h1><p>最直接的做法就是先看ANKI的檔案是存在哪的？</p>
+<p>工具 &#x2F; 附加元件 點選【檢視檔案】</p>
+<p>從附加元件的存放位置可以很容易找到音檔的存放位置</p>
+<p>\使用者\使用者名稱\AppData\Roaming\Anki2\使用者1\collection.media</p>
+<span id="more"></span><link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
       <categories>
-        <category>child</category>
+        <category>ANKI</category>
       </categories>
       <tags>
-        <tag>child</tag>
+        <tag>ANKI</tag>
       </tags>
   </entry>
   <entry>
@@ -610,21 +625,6 @@
       </categories>
       <tags>
         <tag>child</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Anki音檔存放路徑</title>
-    <url>/2022/08/25/20220826_Anki%E9%9F%B3%E6%AA%94%E5%AD%98%E6%94%BE%E8%B7%AF%E5%BE%91/</url>
-    <content><![CDATA[<h1 id="ANKI的資源的存放路徑"><a href="#ANKI的資源的存放路徑" class="headerlink" title="ANKI的資源的存放路徑"></a>ANKI的資源的存放路徑</h1><p>最直接的做法就是先看ANKI的檔案是存在哪的？</p>
-<p>工具 &#x2F; 附加元件 點選【檢視檔案】</p>
-<p>從附加元件的存放位置可以很容易找到音檔的存放位置</p>
-<p>\使用者\使用者名稱\AppData\Roaming\Anki2\使用者1\collection.media</p>
-<span id="more"></span><link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
-      <categories>
-        <category>ANKI</category>
-      </categories>
-      <tags>
-        <tag>ANKI</tag>
       </tags>
   </entry>
   <entry>
