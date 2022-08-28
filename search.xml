@@ -55,7 +55,8 @@
 <li>2022&#x2F;08&#x2F;25【文章】 General MacArthur’s Prayer For His Son 嵌入錄音<br> </li>
 <li>2022&#x2F;08&#x2F;26【文章】Anki音檔存放路徑</li>
 <li>2022&#x2F;08&#x2F;28【文章】文字轉語音</li>
-<li>2022&#x2F;08&#x2F;28 【文章】Audacity常用功能之自動音頻分段</li>
+<li>2022&#x2F;08&#x2F;28 【文章】Audacity常用功能【自動音頻分段】</li>
+<li>2022&#x2F;08&#x2F;28 【文章】20220828_Anki國小單字背誦</li>
 </ul>
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
       <categories>
@@ -651,26 +652,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Anki國小單字背誦字卡製作</title>
-    <url>/2022/08/28/20220828Anki_%E5%9C%8B%E5%B0%8F%E5%96%AE%E5%AD%97%E8%83%8C%E8%AA%A6/</url>
-    <content><![CDATA[<h2 id="自製國小單字背誦"><a href="#自製國小單字背誦" class="headerlink" title="自製國小單字背誦"></a>自製國小單字背誦</h2><h3 id="使用Anki聽音拼字"><a href="#使用Anki聽音拼字" class="headerlink" title="使用Anki聽音拼字"></a>使用Anki聽音拼字</h3><ol>
-<li>「<a href="https://www.youtube.com/watch?v=yGKIUgrWuOA&list=PLdvm7xnbDu49I_9E6ngEW8SoK_O9kZyXs">Youtube全民英檢國小單字</a> 邊看邊背</li>
-<li>把單字再打進Wordup使用它目地是這裡的出題較多元，另外自建卡片有單字重覆會提示重覆</li>
-<li>再把裡面的單字打進微軟TTS  <a href="/2022/08/27/20220827_%E6%96%87%E5%AD%97%E8%BD%89%E8%AA%9E%E9%9F%B3/" title="&lt;b&gt;【文字轉語音並下載教學】&lt;&#x2F;b&gt;"><b>【文字轉語音並下載教學】</b></a> ，把語音分段 <a href="/2022/08/28/20220828_Audacity%E5%B8%B8%E7%94%A8%E5%8A%9F%E8%83%BD/" title="&lt;b&gt;【把語音分段教學】&lt;&#x2F;b&gt;"><b>【把語音分段教學】</b></a> </li>
-<li>開啟Wordup、ANKI、檔案總管並排好</li>
-<li>先從檔案總管拉切好的音檔進Anki,會聽到發音</li>
-<li>然後從Wordup把單字相關資料貼到Anki直到建檔完成<span id="more"></span>
-純手工製作最快的方式就是一個畫面把所有要用的視窗開好<br>Anki &#x2F; 檔案總管 &#x2F; Wordup網頁版<br>輔助外掛 【在線詞典助手】、【QTranslate】<br><img src="/%5Cimages%5C20220828Anki%E5%9C%8B%E5%B0%8F%E5%96%AE%E5%AD%97%E8%83%8C%E8%AA%A601.webp"></li>
-</ol>
-<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
-      <categories>
-        <category>anki</category>
-      </categories>
-      <tags>
-        <tag>child</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>NEXT主題設定</title>
     <url>/2022/08/16/NEXT%E4%B8%BB%E9%A1%8C%E8%A8%AD%E5%AE%9A/</url>
     <content><![CDATA[<h1 id="記錄Hexo的NEXT主題的設定"><a href="#記錄Hexo的NEXT主題的設定" class="headerlink" title="記錄Hexo的NEXT主題的設定"></a>記錄Hexo的NEXT主題的設定</h1><h2 id="Schemes四種主題"><a href="#Schemes四種主題" class="headerlink" title="Schemes四種主題"></a><code>Schemes</code>四種主題</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># Schemes</span><br><span class="line">scheme: Muse</span><br><span class="line">#scheme: Mist</span><br><span class="line">#scheme: Pisces</span><br><span class="line">#scheme: Gemini</span><br></pre></td></tr></table></figure>
@@ -817,6 +798,26 @@
       </categories>
       <tags>
         <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Anki國小單字背誦字卡製作</title>
+    <url>/2022/08/28/20220828_Anki%E5%9C%8B%E5%B0%8F%E5%96%AE%E5%AD%97%E8%83%8C%E8%AA%A6/</url>
+    <content><![CDATA[<h2 id="自製國小單字背誦"><a href="#自製國小單字背誦" class="headerlink" title="自製國小單字背誦"></a>自製國小單字背誦</h2><h3 id="使用Anki聽音拼字"><a href="#使用Anki聽音拼字" class="headerlink" title="使用Anki聽音拼字"></a>使用Anki聽音拼字</h3><ol>
+<li>「<a href="https://www.youtube.com/watch?v=yGKIUgrWuOA&list=PLdvm7xnbDu49I_9E6ngEW8SoK_O9kZyXs">Youtube全民英檢國小單字</a> 邊看邊背</li>
+<li>把單字再打進Wordup使用它目地是這裡的出題較多元，另外自建卡片有單字重覆會提示重覆</li>
+<li>再把裡面的單字打進微軟TTS  <a href="/2022/08/27/20220827_%E6%96%87%E5%AD%97%E8%BD%89%E8%AA%9E%E9%9F%B3/" title="&lt;b&gt;【文字轉語音並下載教學】&lt;&#x2F;b&gt;"><b>【文字轉語音並下載教學】</b></a> ，把語音分段 <a href="/2022/08/28/20220828_Audacity%E5%B8%B8%E7%94%A8%E5%8A%9F%E8%83%BD/" title="&lt;b&gt;【把語音分段教學】&lt;&#x2F;b&gt;"><b>【把語音分段教學】</b></a> </li>
+<li>開啟Wordup、ANKI、檔案總管並排好</li>
+<li>先從檔案總管拉切好的音檔進Anki,會聽到發音</li>
+<li>然後從Wordup把單字相關資料貼到Anki直到建檔完成<span id="more"></span>
+純手工製作最快的方式就是一個畫面把所有要用的視窗開好<br>Anki &#x2F; 檔案總管 &#x2F; Wordup網頁版<br>輔助外掛 【在線詞典助手】、【QTranslate】<br><img src="/%5Cimages%5C20220828Anki%E5%9C%8B%E5%B0%8F%E5%96%AE%E5%AD%97%E8%83%8C%E8%AA%A601.webp"></li>
+</ol>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+      <categories>
+        <category>anki</category>
+      </categories>
+      <tags>
+        <tag>child</tag>
       </tags>
   </entry>
 </search>
