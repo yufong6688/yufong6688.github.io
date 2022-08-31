@@ -21,28 +21,30 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.12.3","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":true,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜尋...","empty":"我們無法找到任何有關 ${query} 的搜索結果","hits_time":"${hits} 找到 ${time} 個結果","hits":"找到 ${hits} 個結果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="Tutorial &gt; Audio Recorder                                                                                                                body {                 position: absolute;">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Yufong&#39;s Blog">
-<meta property="og:url" content="http://example.com/src/recorder01.html">
+    <meta name="description" content="Hexo中執行HTML在Hexo編寫文章,中間要插入HTML程式可以使用下面語法 語法1 &amp;#123;% iframe url [width] [height] %&amp;#125;url如果是本地目錄一定要使用相對路徑,如果放在絕對路徑會出現NexT主題的框架裡,超難看。這裡用一個HTML為錄音程式為例子,該HTML檔必須在Hexo中執行HTML.md的目錄裡建一個相同名稱的目錄&#x2F;Hexo中執行HTM">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hexo中執行HTML">
+<meta property="og:url" content="http://example.com/2022/08/29/20220829_Hexo%E4%B8%AD%E5%9F%B7%E8%A1%8CHTML/index.html">
 <meta property="og:site_name" content="Yufong&#39;s Blog">
-<meta property="og:description" content="Tutorial &gt; Audio Recorder                                                                                                                body {                 position: absolute;">
+<meta property="og:description" content="Hexo中執行HTML在Hexo編寫文章,中間要插入HTML程式可以使用下面語法 語法1 &amp;#123;% iframe url [width] [height] %&amp;#125;url如果是本地目錄一定要使用相對路徑,如果放在絕對路徑會出現NexT主題的框架裡,超難看。這裡用一個HTML為錄音程式為例子,該HTML檔必須在Hexo中執行HTML.md的目錄裡建一個相同名稱的目錄&#x2F;Hexo中執行HTM">
 <meta property="og:locale" content="zh_TW">
-<meta property="article:published_time" content="2022-08-28T14:24:47.562Z">
-<meta property="article:modified_time" content="2022-08-28T14:23:51.083Z">
+<meta property="og:image" content="http://example.com/%5Cimages%5C20220829Hexo%E4%B8%AD%E5%9F%B7%E8%A1%8CHTML01.webp">
+<meta property="article:published_time" content="2022-08-28T17:24:00.000Z">
+<meta property="article:modified_time" content="2022-08-28T18:55:44.052Z">
 <meta property="article:author" content="Yufong Chen">
+<meta property="article:tag" content="Hexo">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/%5Cimages%5C20220829Hexo%E4%B8%AD%E5%9F%B7%E8%A1%8CHTML01.webp">
 
 
-<link rel="canonical" href="http://example.com/src/recorder01">
+<link rel="canonical" href="http://example.com/2022/08/29/20220829_Hexo%E4%B8%AD%E5%9F%B7%E8%A1%8CHTML/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":false,"lang":"zh-TW","comments":true,"permalink":"http://example.com/src/recorder01.html","path":"src/recorder01.html","title":""}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-TW","comments":true,"permalink":"http://example.com/2022/08/29/20220829_Hexo%E4%B8%AD%E5%9F%B7%E8%A1%8CHTML/","path":"2022/08/29/20220829_Hexo中執行HTML/","title":"Hexo中執行HTML"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title> | Yufong's Blog
-</title>
+<title>Hexo中執行HTML | Yufong's Blog</title>
   
 
 
@@ -162,7 +164,7 @@ p.spoiler {
 
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           文章目錄
@@ -175,6 +177,7 @@ p.spoiler {
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Hexo%E4%B8%AD%E5%9F%B7%E8%A1%8CHTML"><span class="nav-number">1.</span> <span class="nav-text">Hexo中執行HTML</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%AA%9E%E6%B3%951"><span class="nav-number">1.1.</span> <span class="nav-text">語法1</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%AA%9E%E6%B3%952"><span class="nav-number">1.2.</span> <span class="nav-text">語法2</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%AA%9E%E6%B3%953"><span class="nav-number">1.3.</span> <span class="nav-text">語法3</span></a></li></ol></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -189,7 +192,7 @@ p.spoiler {
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">14</span>
+          <span class="site-state-item-count">16</span>
           <span class="site-state-item-name">文章</span>
         </a>
       </div>
@@ -250,240 +253,117 @@ p.spoiler {
 </noscript>
 
 
-    <div class="main-inner page posts-expand">
+    <div class="main-inner post posts-expand">
 
 
-    
-    
-    
-    <div class="post-block" lang="zh-TW"><header class="post-header">
+  
 
-<h1 class="post-title" itemprop="name headline">
-</h1>
 
-<div class="post-meta-container">
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-TW">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2022/08/29/20220829_Hexo%E4%B8%AD%E5%9F%B7%E8%A1%8CHTML/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/aboutme02.webp">
+      <meta itemprop="name" content="Yufong Chen">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Yufong's Blog">
+      <meta itemprop="description" content="記錄著所思所想及所有美好的回憶">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="Hexo中執行HTML | Yufong's Blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          Hexo中執行HTML
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">發表於</span>
+      
+
+      <time title="創建時間：2022-08-29 01:24:00 / 修改時間：02:55:44" itemprop="dateCreated datePublished" datetime="2022-08-29T01:24:00+08:00">2022-08-29</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分類於</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/Hexo/" itemprop="url" rel="index"><span itemprop="name">Hexo</span></a>
+        </span>
+    </span>
+
+  
 </div>
 
-</header>
-
-      
-      
-      <div class="post-body">
-          <!doctype html>
-<html lang="en">
-    <head>
-        <title>Tutorial &gt; Audio Recorder</title>
-        <link rel="canonical" href="https://markjivko.com/tutorials/B3wWIsNHPk4/">
-        <meta charset="UTF-8">
-        <meta name="Author" content="Mark Jivko">
-        <meta name="Keywords" content="js,audio recorder">
-        <meta name="Description" content="Recording audio with HTML 5 and JavaScript">
-        <meta name="apple-mobile-web-app-capable" content="yes">
-        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-        <meta name="viewport" content="initial-scale=1.0, width=device-width">
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <link rel="icon" type="image/ico" href="https://markjivko.com/favicon.ico">
-        <style type="text/css">
-            body {
-                position: absolute;
-                display: -webkit-box;
-                display: -webkit-flex;
-                display: -ms-flexbox;
-                display: flex;
-                -webkit-box-pack: center;
-                -webkit-justify-content: center;
-                    -ms-flex-pack: center;
-                        justify-content: center;
-                -webkit-box-align: center;
-                -webkit-align-items: center;
-                    -ms-flex-align: center;
-                        align-items: center;
-                height: 100%;
-                width: 100%;
-                margin: 0;
-            }
-            .holder {
-                background-color: #4c474c;
-                background-image: -webkit-gradient(linear, left bottom, left top, from(#4c474c), to(#141414));
-                background-image: -o-linear-gradient(bottom, #4c474c 0%, #141414 100%);
-                background-image: linear-gradient(0deg, #4c474c 0%, #141414 100%);
-                border-radius: 50px;
-            }
-            [data-role="controls"] > button {
-                margin: 50px auto;
-                outline: none;
-                display: block;
-                border: none;
-                background-color: #D9AFD9;
-                background-image: -webkit-gradient(linear, left bottom, left top, from(#D9AFD9), to(#97D9E1));
-                background-image: -o-linear-gradient(bottom, #D9AFD9 0%, #97D9E1 100%);
-                background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
-                width: 100px;
-                height: 100px;
-                border-radius: 50%;
-                text-indent: -1000em;
-                cursor: pointer;
-                -webkit-box-shadow: 0px 5px 5px 2px rgba(0,0,0,0.3) inset, 
-                    0px 0px 0px 30px #fff, 0px 0px 0px 35px #333;
-                        box-shadow: 0px 5px 5px 2px rgba(0,0,0,0.3) inset, 
-                    0px 0px 0px 30px #fff, 0px 0px 0px 35px #333;
-            }
-            [data-role="controls"] > button:hover {
-                background-color: #ee7bee;
-                background-image: -webkit-gradient(linear, left bottom, left top, from(#ee7bee), to(#6fe1f5));
-                background-image: -o-linear-gradient(bottom, #ee7bee 0%, #6fe1f5 100%);
-                background-image: linear-gradient(0deg, #ee7bee 0%, #6fe1f5 100%);
-            }
-            [data-role="controls"] > button[data-recording="true"] {
-                background-color: #ff2038;
-                background-image: -webkit-gradient(linear, left bottom, left top, from(#ff2038), to(#b30003));
-                background-image: -o-linear-gradient(bottom, #ff2038 0%, #b30003 100%);
-                background-image: linear-gradient(0deg, #ff2038 0%, #b30003 100%);
-            }
-            [data-role="recordings"] > .row {
-                width: auto;
-                height: auto;
-                padding: 20px;
-            }
-            [data-role="recordings"] > .row > audio {
-                outline: none;
-            }
-            [data-role="recordings"] > .row > a {
-                display: inline-block;
-                text-align: center;
-                font-size: 20px;
-                line-height: 50px;
-                vertical-align: middle;
-                width: 50px;
-                height: 50px;
-                border-radius: 20px;
-                color: #fff;
-                font-weight: bold;
-                text-decoration: underline;
-                background-color: #0093E9;
-                background-image: -webkit-gradient(linear, left bottom, left top, from(#0093E9), to(#80D0C7));
-                background-image: -o-linear-gradient(bottom, #0093E9 0%, #80D0C7 100%);
-                background-image: linear-gradient(0deg, #0093E9 0%, #80D0C7 100%);
-                float: right;
-                margin-left: 20px;
-                cursor: pointer;
-            }
-            [data-role="recordings"] > .row > a:hover {
-                text-decoration: none;
-            }
-            [data-role="recordings"] > .row > a:active {
-                background-image: -webkit-gradient(linear, left top, left bottom, from(#0093E9), to(#80D0C7));
-                background-image: -o-linear-gradient(top, #0093E9 0%, #80D0C7 100%);
-                background-image: linear-gradient(180deg, #0093E9 0%, #80D0C7 100%);
-            }
-        </style>
-        <script type="text/javascript" src="https://code.jquery.com/jquery.min.js"></script>
-        <script src="https://markjivko.com/dist/recorder.js"></script>
-        <script>
-            jQuery(document).ready(function () {
-                var $ = jQuery;
-                var myRecorder = {
-                    objects: {
-                        context: null,
-                        stream: null,
-                        recorder: null
-                    },
-                    init: function () {
-                        if (null === myRecorder.objects.context) {
-                            myRecorder.objects.context = new (
-                                    window.AudioContext || window.webkitAudioContext
-                                    );
-                        }
-                    },
-                    start: function () {
-                        var options = {audio: true, video: false};
-                        navigator.mediaDevices.getUserMedia(options).then(function (stream) {
-                            myRecorder.objects.stream = stream;
-                            myRecorder.objects.recorder = new Recorder(
-                                    myRecorder.objects.context.createMediaStreamSource(stream),
-                                    {numChannels: 1}
-                            );
-                            myRecorder.objects.recorder.record();
-                        }).catch(function (err) {});
-                    },
-                    stop: function (listObject) {
-                        if (null !== myRecorder.objects.stream) {
-                            myRecorder.objects.stream.getAudioTracks()[0].stop();
-                        }
-                        if (null !== myRecorder.objects.recorder) {
-                            myRecorder.objects.recorder.stop();
-
-                            // Validate object
-                            if (null !== listObject
-                                    && 'object' === typeof listObject
-                                    && listObject.length > 0) {
-                                // Export the WAV file
-                                myRecorder.objects.recorder.exportWAV(function (blob) {
-                                    var url = (window.URL || window.webkitURL)
-                                            .createObjectURL(blob);
-
-                                    // Prepare the playback
-                                    var audioObject = $('<audio controls></audio>')
-                                            .attr('src', url);
-
-                                    // Prepare the download link
-                                    var downloadObject = $('<a>&#9660;</a>')
-                                            .attr('href', url)
-                                            .attr('download', new Date().toUTCString() + '.wav');
-
-                                    // Wrap everything in a row
-                                    var holderObject = $('<div class="row"></div>')
-                                            .append(audioObject)
-                                            .append(downloadObject);
-
-                                    // Append to the list
-                                    listObject.append(holderObject);
-                                });
-                            }
-                        }
-                    }
-                };
-
-                // Prepare the recordings list
-                var listObject = $('[data-role="recordings"]');
-
-                // Prepare the record button
-                $('[data-role="controls"] > button').click(function () {
-                    // Initialize the recorder
-                    myRecorder.init();
-
-                    // Get the button state 
-                    var buttonState = !!$(this).attr('data-recording');
-
-                    // Toggle
-                    if (!buttonState) {
-                        $(this).attr('data-recording', 'true');
-                        myRecorder.start();
-                    } else {
-                        $(this).attr('data-recording', '');
-                        myRecorder.stop(listObject);
-                    }
-                });
-            });
-        </script>
-    </head>
-    <body>
-        <div class="holder">
-            <div data-role="controls">
-                <button>Record</button>
-            </div>
-            <div data-role="recordings"></div>
         </div>
-    </body>
-</html><link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>
-      </div>
-      
-      
-      
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <h2 id="Hexo中執行HTML"><a href="#Hexo中執行HTML" class="headerlink" title="Hexo中執行HTML"></a>Hexo中執行HTML</h2><p>在Hexo編寫文章,中間要插入HTML程式可以使用下面語法</p>
+<h3 id="語法1"><a href="#語法1" class="headerlink" title="語法1"></a>語法1</h3><p> <code>&#123;% iframe url [width] [height] %&#125;</code><br><code>url</code>如果是本地目錄一定要使用相對路徑,如果放在絕對路徑會出現NexT主題的框架裡,超難看。這裡用一個HTML為錄音程式為例子,該HTML檔必須在Hexo中執行HTML.md的目錄裡建一個相同名稱的目錄<code>/Hexo中執行HTML/</code>並把HTML檔放在裡面。</p>
+<span id="more"></span>
+
+<p><img src="/%5Cimages%5C20220829Hexo%E4%B8%AD%E5%9F%B7%E8%A1%8CHTML01.webp"></p>
+<iframe src="recorder01.html" width="100%" height="300" frameborder="0" loading="lazy" allowfullscreen></iframe>
+
+<h3 id="語法2"><a href="#語法2" class="headerlink" title="語法2"></a>語法2</h3><p> <code>&lt;iframe src=&quot;http://localhost:2015&quot;　width=&quot;100%&quot; scrolling=no height=&quot;800&quot; frameborder=&quot;0&quot; &gt;&lt;/iframe&gt;</code></p>
+<iframe src="recorder01.html" height="300px" width="420px" scrolling="auto" frameborder="0" style="box-shadow: 0px 0px 20px -10px #888;">
+</iframe>
+
+<h3 id="語法3"><a href="#語法3" class="headerlink" title="語法3"></a>語法3</h3><p>如果有在Codepen寫程式也可以使用上述語法嵌入,如下</p>
+<iframe src="https://codepen.io/rock070/full/mdyzeqW" width="100%" height="300" frameborder="0" loading="lazy" allowfullscreen></iframe>
+
+
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>
     </div>
 
     
     
+    
+
+    <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/Hexo/" rel="tag"># Hexo</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2022/08/28/20220828_Anki%E5%9C%8B%E5%B0%8F%E5%96%AE%E5%AD%97%E8%83%8C%E8%AA%A6%E5%AD%97%E5%8D%A1%E8%A3%BD%E4%BD%9C/" rel="prev" title="Anki國小單字背誦字卡製作">
+                  <i class="fa fa-chevron-left"></i> Anki國小單字背誦字卡製作
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/2022/08/31/20220830_%E6%8A%95%E8%B3%87%E5%9F%BA%E6%9C%AC%E7%9F%A5%E8%AD%9801/" rel="next" title="">
+                   <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
 
 
 </div>
