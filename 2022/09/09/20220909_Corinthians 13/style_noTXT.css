@@ -1,0 +1,49 @@
+.button {
+    display: inline-block;
+    min-width: 200px;
+    padding: .8rem 2.05rem .8rem 2.25rem;
+    border-radius: 50px;
+    background-color: #21366a;
+    -webkit-transform: translate(0,0);
+    -ms-transform: translate(0,0);
+    transform: translate(0,0);
+    -webkit-transition: all 150ms cubic-bezier(.455,.03,.515,.955);
+    transition: all 150ms cubic-bezier(.455,.03,.515,.955);
+    color: #f8f9fa;
+    font-size: .6rem;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.button.btn-small {
+    min-width: 0;
+    padding: .35rem .55rem .35rem .75rem;
+}
+.btn-icon {
+    position: relative;
+    top: .1em;
+    margin-right: .5em;
+    opacity: .7;
+    font-family: Fontawesome,sans-serif;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+.btn-icon, .btn-text {
+  display: inline;
+}
+.audio-button {
+  position:      relative;
+  margin-bottom: 0.125em;
+}
+
+.fa.audio-button:after {
+  position:      absolute;
+  right:         0.8em;
+  content:       "\f04b";
+}
+
+.fa.audio-button.playing:after {
+  content:       "\f04c";
+}

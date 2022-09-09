@@ -469,7 +469,7 @@ p.spoiler {
       <span class="post-meta-item-text">發表於</span>
       
 
-      <time title="創建時間：2022-09-09 02:31:00 / 修改時間：15:42:34" itemprop="dateCreated datePublished" datetime="2022-09-09T02:31:00+08:00">2022-09-09</time>
+      <time title="創建時間：2022-09-09 02:31:00 / 修改時間：21:31:31" itemprop="dateCreated datePublished" datetime="2022-09-09T02:31:00+08:00">2022-09-09</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -491,9 +491,39 @@ p.spoiler {
     
     
     <div class="post-body" itemprop="articleBody">
-          <p><audio id="audio-element" src="02 Corinthians.mp3"
+          <!-- ***********************************方法二的CSS Style*********************************** -->
+<style type="text/css">
+.bt_St{
+  height: 50px;
+  background-color: red;
+  cursor:pointer;
+}
+
+.bt_Pl{
+  height: 50px;
+  background-color: green;
+  cursor:pointer;
+}
+</style>
+<!-- ***********************************方法二的script***************************** -->
+<script>
+var currentAudio = null;
+    function playAudio(audio) {
+        if(currentAudio) currentAudio.pause();
+        currentAudio = audio;
+        currentAudio.play(); 
+    }
+    function stopAudio(audio) {
+        currentAudio.pause();
+    }
+</script>
+
+
+
+
+<p><audio id="audio-element" src="02 Corinthians.mp3"
             controls="true" style="width: 600"></audio></p>
-<h2 id="Corinthians-13"><a href="#Corinthians-13" class="headerlink" title="Corinthians 13"></a>Corinthians 13</h2><p>From The Bible
+<h1 id="Corinthians-13"><a href="#Corinthians-13" class="headerlink" title="Corinthians 13"></a>Corinthians 13</h1><p>From The Bible
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/2022/09/09/20220909_Corinthians%2013/#more" rel="contents">

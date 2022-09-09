@@ -11,6 +11,15 @@
   </url>
   
   <url>
+    <loc>http://example.com/2022/08/24/20220820_GeneralMacArthursPrayerForHisSon/</loc>
+    
+    <lastmod>2022-09-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://example.com/2022/09/05/20220905_%E6%8A%95%E8%B3%87%E7%90%86%E8%B2%A1ETF00878/</loc>
     
     <lastmod>2022-09-05</lastmod>
@@ -104,15 +113,6 @@
     <loc>http://example.com/2022/08/20/Hexo%E5%B8%B8%E7%94%A8%E7%9A%84%E7%B7%A8%E8%BC%AF%E6%8C%87%E4%BB%A4/</loc>
     
     <lastmod>2022-08-28</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/2022/08/24/20220820_GeneralMacArthursPrayerForHisSon/</loc>
-    
-    <lastmod>2022-08-26</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>

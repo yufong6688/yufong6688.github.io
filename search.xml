@@ -518,31 +518,22 @@
 <ol>
 <li>General MacArthur’s Prayer For His Son<br>By Douglas MacArthur<br>Build me a son, O Lord,<br>who will be strong enough to know when he is weak,<br>and brave enough to face himself when he is afraid;<br>one who will be proud and unbending<br>in honest defeat, and humble and gentle in victory.</li>
 </ol>
-<iframe src="/code/recorder01.html" height="300px" width="420px" scrolling="auto" frameborder="0"></iframe>
-
 <h2 id="第二段循環播放"><a href="#第二段循環播放" class="headerlink" title="第二段循環播放"></a>第二段循環播放</h2><p>​<audio id="audio" controls="" preload="none"><br>      <source id="mp3" src="/music/Gerernal MacArthur's Prayer For His Son_2.mp3"><br></audio></p>
 <ol start="2">
 <li>Build me a son<br>whose wishes will not take the place of deeds;<br>a son who will know Thee -<br>and that to know himself<br>is the foundation stone of knowledge.</li>
 </ol>
-<iframe src="/code/recorder01.html" height="300px" width="420px" scrolling="auto" frameborder="0"></iframe>
-
 <h2 id="第三段循環播放"><a href="#第三段循環播放" class="headerlink" title="第三段循環播放"></a>第三段循環播放</h2><p>​<audio id="audio" controls="" preload="none"><br>      <source id="mp3" src="/music/Gerernal MacArthur's Prayer For His Son_3.mp3"><br></audio></p>
 <ol start="3">
 <li>Lead him, I pray,<br>not in the path of ease and comfort,<br>but under the stress and spur<br>of difficulties and challenge.<br>Here let him learn<br>to stand up in the storm;<br>here let him learn<br>compassion for those who fail.</li>
 </ol>
-<iframe src="/code/recorder01.html" height="300px" width="420px" scrolling="auto" frameborder="0"></iframe>
-
 <h2 id="第四段循環播放"><a href="#第四段循環播放" class="headerlink" title="第四段循環播放"></a>第四段循環播放</h2><p>​<audio id="audio" controls="" preload="none"><br>      <source id="mp3" src="/music/Gerernal MacArthur's Prayer For His Son_4.mp3"><br></audio></p>
 <ol start="4">
 <li>Build me a son whose heart will be clear,<br>whose goal will be high;<br>a son who will master himself<br>before he seeks to master other men;<br>one who will reach into the future,<br>yet never forget the past.</li>
 </ol>
-<iframe src="/code/recorder01.html" height="300px" width="420px" scrolling="auto" frameborder="0"></iframe>
-
 <h2 id="第五段循環播放"><a href="#第五段循環播放" class="headerlink" title="第五段循環播放"></a>第五段循環播放</h2><p>​<audio id="audio" controls="" preload="none"><br>      <source id="mp3" src="/music/Gerernal MacArthur's Prayer For His Son_5.mp3"><br></audio></p>
 <ol start="5">
 <li>And after all these things are his,<br>add, I pray enough of a sense of humor,<br>so that he may always be serious,<br>yet never take himself too seriously.<br>Give him humility,<br>so that he may always remember<br>the simplicity of true greatness,<br>the open mind of true wisdom,<br>and the meekness of true strength.<br>Then, I, his father,<br>will dare to whisper,<br>“I have not lived in vain.”</li>
 </ol>
-<iframe src="/code/recorder01.html" height="300px" width="420px" scrolling="auto" frameborder="0"></iframe>
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
       <categories>
         <category>西方文化導讀</category>
@@ -905,9 +896,39 @@
   <entry>
     <title>Corinthians 13</title>
     <url>/2022/09/09/20220909_Corinthians%2013/</url>
-    <content><![CDATA[<p><audio id="audio-element" src="02 Corinthians.mp3"
+    <content><![CDATA[<!-- ***********************************方法二的CSS Style*********************************** -->
+<style type="text/css">
+.bt_St{
+  height: 50px;
+  background-color: red;
+  cursor:pointer;
+}
+
+.bt_Pl{
+  height: 50px;
+  background-color: green;
+  cursor:pointer;
+}
+</style>
+<!-- ***********************************方法二的script***************************** -->
+<script>
+var currentAudio = null;
+    function playAudio(audio) {
+        if(currentAudio) currentAudio.pause();
+        currentAudio = audio;
+        currentAudio.play(); 
+    }
+    function stopAudio(audio) {
+        currentAudio.pause();
+    }
+</script>
+
+
+
+
+<p><audio id="audio-element" src="02 Corinthians.mp3"
             controls="true" style="width: 600"></audio></p>
-<h2 id="Corinthians-13"><a href="#Corinthians-13" class="headerlink" title="Corinthians 13"></a>Corinthians 13</h2><p>From The Bible  <span id="more"></span></p>
+<h1 id="Corinthians-13"><a href="#Corinthians-13" class="headerlink" title="Corinthians 13"></a>Corinthians 13</h1><p>From The Bible  <span id="more"></span></p>
 <ol>
 <li><p>If I speak in the tongues of men and of angels, but have not love, I am only a resounding gong or a clanging cymbal. </p>
 </li>
@@ -936,19 +957,240 @@
 <li><p>And now these three remain: faith, hope and love. But the greatest of these is love.</p>
 </li>
 </ol>
-<h2 id="1"><a href="#1" class="headerlink" title="1"></a>1</h2><p><audio id="sound1" src="02 Corinthians_-01.mp3" preload="auto"></audio><button onclick="document.getElementById('sound1').play();">Corinthians 13 </button><br><audio id="sound2" src="02 Corinthians_-02.mp3" preload="auto"></audio><button onclick="document.getElementById('sound2').play();">From The Bible </button><br><audio id="sound3" src="02 Corinthians_-03.mp3" preload="auto"></audio><button onclick="document.getElementById('sound3').play();">If I speak in the tongues of men<br><audio id="sound4" src="02 Corinthians_-04.mp3" preload="auto"></audio><button onclick="document.getElementById('sound4').play();">and of angels,<br><audio id="sound5" src="02 Corinthians_-05.mp3" preload="auto"></audio><button onclick="document.getElementById('sound5').play();">but have not love,<br><audio id="sound6" src="02 Corinthians_-06.mp3" preload="auto"></audio><button onclick="document.getElementById('sound6').play();"> I am only a resounding gong<br><audio id="sound7" src="02 Corinthians_-07.mp3" preload="auto"></audio><button onclick="document.getElementById('sound7').play();"> or a clanging cymbal. </button></p>
-<h2 id="2"><a href="#2" class="headerlink" title="2"></a>2</h2><p><audio id="sound8" src="02 Corinthians_-08.mp3" preload="auto"></audio><button onclick="document.getElementById('sound8').play();">If I have the gift of prophecy<br><audio id="sound9" src="02 Corinthians_-09.mp3" preload="auto"></audio><button onclick="document.getElementById('sound9').play();">and can fathom all mysteries ,<br><audio id="sound10" src="02 Corinthians_-10.mp3" preload="auto"></audio><button onclick="document.getElementById('sound10').play();">and all knowledge,<br><audio id="sound11" src="02 Corinthians_-11.mp3" preload="auto"></audio><button onclick="document.getElementById('sound11').play();">and if I have a faith<br><audio id="sound12" src="02 Corinthians_-12.mp3" preload="auto"></audio><button onclick="document.getElementById('sound12').play();">that can move mountains,<br><audio id="sound13" src="02 Corinthians_-13.mp3" preload="auto"></audio><button onclick="document.getElementById('sound13').play();">but have not love,<br><audio id="sound14" src="02 Corinthians_-14.mp3" preload="auto"></audio><button onclick="document.getElementById('sound14').play();">I am nothing.<br></button></p>
-<h2 id="3"><a href="#3" class="headerlink" title="3"></a>3</h2><p><audio id="sound15" src="02 Corinthians_-15.mp3" preload="auto"></audio><button onclick="document.getElementById('sound15').play();">If I give all I possess to the poor<br><audio id="sound16" src="02 Corinthians_-16.mp3" preload="auto"></audio><button onclick="document.getElementById('sound16').play();">and surrender my body to the flames,<br><audio id="sound17" src="02 Corinthians_-17.mp3" preload="auto"></audio><button onclick="document.getElementById('sound17').play();">but have not love,<br><audio id="sound18" src="02 Corinthians_-18.mp3" preload="auto"></audio><button onclick="document.getElementById('sound18').play();">I gain nothing.<br></button></p>
-<h2 id="4"><a href="#4" class="headerlink" title="4"></a>4</h2><p><audio id="sound19" src="02 Corinthians_-19.mp3" preload="auto"></audio><button onclick="document.getElementById('sound19').play();"> Love is patient, love is kind.<br><audio id="sound20" src="02 Corinthians_-20.mp3" preload="auto"></audio><button onclick="document.getElementById('sound20').play();"> It does not envy, it does not boast,<br><audio id="sound21" src="02 Corinthians_-21.mp3" preload="auto"></audio><button onclick="document.getElementById('sound21').play();"> it is not proud.<br></button></p>
-<h2 id="5"><a href="#5" class="headerlink" title="5"></a>5</h2><p><audio id="sound22" src="02 Corinthians_-22.mp3" preload="auto"></audio><button onclick="document.getElementById('sound22').play();">It is not rude,<br><audio id="sound23" src="02 Corinthians_-23.mp3" preload="auto"></audio><button onclick="document.getElementById('sound23').play();">it is not self-seeking,<br><audio id="sound24" src="02 Corinthians_-24.mp3" preload="auto"></audio><button onclick="document.getElementById('sound24').play();">It is not easily angered;<br><audio id="sound25" src="02 Corinthians_-25.mp3" preload="auto"></audio><button onclick="document.getElementById('sound25').play();">it keeps no record of wrongs<br></button></p>
-<h2 id="6"><a href="#6" class="headerlink" title="6"></a>6</h2><p><audio id="sound26" src="02 Corinthians_-26.mp3" preload="auto"></audio><button onclick="document.getElementById('sound26').play();"> Love does not delight in evil<br><audio id="sound27" src="02 Corinthians_-27.mp3" preload="auto"></audio><button onclick="document.getElementById('sound27').play();">but rejoices with the truth.<br></button></p>
-<h2 id="7"><a href="#7" class="headerlink" title="7"></a>7</h2><p><audio id="sound28" src="02 Corinthians_-28.mp3" preload="auto"></audio><button onclick="document.getElementById('sound28').play();">It always protects,<br><audio id="sound29" src="02 Corinthians_-29.mp3" preload="auto"></audio><button onclick="document.getElementById('sound29').play();">always trusts, always hopes,<br><audio id="sound30" src="02 Corinthians_-30.mp3" preload="auto"></audio><button onclick="document.getElementById('sound30').play();">always perseveres.<br></button></p>
-<h2 id="8"><a href="#8" class="headerlink" title="8"></a>8</h2><p><audio id="sound31" src="02 Corinthians_-31.mp3" preload="auto"></audio><button onclick="document.getElementById('sound31').play();">Love never fails.<br><audio id="sound32" src="02 Corinthians_-32.mp3" preload="auto"></audio><button onclick="document.getElementById('sound32').play();">But where there are prophecies,<br><audio id="sound33" src="02 Corinthians_-33.mp3" preload="auto"></audio><button onclick="document.getElementById('sound33').play();"> they will cease;<br><audio id="sound34" src="02 Corinthians_-34.mp3" preload="auto"></audio><button onclick="document.getElementById('sound34').play();">where there are tongues,<br><audio id="sound35" src="02 Corinthians_-35.mp3" preload="auto"></audio><button onclick="document.getElementById('sound35').play();"> they will be stilled;<br><audio id="sound36" src="02 Corinthians_-36.mp3" preload="auto"></audio><button onclick="document.getElementById('sound36').play();"> where there is knowledge,<br><audio id="sound37" src="02 Corinthians_-37.mp3" preload="auto"></audio><button onclick="document.getElementById('sound37').play();"> it will pass away.<br></button></p>
-<h2 id="9"><a href="#9" class="headerlink" title="9"></a>9</h2><p><audio id="sound38" src="02 Corinthians_-38.mp3" preload="auto"></audio><button onclick="document.getElementById('sound38').play();"> For we know in part and we prophesy in part,<br></button></p>
-<h2 id="10"><a href="#10" class="headerlink" title="10"></a>10</h2><p><audio id="sound39" src="02 Corinthians_-39.mp3" preload="auto"></audio><button onclick="document.getElementById('sound39').play();"> but when perfection comes,<br><audio id="sound40" src="02 Corinthians_-40.mp3" preload="auto"></audio><button onclick="document.getElementById('sound40').play();"> the imperfect disappears.<br></button></p>
-<h2 id="11"><a href="#11" class="headerlink" title="11"></a>11</h2><p><audio id="sound41" src="02 Corinthians_-41.mp3" preload="auto"></audio><button onclick="document.getElementById('sound41').play();">When I was a child,<br><audio id="sound42" src="02 Corinthians_-42.mp3" preload="auto"></audio><button onclick="document.getElementById('sound42').play();">I talked like a child,<br><audio id="sound43" src="02 Corinthians_-43.mp3" preload="auto"></audio><button onclick="document.getElementById('sound43').play();">I thought like a child,<br><audio id="sound44" src="02 Corinthians_-44.mp3" preload="auto"></audio><button onclick="document.getElementById('sound44').play();">  I reasoned like a child.<br><audio id="sound45" src="02 Corinthians_-45.mp3" preload="auto"></audio><button onclick="document.getElementById('sound45').play();"> When I became a man,<br><audio id="sound46" src="02 Corinthians_-46.mp3" preload="auto"></audio><button onclick="document.getElementById('sound56').play();"> I put childish ways behinc me.<br></button></p>
-<h2 id="12"><a href="#12" class="headerlink" title="12"></a>12</h2><p><audio id="sound47" src="02 Corinthians_-47.mp3" preload="auto"></audio><button onclick="document.getElementById('sound47').play();">Now we see but a poor reflection<br><audio id="sound48" src="02 Corinthians_-48.mp3" preload="auto"></audio><button onclick="document.getElementById('sound48').play();">as in a mirror;<br><audio id="sound49" src="02 Corinthians_-49.mp3" preload="auto"></audio><button onclick="document.getElementById('sound49').play();">then we shall see face to face.<br><audio id="sound50" src="02 Corinthians_-50.mp3" preload="auto"></audio><button onclick="document.getElementById('sound50').play();">Now I know in part;<br><audio id="sound51" src="02 Corinthians_-51.mp3" preload="auto"></audio><button onclick="document.getElementById('sound51').play();">then I shall know fully,<br><audio id="sound52" src="02 Corinthians_-52.mp3" preload="auto"></audio><button onclick="document.getElementById('sound52').play();">even as I am fully known.<br></button></p>
-<h2 id="13"><a href="#13" class="headerlink" title="13"></a>13</h2><p><audio id="sound53" src="02 Corinthians_-53.mp3" preload="auto"></audio><button onclick="document.getElementById('sound53').play();">And now these three remain:<br><audio id="sound54" src="02 Corinthians_-54.mp3" preload="auto"></audio><button onclick="document.getElementById('sound54').play();">faith, hope and love.<br><audio id="sound55" src="02 Corinthians_-55.mp3" preload="auto"></audio><button onclick="document.getElementById('sound55').play();">But the greatest of these is love.<br></button></p>
+<h2 id="方法一"><a href="#方法一" class="headerlink" title="方法一"></a>方法一</h2><p>簡單只要一行程式,缺點按鈕按很多下會一起發音,新增音檔段落超花時間,一段音檔要改三個地方<br>優點就是很像文字點讀,可直接點在字上面,但是因為是按鈕形式,所以沒辦法選取按鈕裡的文字,<br>就算瀏覽器支援選字翻讀,可惜選不到,沒辦法針對某個單字選字翻譯</p>
+<h3 id="1"><a href="#1" class="headerlink" title="1"></a>1</h3><p><audio id="sound1" src="02 Corinthians_-01.mp3" preload="auto"></audio><button onclick="document.getElementById('sound1').play();">Corinthians 13 </button><br><audio id="sound2" src="02 Corinthians_-02.mp3" preload="auto"></audio><button onclick="document.getElementById('sound2').play();">From The Bible </button><br><audio id="sound3" src="02 Corinthians_-03.mp3" preload="auto"></audio><button onclick="document.getElementById('sound3').play();">If I speak in the tongues of men<br><audio id="sound4" src="02 Corinthians_-04.mp3" preload="auto"></audio><button onclick="document.getElementById('sound4').play();">and of angels,<br><audio id="sound5" src="02 Corinthians_-05.mp3" preload="auto"></audio><button onclick="document.getElementById('sound5').play();">but have not love,<br><audio id="sound6" src="02 Corinthians_-06.mp3" preload="auto"></audio><button onclick="document.getElementById('sound6').play();"> I am only a resounding gong<br><audio id="sound7" src="02 Corinthians_-07.mp3" preload="auto"></audio><button onclick="document.getElementById('sound7').play();"> or a clanging cymbal. </button></p>
+<h3 id="2"><a href="#2" class="headerlink" title="2"></a>2</h3><p><audio id="sound8" src="02 Corinthians_-08.mp3" preload="auto"></audio><button onclick="document.getElementById('sound8').play();">If I have the gift of prophecy<br><audio id="sound9" src="02 Corinthians_-09.mp3" preload="auto"></audio><button onclick="document.getElementById('sound9').play();">and can fathom all mysteries ,<br><audio id="sound10" src="02 Corinthians_-10.mp3" preload="auto"></audio><button onclick="document.getElementById('sound10').play();">and all knowledge,<br><audio id="sound11" src="02 Corinthians_-11.mp3" preload="auto"></audio><button onclick="document.getElementById('sound11').play();">and if I have a faith<br><audio id="sound12" src="02 Corinthians_-12.mp3" preload="auto"></audio><button onclick="document.getElementById('sound12').play();">that can move mountains,<br><audio id="sound13" src="02 Corinthians_-13.mp3" preload="auto"></audio><button onclick="document.getElementById('sound13').play();">but have not love,<br><audio id="sound14" src="02 Corinthians_-14.mp3" preload="auto"></audio><button onclick="document.getElementById('sound14').play();">I am nothing.<br></button></p>
+<h3 id="3"><a href="#3" class="headerlink" title="3"></a>3</h3><p><audio id="sound15" src="02 Corinthians_-15.mp3" preload="auto"></audio><button onclick="document.getElementById('sound15').play();">If I give all I possess to the poor<br><audio id="sound16" src="02 Corinthians_-16.mp3" preload="auto"></audio><button onclick="document.getElementById('sound16').play();">and surrender my body to the flames,<br><audio id="sound17" src="02 Corinthians_-17.mp3" preload="auto"></audio><button onclick="document.getElementById('sound17').play();">but have not love,<br><audio id="sound18" src="02 Corinthians_-18.mp3" preload="auto"></audio><button onclick="document.getElementById('sound18').play();">I gain nothing.<br></button></p>
+<h3 id="4"><a href="#4" class="headerlink" title="4"></a>4</h3><p><audio id="sound19" src="02 Corinthians_-19.mp3" preload="auto"></audio><button onclick="document.getElementById('sound19').play();"> Love is patient, love is kind.<br><audio id="sound20" src="02 Corinthians_-20.mp3" preload="auto"></audio><button onclick="document.getElementById('sound20').play();"> It does not envy, it does not boast,<br><audio id="sound21" src="02 Corinthians_-21.mp3" preload="auto"></audio><button onclick="document.getElementById('sound21').play();"> it is not proud.<br></button></p>
+<h3 id="5"><a href="#5" class="headerlink" title="5"></a>5</h3><p><audio id="sound22" src="02 Corinthians_-22.mp3" preload="auto"></audio><button onclick="document.getElementById('sound22').play();">It is not rude,<br><audio id="sound23" src="02 Corinthians_-23.mp3" preload="auto"></audio><button onclick="document.getElementById('sound23').play();">it is not self-seeking,<br><audio id="sound24" src="02 Corinthians_-24.mp3" preload="auto"></audio><button onclick="document.getElementById('sound24').play();">It is not easily angered;<br><audio id="sound25" src="02 Corinthians_-25.mp3" preload="auto"></audio><button onclick="document.getElementById('sound25').play();">it keeps no record of wrongs<br></button></p>
+<h3 id="6"><a href="#6" class="headerlink" title="6"></a>6</h3><p><audio id="sound26" src="02 Corinthians_-26.mp3" preload="auto"></audio><button onclick="document.getElementById('sound26').play();"> Love does not delight in evil<br><audio id="sound27" src="02 Corinthians_-27.mp3" preload="auto"></audio><button onclick="document.getElementById('sound27').play();">but rejoices with the truth.<br></button></p>
+<h3 id="7"><a href="#7" class="headerlink" title="7"></a>7</h3><p><audio id="sound28" src="02 Corinthians_-28.mp3" preload="auto"></audio><button onclick="document.getElementById('sound28').play();">It always protects,<br><audio id="sound29" src="02 Corinthians_-29.mp3" preload="auto"></audio><button onclick="document.getElementById('sound29').play();">always trusts, always hopes,<br><audio id="sound30" src="02 Corinthians_-30.mp3" preload="auto"></audio><button onclick="document.getElementById('sound30').play();">always perseveres.<br></button></p>
+<h3 id="8"><a href="#8" class="headerlink" title="8"></a>8</h3><p><audio id="sound31" src="02 Corinthians_-31.mp3" preload="auto"></audio><button onclick="document.getElementById('sound31').play();">Love never fails.<br><audio id="sound32" src="02 Corinthians_-32.mp3" preload="auto"></audio><button onclick="document.getElementById('sound32').play();">But where there are prophecies,<br><audio id="sound33" src="02 Corinthians_-33.mp3" preload="auto"></audio><button onclick="document.getElementById('sound33').play();"> they will cease;<br><audio id="sound34" src="02 Corinthians_-34.mp3" preload="auto"></audio><button onclick="document.getElementById('sound34').play();">where there are tongues,<br><audio id="sound35" src="02 Corinthians_-35.mp3" preload="auto"></audio><button onclick="document.getElementById('sound35').play();"> they will be stilled;<br><audio id="sound36" src="02 Corinthians_-36.mp3" preload="auto"></audio><button onclick="document.getElementById('sound36').play();"> where there is knowledge,<br><audio id="sound37" src="02 Corinthians_-37.mp3" preload="auto"></audio><button onclick="document.getElementById('sound37').play();"> it will pass away.<br></button></p>
+<h3 id="9"><a href="#9" class="headerlink" title="9"></a>9</h3><p><audio id="sound38" src="02 Corinthians_-38.mp3" preload="auto"></audio><button onclick="document.getElementById('sound38').play();"> For we know in part and we prophesy in part,<br></button></p>
+<h3 id="10"><a href="#10" class="headerlink" title="10"></a>10</h3><p><audio id="sound39" src="02 Corinthians_-39.mp3" preload="auto"></audio><button onclick="document.getElementById('sound39').play();"> but when perfection comes,<br><audio id="sound40" src="02 Corinthians_-40.mp3" preload="auto"></audio><button onclick="document.getElementById('sound40').play();"> the imperfect disappears.<br></button></p>
+<h3 id="11"><a href="#11" class="headerlink" title="11"></a>11</h3><p><audio id="sound41" src="02 Corinthians_-41.mp3" preload="auto"></audio><button onclick="document.getElementById('sound41').play();">When I was a child,<br><audio id="sound42" src="02 Corinthians_-42.mp3" preload="auto"></audio><button onclick="document.getElementById('sound42').play();">I talked like a child,<br><audio id="sound43" src="02 Corinthians_-43.mp3" preload="auto"></audio><button onclick="document.getElementById('sound43').play();">I thought like a child,<br><audio id="sound44" src="02 Corinthians_-44.mp3" preload="auto"></audio><button onclick="document.getElementById('sound44').play();">  I reasoned like a child.<br><audio id="sound45" src="02 Corinthians_-45.mp3" preload="auto"></audio><button onclick="document.getElementById('sound45').play();"> When I became a man,<br><audio id="sound46" src="02 Corinthians_-46.mp3" preload="auto"></audio><button onclick="document.getElementById('sound56').play();"> I put childish ways behinc me.<br></button></p>
+<h3 id="12"><a href="#12" class="headerlink" title="12"></a>12</h3><p><audio id="sound47" src="02 Corinthians_-47.mp3" preload="auto"></audio><button onclick="document.getElementById('sound47').play();">Now we see but a poor reflection<br><audio id="sound48" src="02 Corinthians_-48.mp3" preload="auto"></audio><button onclick="document.getElementById('sound48').play();">as in a mirror;<br><audio id="sound49" src="02 Corinthians_-49.mp3" preload="auto"></audio><button onclick="document.getElementById('sound49').play();">then we shall see face to face.<br><audio id="sound50" src="02 Corinthians_-50.mp3" preload="auto"></audio><button onclick="document.getElementById('sound50').play();">Now I know in part;<br><audio id="sound51" src="02 Corinthians_-51.mp3" preload="auto"></audio><button onclick="document.getElementById('sound51').play();">then I shall know fully,<br><audio id="sound52" src="02 Corinthians_-52.mp3" preload="auto"></audio><button onclick="document.getElementById('sound52').play();">even as I am fully known.<br></button></p>
+<h3 id="13"><a href="#13" class="headerlink" title="13"></a>13</h3><p><audio id="sound53" src="02 Corinthians_-53.mp3" preload="auto"></audio><button onclick="document.getElementById('sound53').play();">And now these three remain:<br><audio id="sound54" src="02 Corinthians_-54.mp3" preload="auto"></audio><button onclick="document.getElementById('sound54').play();">faith, hope and love.<br><audio id="sound55" src="02 Corinthians_-55.mp3" preload="auto"></audio><button onclick="document.getElementById('sound55').play();">But the greatest of these is love.<br></button></p>
+<h2 id="方法二的主程式"><a href="#方法二的主程式" class="headerlink" title="方法二的主程式"></a>方法二的主程式</h2><p>按很多按鈕前一個會被中斷播放現在的按鈕,及最後那個是如果音樂太長想立即中斷按<code>Sr au</code><br><audio id="audio_1"><source src="02 Corinthians_-01.mp3" type="audio/mp3" type="audio/mp3" /></audio><br><audio id="audio_2"><source src="02 Corinthians_-02.mp3" type="audio/mp3" type="audio/mp3" /></audio><br><audio id="audio_3"><source src="[02 Corinthians_-03.mp3](https://yufong6688.github.io/2022/09/09/20220909_Corinthians%2013/02%20Corinthians_-02.mp3)" type="audio/mp3" type="audio/mp3" /></audio><br><button class="bt_Pl" onclick="playAudio(document.getElementById('audio_1'))">Ply_1<br><button class="bt_Pl" onclick="playAudio(document.getElementById('audio_2'))">Ply_1<br><button class="bt_Pl" onclick="playAudio(document.getElementById('audio_3'))">Ply_1</button><br><button class="bt_St" onclick="stopAudio(document.getElementById('audio'))">St au</button></p>
+<h2 id="方法三簡化播放符號"><a href="#方法三簡化播放符號" class="headerlink" title="方法三簡化播放符號"></a>方法三簡化播放符號</h2><p>集前面程式之優點,最大的優點是只要新增程式碼,加上mp3檔就可以了,不用去修改更多參數</p>
+<link rel='stylesheet' href='font-awesome.min.css'><link rel="stylesheet" href="./style_noTXT.css">
+  <script src='jquery.min.js'></script><script  src="./script_noTXT.js"></script>
+<div>Corinthians 13
+<div class="button btn-small audio-button"><div class="btn-icon"></div><div class="btn-text"></div></div>
+<audio src="02 Corinthians_-01.mp3"></audio></div>
+<div>From The Bible
+<div class="button btn-small audio-button"><div class="btn-icon"></div><div class="btn-text"></div></div>
+<audio src="02 Corinthians_-02.mp3"></audio></div>
+
+<h2 id="1-1"><a href="#1-1" class="headerlink" title="1"></a>1</h2><div>If I speak in the tongues of men
+<div class="button btn-small audio-button"><div class="btn-icon"></div><div class="btn-text"></div></div>
+<audio src="02 Corinthians_-03.mp3"></audio>
+and of angels,
+<div class="button btn-small audio-button"><div class="btn-icon"></div><div class="btn-text"></div></div>
+<audio src="02 Corinthians_-04.mp3"></audio>
+but have not love,
+<div class="button btn-small audio-button"><div class="btn-icon"></div><div class="btn-text"></div></div>
+<audio src="02 Corinthians_-05.mp3"></audio><br>
+I am only a resounding gong
+<div class="button btn-small audio-button"><div class="btn-icon"></div><div class="btn-text"></div></div>
+<audio src="02 Corinthians_-06.mp3"></audio>
+or a clanging cymbal.
+<div class="button btn-small audio-button"><div class="btn-icon"></div><div class="btn-text"></div></div>
+<audio src="02 Corinthians_-07.mp3"></audio>
+</div>
+
+<h2 id="2-1"><a href="#2-1" class="headerlink" title="2"></a>2</h2><div>If I have the gift of prophecy
+<div class="button btn-small audio-button"><div class="btn-icon"></div><div class="btn-text"></div></div>
+<audio src="02 Corinthians_-08.mp3"></audio>
+and can fathom all mysteries ,
+<div class="button btn-small audio-button"><div class="btn-icon"></div><div class="btn-text"></div></div>
+<audio src="02 Corinthians_-09.mp3"></audio><br>
+and all knowledge,
+<div class="button btn-small audio-button"><div class="btn-icon"></div><div class="btn-text"></div></div>
+<audio src="02 Corinthians_-10.mp3"></audio>
+and if I have a faith
+<div class="button btn-small audio-button"><div class="btn-icon"></div><div class="btn-text"></div></div>
+<audio src="02 Corinthians_-11.mp3"></audio>
+that can move mountains,
+<div class="button btn-small audio-button"><div class="btn-icon"></div><div class="btn-text"></div></div>
+<audio src="02 Corinthians_-12.mp3"></audio><br>
+but have not love,
+<div class="button btn-small audio-button"><div class="btn-icon"></div><div class="btn-text"></div></div>
+<audio src="02 Corinthians_-13.mp3"></audio>
+I am nothing.
+<div class="button btn-small audio-button"><div class="btn-icon"></div><div class="btn-text"></div></div>
+<audio src="02 Corinthians_-14.mp3"></audio>
+</div>
+
+<h2 id="3-1"><a href="#3-1" class="headerlink" title="3"></a>3</h2><div>If I give all I possess to the poor
+<div class="button btn-small audio-button"><div class="btn-icon"></div><div class="btn-text"></div></div>
+<audio src="02 Corinthians_-15.mp3"></audio>
+and surrender my body to the flames,
+<div class="button btn-small audio-button"><div class="btn-icon"></div><div class="btn-text"></div></div>
+<audio src="02 Corinthians_-16.mp3"></audio><br>
+but have not love,
+<div class="button btn-small audio-button"><div class="btn-icon"></div><div class="btn-text"></div></div>
+<audio src="02 Corinthians_-17.mp3"></audio>
+I gain nothing.
+<div class="button btn-small audio-button"><div class="btn-icon"></div><div class="btn-text"></div></div>
+<audio src="02 Corinthians_-18.mp3"></audio>
+</div>
+
+<h2 id="4-1"><a href="#4-1" class="headerlink" title="4"></a>4</h2><div>Love is patient, love is kind.
+<div class="button btn-small audio-button"><div class="btn-icon"></div><div class="btn-text"></div></div>
+<audio src="02 Corinthians_-19.mp3"></audio>
+It does not envy, it does not boast,
+<div class="button btn-small audio-button"><div class="btn-icon"></div><div class="btn-text"></div></div>
+<audio src="02 Corinthians_-20.mp3"></audio>
+it is not proud.
+<div class="button btn-small audio-button"><div class="btn-icon"></div><div class="btn-text"></div></div>
+<audio src="02 Corinthians_-21.mp3"></audio>
+</div>
+
+<h2 id="5-1"><a href="#5-1" class="headerlink" title="5"></a>5</h2><div>It is not rude,
+<div class="button btn-small audio-button"><div class="btn-icon"></div><div class="btn-text"></div></div>
+<audio src="02 Corinthians_-22.mp3"></audio>
+it is not self-seeking,
+<div class="button btn-small audio-button"><div class="btn-icon"></div><div class="btn-text"></div></div>
+<audio src="02 Corinthians_-23.mp3"></audio>
+It is not easily angered;
+<div class="button btn-small audio-button"><div class="btn-icon"></div><div class="btn-text"></div></div>
+<audio src="02 Corinthians_-24.mp3"></audio><br>
+it keeps no record of wrongs
+<div class="button btn-small audio-button"><div class="btn-icon"></div><div class="btn-text"></div></div>
+<audio src="02 Corinthians_-25.mp3"></audio>
+</div>
+
+<h2 id="6-1"><a href="#6-1" class="headerlink" title="6"></a>6</h2><div>Love does not delight in evil
+<div class="button btn-small audio-button"><div class="btn-icon"></div><div class="btn-text"></div></div>
+<audio src="02 Corinthians_-26.mp3"></audio>
+but rejoices with the truth.
+<div class="button btn-small audio-button"><div class="btn-icon"></div><div class="btn-text"></div></div>
+<audio src="02 Corinthians_-27.mp3"></audio>
+</div>
+
+<h2 id="7-1"><a href="#7-1" class="headerlink" title="7"></a>7</h2><div>It always protects,
+<div class="button btn-small audio-button"><div class="btn-icon"></div><div class="btn-text"></div></div>
+<audio src="02 Corinthians_-28.mp3"></audio>
+always trusts, always hopes,
+<div class="button btn-small audio-button"><div class="btn-icon"></div><div class="btn-text"></div></div>
+<audio src="02 Corinthians_-29.mp3"></audio>
+always perseveres.
+<div class="button btn-small audio-button"><div class="btn-icon"></div><div class="btn-text"></div></div>
+<audio src="02 Corinthians_-30.mp3"></audio>
+</div>
+
+<h2 id="8-1"><a href="#8-1" class="headerlink" title="8"></a>8</h2><div>Love never fails.
+<div class="button btn-small audio-button"><div class="btn-icon"></div><div class="btn-text"></div></div>
+<audio src="02 Corinthians_-31.mp3"></audio>
+But where there are prophecies,
+<div class="button btn-small audio-button"><div class="btn-icon"></div><div class="btn-text"></div></div>
+<audio src="02 Corinthians_-32.mp3"></audio>
+they will cease;
+<div class="button btn-small audio-button"><div class="btn-icon"></div><div class="btn-text"></div></div>
+<audio src="02 Corinthians_-33.mp3"></audio><br>
+where there are tongues,
+<div class="button btn-small audio-button"><div class="btn-icon"></div><div class="btn-text"></div></div>
+<audio src="02 Corinthians_-34.mp3"></audio>
+they will be stilled;
+<div class="button btn-small audio-button"><div class="btn-icon"></div><div class="btn-text"></div></div>
+<audio src="02 Corinthians_-35.mp3"></audio>
+where there is knowledge,
+<div class="button btn-small audio-button"><div class="btn-icon"></div><div class="btn-text"></div></div>
+<audio src="02 Corinthians_-36.mp3"></audio><br>
+it will pass away.
+<div class="button btn-small audio-button"><div class="btn-icon"></div><div class="btn-text"></div></div>
+<audio src="02 Corinthians_-37.mp3"></audio>
+</div>
+
+<h2 id="9-1"><a href="#9-1" class="headerlink" title="9"></a>9</h2><div>For we know in part and we prophesy in part,
+<div class="button btn-small audio-button"><div class="btn-icon"></div><div class="btn-text"></div></div>
+<audio src="02 Corinthians_-38.mp3"></audio>
+but when perfection comes,
+<div class="button btn-small audio-button"><div class="btn-icon"></div><div class="btn-text"></div></div>
+<audio src="02 Corinthians_-39.mp3"></audio><br>
+the imperfect disappears.
+<div class="button btn-small audio-button"><div class="btn-icon"></div><div class="btn-text"></div></div>
+<audio src="02 Corinthians_-40.mp3"></audio>
+</div>
+
+<h2 id="11-1"><a href="#11-1" class="headerlink" title="11"></a>11</h2><div>When I was a child,
+<div class="button btn-small audio-button"><div class="btn-icon"></div><div class="btn-text"></div></div>
+<audio src="02 Corinthians_-41.mp3"></audio>
+I talked like a child,
+<div class="button btn-small audio-button"><div class="btn-icon"></div><div class="btn-text"></div></div>
+<audio src="02 Corinthians_-42.mp3"></audio>
+I thought like a child,
+<div class="button btn-small audio-button"><div class="btn-icon"></div><div class="btn-text"></div></div>
+<audio src="02 Corinthians_-43.mp3"></audio><br>
+I reasoned like a child.
+<div class="button btn-small audio-button"><div class="btn-icon"></div><div class="btn-text"></div></div>
+<audio src="02 Corinthians_-44.mp3"></audio>
+When I became a man,
+<div class="button btn-small audio-button"><div class="btn-icon"></div><div class="btn-text"></div></div>
+<audio src="02 Corinthians_-45.mp3"></audio>
+I put childish ways behinc me.
+<div class="button btn-small audio-button"><div class="btn-icon"></div><div class="btn-text"></div></div>
+<audio src="02 Corinthians_-46.mp3"></audio>
+</div>
+
+
+<h2 id="12-1"><a href="#12-1" class="headerlink" title="12"></a>12</h2><div>Now we see but a poor reflection
+<div class="button btn-small audio-button"><div class="btn-icon"></div><div class="btn-text"></div></div>
+<audio src="02 Corinthians_-47.mp3"></audio>
+as in a mirror;
+<div class="button btn-small audio-button"><div class="btn-icon"></div><div class="btn-text"></div></div>
+<audio src="02 Corinthians_-48.mp3"></audio>
+then we shall see face to face.
+<div class="button btn-small audio-button"><div class="btn-icon"></div><div class="btn-text"></div></div>
+<audio src="02 Corinthians_-49.mp3"></audio>
+Now I know in part;
+<div class="button btn-small audio-button"><div class="btn-icon"></div><div class="btn-text"></div></div>
+<audio src="02 Corinthians_-50.mp3"></audio>
+then I shall know fully,
+<div class="button btn-small audio-button"><div class="btn-icon"></div><div class="btn-text"></div></div>
+<audio src="02 Corinthians_-51.mp3"></audio>
+even as I am fully known.
+<div class="button btn-small audio-button"><div class="btn-icon"></div><div class="btn-text"></div></div>
+<audio src="02 Corinthians_-52.mp3"></audio>
+</div>
+
+<h2 id="13-1"><a href="#13-1" class="headerlink" title="13"></a>13</h2><div>And now these three remain:
+<div class="button btn-small audio-button"><div class="btn-icon"></div><div class="btn-text"></div></div>
+<audio src="02 Corinthians_-53.mp3"></audio>
+faith, hope and love.
+<div class="button btn-small audio-button"><div class="btn-icon"></div><div class="btn-text"></div></div>
+<audio src="02 Corinthians_-54.mp3"></audio><br>
+But the greatest of these is love.
+<div class="button btn-small audio-button"><div class="btn-icon"></div><div class="btn-text"></div></div>
+<audio src="02 Corinthians_-55.mp3"></audio>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
       <categories>
         <category>西方文化導讀</category>
