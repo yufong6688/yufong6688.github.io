@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://example.com/2022/09/09/20220909_Corinthians%2013/</loc>
+    <lastmod>2022-09-09</lastmod>
+  </url>
+  <url>
+    <loc>http://example.com/2022/09/05/20220905_%E6%8A%95%E8%B3%87%E7%90%86%E8%B2%A1ETF00878/</loc>
+    <lastmod>2022-09-05</lastmod>
+  </url>
+  <url>
     <loc>http://example.com/2022/09/03/20220903_VSCodePlugin_hexoFrontMatter/</loc>
     <lastmod>2022-09-03</lastmod>
   </url>
